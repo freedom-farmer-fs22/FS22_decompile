@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="bgBlack" />
+
+    <!-- List of maps with 1 visible item -->
+    <GuiElement type="smoothList" profile="mapPreviewList" id="mapList" handleFocus="false">
+        <GuiElement type="listItem" profile="mapPreviewListItem">
+            <GuiElement type="picture" profile="mapPreview" name="image" />
+
+            <!-- Overlayed map info -->
+            <GuiElement type="bitmap" profile="mapSelectionBG">
+                <GuiElement type="text" profile="mapSelectTitle" name="title"/>
+                <GuiElement type="text" profile="mapSelectText" name="text"/>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="bgVignette"/>
+
+    <GuiElement type="slider" profile="sliderInvisible" onChanged="onClickMapSelection" dataElementId="mapList" id="mapSelector" handleFocus="false">
+        <GuiElement type="button" profile="largeSelectorRight" />
+        <GuiElement type="button" profile="largeSelectorLeft" />
+
+        <GuiElement type="button" profile="largeSelectorRightGamepad" id="selectorRightGamepad" />
+        <GuiElement type="button" profile="largeSelectorLeftGamepad" id="selectorLeftGamepad" />
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="mapSelectionHeader">
+        <GuiElement type="bitmap" profile="mapSelectionHeaderIcon" />
+        <GuiElement type="text" profile="mapSelectionHeaderText" text="$l10n_ui_selectAMap" />
+    </GuiElement>
+
+    <!-- Dots -->
+    <GuiElement type="indexState" profile="mapSelectionSelectionStateBox" stateElementTemplateId="selectStateIconTemplate" indexableElementId="mapList">
+        <GuiElement type="bitmap" profile="mapSelectionSelectionState" id="selectStateIconTemplate"/>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="mpLoadingBarBg" />
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonOK"   text="$l10n_button_continue" onClick="onClickOk" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back"     onClick="onClickBack" />
+    </GuiElement>
+</GUI>

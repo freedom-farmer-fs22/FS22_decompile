@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeableTypes>
+    <type name="placeable" className="Placeable" filename="dataS/scripts/placeables/Placeable.lua" />
+    <type name="tree" parent="placeable" />
+    <type name="bush" parent="placeable" />
+    <type name="foliage" parent="placeable" />
+
+    <type name="simplePlaceable" parent="placeable">
+        <specialization name="placement" />
+        <specialization name="clearAreas" />
+        <specialization name="indoorAreas" />
+        <specialization name="foliageAreas" />
+        <specialization name="tipOcclusionAreas" />
+        <specialization name="ai" />
+        <specialization name="animatedObjects" />
+        <specialization name="leveling" />
+        <specialization name="triggerMarkers" />
+        <specialization name="dynamicallyLoadedParts" />
+        <specialization name="hotspots" />
+        <specialization name="deletedNodes" />
+        <specialization name="colorable" />
+        <specialization name="lights" />
+    </type>
+
+    <type name="decoObject" parent="placeable">
+        <specialization name="placement" />
+        <specialization name="ai" />
+    </type>
+
+    <type name="trainSystem" parent="placeable">
+        <specialization name="ai" />
+        <specialization name="trainSystem" />
+        <specialization name="hotspots" />
+        <specialization name="triggerMarkers" />
+    </type>
+
+    <type name="greenhouse" parent="simplePlaceable">
+        <specialization name="productionPoint" />
+        <specialization name="greenhouse" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="sellingStation" parent="simplePlaceable">
+        <specialization name="sellingStation" />
+    </type>
+
+    <type name="silo" parent="simplePlaceable">
+        <specialization name="silo" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="siloExtension" parent="simplePlaceable">
+        <specialization name="siloExtension" />
+    </type>
+
+    <type name="highPressureWasher" parent="simplePlaceable">
+        <specialization name="highPressureWasher" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="garageWorkshop" parent="simplePlaceable">
+        <specialization name="workshop" />
+    </type>
+
+    <type name="garageSolarPanels" parent="simplePlaceable">
+        <specialization name="solarPanels" />
+        <specialization name="incomePerHour" />
+    </type>
+
+    <type name="beehive" parent="simplePlaceable">
+        <specialization name="beehive" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="beehivePalletSpawner" parent="simplePlaceable">
+        <specialization name="beehivePalletSpawner" />
+    </type>
+
+    <type name="solarPanel" parent="simplePlaceable">
+        <specialization name="solarPanels" />
+        <specialization name="incomePerHour" />
+    </type>
+
+    <type name="workshop" parent="simplePlaceable">
+        <specialization name="workshop" />
+    </type>
+
+    <type name="doghouse" parent="simplePlaceable">
+        <specialization name="doghouse" />
+    </type>
+
+    <type name="manureHeap" parent="simplePlaceable">
+        <specialization name="manureHeap" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="bunkerSilo" parent="simplePlaceable">
+        <specialization name="bunkerSilo" />
+    </type>
+
+    <type name="productionPoint" parent="simplePlaceable">
+        <specialization name="productionPoint" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="productionPointWardrobe" parent="productionPoint">
+        <specialization name="wardrobe" />
+    </type>
+
+    <type name="buyingStation" parent="simplePlaceable">
+        <specialization name="buyingStation" />
+    </type>
+
+    <type name="chargingStation" parent="buyingStation">
+        <specialization name="chargingStation" />
+    </type>
+
+    <type name="windTurbine" parent="simplePlaceable">
+        <specialization name="windTurbine" />
+        <specialization name="incomePerHour" />
+    </type>
+
+    <type name="weatherStation" parent="simplePlaceable">
+        <specialization name="weatherStation" />
+    </type>
+
+    <type name="vine" parent="simplePlaceable">
+        <specialization name="fence" />
+        <specialization name="vine" />
+    </type>
+
+    <type name="fence" parent="simplePlaceable">
+        <specialization name="fence" />
+    </type>
+
+    <type name="baseHusbandry" parent="simplePlaceable">
+        <specialization name="husbandry" />
+        <specialization name="husbandryAnimals" />
+        <specialization name="husbandryFood" />
+        <specialization name="husbandryFence" />
+        <specialization name="infoTrigger" />
+    </type>
+
+    <type name="cowHusbandryPasture" parent="baseHusbandry" >
+        <specialization name="husbandryWater" />
+        <specialization name="husbandryMilk" />
+    </type>
+    <type name="cowHusbandry" parent="baseHusbandry">
+        <specialization name="husbandryWater" />
+        <specialization name="husbandryMilk" />
+        <specialization name="husbandryStraw" />
+        <specialization name="husbandryLiquidManure" />
+    </type>
+    <type name="cowHusbandryFeedingRobot" parent="cowHusbandry">
+        <specialization name="husbandryFeedingRobot" />
+    </type>
+
+    <type name="sheepHusbandry" parent="baseHusbandry">
+        <specialization name="husbandryWater" />
+        <specialization name="husbandryPallets" />
+    </type>
+
+    <type name="pigHusbandryPasture" parent="baseHusbandry">
+        <specialization name="husbandryWater" />
+    </type>
+    <type name="pigHusbandry" parent="baseHusbandry">
+        <specialization name="husbandryLiquidManure" />
+        <specialization name="husbandryWater" />
+        <specialization name="husbandryStraw" />
+    </type>
+
+    <type name="horseHusbandryPasture" parent="baseHusbandry">
+        <specialization name="husbandryWater" />
+    </type>
+    <type name="horseHusbandry" parent="baseHusbandry">
+        <specialization name="husbandryWater" />
+        <specialization name="husbandryStraw" />
+    </type>
+
+    <type name="chickenHusbandry" parent="baseHusbandry">
+        <specialization name="husbandryPallets" />
+    </type>
+
+    <type name="farmhouse" parent="simplePlaceable">
+        <specialization name="farmhouse" />
+        <specialization name="wardrobe" />
+        <specialization name="cartridgePlayer" />
+    </type>
+
+    <type name="wardrobe" parent="simplePlaceable">
+        <specialization name="wardrobe" />
+    </type>
+
+    <type name="weighingStation" parent="simplePlaceable">
+        <specialization name="weighingStation" />
+    </type>
+</placeableTypes>

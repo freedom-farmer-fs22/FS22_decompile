@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<controllerSymbols>
+    <!-- generic -->
+    <controllerSymbol imageSize="1024 512" imageUVs="545px 61px 18px 18px" name="PLUS" />
+    <controllerSymbol imageSize="1024 512" imageUVs="545px 105px 18px 18px" name="OR" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 8px 36px 36px"   name="1" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 8px 36px 36px"  name="2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 8px 36px 36px"  name="3" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 8px 36px 36px" name="4" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 8px 36px 36px" name="5" />
+    <controllerSymbol imageSize="1024 512" imageUVs="228px 8px 36px 36px" name="6" />
+    <controllerSymbol imageSize="1024 512" imageUVs="272px 8px 36px 36px" name="7" />
+    <controllerSymbol imageSize="1024 512" imageUVs="316px 8px 36px 36px" name="8" />
+    <controllerSymbol imageSize="1024 512" imageUVs="360px 8px 36px 36px" name="9" />
+    <controllerSymbol imageSize="1024 512" imageUVs="404px 8px 36px 36px" name="10" />
+    <controllerSymbol imageSize="1024 512" imageUVs="448px 8px 36px 36px" name="11" />
+    <controllerSymbol imageSize="1024 512" imageUVs="492px 8px 36px 36px" name="12" />
+    <controllerSymbol imageSize="1024 512" imageUVs="536px 8px 36px 36px" name="13" />
+    <controllerSymbol imageSize="1024 512" imageUVs="580px 8px 36px 36px" name="14" />
+    <controllerSymbol imageSize="1024 512" imageUVs="624px 8px 36px 36px" name="15" />
+    <controllerSymbol imageSize="1024 512" imageUVs="668px 8px 36px 36px" name="16" />
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 8px 36px 36px" name="17" />
+    <controllerSymbol imageSize="1024 512" imageUVs="756px 8px 36px 36px" name="18" />
+    <controllerSymbol imageSize="1024 512" imageUVs="800px 8px 36px 36px" name="19" />
+    <controllerSymbol imageSize="1024 512" imageUVs="844px 8px 36px 36px" name="20" />
+    <controllerSymbol imageSize="1024 512" imageUVs="888px 8px 36px 36px" name="21" />
+    <controllerSymbol imageSize="1024 512" imageUVs="932px 8px 36px 36px" name="22" />
+    <controllerSymbol imageSize="1024 512" imageUVs="976px 8px 36px 36px" name="23" />
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 52px 36px 36px"  name="24" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 52px 36px 36px" name="25" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 52px 36px 36px" name="26" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 52px 36px 36px" name="27" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 52px 36px 36px" name="28" />
+
+    <!-- generic axes -->
+    <controllerSymbol imageSize="1024 512" imageUVs="668px 52px 36px 36px" name="Axis1 Axis2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 52px 36px 36px" name="Axis1" />
+    <controllerSymbol imageSize="1024 512" imageUVs="756px 52px 36px 36px" name="Axis2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="888px 52px 36px 36px" name="Axis3 Axis4" />
+    <controllerSymbol imageSize="1024 512" imageUVs="932px 52px 36px 36px" name="Axis3" />
+    <controllerSymbol imageSize="1024 512" imageUVs="976px 52px 36px 36px" name="Axis4" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 96px 36px 36px"  name="Axis5 Axis6" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 96px 36px 36px" name="Axis5" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 96px 36px 36px" name="Axis6" />
+    <controllerSymbol imageSize="1024 512" imageUVs="316px 96px 36px 36px" name="Axis7 Axis8" />
+    <controllerSymbol imageSize="1024 512" imageUVs="360px 96px 36px 36px" name="Axis7" />
+    <controllerSymbol imageSize="1024 512" imageUVs="404px 96px 36px 36px" name="Axis8" />
+
+    <!-- generic sticks: buttons and axes -->
+    <controllerSymbol imageSize="1024 512" imageUVs="624px 52px 36px 36px" name="S1" />
+    <controllerSymbol imageSize="1024 512" imageUVs="668px 52px 36px 36px" name="S1-X S1-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 52px 36px 36px" name="S1-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="756px 52px 36px 36px" name="S1-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 360px 36px 36px" name="S1-Z" />
+    <controllerSymbol imageSize="1024 512" imageUVs="844px 52px 36px 36px" name="S2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="888px 52px 36px 36px" name="S2-X S2-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="932px 52px 36px 36px" name="S2-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="976px 52px 36px 36px" name="S2-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 360px 36px 36px" name="S2-Z" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 96px 36px 36px" name="S3" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 96px 36px 36px" name="S3-X S3-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 96px 36px 36px" name="S3-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 96px 36px 36px" name="S3-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 360px 36px 36px" name="S3-Z" />
+    <controllerSymbol imageSize="1024 512" imageUVs="272px 96px 36px 36px" name="S4" />
+    <controllerSymbol imageSize="1024 512" imageUVs="316px 96px 36px 36px" name="S4-X S4-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="360px 96px 36px 36px" name="S4-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="404px 96px 36px 36px" name="S4-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 360px 36px 36px" name="S4-Z" />
+
+    <!-- dpad -->
+    <controllerSymbol imageSize="1024 512" imageUVs="228px 52px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol imageSize="1024 512" imageUVs="272px 52px 36px 36px" name="DP-Up" />
+    <controllerSymbol imageSize="1024 512" imageUVs="316px 52px 36px 36px" name="DP-Right" />
+    <controllerSymbol imageSize="1024 512" imageUVs="360px 52px 36px 36px" name="DP-Down" />
+    <controllerSymbol imageSize="1024 512" imageUVs="404px 52px 36px 36px" name="DP-Left" />
+    <controllerSymbol imageSize="1024 512" imageUVs="492px 52px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol imageSize="1024 512" imageUVs="448px 52px 36px 36px" name="DP-Right DP-Left" />
+
+    <!-- xbox controller like naming -->
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 184px 36px 36px" name="A" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 184px 36px 36px" name="B" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 184px 36px 36px" name="X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 184px 36px 36px" name="Y" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="492px 184px 36px 36px" name="LB" isComboButton="true" />
+    <controllerSymbol imageSize="1024 512" imageUVs="580px 184px 36px 36px" name="RB" isComboButton="true" />
+    <controllerSymbol imageSize="1024 512" imageUVs="536px 184px 36px 36px" name="LT" />
+    <controllerSymbol imageSize="1024 512" imageUVs="624px 184px 36px 36px" name="RT" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="800px 184px 36px 36px" name="LS" />
+    <controllerSymbol imageSize="1024 512" imageUVs="844px 184px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="888px 184px 36px 36px" name="LS-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="932px 184px 36px 36px" name="LS-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 228px 36px 36px"   name="RS" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 228px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 228px 36px 36px"  name="RS-X" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 228px 36px 36px" name="RS-Y" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 184px 36px 36px" name="Back" />
+    <controllerSymbol imageSize="1024 512" imageUVs="668px 184px 36px 36px" name="Start" />
+
+    <!-- ps4 controller like naming -->
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 272px 36px 36px" name="Cross" />
+    <controllerSymbol imageSize="1024 512" imageUVs="96px 272px 36px 36px" name="Circle" />
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 272px 36px 36px" name="Square" />
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 272px 36px 36px" name="Triangle" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="492px 272px 36px 36px" name="L1" isComboButton="true"/>
+    <controllerSymbol imageSize="1024 512" imageUVs="536px 272px 36px 36px" name="L2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="580px 272px 36px 36px" name="R1" isComboButton="true"/>
+    <controllerSymbol imageSize="1024 512" imageUVs="624px 272px 36px 36px" name="R2" />
+    <controllerSymbol imageSize="1024 512" imageUVs="800px 272px 36px 36px" name="L3" />
+    <controllerSymbol imageSize="1024 512" imageUVs="8px 316px 36px 36px"   name="R3" />
+
+    <controllerSymbol imageSize="1024 512" imageUVs="668px 272px 36px 36px" name="Options" />
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 272px 36px 36px" name="Touch" />
+
+    <!-- wheel like naming -->
+    <controllerSymbol imageSize="1024 512" imageUVs="712px 52px 36px 36px" name="RX" />
+    <controllerSymbol imageSize="1024 512" imageUVs="140px 96px 36px 36px" name="BRK" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 96px 36px 36px" name="ACC" />
+    <controllerSymbol imageSize="1024 512" imageUVs="448px 96px 36px 36px" name="CLT" />
+
+    <!-- special buttons, e.g. used on PlayStation wheels -->
+    <controllerSymbol imageSize="1024 512" imageUVs="52px 52px 36px 36px" name="PS" />
+    <controllerSymbol imageSize="1024 512" imageUVs="228px 52px 36px 36px" name="DP-Press" />
+    <controllerSymbol imageSize="1024 512" imageUVs="184px 52px 36px 36px" name="SET" />
+
+    <!-- xbox -->
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="8px 184px 36px 36px" name="A" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="52px 184px 36px 36px" name="B" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="96px 184px 36px 36px" name="X" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="140px 184px 36px 36px" name="Y" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="184px 184px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="228px 184px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="272px 184px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="316px 184px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="360px 184px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="448px 184px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="404px 184px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="492px 184px 36px 36px" name="LB" isComboButton="true" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="536px 184px 36px 36px" name="LT"  />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="580px 184px 36px 36px" name="RB" isComboButton="true" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="624px 184px 36px 36px" name="RT" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="712px 184px 36px 36px" name="Back" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="668px 184px 36px 36px" name="Start" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="800px 184px 36px 36px" name="LS" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="844px 184px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="888px 184px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="932px 184px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="8px 228px 36px 36px"   name="RS" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="52px 228px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="96px 228px 36px 36px"  name="RS-X" />
+    <controllerSymbol prefix="xbox_" imageSize="1024 512" imageUVs="140px 228px 36px 36px" name="RS-Y" />
+
+    <!-- ps4 -->
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="140px 272px 36px 36px" name="Cross" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="96px 272px 36px 36px" name="Circle" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="8px 272px 36px 36px" name="Square" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="52px 272px 36px 36px" name="Triangle" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="184px 272px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="228px 272px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="272px 272px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="316px 272px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="360px 272px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="448px 272px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="404px 272px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="492px 272px 36px 36px" name="L1" isComboButton="true"/>
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="536px 272px 36px 36px" name="L2" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="580px 272px 36px 36px" name="R1" isComboButton="true"/>
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="624px 272px 36px 36px" name="R2" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="668px 272px 36px 36px" name="Options" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="712px 272px 36px 36px" name="Touch" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="800px 272px 36px 36px" name="L3" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="844px 272px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="888px 272px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="932px 272px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="8px 316px 36px 36px"   name="R3" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="52px 316px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="96px 316px 36px 36px"  name="RS-X" />
+    <controllerSymbol prefix="ps4_" imageSize="1024 512" imageUVs="140px 316px 36px 36px" name="RS-Y" />
+
+    <!-- ps5 -->
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="140px 272px 36px 36px" name="Cross" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="96px 272px 36px 36px" name="Circle" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="8px 272px 36px 36px" name="Square" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="52px 272px 36px 36px" name="Triangle" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="184px 272px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="228px 272px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="272px 272px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="316px 272px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="360px 272px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="448px 272px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="404px 272px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="492px 272px 36px 36px" name="L1" isComboButton="true"/>
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="536px 272px 36px 36px" name="L2" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="580px 272px 36px 36px" name="R1" isComboButton="true"/>
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="624px 272px 36px 36px" name="R2" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="712px 228px 36px 36px" name="Options" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="712px 272px 36px 36px" name="Touch" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="800px 272px 36px 36px" name="L3" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="844px 272px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="888px 272px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="932px 272px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="8px 316px 36px 36px"   name="R3" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="52px 316px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="96px 316px 36px 36px"  name="RS-X" />
+    <controllerSymbol prefix="ps5_" imageSize="1024 512" imageUVs="140px 316px 36px 36px" name="RS-Y" />
+
+    <!-- mouse -->
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="8px 140px 36px 36px"   name="MOUSE_BUTTON_NONE AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="52px 140px 36px 36px"  name="MOUSE_BUTTON_NONE AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="96px 140px 36px 36px"  name="MOUSE_BUTTON_NONE" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="8px 140px 36px 36px"   name="AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="52px 140px 36px 36px"  name="AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="140px 140px 36px 36px" name="MOUSE_BUTTON_LEFT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="184px 140px 36px 36px" name="MOUSE_BUTTON_LEFT AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="228px 140px 36px 36px" name="MOUSE_BUTTON_LEFT" isComboButton="true" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="272px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT MOUSE_BUTTON_MIDDLE AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="316px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT MOUSE_BUTTON_MIDDLE AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="360px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT MOUSE_BUTTON_MIDDLE" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="404px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="448px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="492px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT" isComboButton="true" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="536px 140px 36px 36px" name="MOUSE_BUTTON_MIDDLE AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="580px 140px 36px 36px" name="MOUSE_BUTTON_MIDDLE AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="624px 140px 36px 36px" name="MOUSE_BUTTON_MIDDLE" isComboButton="true" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="668px 140px 36px 36px" name="MOUSE_BUTTON_RIGHT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="712px 140px 36px 36px" name="MOUSE_BUTTON_RIGHT AxisX" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="756px 140px 36px 36px" name="MOUSE_BUTTON_RIGHT" isComboButton="true" />
+
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="844px 140px 36px 36px" name="MOUSE_BUTTON_LEFT AxisX MOUSE_BUTTON_LEFT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="888px 140px 36px 36px" name="MOUSE_BUTTON_MIDDLE AxisX MOUSE_BUTTON_MIDDLE AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="932px 140px 36px 36px" name="MOUSE_BUTTON_RIGHT AxisX MOUSE_BUTTON_RIGHT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="976px 140px 36px 36px" name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT AxisX MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="976px 96px 36px 36px"  name="MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT MOUSE_BUTTON_MIDDLE AxisX MOUSE_BUTTON_LEFT MOUSE_BUTTON_RIGHT MOUSE_BUTTON_MIDDLE AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="932px 96px 36px 36px"  name="AxisX AxisY" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="800px 140px 36px 36px"  name="MOUSE_BUTTON_WHEEL_UP MOUSE_BUTTON_WHEEL_DOWN" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="844px 96px 36px 36px" name="MOUSE_BUTTON_WHEEL_DOWN" />
+    <controllerSymbol prefix="mouse_" imageSize="1024 512" imageUVs="888px 96px 36px 36px" name="MOUSE_BUTTON_WHEEL_UP" />
+
+    <!-- switch -->
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="8px 360px 36px 36px"   name="A" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="52px 360px 36px 36px"  name="B" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="96px 360px 36px 36px"  name="X" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="140px 360px 36px 36px" name="Y" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="184px 360px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="228px 360px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="272px 360px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="316px 360px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="360px 360px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="448px 360px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="404px 360px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="492px 360px 36px 36px" name="LB" isComboButton="true"/>
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="492px 360px 36px 36px" name="L" isComboButton="true"/>
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="536px 360px 36px 36px" name="ZL" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="580px 360px 36px 36px" name="RB" isComboButton="true"/>
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="580px 360px 36px 36px" name="R" isComboButton="true"/>
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="624px 360px 36px 36px" name="ZR" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="668px 360px 36px 36px" name="Start" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="668px 360px 36px 36px" name="+" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="712px 360px 36px 36px" name="Back" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="712px 360px 36px 36px" name="-" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="800px 360px 36px 36px" name="LS" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="844px 360px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="888px 360px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="932px 360px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="8px 404px 36px 36px"   name="RS" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="52px 404px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="96px 404px 36px 36px"  name="RS-X" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="140px 404px 36px 36px" name="RS-Y" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="184px 404px 36px 36px" name="SL" />
+    <controllerSymbol prefix="switch_" imageSize="1024 512" imageUVs="228px 404px 36px 36px" name="SR" />
+
+    <!-- mobile, generic -->
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="272px 404px 36px 36px" name="A" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="316px 404px 36px 36px" name="B" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="360px 404px 36px 36px" name="X" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="404px 404px 36px 36px" name="Y" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="184px 184px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="228px 184px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="272px 184px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="316px 184px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="360px 184px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="448px 184px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="404px 184px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="492px 184px 36px 36px" name="LB" isComboButton="true" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="536px 184px 36px 36px" name="LT"  />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="580px 184px 36px 36px" name="RB" isComboButton="true" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="624px 184px 36px 36px" name="RT" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="712px 184px 36px 36px" name="Back" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="668px 184px 36px 36px" name="Start" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="800px 184px 36px 36px" name="LS" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="844px 184px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="888px 184px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="932px 184px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="8px 228px 36px 36px"   name="RS" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="52px 228px 36px 36px"  name="RS-X RS-Y" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="96px 228px 36px 36px"  name="RS-X" />
+    <controllerSymbol prefix="mobile_" imageSize="1024 512" imageUVs="140px 228px 36px 36px" name="RS-Y" />
+
+    <!-- stadia -->
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="8px 448px 36px 36px"   name="A" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="52px 448px 36px 36px"  name="B" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="96px 448px 36px 36px"  name="X" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="140px 448px 36px 36px" name="Y" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="184px 448px 36px 36px" name="DP-Up DP-Right DP-Down DP-Left" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="228px 448px 36px 36px" name="DP-Up" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="272px 448px 36px 36px" name="DP-Right" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="316px 448px 36px 36px" name="DP-Down" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="360px 448px 36px 36px" name="DP-Left" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="404px 448px 36px 36px" name="DP-Right DP-Left" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="448px 448px 36px 36px" name="DP-Up DP-Down" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="492px 448px 36px 36px" name="L1" isComboButton="true" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="536px 448px 36px 36px" name="L2"  />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="580px 448px 36px 36px" name="R1" isComboButton="true" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="624px 448px 36px 36px" name="R2" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="668px 448px 36px 36px" name="Options" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="712px 448px 36px 36px" name="Menu" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="756px 448px 36px 36px" name="LS" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="800px 448px 36px 36px" name="L3" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="844px 448px 36px 36px" name="LS-X LS-Y" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="888px 448px 36px 36px" name="LS-X" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="932px 448px 36px 36px" name="LS-Y" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="976px 448px 36px 36px" name="RS" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="844px 404px 36px 36px" name="R3" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="888px 404px 36px 36px" name="RS-X RS-Y" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="932px 404px 36px 36px" name="RS-X" />
+    <controllerSymbol prefix="stadia_" imageSize="1024 512" imageUVs="976px 404px 36px 36px" name="RS-Y" />
+</controllerSymbols>

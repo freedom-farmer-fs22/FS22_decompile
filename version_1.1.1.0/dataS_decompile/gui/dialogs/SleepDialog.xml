@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="yesNoDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="" id="dialogTitleElement"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="sleepDialogText" text=""  id="dialogTextElement" />
+
+        <GuiElement type="multiTextOption" profile="sleepDialogMultiTextOption" onClick="onClickTargetTime" id="targetTimeElement" focusInit="onOpen">
+            <GuiElement type="button" profile="multiTextOptionLeft" />
+            <GuiElement type="button" profile="multiTextOptionRight" />
+            <GuiElement type="text"   profile="multiTextOptionText" />
+            <GuiElement type="bitmap" profile="multiTextOptionBg" />
+        </GuiElement>
+
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_ui_inGameSleep" onClick="onYes" id="yesButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_cancel" onClick="onNo" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

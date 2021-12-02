@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GuiSoundSamples>
+    <click file="$data/sounds/ui/uiClick.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </click>
+
+    <back file="$data/sounds/ui/uiBack.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </back>
+
+    <hover file="$data/sounds/ui/uiHover.wav" supportsReverb="false">
+        <volume indoor="0.5" outdoor="0.5" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </hover>
+
+    <error file="$data/sounds/ui/uiError.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </error>
+<!--
+    <slider file="$data/sounds/ui/uiSlider.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </slider> -->
+
+    <paging file="$data/sounds/ui/uiPaging.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </paging>
+
+    <transaction file="$data/sounds/ui/uiTransaction.wav" supportsReverb="false">
+        <volume indoor="0.3" outdoor="0.3" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </transaction>
+
+    <success file="$data/sounds/ui/uiSuccess.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </success>
+
+    <fail file="$data/sounds/ui/uiFail.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </fail>
+
+    <achievement file="$data/sounds/ui/uiAchievement.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </achievement>
+
+    <configSpray file="$data/sounds/ui/uiConfigSpray.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </configSpray>
+
+    <configWrench file="$data/sounds/ui/uiConfigWrench.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </configWrench>
+
+    <yes file="$data/sounds/ui/uiYes.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </yes>
+
+    <no file="$data/sounds/ui/uiNo.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </no>
+
+    <query file="$data/sounds/ui/uiQuery.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </query>
+
+    <textbox file="$data/sounds/ui/uiTextbox.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </textbox>
+
+    <select file="$data/sounds/ui/uiSelect.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </select>
+
+    <notification file="$data/sounds/ui/uiNotification.wav" supportsReverb="false">
+        <volume indoor="0.7" outdoor="0.7" />
+        <pitch indoor="1.00" outdoor="1.00" />
+    </notification>
+
+</GuiSoundSamples>

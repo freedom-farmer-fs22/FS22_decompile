@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="uiFullInGameBackground"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiInGameMenuHeader" id="header">
+        <GuiElement type="multiTextOption" profile="uiInGameMenuHeaderSelector" onClick="onClickPageSelection" id="pageSelector" soundDisabled="true">
+            <GuiElement type="button" profile="uiInGameMenuPagingButtonLeft" id="pagingButtonLeft" />
+            <GuiElement type="button" profile="uiInGameMenuPagingButtonRight" id="pagingButtonRight" />
+        </GuiElement>
+
+        <GuiElement type="list" profile="uiInGameMenuPagingTabList" id="pagingTabList" handleFocus="false" onSelectionChanged="onTabMenuSelectionChanged" onScroll="onTabMenuScroll">
+            <!-- Page tab template element, will be cloned for each known page: -->
+            <GuiElement type="listItem" id="pagingTabTemplate" profile="uiTabbedMenuPageTab" handleFocus="false">
+                <GuiElement type="button" name="tabButton" profile="uiTabbedMenuPageTabButton" handleFocus="false"/>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="button" profile="uiInGameMenuPagingTabPrevious" id="pagingTabPrevious" onClick="onTabPagingPrevious">
+            <GuiElement type="bitmap" profile="uiInGameMenuPagingTabPrevIcon" />
+        </GuiElement>
+        <GuiElement type="button" profile="uiInGameMenuPagingTabNext" id="pagingTabNext" onClick="onTabPagingNext">
+            <GuiElement type="bitmap" profile="uiInGameMenuPagingTabNextIcon" />
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreenSpanning">
+        <GuiElement type="paging" profile="uiInGameMenuPaging" onPageChange="onPageChange" onPageUpdate="onPageUpdate" id="pagingElement">
+            <GuiElement type="frameReference" ref="shopCategories" name="brands" id="pageShopBrands"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="vehicles" id="pageShopVehicles"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="tools" id="pageShopTools"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="objects" id="pageShopObjects"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="packs" id="pageShopPacks"/>
+            <GuiElement type="frameReference" ref="shopItems" name="usedSale" id="pageUsedSale"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="garageOwned" id="pageShopGarageOwned"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="garageLeased" id="pageShopGarageLeased"/>
+            <GuiElement type="frameReference" ref="shopCategories" name="dlcs" id="pageShopDLCs"/>
+            <GuiElement type="frameReference" ref="shopOthers" name="others" id="pageShopOthers"/>
+            <GuiElement type="frameReference" ref="shopItems" name="itemDetails" id="pageShopItemDetails"/>
+            <GuiElement type="frameReference" ref="shopItems" name="itemCombinations" id="pageShopItemCombinations"/>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreenWithTabBar" id="buttonsPanel">
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[1]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[2]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[3]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[4]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[5]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[6]"/>
+    </GuiElement>
+</GUI>

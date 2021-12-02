@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="yesNoDialogBg" id="dialogElement">
+
+        <GuiElement type="bitmap" profile="dialogCircle" id="dialogCircle">
+            <GuiElement type="bitmap"  profile="dialogUser"/>
+        </GuiElement>
+
+        <GuiElement type="boxLayout" profile="dialogDenyAcceptNameLayout">
+            <GuiElement type="platformIcon" profile="dialogDenyAcceptNamePlatformIcon" id="platformIcon" />
+            <GuiElement type="text" profile="dialogDenyAcceptNameText" id="dialogTitleElement" />
+        </GuiElement>
+        <GuiElement type="text" profile="dialogTextWithTitle" id="dialogTextElement" text="$l10n_ui_playerWantsToJoinGame" />
+        <GuiElement type="text" profile="dialogTextWarning" id="dialogWarning" text="$l10n_ui_splitShapeWarning" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_accept" onClick="onClickAccept" id="yesButton" />
+            <GuiElement type="button" profile="buttonBlock" text="$l10n_button_denyAlways" onClick="onClickDenyAlways" />
+            <GuiElement type="button" profile="buttonRefuse" text="$l10n_button_deny" onClick="onClickRefuse" id="noButton" />
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

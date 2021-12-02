@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="modHubExtraContent">
+    <GuiElement type="empty" profile="modHubFrame">
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="0 0" id="headerText"/>
+        </GuiElement>
+
+        <!-- Breadcrumb -->
+        <GuiElement type="breadcrumbs" profile="shopItemsNavLayout" id="breadcrumbs">
+            <GuiElement type="textBackdrop" profile="shopItemsNavItemTextBackdrop">
+                <GuiElement type="text" profile="shopItemsNavItemText" />
+            </GuiElement>
+            <GuiElement type="bitmap" profile="shopItemsNavFilledArrow" />
+        </GuiElement>
+
+        <!--<GuiElement type="text" profile="modHubListItemAbuseText" text="$l10n_modHub_abuse" id="disclaimerLabel" />-->
+
+        <GuiElement type="empty" profile="modHubItemsListContainer">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="smoothList" profile="modHubItemsList" onClick="onActivateItem" onDoubleClick="onActivateItem" id="itemsList" startClipperElementName="topClipper" endClipperElementName="bottomClipper" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="modHubItemsListItem">
+                    <GuiElement type="bitmap" profile="modHubListItemImage" name="icon" />
+                    <GuiElement type="text" profile="modHubListItemLabelText" position="0px 25px" name="nameLabel" />
+
+                    <GuiElement type="empty" profile="modHubStatusBox" name="statusBox">
+                        <GuiElement type="text" profile="modHubStatusBoxText" text="$l10n_modHub_unlocked"/>
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 640px">
+                <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="itemsList" size="6px 632px" />
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Item information box -->
+        <GuiElement type="bitmap" profile="modHubInfoBox">
+            <GuiElement type="flowLayout" profile="modHubAttributeBox" id="itemDescriptionBox">
+                <GuiElement type="text" profile="modHubAttributeInfo" id="itemDescription" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="text" id="noItemsElement" profile="textDefault" textAutoWidth="true" anchors="0.5 0.5 0.5 0.5" text="$l10n_modHub_noExtraContent" />
+    </GuiElement>
+</GUI>

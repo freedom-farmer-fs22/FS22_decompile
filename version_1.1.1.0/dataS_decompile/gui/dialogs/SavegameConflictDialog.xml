@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="savegameConflictDialogBg" id="dialogElement">
+            <GuiElement type="bitmap" profile="dialogHeaderDocked">
+                <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_resolveConflict" id="titleText"/>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="savegameConflictDataBox" position="25px 0px">
+                <GuiElement type="text" profile="savegameConflictItemTitle" position="0px 280px" text="$l10n_ui_savegameName:"/>
+                <GuiElement type="text" profile="savegameConflictItemTitle" position="0px 230px" text="$l10n_ui_money:"/>
+                <GuiElement type="text" profile="savegameConflictItemTitle" position="0px 180px" text="$l10n_ui_difficulty:"/>
+                <GuiElement type="text" profile="savegameConflictItemTitle" position="0px 130px" text="$l10n_ui_duration:"/>
+                <GuiElement type="text" profile="savegameConflictItemTitle" position="0px 80px"  text="$l10n_ui_saveDate:"/>
+
+                <GuiElement type="bitmap" profile="savegameConflictDialogSeparator" position="0px 250px" />
+                <GuiElement type="bitmap" profile="savegameConflictDialogSeparator" position="0px 200px" />
+                <GuiElement type="bitmap" profile="savegameConflictDialogSeparator" position="0px 150px" />
+                <GuiElement type="bitmap" profile="savegameConflictDialogSeparator" position="0px 100px" />
+                <GuiElement type="bitmap" profile="savegameConflictDialogSeparator" position="0px 50px" />
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="savegameConflictDataBox" position="485px 0px">
+                <GuiElement type="text" profile="savegameConflictSaveTitle" text="$l10n_ui_localSavegame" id="titleText"/>
+
+                <GuiElement type="text" profile="savegameConflictItemText" id="local_gameName"      position="0px 260px" textMaxWidth="250px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="local_money"         position="0px 210px" textMaxWidth="250px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="local_difficulty"    position="0px 160px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="local_timePlayed"    position="0px 110px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="local_createDate"    position="0px 60px"/>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="savegameConflictDataBox" position="950px 0px">
+                <GuiElement type="text" profile="savegameConflictSaveTitle" text="$l10n_ui_cloudSavegame" id="titleText"/>
+
+                <GuiElement type="text" profile="savegameConflictItemText" id="cloud_gameName"      position="0px 260px" textMaxWidth="250px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="cloud_money"         position="0px 210px" textMaxWidth="250px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="cloud_difficulty"    position="0px 160px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="cloud_timePlayed"    position="0px 110px"/>
+                <GuiElement type="text" profile="savegameConflictItemText" id="cloud_createDate"    position="0px 60px"/>
+            </GuiElement>
+
+            <!-- Dialog Buttons -->
+            <GuiElement type="flowLayout" profile="buttonBoxDialog" id="dialogButtonLayout" >
+                <GuiElement type="button" profile="buttonBack" text="$l10n_ui_savegameConflictKeepLocal" onClick="onClickKeepLocal"/>
+                <GuiElement type="button" profile="buttonActivate" text="$l10n_ui_savegameConflictKeepRemote" onClick="onClickKeepRemote" id="keepRemote" />
+                <GuiElement type="button" profile="buttonOK" text="$l10n_ui_savegameConflictKeepBoth" onClick="onClickKeepBoth" id="keepBoth" />
+            </GuiElement>
+    </GuiElement>
+</GUI>

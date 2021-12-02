@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<extraContent>
+    <item id="GIANTS" code="HSE" isAutoUnlocked="false">
+        <title>$l10n_extraContent_giants_title</title>
+        <description>$l10n_extraContent_giants_description</description>
+        <imageFilename>dataS/menu/extraContent/giants.png</imageFilename>
+    </item>
+
+    <item id="HORSCH" code="HMF" isAutoUnlocked="false">
+        <title>$l10n_extraContent_horsch_title</title>
+        <description>$l10n_extraContent_horsch_description</description>
+        <imageFilename>dataS/menu/extraContent/horsch.png</imageFilename>
+    </item>
+
+    <item id="MACK_BLACK_ANTHEM" code="LRZ" isAutoUnlocked="false">
+        <title>$l10n_extraContent_mackBlackAnthem_title</title>
+        <description>$l10n_extraContent_mackBlackAnthem_description</description>
+        <imageFilename>dataS/menu/extraContent/mackBlackAnthem.png</imageFilename>
+    </item>
+
+    <item id="PORSCHE_JUNIOR" code="RWZ" isAutoUnlocked="false">
+        <title>$l10n_extraContent_porscheJunior_title</title>
+        <description>$l10n_extraContent_porscheJunior_description</description>
+        <imageFilename>dataS/menu/extraContent/porscheJunior.png</imageFilename>
+    </item>
+
+    <item id="ZETOR25K" code="ALT" isAutoUnlocked="false">
+        <title>$l10n_extraContent_zetor25K_title</title>
+        <description>$l10n_extraContent_zetor25K_description</description>
+        <imageFilename>dataS/menu/extraContent/zetor25K.png</imageFilename>
+    </item>
+
+    <item id="FENDT900BB" code="FBE" isAutoUnlocked="false">
+        <title>$l10n_extraContent_fendt900BlackBeauty_title</title>
+        <description>$l10n_extraContent_fendt900BlackBeauty_description</description>
+        <imageFilename>dataS/menu/extraContent/fendt900BlackBeauty.png</imageFilename>
+    </item>
+
+    <item id="ALDI_SHORTS" code="ADS" isAutoUnlocked="false">
+        <title>$l10n_extraContent_aldiShorts_title</title>
+        <description>$l10n_extraContent_aldiShorts_description</description>
+        <imageFilename>dataS/menu/extraContent/aldiShorts.png</imageFilename>
+    </item>
+
+    <item id="ALDI_SHIRT" code="AST" isAutoUnlocked="false">
+        <title>$l10n_extraContent_aldiShirt_title</title>
+        <description>$l10n_extraContent_aldiShirt_description</description>
+        <imageFilename>dataS/menu/extraContent/aldiShirt.png</imageFilename>
+    </item>
+
+    <item id="ALDI_HAT" code="AHT" isAutoUnlocked="false">
+        <title>$l10n_extraContent_aldiHat_title</title>
+        <description>$l10n_extraContent_aldiHat_description</description>
+        <imageFilename>dataS/menu/extraContent/aldiHat.png</imageFilename>
+    </item>
+
+    <item id="ALDI_HOODIE" code="AHE" isAutoUnlocked="false">
+        <title>$l10n_extraContent_aldiHoodie_title</title>
+        <description>$l10n_extraContent_aldiHoodie_description</description>
+        <imageFilename>dataS/menu/extraContent/aldiHoodie.png</imageFilename>
+    </item>
+
+    <item id="STADIA" code="TSR" isAutoUnlocked="false">
+        <title>$l10n_extraContent_stadiaHoodie_title</title>
+        <description>$l10n_extraContent_stadiaHoodie_description</description>
+        <imageFilename>dataS/menu/extraContent/stadiaHoodie.png</imageFilename>
+    </item>
+
+</extraContent>

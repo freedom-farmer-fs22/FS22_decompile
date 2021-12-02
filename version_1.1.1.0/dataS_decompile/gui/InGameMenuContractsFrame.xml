@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuContracts">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuContractsHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_contracts"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuCenterBox" id="contractsContainer">
+            <GuiElement type="empty" profile="ingameMenuContractsListBox" id="contractsListBox">
+                <GuiElement type="smoothList" profile="ingameMenuContractsList" id="contractsList" focusInit="onOpen" listSectionHeader="section">
+                    <GuiElement type="listItem" profile="ingameMenuContractsListItem">
+
+                        <GuiElement type="text" profile="ingameMenuContractsListItemContract" name="contract" />
+                        <GuiElement type="text" profile="ingameMenuContractsListItemReward" name="reward" />
+                        <GuiElement type="text" profile="ingameMenuContractsListItemField" name="field" />
+
+                        <GuiElement type="text" profile="ingameMenuContractsListItemIndicatorActive" text="$l10n_fieldJob_active" name="indicatorActive" />
+                        <GuiElement type="text" profile="ingameMenuContractsListItemIndicatorFinished" text="$l10n_fieldJob_finished" name="indicatorFinished" />
+                        <GuiElement type="text" profile="ingameMenuContractsListItemIndicatorFailed" text="$l10n_fieldJob_failed" name="indicatorFailed" />
+                    </GuiElement>
+
+                    <GuiElement type="listItem" profile="ingameMenuContractsListCategory" name="section">
+                        <GuiElement type="text" profile="ingameMenuContractsListCategoryTitle" text="Contracts Title" name="title"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="contractsList" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuContractsDetailsBox" id="detailsBox">
+                <GuiElement type="empty" profile="ingameMenuContractsFarmerBox" id="farmerBox">
+                    <GuiElement type="bitmap" profile="ingameMenuContractsFarmerCircle">
+                        <GuiElement type="bitmap" profile="ingameMenuContractsFarmerImage" id="farmerImage" />
+                    </GuiElement>
+                    <GuiElement type="text" profile="ingameMenuContractsFarmerName" id="farmerName" textBold="true" text="Benjarmin" />
+                    <GuiElement type="text" profile="ingameMenuContractsFarmerText" text="Owner of field 14 (4.2 ha)" id="farmerText" />
+
+                    <GuiElement type="bitmap" profile="ingameMenuContractsFarmerDivider" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="ingameMenuContractsContractBox" id="contractBox">
+                    <GuiElement type="text" profile="ingameMenuContractsContractTitle" id="titleText" position="0px -10px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" text="$l10n_fieldJob_desc_offersReward" position="0px -40px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextBig" id="rewardText" position="0px -80px" textSize="40px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" id="actionText" position="0px -120px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextBig" id="fieldBigText" position="0px -150px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" id="contractDescriptionText" textWrapWidth="700px" size="800px 50px" position="0px -180px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" id="useOwnEquipementText" textWrapWidth="700px" size="800px 50px" position="0px -230px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" id="progressTitleText" text="$l10n_fieldJob_progress" position="0px -220px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextBig" id="progressText" position="0px -300px" />
+                    <GuiElement type="text" profile="ingameMenuContractsContractTextSmall" id="extraProgressText" position="0px -340px" />
+
+
+                    <GuiElement type="bitmap" profile="ingameMenuContractsProgressBarBackground" position="0px -260px" id="progressBarBg">
+                        <GuiElement type="bitmap" profile="ingameMenuContractsProgressBar" id="progressBar"/>
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="ingameMenuContractsVehiclesItem" id="vehicleTemplate">
+                        <GuiElement type="text" profile="ingameMenuContractsVehiclesMoreItemsText" text="2+" name="more" visible="false" />
+                    </GuiElement>
+                    <GuiElement type="flowLayout" profile="ingameMenuContractsVehiclesBox" id="vehiclesBox" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="ingameMenuContractsTallyBox" id="tallyBox">
+                    <GuiElement type="text" profile="ingameMenuContractsContractTitle" id="tallyTitle" position="0px -20px" text="$l10n_fieldJob_results" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsTallyKey" text="$l10n_fieldJob_tally_contract" position="0px -70px" />
+                    <GuiElement type="text" profile="ingameMenuContractsTallyValue" name="reward" position="0px -70px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsTallyKey" text="$l10n_fieldJob_tally_vehicleReduction" position="0px -110px" />
+                    <GuiElement type="text" profile="ingameMenuContractsTallyValue" name="leaseCost" position="0px -110px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsTallyKey" text="$l10n_fieldJob_tally_reimbursement" position="0px -150px" />
+                    <GuiElement type="text" profile="ingameMenuContractsTallyValue" name="reimburse" position="0px -150px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsTallyKey" text="$l10n_fieldJob_tally_stealing" position="0px -190px" />
+                    <GuiElement type="text" profile="ingameMenuContractsTallyValue" name="stealing" position="0px -190px" />
+
+                    <GuiElement type="bitmap" profile="ingameMenuContractsTallyLine" position="0px -230px" />
+                    <GuiElement type="bitmap" profile="ingameMenuContractsTallyLine" position="0px -235px" />
+
+                    <GuiElement type="text" profile="ingameMenuContractsTallyKey" text="$l10n_fieldJob_tally_total"  position="0px -245px" />
+                    <GuiElement type="text" profile="ingameMenuContractsTallyValueColored" name="total"  position="0px -245px" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuContractsEmptyBox" id="noContractsBox">
+                <GuiElement type="text" profile="ingameMenuContractsEmptyText" text="$l10n_fieldJob_noJobAvailable" />
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+</GUI>

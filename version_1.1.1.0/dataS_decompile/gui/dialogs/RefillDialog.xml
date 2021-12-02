@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="refillDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="" id="dialogTitleElement"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="siloDialogText" text="$l10n_ui_siloRefillingDescription:" id="dialogTextElement" />
+
+        <GuiElement type="multiTextOption" profile="multiTextOptionSilo" position="0px -80px" onClick="onClickFillTypes" id="fillTypesElement">
+            <GuiElement type="button" profile="multiTextOptionLeft" />
+            <GuiElement type="button" profile="multiTextOptionRight" />
+            <GuiElement type="text"   profile="multiTextOptionTextSilo" id="fillTypeText"/>
+            <GuiElement type="bitmap" profile="multiTextOptionBgSilo" />
+            <GuiElement type="bitmap" profile="multiTextOptionSiloIcon" id="fillTypeIcon"/>
+        </GuiElement>
+
+        <GuiElement type="multiTextOption" profile="multiTextOptionSilo" position="0px -145px" onClick="onClickFillAmount" id="fillAmountsElement">
+            <GuiElement type="button" profile="multiTextOptionLeft" />
+            <GuiElement type="button" profile="multiTextOptionRight" />
+            <GuiElement type="text"   profile="multiTextOptionTextSilo" id="fillAmountText"/>
+            <GuiElement type="bitmap" profile="multiTextOptionBgSilo" />
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="siloDialogMessageBg" id="messageBackground">
+            <GuiElement type="text" profile="siloDialogMessage" text="$l10n_message_noSpaceForFillType" />
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_buy" onClick="onClickOk" id="yesButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>
+
+
+
+
+
+
+
+
+
+

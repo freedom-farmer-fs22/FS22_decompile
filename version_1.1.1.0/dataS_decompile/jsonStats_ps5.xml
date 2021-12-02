@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<objects>
+    <object name="setAchievementProgress">
+		{ "_UpdateTrophyProgress": { "_trophy_id":(int)%0, "_trophy_progress":(int)%1 } }
+	</object>
+</objects>

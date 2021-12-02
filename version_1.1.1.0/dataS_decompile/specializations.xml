@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<specializations>
+    <specialization name="aiConveyorBelt"            className="AIConveyorBelt"           filename="dataS/scripts/vehicles/specializations/AIConveyorBelt.lua" />
+    <specialization name="aiDischargeable"           className="AIDischargeable"          filename="dataS/scripts/vehicles/specializations/AIDischargeable.lua" />
+    <specialization name="aiDrivable"                className="AIDrivable"               filename="dataS/scripts/vehicles/specializations/AIDrivable.lua" />
+    <specialization name="aiFieldWorker"             className="AIFieldWorker"            filename="dataS/scripts/vehicles/specializations/AIFieldWorker.lua" />
+    <specialization name="aiImplement"               className="AIImplement"              filename="dataS/scripts/vehicles/specializations/AIImplement.lua" />
+    <specialization name="aiJobVehicle"              className="AIJobVehicle"             filename="dataS/scripts/vehicles/specializations/AIJobVehicle.lua" />
+    <specialization name="aiLoadable"                className="AILoadable"               filename="dataS/scripts/vehicles/specializations/AILoadable.lua" />
+    <specialization name="aiVehicle"                 className="AIVehicle"                filename="dataS/scripts/vehicles/specializations/AIVehicle.lua" />
+    <specialization name="aiVehicleObstacle"         className="AIVehicleObstacle"        filename="dataS/scripts/vehicles/specializations/AIVehicleObstacle.lua" />
+    <specialization name="animatedVehicle"           className="AnimatedVehicle"          filename="dataS/scripts/vehicles/specializations/AnimatedVehicle.lua" />
+    <specialization name="articulatedAxis"           className="ArticulatedAxis"          filename="dataS/scripts/vehicles/specializations/ArticulatedAxis.lua" />
+    <specialization name="attachable"                className="Attachable"               filename="dataS/scripts/vehicles/specializations/Attachable.lua" />
+    <specialization name="attacherJointControl"      className="AttacherJointControl"     filename="dataS/scripts/vehicles/specializations/AttacherJointControl.lua" />
+    <specialization name="attacherJoints"            className="AttacherJoints"           filename="dataS/scripts/vehicles/specializations/AttacherJoints.lua" />
+    <specialization name="autoLoader"                className="AutoLoader"               filename="dataS/scripts/vehicles/specializations/AutoLoader.lua" />
+
+    <specialization name="baleGrab"                  className="BaleGrab"                 filename="dataS/scripts/vehicles/specializations/BaleGrab.lua" />
+    <specialization name="baleLoader"                className="BaleLoader"               filename="dataS/scripts/vehicles/specializations/BaleLoader.lua" />
+    <specialization name="baler"                     className="Baler"                    filename="dataS/scripts/vehicles/specializations/Baler.lua" />
+    <specialization name="baleWrapper"               className="BaleWrapper"              filename="dataS/scripts/vehicles/specializations/BaleWrapper.lua" />
+    <specialization name="baseMaterial"              className="BaseMaterial"             filename="dataS/scripts/vehicles/specializations/BaseMaterial.lua" />
+    <specialization name="bigBag"                    className="BigBag"                   filename="dataS/scripts/vehicles/specializations/BigBag.lua" />
+    <specialization name="bunkerSiloCompacter"       className="BunkerSiloCompacter"      filename="dataS/scripts/vehicles/specializations/BunkerSiloCompacter.lua" />
+    <specialization name="bunkerSiloInteractor"      className="BunkerSiloInteractor"     filename="dataS/scripts/vehicles/specializations/BunkerSiloInteractor.lua" />
+    <specialization name="multipleItemPurchase"      className="MultipleItemPurchase"     filename="dataS/scripts/vehicles/specializations/MultipleItemPurchase.lua" />
+
+    <specialization name="cctdrivable"               className="CCTDrivable"              filename="dataS/scripts/vehicles/specializations/CCTDrivable.lua" />
+    <specialization name="combine"                   className="Combine"                  filename="dataS/scripts/vehicles/specializations/Combine.lua" />
+    <specialization name="connectionHoses"           className="ConnectionHoses"          filename="dataS/scripts/vehicles/specializations/ConnectionHoses.lua" />
+    <specialization name="conveyorBelt"              className="ConveyorBelt"             filename="dataS/scripts/vehicles/specializations/ConveyorBelt.lua" />
+    <specialization name="cover"                     className="Cover"                    filename="dataS/scripts/vehicles/specializations/Cover.lua" />
+    <specialization name="crabSteering"              className="CrabSteering"             filename="dataS/scripts/vehicles/specializations/CrabSteering.lua" />
+    <specialization name="crawlers"                  className="Crawlers"                 filename="dataS/scripts/vehicles/specializations/Crawlers.lua" />
+    <specialization name="cultivator"                className="Cultivator"               filename="dataS/scripts/vehicles/specializations/Cultivator.lua" />
+    <specialization name="cutter"                    className="Cutter"                   filename="dataS/scripts/vehicles/specializations/Cutter.lua" />
+    <specialization name="cylindered"                className="Cylindered"               filename="dataS/scripts/vehicles/specializations/Cylindered.lua" />
+    <specialization name="cylinderedFoldable"        className="CylinderedFoldable"       filename="dataS/scripts/vehicles/specializations/CylinderedFoldable.lua" />
+
+    <specialization name="dashboard"                 className="Dashboard"                filename="dataS/scripts/vehicles/specializations/Dashboard.lua" />
+    <specialization name="dischargeable"             className="Dischargeable"            filename="dataS/scripts/vehicles/specializations/Dischargeable.lua" />
+    <specialization name="drivable"                  className="Drivable"                 filename="dataS/scripts/vehicles/specializations/Drivable.lua" />
+    <specialization name="dynamicallyLoadedParts"    className="DynamicallyLoadedParts"   filename="dataS/scripts/vehicles/specializations/DynamicallyLoadedParts.lua" />
+    <specialization name="dynamicMountAttacher"      className="DynamicMountAttacher"     filename="dataS/scripts/vehicles/specializations/DynamicMountAttacher.lua" />
+
+    <specialization name="enterable"                 className="Enterable"                filename="dataS/scripts/vehicles/specializations/Enterable.lua" />
+
+    <specialization name="fertilizingCultivator"     className="FertilizingCultivator"    filename="dataS/scripts/vehicles/specializations/FertilizingCultivator.lua" />
+    <specialization name="fertilizingSowingMachine"  className="FertilizingSowingMachine" filename="dataS/scripts/vehicles/specializations/FertilizingSowingMachine.lua" />
+    <specialization name="fillTriggerVehicle"        className="FillTriggerVehicle"       filename="dataS/scripts/vehicles/specializations/FillTriggerVehicle.lua" />
+    <specialization name="fillUnit"                  className="FillUnit"                 filename="dataS/scripts/vehicles/specializations/FillUnit.lua" />
+    <specialization name="fillVolume"                className="FillVolume"               filename="dataS/scripts/vehicles/specializations/FillVolume.lua" />
+    <specialization name="foldable"                  className="Foldable"                 filename="dataS/scripts/vehicles/specializations/Foldable.lua" />
+    <specialization name="foliageBending"            className="FoliageBending"           filename="dataS/scripts/vehicles/specializations/FoliageBending.lua" />
+    <specialization name="forageWagon"               className="ForageWagon"              filename="dataS/scripts/vehicles/specializations/ForageWagon.lua" />
+    <specialization name="frontloaderAttacher"       className="FrontloaderAttacher"      filename="dataS/scripts/vehicles/specializations/FrontloaderAttacher.lua" />
+    <specialization name="fruitPreparer"             className="FruitPreparer"            filename="dataS/scripts/vehicles/specializations/FruitPreparer.lua" />
+
+    <specialization name="groundAdjustedNodes"       className="GroundAdjustedNodes"      filename="dataS/scripts/vehicles/specializations/GroundAdjustedNodes.lua" />
+    <specialization name="groundReference"           className="GroundReference"          filename="dataS/scripts/vehicles/specializations/GroundReference.lua" />
+
+    <specialization name="headlandAnimation"         className="HeadlandAnimation"        filename="dataS/scripts/vehicles/specializations/HeadlandAnimation.lua" />
+    <specialization name="honk"                      className="Honk"                     filename="dataS/scripts/vehicles/specializations/Honk.lua" />
+    <specialization name="hookLiftTrailer"           className="HookLiftTrailer"          filename="dataS/scripts/vehicles/specializations/HookLiftTrailer.lua" />
+    <specialization name="hookLiftContainer"         className="HookLiftContainer"        filename="dataS/scripts/vehicles/specializations/HookLiftContainer.lua" />
+
+    <specialization name="ikChains"                  className="IKChains"                 filename="dataS/scripts/vehicles/specializations/IKChains.lua" />
+    <specialization name="inlineWrapper"             className="InlineWrapper"            filename="dataS/scripts/vehicles/specializations/InlineWrapper.lua" />
+
+    <specialization name="jigglingParts"             className="JigglingParts"            filename="dataS/scripts/vehicles/specializations/JigglingParts.lua" />
+
+    <specialization name="leveler"                   className="Leveler"                  filename="dataS/scripts/vehicles/specializations/Leveler.lua" />
+    <specialization name="licensePlates"             className="LicensePlates"            filename="dataS/scripts/vehicles/specializations/LicensePlates.lua" />
+    <specialization name="lights"                    className="Lights"                   filename="dataS/scripts/vehicles/specializations/Lights.lua" />
+    <specialization name="livestockTrailer"          className="LivestockTrailer"         filename="dataS/scripts/vehicles/specializations/LivestockTrailer.lua" />
+    <specialization name="locomotive"                className="Locomotive"               filename="dataS/scripts/vehicles/specializations/Locomotive.lua" />
+    <specialization name="logGrab"                   className="LogGrab"                  filename="dataS/scripts/vehicles/specializations/LogGrab.lua" />
+
+    <specialization name="manureBarrel"              className="ManureBarrel"             filename="dataS/scripts/vehicles/specializations/ManureBarrel.lua" />
+    <specialization name="mixerWagon"                className="MixerWagon"               filename="dataS/scripts/vehicles/specializations/MixerWagon.lua" />
+    <specialization name="motorized"                 className="Motorized"                filename="dataS/scripts/vehicles/specializations/Motorized.lua" />
+    <specialization name="mountable"                 className="Mountable"                filename="dataS/scripts/vehicles/specializations/Mountable.lua" />
+    <specialization name="mulcher"                   className="Mulcher"                  filename="dataS/scripts/vehicles/specializations/Mulcher.lua" />
+    <specialization name="mower"                     className="Mower"                    filename="dataS/scripts/vehicles/specializations/Mower.lua" />
+
+    <specialization name="pickup"                    className="Pickup"                   filename="dataS/scripts/vehicles/specializations/Pickup.lua" />
+    <specialization name="pipe"                      className="Pipe"                     filename="dataS/scripts/vehicles/specializations/Pipe.lua" />
+    <specialization name="plow"                      className="Plow"                     filename="dataS/scripts/vehicles/specializations/Plow.lua" />
+    <specialization name="plowPacker"                className="PlowPacker"               filename="dataS/scripts/vehicles/specializations/PlowPacker.lua" />
+    <specialization name="powerConsumer"             className="PowerConsumer"            filename="dataS/scripts/vehicles/specializations/PowerConsumer.lua" />
+    <specialization name="powerTakeOffs"             className="PowerTakeOffs"            filename="dataS/scripts/vehicles/specializations/PowerTakeOffs.lua" />
+    <specialization name="pushHandTool"              className="PushHandTool"             filename="dataS/scripts/vehicles/specializations/PushHandTool.lua" />
+
+    <specialization name="randomlyMovingParts"       className="RandomlyMovingParts"      filename="dataS/scripts/vehicles/specializations/RandomlyMovingParts.lua" />
+    <specialization name="receivingHopper"           className="ReceivingHopper"          filename="dataS/scripts/vehicles/specializations/ReceivingHopper.lua" />
+    <specialization name="reverseDriving"            className="ReverseDriving"           filename="dataS/scripts/vehicles/specializations/ReverseDriving.lua" />
+    <specialization name="rideable"                  className="Rideable"                 filename="dataS/scripts/vehicles/specializations/Rideable.lua" />
+    <specialization name="ridgeMarker"               className="RidgeMarker"              filename="dataS/scripts/vehicles/specializations/RidgeMarker.lua" />
+    <specialization name="roller"                    className="Roller"                   filename="dataS/scripts/vehicles/specializations/Roller.lua" />
+    <specialization name="ropes"                     className="Ropes"                    filename="dataS/scripts/vehicles/specializations/Ropes.lua" />
+
+    <specialization name="saltSpreader"              className="SaltSpreader"             filename="dataS/scripts/vehicles/specializations/SaltSpreader.lua" />
+    <specialization name="semiTrailerFront"          className="SemiTrailerFront"         filename="dataS/scripts/vehicles/specializations/SemiTrailerFront.lua" />
+    <specialization name="shovel"                    className="Shovel"                   filename="dataS/scripts/vehicles/specializations/Shovel.lua" />
+    <specialization name="slopeCompensation"         className="SlopeCompensation"        filename="dataS/scripts/vehicles/specializations/SlopeCompensation.lua" />
+    <specialization name="smartAttach"               className="SmartAttach"              filename="dataS/scripts/vehicles/specializations/SmartAttach.lua" />
+    <specialization name="sowingMachine"             className="SowingMachine"            filename="dataS/scripts/vehicles/specializations/SowingMachine.lua" />
+    <specialization name="speedRotatingParts"        className="SpeedRotatingParts"       filename="dataS/scripts/vehicles/specializations/SpeedRotatingParts.lua" />
+    <specialization name="splineVehicle"             className="SplineVehicle"            filename="dataS/scripts/vehicles/specializations/SplineVehicle.lua" />
+    <specialization name="sprayer"                   className="Sprayer"                  filename="dataS/scripts/vehicles/specializations/Sprayer.lua" />
+    <specialization name="stonePicker"               className="StonePicker"              filename="dataS/scripts/vehicles/specializations/StonePicker.lua" />
+    <specialization name="strawBlower"               className="StrawBlower"              filename="dataS/scripts/vehicles/specializations/StrawBlower.lua" />
+    <specialization name="stumpCutter"               className="StumpCutter"              filename="dataS/scripts/vehicles/specializations/StumpCutter.lua" />
+    <specialization name="supportVehicle"            className="SupportVehicle"           filename="dataS/scripts/vehicles/specializations/SupportVehicle.lua" />
+    <specialization name="suspensions"               className="Suspensions"              filename="dataS/scripts/vehicles/specializations/Suspensions.lua" />
+
+    <specialization name="tedder"                    className="Tedder"                   filename="dataS/scripts/vehicles/specializations/Tedder.lua" />
+    <specialization name="tensionBelts"              className="TensionBelts"             filename="dataS/scripts/vehicles/specializations/TensionBelts.lua" />
+    <specialization name="tensionBeltObject"         className="TensionBeltObject"        filename="dataS/scripts/vehicles/specializations/TensionBeltObject.lua" />
+    <specialization name="testAreas"                 className="TestAreas"                filename="dataS/scripts/vehicles/specializations/TestAreas.lua" />
+    <specialization name="tipOccluder"               className="TipOccluder"              filename="dataS/scripts/vehicles/specializations/TipOccluder.lua" />
+    <specialization name="trailer"                   className="Trailer"                  filename="dataS/scripts/vehicles/specializations/Trailer.lua" />
+    <specialization name="treePlanter"               className="TreePlanter"              filename="dataS/scripts/vehicles/specializations/TreePlanter.lua" />
+    <specialization name="treeSaplingPallet"         className="TreeSaplingPallet"        filename="dataS/scripts/vehicles/specializations/TreeSaplingPallet.lua" />
+    <specialization name="treeSaw"                   className="TreeSaw"                  filename="dataS/scripts/vehicles/specializations/TreeSaw.lua" />
+    <specialization name="turnOnVehicle"             className="TurnOnVehicle"            filename="dataS/scripts/vehicles/specializations/TurnOnVehicle.lua" />
+
+    <specialization name="variableWorkWidth"         className="VariableWorkWidth"        filename="dataS/scripts/vehicles/specializations/VariableWorkWidth.lua" />
+    <specialization name="vehicleSettings"           className="VehicleSettings"        filename="dataS/scripts/vehicles/specializations/VehicleSettings.lua" />
+    <specialization name="vineCutter"                className="VineCutter"               filename="dataS/scripts/vehicles/specializations/VineCutter.lua" />
+    <specialization name="vineDetector"              className="VineDetector"             filename="dataS/scripts/vehicles/specializations/VineDetector.lua" />
+    <specialization name="vinePrepruner"             className="VinePrepruner"            filename="dataS/scripts/vehicles/specializations/VinePrepruner.lua" />
+
+    <specialization name="washable"                  className="Washable"                 filename="dataS/scripts/vehicles/specializations/Washable.lua" />
+    <specialization name="waterTrailer"              className="WaterTrailer"             filename="dataS/scripts/vehicles/specializations/WaterTrailer.lua" />
+    <specialization name="wearable"                  className="Wearable"                 filename="dataS/scripts/vehicles/specializations/Wearable.lua" />
+    <specialization name="weeder"                    className="Weeder"                   filename="dataS/scripts/vehicles/specializations/Weeder.lua" />
+    <specialization name="wheels"                    className="Wheels"                   filename="dataS/scripts/vehicles/specializations/Wheels.lua" />
+    <specialization name="windBending"               className="WindBending"              filename="dataS/scripts/vehicles/specializations/WindBending.lua" />
+    <specialization name="windrower"                 className="Windrower"                filename="dataS/scripts/vehicles/specializations/Windrower.lua" />
+    <specialization name="wipers"                    className="Wipers"                   filename="dataS/scripts/vehicles/specializations/Wipers.lua" />
+    <specialization name="woodCrusher"               className="WoodCrusher"              filename="dataS/scripts/vehicles/specializations/WoodCrusher.lua" />
+    <specialization name="woodHarvester"             className="WoodHarvester"            filename="dataS/scripts/vehicles/specializations/WoodHarvester.lua" />
+    <specialization name="workArea"                  className="WorkArea"                 filename="dataS/scripts/vehicles/specializations/WorkArea.lua" />
+    <specialization name="workMode"                  className="WorkMode"                 filename="dataS/scripts/vehicles/specializations/WorkMode.lua" />
+    <specialization name="workParticles"             className="WorkParticles"            filename="dataS/scripts/vehicles/specializations/WorkParticles.lua" />
+
+<!--
+-->
+
+</specializations>

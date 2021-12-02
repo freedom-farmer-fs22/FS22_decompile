@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="yesNoDialogBg" id="dialogElement">
+        <GuiElement type="animation" profile="dialogLoading"  id="iconLoadingElement" visible="false" />
+
+        <GuiElement type="bitmap" profile="dialogCircle" id="dialogCircle">
+            <GuiElement type="bitmap"    profile="dialogQuestion" id="iconQuestionElement" visible="false"/>
+            <GuiElement type="bitmap"    profile="dialogWarning"  id="iconWarningElement" visible="false"/>
+            <GuiElement type="bitmap"    profile="dialogKey"      id="iconKeyElement" visible="false"/>
+            <GuiElement type="bitmap"    profile="dialogInfo"     id="iconInfoElement"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="dialogTitle"         text="" id="dialogTitleElement" />
+        <GuiElement type="text" profile="dialogTextWithTitle" text=""  id="dialogTextElement" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonYes" text="$l10n_button_yes" onClick="onYes" id="yesButton" />
+            <GuiElement type="button" profile="buttonNo" text="$l10n_button_no" onClick="onNo" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

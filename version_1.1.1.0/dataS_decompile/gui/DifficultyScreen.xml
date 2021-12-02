@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="bitmap" profile="uiElementCenter">
+
+            <GuiElement type="bitmap" profile="headerBoxDocked" >
+                <GuiElement type="bitmap" profile="difficultyIcon"/>
+                <GuiElement type="text"   profile="headerText" text="$l10n_ui_difficulty"/>
+            </GuiElement>
+
+            <GuiElement type="slider" profile="sliderInvisible" id="listSlider" dataElementId="difficultyList" handleFocus="false" />
+
+            <GuiElement type="bitmap" profile="leftScrollClipper" name="leftClipper" />
+            <GuiElement type="bitmap" profile="rightScrollClipper" name="rightClipper" />
+
+            <GuiElement type="smoothList" profile="difficultyList" onDoubleClick="onClickOk" focusInit="onOpen" id="difficultyList" startClipperElementName="leftClipper" endClipperElementName="rightClipper" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="difficultyItem">
+                    <GuiElement type="bitmap" profile="difficultyItemIcon" name="icon" />
+
+                    <GuiElement type="text" profile="difficultyItemTitle" name="title" />
+                    <GuiElement type="text" profile="difficultyItemSubtitle" name="subtitle" />
+                    <GuiElement type="text" profile="difficultyItemText" name="description" />
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonOK"   text="$l10n_button_continue" onClick="onClickOk" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back"     onClick="onClickBack" />
+    </GuiElement>
+</GUI>

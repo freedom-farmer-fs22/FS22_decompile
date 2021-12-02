@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+
+    <GuiElement type="bitmap" profile="licensePlateDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_chooseLicensePlate" />
+        </GuiElement>
+
+        <GuiElement type="render" profile="licensePlateRender" filename="dataS/menu/licensePlate/creationBox.i3d" cameraNode="0|1" superSamplingFactor="2" id="sceneRender" onRenderLoad="onRenderLoad" />
+        <GuiElement type="button" profile="licensePlateCursorLeft" onClick="onClickCursorLeft" id="buttonCursorLeft"/>
+        <GuiElement type="button" profile="licensePlateCursorRight" onClick="onClickCursorRight" id="buttonCursorRight"/>
+
+        <GuiElement type="bitmap" profile="licensePlateCursor" id="cursorElement" />
+
+        <GuiElement type="button" profile="licensePlateKeyboardButton" id="keyboardButtonTemplate" onClick="onClickKeyboardButton" />
+
+        <GuiElement type="flowLayout" profile="licensePlateKeyboardAlpha" id="keyboardAlpha" />
+        <GuiElement type="flowLayout" profile="licensePlateKeyboardNumeric" id="keyboardNumeric" />
+        <GuiElement type="flowLayout" profile="licensePlateKeyboardSpecial" id="keyboardSpecial" />
+
+        <GuiElement type="multiTextOption" profile="licensePlateMultiTextOption" id="typeOption" onClick="onClickTypeOptionChanged" position="0 210px">
+            <GuiElement type="button" profile="multiTextOptionLeft" />
+            <GuiElement type="button" profile="multiTextOptionRight" />
+            <GuiElement type="text"   profile="multiTextOptionText" />
+            <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_licensePlateType" />
+            <GuiElement type="bitmap" profile="multiTextOptionBg" />
+        </GuiElement>
+
+        <GuiElement type="multiTextOption" profile="licensePlateMultiTextOption" id="placementOption" onClick="onClickPlacementOptionChanged" onCreate="onCreatePlacementOption" position="0 120px" >
+            <GuiElement type="button" profile="multiTextOptionLeft" />
+            <GuiElement type="button" profile="multiTextOptionRight" />
+            <GuiElement type="text"   profile="multiTextOptionText" />
+            <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_licensePlatePlacement" />
+            <GuiElement type="bitmap" profile="multiTextOptionBg" />
+        </GuiElement>
+
+        <GuiElement type="empty" profile="licensePlateMultiTextOption" position="0 30px">
+            <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_configuration_baseColor" />
+            <GuiElement type="button" profile="licensePlateColorButton" onClick="onClickChangeColor" id="changeColorButton">
+                <GuiElement type="bitmap" profile="shopConfigColorButtonPicked" id="changeColorButtonImage" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC">
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="backButton" />
+            <GuiElement type="button" profile="buttonActivate" text="$l10n_button_ok" onClick="onClickOk" id="okButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

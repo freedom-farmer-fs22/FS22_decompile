@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<actions>
+
+<!-- AXES -->
+    <!-- TODO: Sort -->
+    <action name="AXIS_MOVE_FORWARD_PLAYER"     category="ONFOOT"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="AXIS_MOVE_SIDE_PLAYER"        category="ONFOOT"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="AXIS_LOOK_UPDOWN_PLAYER"      category="ONFOOT"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="AXIS_LOOK_LEFTRIGHT_PLAYER"   category="ONFOOT"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="AXIS_RUN"                     category="ONFOOT"   axisType="HALF"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="TOGGLE_CONSTRUCTION"          category="SYSTEM"   axisType="HALF" />
+
+    <action name="AXIS_ACCELERATE_VEHICLE"      category="VEHICLE"  axisType="HALF"                     ignoreComboMask="true"                          displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_BRAKE_VEHICLE"           category="VEHICLE"  axisType="HALF"                     ignoreComboMask="true"                          displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_MOVE_SIDE_VEHICLE"       category="VEHICLE"  axisType="FULL"                     ignoreComboMask="true"                          displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_LOOK_UPDOWN_VEHICLE"     category="VEHICLE"  axisType="FULL"                     ignoreComboMask="true"                          displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_LOOK_LEFTRIGHT_VEHICLE"  category="VEHICLE"  axisType="FULL"                     ignoreComboMask="true"                          displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_WHEEL_BASE"              category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_CRUISE_CONTROL"          category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_DRIVING"/>
+
+    <action name="AXIS_ROTATE_HANDTOOL"         category="ONFOOT"   axisType="FULL"                                                                     displayCategory="PLAYER_INTERACTIVE"/>
+
+    <action name="MENU_AXIS_UP_DOWN"            category="SYSTEM"   axisType="FULL"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_AXIS_UP_DOWN_SECONDARY"  category="SYSTEM"   axisType="FULL"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_AXIS_LEFT_RIGHT"         category="SYSTEM"   axisType="FULL"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+
+    <action name="AXIS_HYDRAULICATTACHER1"      category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+    <action name="AXIS_HYDRAULICATTACHER2"      category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+
+    <action name="AXIS_CUTTER_REEL"             category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_WORK"/>
+    <action name="AXIS_CUTTER_REEL2"            category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_WORK"/>
+    <action name="AXIS_SPRAYER_ARM"             category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_WORK"/>
+
+    <action name="AXIS_FRONTLOADER_ARM"         category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_ARM2"        category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_TOOL"        category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_TOOL2"       category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_TOOL3"       category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_TOOL4"       category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+    <action name="AXIS_FRONTLOADER_TOOL5"       category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE_FRONTLOADER"/>
+
+    <action name="AXIS_CRANE_ARM"               category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_ARM2"              category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_ARM3"              category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_ARM4"              category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_TOOL"              category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_TOOL2"             category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_TOOL3"             category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+    <action name="AXIS_CRANE_SUPPORT"           category="VEHICLE"  axisType="FULL"                                                                     displayCategory="CRANE"/>
+
+    <action name="AXIS_DOOR"                    category="VEHICLE"  axisType="FULL"                                                                     displayCategory="PLACEABLE"/>
+    <action name="AXIS_DOOR_2"                  category="VEHICLE"  axisType="FULL"                                                                     displayCategory="PLACEABLE"/>
+    <action name="AXIS_DOOR_3"                  category="VEHICLE"  axisType="FULL"                                                                     displayCategory="PLACEABLE"/>
+    <action name="AXIS_PIPE"                    category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+    <action name="AXIS_PIPE2"                   category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+
+    <action name="AXIS_DRAWBAR"                 category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+    <action name="AXIS_DRAWBAR2"                category="VEHICLE"  axisType="FULL"                                                                     displayCategory="VEHICLE"/>
+
+    <action name="AXIS_MAP_ZOOM_IN"             category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="GAME" />
+    <action name="AXIS_MAP_ZOOM_OUT"            category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="GAME" />
+    <action name="AXIS_MAP_SCROLL_LEFT_RIGHT"   category="SYSTEM"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="AXIS_MAP_SCROLL_UP_DOWN"      category="SYSTEM"   axisType="FULL"                     ignoreComboMask="true"                          displayCategory="GAME"/>
+
+
+<!-- ACTIONS -->
+
+    <action name="JUMP"                         category="ONFOOT"   axisType="HALF"                     ignoreComboMask="true"                          displayCategory="PLAYER_MOVEMENT"/>
+    <action name="ACTIVATE_HANDTOOL"            category="ONFOOT"   axisType="HALF"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="ROTATE_OBJECT_LEFT_RIGHT"     category="ONFOOT"   axisType="FULL"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="ROTATE_OBJECT_UP_DOWN"        category="ONFOOT"   axisType="FULL"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="INTERACT"                     category="ONFOOT"   axisType="HALF"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="THROW_OBJECT"                 category="ONFOOT"   axisType="HALF"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="ENTER"                        category="ONFOOT VEHICLE"  axisType="HALF"                                                              displayCategory="VEHICLE"/>
+    <action name="CROUCH"                       category="ONFOOT"   axisType="HALF"                     ignoreComboMask="true"  isMobileAction="false"  displayCategory="PLAYER_MOVEMENT"/>
+    <action name="TOGGLE_LIGHTS_FPS"            category="ONFOOT"   axisType="HALF"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="CAMERA_SWITCH"                category="VEHICLE"  axisType="HALF"                                                                     displayCategory="CAMERA"/>
+    <action name="ACTIVATE_OBJECT"              category="ONFOOT VEHICLE"  axisType="HALF"                                      isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+    <action name="ANIMAL_PET"                   category="ONFOOT"   axisType="HALF"                                             isMobileAction="false"  displayCategory="PLAYER_INTERACTIVE"/>
+
+    <action name="PAUSE"                        category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="SKIP_MESSAGE_BOX"             category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="CAMERA_ZOOM_IN"               category="VEHICLE"  axisType="HALF"                     ignoreComboMask="true"                          displayCategory="VEHICLE"/>
+    <action name="CAMERA_ZOOM_OUT"              category="VEHICLE"  axisType="HALF"                     ignoreComboMask="true"                          displayCategory="VEHICLE"/>
+    <action name="SWITCH_VEHICLE"               category="ONFOOT VEHICLE"  axisType="HALF"                                                              displayCategory="VEHICLE"/>
+    <action name="SWITCH_VEHICLE_BACK"          category="ONFOOT VEHICLE"  axisType="HALF"                                                              displayCategory="VEHICLE"/>
+
+
+    <action name="MENU"                         category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="TOGGLE_STORE"                 category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="TOGGLE_MAP"                   category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="TOGGLE_CHARACTER_CREATION"    category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+
+    <action name="PUSH_TO_TALK"                 category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+
+    <action name="ATTACH"                       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="DETACH"                       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="SWITCH_IMPLEMENT"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="SWITCH_IMPLEMENT_BACK"        category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_AI"                    category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_WORK"/>
+
+    <action name="AXIS_CONSTRUCTION_CAMERA_ZOOM"      category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_CAMERA_ROTATE"    category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_CAMERA_TILT"      category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_CURSOR_ROTATE"    category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="CONSTRUCTION_ACTION_PRIMARY"        category="SYSTEM" axisType="HALF" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="CONSTRUCTION_ACTION_SECONDARY"      category="SYSTEM" axisType="HALF" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="CONSTRUCTION_ACTION_TERTIARY"       category="SYSTEM" axisType="HALF" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="CONSTRUCTION_ACTION_FOURTH"         category="SYSTEM" axisType="HALF" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_ACTION_PRIMARY"   category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_ACTION_SECONDARY" category="SYSTEM" axisType="FULL" locked="true"                            isMobileAction="false" displayCategory="CONSTRUCTION" />
+    <action name="AXIS_CONSTRUCTION_MENU_UP_DOWN"     category="SYSTEM" axisType="FULL" locked="true" ignoreComboMask="true"                            displayCategory="CONSTRUCTION"/>
+    <action name="AXIS_CONSTRUCTION_MENU_LEFT_RIGHT"  category="SYSTEM" axisType="FULL" locked="true" ignoreComboMask="true"                            displayCategory="CONSTRUCTION"/>
+
+
+    <action name="HONK"                         category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_DRIVING"/>
+    <action name="TOGGLE_MOTOR_STATE"           category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_DRIVING"/>
+    <action name="AXIS_CLUTCH_VEHICLE"          category="VEHICLE"  axisType="HALF"                     ignoreComboMask="true"                          displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_UP"                category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_DOWN"              category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_1"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_2"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_3"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_4"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_5"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_6"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_7"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GEAR_SELECT_8"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_UP"               category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_DOWN"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_SELECT_1"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_SELECT_2"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_SELECT_3"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="SHIFT_GROUP_SELECT_4"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="DIRECTION_CHANGE"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="DIRECTION_CHANGE_POS"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="DIRECTION_CHANGE_NEG"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_GEARBOX"/>
+    <action name="TOGGLE_TIPSTATE"              category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_LIGHTS"                category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_LIGHTS_BACK"           category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_BEACON_LIGHTS"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_TIPSIDE"               category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_TURNLIGHT_LEFT"        category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_TURNLIGHT_RIGHT"       category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_CRABSTEERING"          category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_DRIVING"/>
+    <action name="TOGGLE_CRABSTEERING_BACK"     category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_DRIVING"/>
+    <action name="TOGGLE_WORKMODE"              category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_WORK"/>
+    <action name="TOGGLE_TENSION_BELTS"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_BALE_TYPES"            category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+
+    <action name="VEHICLE_ACTION_CONTROL"       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="LOWER_IMPLEMENT"              category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="IMPLEMENT_EXTRA"              category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="IMPLEMENT_EXTRA2"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="IMPLEMENT_EXTRA3"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="IMPLEMENT_EXTRA4"             category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="DOUBLED_SPRAY_AMOUNT"         category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_WORK"/>
+    <action name="TOGGLE_SEEDS"                 category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="TOGGLE_SEEDS_BACK"            category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="TOGGLE_PIPE"                  category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_COVER"                 category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_CHOPPER"               category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_MAP_SIZE"              category="VEHICLE"  axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="VARIABLE_WORK_WIDTH_LEFT"     category="VEHICLE"  axisType="FULL"                                             isMobileAction="false"  displayCategory="VEHICLE_WORK"/>
+    <action name="VARIABLE_WORK_WIDTH_RIGHT"    category="VEHICLE"  axisType="FULL"                                             isMobileAction="false"  displayCategory="VEHICLE_WORK"/>
+    <action name="VARIABLE_WORK_WIDTH_TOGGLE"   category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_WORK"/>
+
+    <action name="CHANGE_DRIVING_DIRECTION"     category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_DRIVING"/>
+    <action name="TOGGLE_TIPSTATE_GROUND"       category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE"/>
+    <action name="TOGGLE_CRUISE_CONTROL"        category="VEHICLE"  axisType="HALF"                                             isMobileAction="false"  displayCategory="VEHICLE_DRIVING"/>
+    <action name="RADIO_TOGGLE"                 category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="RADIO"/>
+    <action name="RADIO_NEXT_CHANNEL"           category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="RADIO"/>
+    <action name="RADIO_PREVIOUS_CHANNEL"       category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="RADIO"/>
+    <action name="RADIO_NEXT_ITEM"              category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="RADIO"/>
+    <action name="RADIO_PREVIOUS_ITEM"          category="SYSTEM"   axisType="HALF"                                             isMobileAction="false"  displayCategory="RADIO"/>
+
+    <action name="INGAMEMAP_ACCEPT"             category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="MENU_ACTIVATE"                category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_ACCEPT"                  category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_CANCEL"                  category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_BACK"                    category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_EXTRA_1"                 category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_EXTRA_2"                 category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_PAGE_PREV"               category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+    <action name="MENU_PAGE_NEXT"               category="SYSTEM"   axisType="HALF"     locked="true"   ignoreComboMask="true"                          displayCategory="GAME"/>
+
+<!-- PC ONLY -->
+    <action name="TAKE_SCREENSHOT"              category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="CHAT"                         category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="TOGGLE_TURNLIGHT_HAZARD"      category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_WORK_LIGHT_BACK"       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_WORK_LIGHT_FRONT"      category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_HIGH_BEAM_LIGHT"       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_LIGHTS"/>
+    <action name="TOGGLE_LIGHT_FRONT"           category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_LIGHTS"/>
+    <action name="LOWER_ALL_IMPLEMENTS"         category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="TURN_ON_ALL_IMPLEMENTS"       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="FOLD_ALL_IMPLEMENTS"          category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+    <action name="TOGGLE_HELP_TEXT"             category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="INCREASE_TIMESCALE"           category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+    <action name="DECREASE_TIMESCALE"           category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+
+    <action name="CRABSTEERING_ALLWHEEL"        category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_DRIVING"/>
+    <action name="CRABSTEERING_CRABLEFT"        category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_DRIVING"/>
+    <action name="CRABSTEERING_CRABRIGHT"       category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_DRIVING"/>
+
+    <action name="WORKMODE_MIDDLE"              category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_WORK"/>
+    <action name="WORKMODE_LEFT"                category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_WORK"/>
+    <action name="WORKMODE_RIGHT"               category="VEHICLE"  axisType="HALF"                                                                     displayCategory="VEHICLE_WORK"/>
+
+    <action name="RESET_HEAD_TRACKING"          category="SYSTEM"   axisType="HALF"                                                                     displayCategory="GAME"/>
+
+    <action name="UNLOAD"                       category="SYSTEM"   axisType="HALF"                                                                     displayCategory="VEHICLE"/>
+
+    <!-- LOCKED actions, only allow default bindings -->
+    <action name="SWITCH_HANDTOOL"              category="ONFOOT"   axisType="FULL"     locked="true"                                                   displayCategory="PLAYER_INTERACTIVE"/>
+
+    <action name="DEBUG_PLAYER_UP_DOWN"         category="SYSTEM"   axisType="FULL"     locked="true"                                                   displayCategory="DEBUG_PLAYER"/>
+    <action name="DEBUG_PLAYER_ENABLE"          category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_PLAYER"/>
+
+    <action name="DEBUG_VEHICLE_1"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_2"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_3"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_4"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_5"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_6"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_7"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_8"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+    <action name="DEBUG_VEHICLE_9"              category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_VEHICLE"/>
+
+    <!-- CONSOLE ONLY -->
+    <action name="CONSOLE_ALT_COMMAND_BUTTON"   category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_ALT_COMMAND2_BUTTON"  category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_ALT_COMMAND3_BUTTON"  category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_DEBUG_TOGGLE_FPS"     category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_DEBUG_TOGGLE_STATS"   category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_DEBUG_FILLUNIT_NEXT"  category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_DEBUG_FILLUNIT_INC"   category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+    <action name="CONSOLE_DEBUG_FILLUNIT_DEC"   category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_CONSOLE"/>
+
+    <!-- PC ONLY -->
+    <action name="MOUSE_ALT_COMMAND_BUTTON"     category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+    <action name="MOUSE_ALT_COMMAND2_BUTTON"    category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+    <action name="MOUSE_ALT_COMMAND3_BUTTON"    category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+    <action name="MOUSE_ALT_COMMAND4_BUTTON"    category="SYSTEM"   axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+    <action name="AXIS_LOOK_LEFTRIGHT_DRAG"     category="SYSTEM"   axisType="FULL"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+    <action name="AXIS_LOOK_UPDOWN_DRAG"        category="SYSTEM"   axisType="FULL"     locked="true"                                                   displayCategory="DEBUG_PC"/>
+
+    <!-- GAMING STATIONS, PRESENTATION VERSION -->
+    <action name="RELOAD_GAME"                    category="SYSTEM" axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_GAMINGSTATION"/>
+    <action name="GAMING_STATION_TOGGLE_LANGUAGE" category="SYSTEM" axisType="HALF"     locked="true"                                                   displayCategory="DEBUG_GAMINGSTATION"/>
+</actions>

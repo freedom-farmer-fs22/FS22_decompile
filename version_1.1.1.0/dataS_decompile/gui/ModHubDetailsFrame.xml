@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="modHubDetails">
+    <GuiElement type="empty" profile="modHubFrame">
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="0 0" id="headerText"/>
+
+            <!-- Current balance display in header -->
+            <GuiElement type="flowLayout" profile="shopMoneyBox">
+                <GuiElement type="text" profile="shopBalance" text="$l10n_ui_usedDiscSpace:" />
+                <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="spaceUsageLabel" />
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Navigation header -->
+        <GuiElement type="breadcrumbs" profile="shopItemsNavLayout" id="breadcrumbs">
+            <GuiElement type="textBackdrop" profile="shopItemsNavItemTextBackdrop">
+                <GuiElement type="text" profile="shopItemsNavItemText" />
+            </GuiElement>
+            <GuiElement type="bitmap" profile="shopItemsNavFilledArrow" />
+        </GuiElement>
+
+        <GuiElement type="empty" profile="modHubDetailBox" id="pageInformation" >
+            <GuiElement type="bitmap" profile="modHubDetailPreview" id="modPreviewImage[1]" position="0 0" />
+            <GuiElement type="bitmap" profile="modHubDetailPreview" id="modPreviewImage[2]" position="482.5px 0" />
+            <GuiElement type="bitmap" profile="modHubDetailPreview" id="modPreviewImage[3]" position="965px 0" />
+
+            <GuiElement type="boxLayout" profile="modHubDetailInfoBox" id="modInfoBox">
+                <GuiElement type="text" profile="modHubDetailInfoKey" text="Author" />
+                <GuiElement type="text" profile="modHubDetailInfoValueAuthor" id="modAuthor" />
+
+                <GuiElement type="text" profile="modHubDetailInfoKey" text="$l10n_ui_modVersion" />
+                <GuiElement type="text" profile="modHubDetailInfoValue" id="modInfoVersion" />
+
+                <GuiElement type="text" profile="modHubDetailInfoKey" text="Size" id="modInfoSizeLabel" />
+                <GuiElement type="text" profile="modHubDetailInfoValue" id="modInfoSize" />
+
+                <GuiElement type="text" profile="modHubDetailInfoKey" text="$l10n_ui_modFileHash" id="modInfoHashLabel" />
+                <GuiElement type="text" profile="modHubDetailInfoValue" id="modInfoHash" size="345px 42px" />
+            </GuiElement>
+
+            <!-- <GuiElement type="bitmap" profile="modHubDetailVerticalSeparator" /> -->
+
+            <GuiElement type="empty" profile="modHubDetailDescriptionLayout">
+                <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+                <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+                <GuiElement type="scrollingLayout" profile="modHubDetailDescriptionLayout" id="descriptionLayout" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+                    <GuiElement type="text" profile="modHubDetailDescription" id="modDescription" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 458px">
+                <GuiElement type="slider" profile="verticalListSliderBar" size="6px 450px" dataElementId="descriptionLayout" focusInit="onOpen" id="textSlider" />
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+</GUI>

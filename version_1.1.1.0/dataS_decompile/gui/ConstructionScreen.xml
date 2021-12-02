@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <!-- <GuiElement type="bitmap" profile="bgVignette"/> -->
+
+    <!-- invisible button to catch BACK -->
+    <GuiElement type="button" profile="buttonBack" text="" size="0 0" position="-1 -1" onClick="onButtonMenuBack" />
+
+    <GuiElement type="bitmap" profile="constructionMenuBox" id="menuBox">
+        <GuiElement type="boxLayout" profile="constructionCategoryButtonBox" id="categoriesBox" focusChangeLeft="nil">
+            <GuiElement type="button" profile="constructionCategoryButton" id="categoryButtonTemplate" focusChangeTop="nil"  />
+        </GuiElement>
+
+        <GuiElement type="button" profile="constructionCategoryButtonDestruct" id="buttonDestruct" onClick="onClickDestruct" text="$l10n_button_demolish" focusChangeBottom="nil" focusChangeTop="nil" focusChangeRight="nil" />
+
+        <!-- header with tabs -->
+        <GuiElement type="boxLayout" profile="constructionTabButtonBox" id="tabsBox" focusChangeLeft="nil" focusChangeRight="nil" wrapAround="true">
+            <GuiElement type="button" profile="constructionTabButton" id="tabButtonTemplate" />
+        </GuiElement>
+
+        <!-- Box with list, clippers, and tabbers docked on the outside -->
+        <GuiElement type="empty" profile="constructionListBox" id="listBox">
+            <GuiElement type="bitmap" profile="leftScrollClipper" name="leftClipper" />
+            <GuiElement type="bitmap" profile="rightScrollClipper" name="rightClipper" />
+
+            <!-- list with items -->
+            <GuiElement type="smoothList" profile="constructionList" id="itemList" focusInit="onOpen" onClick="onClickItem" focusChangeBottom="nil" focusChangeLeft="nil" listDataSource="self" listDelegate="self" startClipperElementName="leftClipper" endClipperElementName="rightClipper" focusChangeRight="nil">
+                <GuiElement type="listItem" profile="constructionListItem">
+                    <GuiElement type="bitmap" profile="constructionListItemBg" name="bg">
+                        <GuiElement type="bitmap" profile="constructionListItemIcon" name="icon" />
+                        <GuiElement type="bitmap" profile="constructionListItemBrandIcon" name="brand" />
+                        <GuiElement type="terrainLayer" profile="constructionListItemTerrainIcon" name="terrainLayer" />
+
+                        <GuiElement type="bitmap" profile="listItemSelector"/>
+                    </GuiElement>
+
+                    <GuiElement type="text" profile="constructionListItemPrice" name="price" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="slider" profile="sliderInvisible" dataElementId="itemList" handleFocus="false">
+                <GuiElement type="button" profile="constructionListMoreIndicatorRight" handleFocus="false" />
+                <GuiElement type="button" profile="constructionListMoreIndicatorLeft" handleFocus="false" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="constructionDetailsBox">
+            <GuiElement type="text" profile="constructionDetailsTitle" id="detailsTitle" text="Large cow shed for big cows and some donkeys to create a two liner" />
+
+            <GuiElement type="bitmap" profile="constructionListAttributeFruitIcon" id="fruitIconTemplate" visible="false" />
+
+            <GuiElement type="flowLayout" profile="constructionDetailsAttributesLayout" id="detailsAttributesLayout">
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[1]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[1]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[1]"/>
+
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[2]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[2]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[2]"/>
+
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[3]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[3]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[3]"/>
+
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[4]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[4]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[4]"/>
+
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[5]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[5]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[5]"/>
+
+                <GuiElement type="bitmap" profile="constructionListAttributeIcon" id="attrIcon[6]"/>
+                <GuiElement type="text" profile="constructionListAttributeText" text="Dummy" id="attrValue[6]"/>
+                <GuiElement type="flowLayout" profile="constructionListAttributeIconsLayout" id="attrIconsLayout[6]"/>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="constructionDetailsInfoIcon" id="detailsInfoIcon" />
+            <GuiElement type="text" profile="constructionDetailsInfo" id="detailsDescription" text="Build this to have some cows on your farm. You will need some water for cows" />
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

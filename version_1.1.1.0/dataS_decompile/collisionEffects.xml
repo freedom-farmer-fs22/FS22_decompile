@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<collisionEffects>
+    <collisionEfffect minImpactVelocity="2" minSlidingVelocity="3" maxVolumeVelocity="10" maxPitchVelocity="10" maxImpactAngle="60">
+        <impactSound filename="data/sounds/animals/dog/dog_bark_01.wav" minVolume="2" maxVolume="3" minPitch="2" maxPitch="3" />
+        <impactSound filename="data/sounds/animals/dog/dog_bark_02.wav" minVolume="2" maxVolume="3" minPitch="2" maxPitch="3" />
+        <slidingSound filename="data/sounds/animals/pig/pig_01.wav" minVolume="2" maxVolume="3" minPitch="2" maxPitch="3" />
+        <slidingSound filename="data/sounds/animals/pig/pig_02.wav" minVolume="2" maxVolume="3" minPitch="2" maxPitch="3" />
+        <slidingSound filename="data/sounds/animals/pig/pig_03.wav" minVolume="2" maxVolume="3" minPitch="2" maxPitch="3" />
+    </collisionEfffect>
+</collisionEffects>

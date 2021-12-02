@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="modHubItems">
+    <GuiElement type="empty" profile="modHubFrame">
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="0 0" id="headerText"/>
+
+            <!-- Current balance display in header -->
+            <GuiElement type="flowLayout" profile="shopMoneyBox">
+                <GuiElement type="text" profile="shopBalance" text="$l10n_ui_usedDiscSpace:" />
+                <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="spaceUsageLabel" />
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Breadcrumb -->
+        <GuiElement type="breadcrumbs" profile="shopItemsNavLayout" id="breadcrumbs">
+            <GuiElement type="textBackdrop" profile="shopItemsNavItemTextBackdrop">
+                <GuiElement type="text" profile="shopItemsNavItemText" />
+            </GuiElement>
+            <GuiElement type="bitmap" profile="shopItemsNavFilledArrow" />
+        </GuiElement>
+
+        <GuiElement type="text" profile="modHubListItemAbuseText" text="$l10n_modHub_abuse" id="disclaimerLabel" />
+
+        <GuiElement type="empty" profile="modHubItemsListContainer">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="smoothList" profile="modHubItemsList" onClick="onActivateItem" onDoubleClick="onActivateItem" id="itemsList" startClipperElementName="topClipper" endClipperElementName="bottomClipper" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="modHubItemsListItem">
+                    <GuiElement type="bitmap" profile="modHubListItemImage" name="icon" />
+                    <GuiElement type="text" profile="modHubListItemLabelText" position="0px 25px" name="nameLabel" />
+
+                    <GuiElement type="empty" profile="modHubStatusBox" name="statusBox">
+                        <GuiElement type="bitmap" profile="modHubStatusBoxBar" position="0 4px" name="statusBar"/>
+                        <GuiElement type="text" profile="modHubStatusBoxText" name="statusLabel" text="Installed"/>
+                    </GuiElement>
+
+                    <GuiElement type="flowLayout" profile="modHubMarkerBox" name="markerBox">
+                        <GuiElement type="bitmap" profile="modHubMarkerNew" name="marker" />
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 640px">
+                <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="itemsList" size="6px 632px" />
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Item information box -->
+        <GuiElement type="bitmap" profile="modHubInfoBox" id="modInfoBox">
+            <GuiElement type="flowLayout" profile="modHubAttributeBox" id="modAttributeBox">
+                <GuiElement type="text" profile="modHubAttributeName" id="modAttributeName" />
+                <GuiElement type="text" profile="modHubAttributeInfoSpace" text="  |  "/>
+                <GuiElement type="text" profile="modHubAttributeInfo" id="modAttributeInfoAuthor" />
+                <GuiElement type="text" profile="modHubAttributeInfoSpace" text="  |  "/>
+                <GuiElement type="text" profile="modHubAttributeInfo" id="modAttributeInfoVersion"/>
+                <GuiElement type="text" profile="modHubAttributeInfoSpace" text="  |  " id="modAttributeInfoSizeSpace"/>
+                <GuiElement type="text" profile="modHubAttributeInfo" id="modAttributeInfoSize" />
+
+                <GuiElement type="text" profile="modHubAttributeInfoSpace" text="  |  " id="modAttributeInfoPriceSpace" />
+                <GuiElement type="text" profile="modHubAttributeName" id="modAttributePrice" />
+
+                <GuiElement type="text" profile="modHubAttributeInfoSpace" text="  |  " id="modAttributeInfoRatingSpace"/>
+
+                <GuiElement type="flowLayout" profile="modHubAttributeRatingBox" id="modAttributeRatingBox" >
+                    <GuiElement type="bitmap" profile="modHubAttributeRatingStar" id="modAttributeRatingStar[1]">
+                        <GuiElement type="bitmap" profile="modHubAttributeRatingStarHalf" id="modAttributeRatingStarHalf[1]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="modHubAttributeRatingStar" id="modAttributeRatingStar[2]" >
+                        <GuiElement type="bitmap" profile="modHubAttributeRatingStarHalf" id="modAttributeRatingStarHalf[2]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="modHubAttributeRatingStar" id="modAttributeRatingStar[3]" >
+                        <GuiElement type="bitmap" profile="modHubAttributeRatingStarHalf" id="modAttributeRatingStarHalf[3]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="modHubAttributeRatingStar" id="modAttributeRatingStar[4]" >
+                        <GuiElement type="bitmap" profile="modHubAttributeRatingStarHalf" id="modAttributeRatingStarHalf[4]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="modHubAttributeRatingStar" id="modAttributeRatingStar[5]" >
+                        <GuiElement type="bitmap" profile="modHubAttributeRatingStarHalf" id="modAttributeRatingStarHalf[5]" />
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="text" id="noModsElement" profile="textDefault" textAutoWidth="true" anchors="0.5 0.5 0.5 0.5" text="$l10n_modHub_noMods" />
+    </GuiElement>
+</GUI>

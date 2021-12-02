@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuGameStats">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuStatisticsHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuGameStats"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuStatisticsContainer" id="statsContainer">
+            <!-- Table header left -->
+            <GuiElement type="boxLayout" profile="ingameMenuStatisticsTableHeaderBox" position="0px 0px" id="tableHeaderBox[1]">
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeaderType" columnName="stat" text="$l10n_ui_statistic"/>
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeader" columnName="sessionValue" text="$l10n_ui_session"/>
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeader" columnName="totalValue" text="$l10n_ui_total"/>
+            </GuiElement>
+
+            <!-- Statistics table left -->
+            <GuiElement type="table" profile="ingameMenuStatisticsTable" position="0px -104px" rowTemplateName="statisticsRowTemplate" updateChildrenOverlayState="false"
+                    columnNames="stat sessionValue totalValue" id="statisticsTable[1]" periodicUpdate="true" updateInterval="5" onUpdate="updateStatistics"
+                    handleFocus="false">
+                <GuiElement type="listItem" profile="ingameMenuStatisticsRow" name="statisticsRowTemplate">
+                    <GuiElement type="bitmap" profile="ingameMenuStatisticsRowBackground">
+                        <GuiElement type="text" profile="ingameMenuStatisticsRowTypeCell" name="stat" onCreate="onDataBindStat"/>
+                        <GuiElement type="text" profile="ingameMenuStatisticsRowCell" position="300px 0px" name="sessionValue" onCreate="onDataBindSessionValue"/>
+                        <GuiElement type="text" profile="ingameMenuStatisticsRowCell" position="490px 0px" name="totalValue" onCreate="onDataBindTotalValue"/>
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuStatisticsContainer" anchors="1 1 1 1">
+
+            <!-- Table header right -->
+            <GuiElement type="boxLayout" profile="ingameMenuStatisticsTableHeaderBox" position="0px 0px" id="tableHeaderBox[2]">
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeaderType" columnName="stat" text="$l10n_ui_statistic"/>
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeader" columnName="sessionValue" text="$l10n_ui_session"/>
+                <GuiElement type="button" profile="ingameMenuStatisticsTableHeader" columnName="totalValue" text="$l10n_ui_total"/>
+            </GuiElement>
+
+            <!-- Placeholder for right table which is copied by code -->
+            <GuiElement type="empty" profile="baseReference" position="720px -104px" id="statisticsTable[2]" name="placeholder"/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

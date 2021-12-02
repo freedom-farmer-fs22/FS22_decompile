@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<storePacks>
+    <storePack name="STARTER_GRAINS"            title="$l10n_shop_starterPackGrain"         image="$dataS/menu/storePacks/storePack_grain.png" />
+    <storePack name="STARTER_GRAPE"             title="$l10n_shop_starterPackGrape"         image="$dataS/menu/storePacks/storePack_grapes.png" />
+    <storePack name="STARTER_OLIVE"             title="$l10n_shop_starterPackOlive"         image="$dataS/menu/storePacks/storePack_olives.png" />
+    <storePack name="STARTER_POTATOES"          title="$l10n_shop_starterPackPotatoes"      image="$dataS/menu/storePacks/storePack_potatoes.png" />
+    <storePack name="STARTER_SUGARBEET"         title="$l10n_shop_starterPackSugarBeet"     image="$dataS/menu/storePacks/storePack_sugarbeet.png" />
+    <storePack name="STARTER_COTTON"            title="$l10n_shop_starterPackCotton"        image="$dataS/menu/storePacks/storePack_cotton.png" />
+    <storePack name="STARTER_SUGARCANE"         title="$l10n_shop_starterPackSugarcane"     image="$dataS/menu/storePacks/storePack_sugarcane.png" />
+    <storePack name="STARTER_GRASS"             title="$l10n_shop_starterPackGrass"         image="$dataS/menu/storePacks/storePack_grass.png" />
+    <storePack name="STARTER_HAY"               title="$l10n_shop_starterPackHay"           image="$dataS/menu/storePacks/storePack_hay.png" />
+    <storePack name="STARTER_CHAFF"             title="$l10n_shop_starterPackChaff"         image="$dataS/menu/storePacks/storePack_chaff.png" />
+    <storePack name="STARTER_FORAGE"            title="$l10n_shop_starterPackForage"        image="$dataS/menu/storePacks/storePack_forage.png" />
+    <storePack name="STARTER_ANIMALS"           title="$l10n_shop_starterPackAnimals"       image="$dataS/menu/storePacks/storePack_animals.png" />
+    <storePack name="STARTER_WOOD"              title="$l10n_shop_starterPackWood"          image="$dataS/menu/storePacks/storePack_forestry.png" />
+    <storePack name="STARTER_WOODCHIPS"         title="$l10n_shop_starterPackWoodChips"     image="$dataS/menu/storePacks/storePack_woodChips.png" />
+    <storePack name="STARTER_POPLAR"            title="$l10n_shop_starterPackPoplar"        image="$dataS/menu/storePacks/storePack_poplar.png" />
+    <storePack name="STARTER_TRANSPORT"         title="$l10n_shop_starterPackTransport"     image="$dataS/menu/storePacks/storePack_transport.png" />
+    <storePack name="STARTER_SNOW"              title="$l10n_shop_starterPackSnow"          image="$dataS/menu/storePacks/storePack_snow.png" />
+</storePacks>

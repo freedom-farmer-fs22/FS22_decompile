@@ -1,0 +1,3971 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n><elements><e k="Nintendo Controller" v="Nintendo 控制器"/>
+<e k="Stadia Controller" v="Stadia 控制器"/>
+<e k="Xbox Controller" v="Xbox 控制器"/>
+<e k="achievementFileDescription_psn" v="模拟农场 22"/>
+<e k="achievementFileGameTitle" v="模拟农场 22"/>
+<e k="achievement_descBreedChicken" v="好多复活节彩蛋啊。"/>
+<e k="achievement_descBreedCows" v="我打赌你没想到会这么费事，对吧？"/>
+<e k="achievement_descBreedPigs" v="它们需要的食物会让你大吃一惊的。"/>
+<e k="achievement_descBreedSheep" v="努力建立我自己的羊毛帝国。"/>
+<e k="achievement_descCarDriving" v="反正那东西也不适合开上街。"/>
+<e k="achievement_descCollectiblesAlpine" v="有谁想来点火锅吗？"/>
+<e k="achievement_descCollectiblesFR" v="我也算是个收藏家。"/>
+<e k="achievement_descCollectiblesUS" v="童年记忆，带回你家。"/>
+<e k="achievement_descCottonBales" v="你能把它们存在哪？！"/>
+<e k="achievement_descCultivate" v="我对此也有点自豪。"/>
+<e k="achievement_descCultivateFirst" v="任何农夫的第一步。"/>
+<e k="achievement_descCutTree" v="让叶子都去休假吧。"/>
+<e k="achievement_descCutTreeFirst" v="假如一棵树倒在森林里，周围没有人听到，一只巴掌拍得响吗？"/>
+<e k="achievement_descDeliveryGrapes" v="它可是加州的黄金！"/>
+<e k="achievement_descDeliveryOlives" v="是水果，不是蔬菜！"/>
+<e k="achievement_descDeliverySorghum" v="我的马匹爱死它了。"/>
+<e k="achievement_descDeliveryStones" v="成功之路是石头铺出来的。"/>
+<e k="achievement_descFertilize" v="达到最大效率之前，你不会罢休。"/>
+<e k="achievement_descFertilizeFirst" v="一点帮助会大有裨益。"/>
+<e k="achievement_descGotAllAchievements" v="今天种植，明天收获。"/>
+<e k="achievement_descHarvested" v="这些是你的劳动成果。"/>
+<e k="achievement_descHarvestedFirst" v="种瓜得瓜。"/>
+<e k="achievement_descHorseJumps" v="说真的，想想这可怜的牲畜！"/>
+<e k="achievement_descHorseJumpsFirst" v="哦，它们还能那样做？"/>
+<e k="achievement_descHorseRiding" v="我是一个真正的牛仔，妈妈！"/>
+<e k="achievement_descHorseRidingFirst" v="这样四处转悠也不赖……"/>
+<e k="achievement_descLoadedOldSavegame" v="回家的感觉真好。"/>
+<e k="achievement_descMission" v="你说“也请照顾好我的农场”是什么意思？"/>
+<e k="achievement_descMissionFirst" v="当然，交给我吧，邻居。"/>
+<e k="achievement_descMoney" v="你知道你也可以花掉它，对吗？"/>
+<e k="achievement_descNumBeehives" v="你是一只勤劳的小蜜蜂，不是吗？"/>
+<e k="achievement_descNumDrivables" v="我们正在慢慢靠近目标。"/>
+<e k="achievement_descNumPlaceables" v="光线所及，皆是我物。"/>
+<e k="achievement_descNumProductionPoints" v="嗯，我们可以靠它赚钱……"/>
+<e k="achievement_descNumVehiclesLarge" v="好吧，我可能有麻烦了……"/>
+<e k="achievement_descNumVehiclesSmall" v="是的，每一个我都需要。"/>
+<e k="achievement_descPetDog" v="谁是个好孩子？"/>
+<e k="achievement_descPlayTime" v="我在这里感到空前快乐。"/>
+<e k="achievement_descSow" v="种一颗豆子得一大片绿。"/>
+<e k="achievement_descSowFirst" v="你得考虑未来。"/>
+<e k="achievement_descTractorDriving" v="满足你所有需求的载具。"/>
+<e k="achievement_descTruckDriving" v="不是头脑发热，我懂了。"/>
+<e k="achievement_descVehicleRepaint" v="瞧瞧这边这位超炫先生。"/>
+<e k="achievement_descVehicleRepair" v="你真的该考虑买会员卡。"/>
+<e k="achievement_descVehicleRepairFirst" v="这只是时间问题……"/>
+<e k="achievement_descWrappedBales" v="捆里有啥？"/>
+<e k="achievement_nameBreedChicken" v="孵蛋家禽"/>
+<e k="achievement_nameBreedCows" v="放牛郎"/>
+<e k="achievement_nameBreedPigs" v="三只小猪……"/>
+<e k="achievement_nameBreedSheep" v="蓬松羊毛"/>
+<e k="achievement_nameCarDriving" v="自驾旅行"/>
+<e k="achievement_nameCollectiblesAlpine" v="真是够了"/>
+<e k="achievement_nameCollectiblesFR" v="放马过来"/>
+<e k="achievement_nameCollectiblesUS" v="丰富多彩"/>
+<e k="achievement_nameCottonBales" v="棉花尚存"/>
+<e k="achievement_nameCultivate" v="深度耕耘"/>
+<e k="achievement_nameCultivateFirst" v="我懂耕作"/>
+<e k="achievement_nameCutTree" v="木值一提"/>
+<e k="achievement_nameCutTreeFirst" v="小事一桩"/>
+<e k="achievement_nameDeliveryGrapes" v="竖起高架"/>
+<e k="achievement_nameDeliveryOlives" v="油橄榄树"/>
+<e k="achievement_nameDeliverySorghum" v="原初谷物"/>
+<e k="achievement_nameDeliveryStones" v="岩石来啦"/>
+<e k="achievement_nameFertilize" v="田地肥沃"/>
+<e k="achievement_nameFertilizeFirst" v="作物所需"/>
+<e k="achievement_nameGotAllAchievements" v="务农天性"/>
+<e k="achievement_nameHarvested" v="大供应商"/>
+<e k="achievement_nameHarvestedFirst" v="留作自用"/>
+<e k="achievement_nameHorseJumps" v="汝非袋鼠"/>
+<e k="achievement_nameHorseJumpsFirst" v="小马跳跳"/>
+<e k="achievement_nameHorseRiding" v="纯种繁育！"/>
+<e k="achievement_nameHorseRidingFirst" v="小马快跑！"/>
+<e k="achievement_nameLoadedOldSavegame" v="永不嫌晚"/>
+<e k="achievement_nameMission" v="无休帮手"/>
+<e k="achievement_nameMissionFirst" v="帮我帮你"/>
+<e k="achievement_nameMoney" v="勤劳致富"/>
+<e k="achievement_nameNumBeehives" v="收获蜂蜜"/>
+<e k="achievement_nameNumDrivables" v="喜欢大号"/>
+<e k="achievement_nameNumPlaceables" v="土地用光"/>
+<e k="achievement_nameNumProductionPoints" v="运转良好"/>
+<e k="achievement_nameNumVehiclesLarge" v="载具车队"/>
+<e k="achievement_nameNumVehiclesSmall" v="周末用车"/>
+<e k="achievement_namePetDog" v="终级萌爪"/>
+<e k="achievement_namePlayTime" v="只是开始"/>
+<e k="achievement_nameSow" v="轻松播种"/>
+<e k="achievement_nameSowFirst" v="零星撒下"/>
+<e k="achievement_nameTractorDriving" v="田间旅行"/>
+<e k="achievement_nameTruckDriving" v="长途货运"/>
+<e k="achievement_nameVehicleRepaint" v="梵高佳作"/>
+<e k="achievement_nameVehicleRepair" v="帮我修理"/>
+<e k="achievement_nameVehicleRepairFirst" v="莫名坏了"/>
+<e k="achievement_nameWrappedBales" v="圆满完成"/>
+<e k="achievement_stats" v="解锁的成就："/>
+<e k="achievement_stats_ps" v="解锁的奖杯："/>
+<e k="achievement_stats_xbox" v="解锁的成就："/>
+<e k="action_accelerate" v="让载具加速后减速"/>
+<e k="action_activateCruiseControl" v="启动自动驾驶"/>
+<e k="action_activateDoubledSprayAmount" v="启用双倍施用量"/>
+<e k="action_activateHandTool" v="启用电锯"/>
+<e k="action_activatePacker" v="启用打包机"/>
+<e k="action_activateShop" v="激活商店菜单"/>
+<e k="action_activateTrigger" v="启用物件"/>
+<e k="action_activateVendingMachine" v="激活自动售货机"/>
+<e k="action_allowCreateFields" v="允许创建田地"/>
+<e k="action_armIn" v="收起机臂"/>
+<e k="action_armOut" v="伸长机臂"/>
+<e k="action_attach" v="联接"/>
+<e k="action_baleloaderAbortUnloading" v="停止卸货"/>
+<e k="action_baleloaderLowerPlatform" v="降下装载台"/>
+<e k="action_baleloaderOperatingPosition" v="操作位置"/>
+<e k="action_baleloaderTransportPosition" v="运输位置"/>
+<e k="action_baleloaderUnload" v="卸载草捆"/>
+<e k="action_baleloaderUnloadHere" v="在这里卸载草捆"/>
+<e k="action_blanketSilo" v="覆盖筒仓"/>
+<e k="action_buyProductionPoint" v="购买生产点"/>
+<e k="action_callHelpLine" v="拨打服务热线"/>
+<e k="action_cameraZoom" v="镜头缩放"/>
+<e k="action_canter" v="慢跑"/>
+<e k="action_chainsaw" v="电锯"/>
+<e k="action_changeBaleSize" v="更改草捆尺寸 (%dcm)"/>
+<e k="action_changeControlGroup" v="更改控制组 (%s)"/>
+<e k="action_changeCruiseControlLevel" v="更改自动驾驶速度"/>
+<e k="action_changePlacementHeight" v="更改放置高度"/>
+<e k="action_changeToolSelection" v="改变工具选择"/>
+<e k="action_checkFinances" v="查看财政状况"/>
+<e k="action_chooseSeed" v="选择种子"/>
+<e k="action_closeBack" v="关闭后车门或车盖"/>
+<e k="action_closeBackDoor" v="关闭后门"/>
+<e k="action_closeCover" v="关闭盖子"/>
+<e k="action_closeDoor" v="关门"/>
+<e k="action_closeGarageDoor" v="关闭车库门"/>
+<e k="action_closeGate" v="关闭大门"/>
+<e k="action_clutchCrackingGear" v="无法更改档位。必须踩下离合器踏板！"/>
+<e k="action_clutchCrackingGroup" v="无法更改档组。必须踩下离合器踏板！"/>
+<e k="action_collectibleCollect" v="收集"/>
+<e k="action_configSellSpecificVehicle" v="打开载具选项"/>
+<e k="action_conveyorBeltChangeAngle" v="变更角度 (%s°)"/>
+<e k="action_conveyorIn" v="收起输送带"/>
+<e k="action_conveyorOut" v="伸长输送带"/>
+<e k="action_curtainSideClose" v="关闭侧帘"/>
+<e k="action_curtainSideOpen" v="打开侧帘"/>
+<e k="action_cutBale" v="切开草捆"/>
+<e k="action_deactivateCruiseControl" v="关闭自动驾驶"/>
+<e k="action_deactivateDoubledSprayAmount" v="启用正常施用量"/>
+<e k="action_deactivatePacker" v="停用打包机"/>
+<e k="action_detach" v="卸载"/>
+<e k="action_disablePalletSpawning" v="禁用货盘制作"/>
+<e k="action_disableStrawSwath" v="禁用条形秸秆堆功能"/>
+<e k="action_dismissEmployee" v="解雇工人"/>
+<e k="action_doghouseFillbowl" v="装填饲料碗"/>
+<e k="action_dropObject" v="放下物件"/>
+<e k="action_enablePalletSpawning" v="启用货盘制作"/>
+<e k="action_enableStrawSwath" v="启用条形秸秆堆功能"/>
+<e k="action_enter" v="进入/上车"/>
+<e k="action_exitVehicle" v="下车"/>
+<e k="action_fastenTensionBelt" v="拉紧张力带"/>
+<e k="action_fastenTensionBelts" v="拉紧张力带"/>
+<e k="action_feedAnimal" v="喂养"/>
+<e k="action_foldOBJECT" v="收起%s"/>
+<e k="action_foldSlurryDistributor" v="收起水肥撒布机"/>
+<e k="action_foldSupportFeet" v="收起支撑架"/>
+<e k="action_gallop" v="快跑"/>
+<e k="action_gameComputerChangeCartridge" v="更换游戏盒"/>
+<e k="action_hireEmployee" v="雇佣工人"/>
+<e k="action_honk" v="按喇叭"/>
+<e k="action_interactAnimal" v="%s"/>
+<e k="action_interactAnimalClean" v="清理%s"/>
+<e k="action_interactAnimalFollow" v="跟随"/>
+<e k="action_interactAnimalStopFollow" v="停止跟随"/>
+<e k="action_liftOBJECT" v="升起%s"/>
+<e k="action_liftSlurryDistributor" v="升起水肥撒布机"/>
+<e k="action_limitToFields" v="仅限田地范围"/>
+<e k="action_lookPlayer" v="控制玩家观察方向"/>
+<e k="action_lower" v="下降或抬升 (选定) 工具"/>
+<e k="action_lowerOBJECT" v="降下%s"/>
+<e k="action_lowerSlurryDistributor" v="降下水肥撒布机"/>
+<e k="action_manageProductionPoint" v="管理生产点"/>
+<e k="action_movePlayer" v="控制玩家移动"/>
+<e k="action_nextCover" v="掀开下一个开关盖"/>
+<e k="action_nextHandTool" v="选择下一把电锯"/>
+<e k="action_openBackDoor" v="打开后门"/>
+<e k="action_openBlackboard" v="打开任务栏"/>
+<e k="action_openCover" v="打开盖子"/>
+<e k="action_openDealerOptions" v="经销商：打开载具选项"/>
+<e k="action_openDoor" v="开门"/>
+<e k="action_openGarageDoor" v="打开车库门"/>
+<e k="action_openGate" v="打开大门"/>
+<e k="action_openHelperMenu" v="打开人工智能工人菜单"/>
+<e k="action_openLivestockTrailerMenu" v="打开牲畜菜单"/>
+<e k="action_openSilo" v="打开青贮窖"/>
+<e k="action_openWardrobe" v="打开衣柜"/>
+<e k="action_openWorkshopOptions" v="车间：打开载具选项"/>
+<e k="action_petAnimal" v="宠物"/>
+<e k="action_pickUpObject" v="捡起物件"/>
+<e k="action_pipe" v="打开或关闭运输管"/>
+<e k="action_pipeIn" v="管道回收"/>
+<e k="action_pipeOut" v="管道伸出%s"/>
+<e k="action_placeableLight" v="泛光灯"/>
+<e k="action_placeableLightNeg" v="关闭%s"/>
+<e k="action_placeableLightPos" v="打开%s"/>
+<e k="action_placeableLightShed" v="小屋灯"/>
+<e k="action_purchaseOrFarmField" v="购买或耕作田地"/>
+<e k="action_refillOBJECT" v="重填%s"/>
+<e k="action_refillSilo" v="补充青贮窖"/>
+<e k="action_refuel" v="补给燃料"/>
+<e k="action_rentTrain" v="以每小时%s的价格租火车"/>
+<e k="action_returnRentedTrain" v="送还租来的火车"/>
+<e k="action_rideAnimal" v="骑乘%s"/>
+<e k="action_rotate" v="翻转"/>
+<e k="action_rotateCamera" v="旋转视角"/>
+<e k="action_rotateObjectHorizontally" v="水平旋转物件"/>
+<e k="action_rotateObjectVertically" v="垂直旋转物件"/>
+<e k="action_rotatePlow" v="旋转犁头"/>
+<e k="action_selectedControlGroup" v="控制组：%s（%d）"/>
+<e k="action_sellWood" v="出售木材"/>
+<e k="action_sendOffTrain" v="调派火车运输"/>
+<e k="action_siloStartFilling" v="开始填充"/>
+<e k="action_siloStopFilling" v="停止填充"/>
+<e k="action_slidingFloorStart" v="开启滑动底板"/>
+<e k="action_slidingFloorStop" v="关闭滑动底板"/>
+<e k="action_startCharging" v="开始充电"/>
+<e k="action_startMotor" v="启动引擎"/>
+<e k="action_startOverloading" v="开始超载"/>
+<e k="action_startTipToGround" v="在这里卸载"/>
+<e k="action_startTipping" v="开始倾倒"/>
+<e k="action_steer" v="操控载具"/>
+<e k="action_steeringModeAllWheel" v="全轮转向"/>
+<e k="action_steeringModeBackWheel" v="后轮转向"/>
+<e k="action_steeringModeCrabLeft" v="左方定位横移"/>
+<e k="action_steeringModeCrabRight" v="右方定位横移"/>
+<e k="action_steeringModeFrontWheel" v="前轮转向"/>
+<e k="action_steeringModeSelected" v="选择的驾驶模式： %s"/>
+<e k="action_steeringModeToggle" v="切换驾驶模式 (%s)"/>
+<e k="action_steeringModeTurnSteering" v="转动方向盘"/>
+<e k="action_stop" v="停止"/>
+<e k="action_stopCharging" v="停止充电"/>
+<e k="action_stopMotor" v="关闭引擎"/>
+<e k="action_stopOverloading" v="停止超载"/>
+<e k="action_stopRefillingOBJECT" v="停止重填"/>
+<e k="action_stopRefuel" v="停止补给燃料"/>
+<e k="action_stopTipToGround" v="停止卸载"/>
+<e k="action_stopTipping" v="停止倾倒"/>
+<e k="action_switchImplement" v="切换工具选择"/>
+<e k="action_tag" v="标记地点"/>
+<e k="action_terrainChangeMode" v="更改整地模式"/>
+<e k="action_terrainChangeRadius" v="更改半径"/>
+<e k="action_terrainChangeShape" v="更改修改形状"/>
+<e k="action_terrainChangeStrength" v="更改强度"/>
+<e k="action_terrainCycleGroundType" v="切换地面上漆类型"/>
+<e k="action_terrainFlatten" v="整平"/>
+<e k="action_terrainLower" v="降低"/>
+<e k="action_terrainPaint" v="上漆"/>
+<e k="action_terrainRaise" v="升高"/>
+<e k="action_terrainSmooth" v="平坦"/>
+<e k="action_tip" v="卸货"/>
+<e k="action_toggleAutomaticBaleDropNeg" v="关闭自动放下"/>
+<e k="action_toggleAutomaticBaleDropPos" v="打开自动放下"/>
+<e k="action_toggleBriefing" v="打开或关闭教程菜单"/>
+<e k="action_toggleMapView" v="缩放地图"/>
+<e k="action_toggleRidgeMarker" v="田埂标记"/>
+<e k="action_toggleTipSide" v="侧翻斗 (%s)"/>
+<e k="action_toggleTipState" v="开始或停止卸货"/>
+<e k="action_trot" v="小跑"/>
+<e k="action_turnHandToolLeft" v="转动电锯"/>
+<e k="action_turnOffLight" v="关灯"/>
+<e k="action_turnOffOBJECT" v="关闭%s"/>
+<e k="action_turnOn" v="启动或关闭（选定）农具"/>
+<e k="action_turnOnLight" v="开灯"/>
+<e k="action_turnOnOBJECT" v="开启%s"/>
+<e k="action_turnPlow" v="翻土犁"/>
+<e k="action_unfastenTensionBelt" v="解开张力带"/>
+<e k="action_unfastenTensionBelts" v="解开张力带"/>
+<e k="action_unfold" v="展开或折叠（选定）工具"/>
+<e k="action_unfoldOBJECT" v="打开%s"/>
+<e k="action_unfoldSlurryDistributor" v="展开水肥撒布机"/>
+<e k="action_unfoldSupportFeet" v="展开支撑架"/>
+<e k="action_unloadBaler" v="卸下草捆"/>
+<e k="action_unloadRoundBale" v="卸载圆形草捆"/>
+<e k="action_unloadSquareBale" v="卸下方草垛"/>
+<e k="action_unloadUnfinishedBale" v="卸下未完成的草垛"/>
+<e k="action_untag" v="解除地点标记"/>
+<e k="action_visit" v="造访"/>
+<e k="action_waitForRentedTrain" v="火车即将抵达。(%s)"/>
+<e k="action_walk" v="慢走"/>
+<e k="action_walkBackwards" v="向后走"/>
+<e k="action_washVehicles" v="清洁载具"/>
+<e k="action_woodHarvesterChangeCutLength" v="改变切割长度 (%s米)"/>
+<e k="action_woodHarvesterCut" v="切割"/>
+<e k="action_workModeSelected" v="选择的工作模式： %s"/>
+<e k="action_workMode_broad" v="收割宽度"/>
+<e k="action_workMode_left" v="左"/>
+<e k="action_workMode_leftSwath" v="左侧收割痕迹"/>
+<e k="action_workMode_middle" v="中"/>
+<e k="action_workMode_narrowSpread" v="狭窄散布"/>
+<e k="action_workMode_right" v="右"/>
+<e k="action_workMode_rightSwath" v="右侧收割痕迹"/>
+<e k="action_workMode_swath" v="收割痕迹"/>
+<e k="action_workMode_wideSpread" v="广泛散布"/>
+<e k="ai_jobTitleConveyor" v="输送"/>
+<e k="ai_jobTitleDeliver" v="运送"/>
+<e k="ai_jobTitleFieldWork" v="田地工作"/>
+<e k="ai_jobTitleGoto" v="前往"/>
+<e k="ai_jobTitleLoadAndDeliver" v="装载和运送"/>
+<e k="ai_messageErrorBlockedByObject" v="帮手 %s 被一个物件挡住了！"/>
+<e k="ai_messageErrorCouldNotPrepare" v="帮手 %s 意外地停止了工作：原因不明！ (&apos;%s&apos;)"/>
+<e k="ai_messageErrorFieldNotOwned" v="帮手 %s 非预期停止工作：未拥有田地！"/>
+<e k="ai_messageErrorGrainTankIsFull" v="帮手 %s 的谷箱已满。"/>
+<e k="ai_messageErrorGrainTankIsNearlyFull" v="帮手 %s 的谷箱已满。"/>
+<e k="ai_messageErrorImplementWrongWay" v="帮手%s无法开始工作。工具装载错误。"/>
+<e k="ai_messageErrorLoadingStationDeleted" v="帮手 %s 意外地停止了工作：装载站不再存在！"/>
+<e k="ai_messageErrorNoFieldFound" v="人工智能帮手%s意外停止工作：未找到田地！"/>
+<e k="ai_messageErrorNoValidFillTypeLoaded" v="帮手 %s 意外地停止了工作：作物不适用于所选目标！"/>
+<e k="ai_messageErrorNotReachable" v="人工智能帮手%s意外停止工作：无法到达目标！"/>
+<e k="ai_messageErrorOutOfFill" v="帮手 %s 意外地停止了工作：水槽已空！"/>
+<e k="ai_messageErrorOutOfFuel" v="帮手 %s 意外地停止了工作：燃料用完！"/>
+<e k="ai_messageErrorOutOfMoney" v="帮手 %s 意外地停止了工作：金钱不足！"/>
+<e k="ai_messageErrorThreshingNotAllowed" v="人工智能帮手%s意外停止工作：不允许打谷！"/>
+<e k="ai_messageErrorUnkown" v="帮手 %s 意外地停止了工作：原因不明！"/>
+<e k="ai_messageErrorUnloadingStationDeleted" v="帮手 %s 意外地停止了工作：卸货点不再存在！"/>
+<e k="ai_messageErrorUnloadingStationFull" v="卸货点已满！"/>
+<e k="ai_messageErrorVehicleBroken" v="人工智能帮手%s意外停止工作：载具坏了！"/>
+<e k="ai_messageErrorVehicleDeleted" v="人工智能帮手%s意外停止工作：载具已被移除！"/>
+<e k="ai_messageErrorWrongSeason" v="人工智能帮手%s意外停止工作：非此工作的季节！"/>
+<e k="ai_messageSuccessFinishedJob" v="帮手 %s 已经完成工作！"/>
+<e k="ai_messageSuccessSiloEmpty" v="人工智能帮手%s已完成了工作！青贮窖是空的！"/>
+<e k="ai_messageSuccessStoppedByUser" v="人工智能帮手%s已被手动停止！"/>
+<e k="ai_parameterGroupTitleLoadingPosition" v="装载位置"/>
+<e k="ai_parameterGroupTitleLoadingStation" v="装载站"/>
+<e k="ai_parameterGroupTitleLooping" v="循环作业"/>
+<e k="ai_parameterGroupTitlePosition" v="目标位置"/>
+<e k="ai_parameterGroupTitleUnloadingStation" v="卸载站"/>
+<e k="ai_parameterGroupTitleVehicle" v="载具"/>
+<e k="ai_parameterValueLooping" v="循环"/>
+<e k="ai_parameterValueNoLooping" v="不循环"/>
+<e k="ai_startStateLimitReached" v="无法开始作业。活跃工人过多！"/>
+<e k="ai_startStateNoPermission" v="无法开始作业。没有权限！"/>
+<e k="ai_startStateSuccess" v="开始作业成功！"/>
+<e k="ai_startStateVehicleDeleted" v="无法开始作业。载具不再存在！"/>
+<e k="ai_startStateVehicleInUse" v="无法开始作业。载具在使用中！"/>
+<e k="ai_taskDescriptionDriveToField" v="驾驶至田地"/>
+<e k="ai_taskDescriptionDriveToLoadingStation" v="驾驶至装载站"/>
+<e k="ai_taskDescriptionDriveToLoadingTarget" v="驾驶至装载目标"/>
+<e k="ai_taskDescriptionDriveToTarget" v="驾驶至目标"/>
+<e k="ai_taskDescriptionDriveToUnloadingStation" v="驾驶至卸货点"/>
+<e k="ai_taskDescriptionFieldWork" v="田地作业"/>
+<e k="ai_taskDescriptionLoading" v="装载"/>
+<e k="ai_taskDescriptionUnloading" v="卸载"/>
+<e k="ai_taskDescriptionWaitForFilling" v="正在等待填充"/>
+<e k="ai_validationErrorFillTypeNotSupportedByLoadingStation" v="装载站不支持该装填类型！"/>
+<e k="ai_validationErrorFillTypeNotSupportedByUnloadingStation" v="卸载站不支持该装填类型！"/>
+<e k="ai_validationErrorLoadingStationDoesNotExistAnymore" v="装载站不再存在！"/>
+<e k="ai_validationErrorLoadingStationIsEmpty" v="装载站为空！"/>
+<e k="ai_validationErrorNoAIDischargeNodesFound" v="载具不支持人工智能卸载！"/>
+<e k="ai_validationErrorNoAILoadingNodesFound" v="载具不支持人工智能装载！"/>
+<e k="ai_validationErrorNoAngle" v="缺失角度！"/>
+<e k="ai_validationErrorNoFillType" v="缺少装填类型！"/>
+<e k="ai_validationErrorNoLoadingPoint" v="缺少装载点！"/>
+<e k="ai_validationErrorNoLoadingStation" v="缺少装载站！"/>
+<e k="ai_validationErrorNoPosition" v="缺失位置！"/>
+<e k="ai_validationErrorNoUnloadingStation" v="缺少卸载站！"/>
+<e k="ai_validationErrorNoVehicle" v="缺少载具！"/>
+<e k="ai_validationErrorUnloadingStationDoesNotExistAnymore" v="卸货点不再存在！"/>
+<e k="ai_validationErrorUnloadingStationIsFull" v="指定的卸载站已满！"/>
+<e k="ai_validationErrorVehicleDoesNotExistAnymore" v="载具不再存在！"/>
+<e k="ai_validationErrorVehicleDoesNotSupportAI" v="载具不支持人工智能工人！"/>
+<e k="ai_warningLimitReached" v="不能雇佣更多的人工智能帮手，因为你已达到雇佣上限！"/>
+<e k="animal_new" v="新的"/>
+<e k="animal_stock" v="库存"/>
+<e k="animals_animalNotSupportedByTrailer" v="这种动物不支持家畜拖车！"/>
+<e k="animals_buy" v="确定要购买 %d 只动物(%s)共计 %s 元？"/>
+<e k="animals_canNotAddToTrailer" v="拖车已载有一种动物！"/>
+<e k="animals_dealer" v="牲畜经销商"/>
+<e k="animals_descriptionChicken" v="鸡需要一个干净的喂养区。"/>
+<e k="animals_descriptionGeneric" v="牲畜总是需要水！谷仓有内置的供水系统。有些牲畜还需要秸秆。"/>
+<e k="animals_descriptionHorse" v="马的价值是由其健壮值、健康和洁净度而定。每天都应该骑马来增强它们的健壮值。马需要秸秆来铺设干净的垫料，以及水和食物来保持健康。还需要进行定期的刷洗和清理。"/>
+<e k="animals_foodMixDescriptionParallel" v="用以下食物的混合物来喂养它们（为了获得最佳结果，提供所有这些类型）："/>
+<e k="animals_foodMixDescriptionSerial" v="用以下任意一种食物来喂养它们（为了获得最佳结果，提供最有效的食物类型）："/>
+<e k="animals_foodMixEffectiveness" v="有效性"/>
+<e k="animals_foodMixQuantity" v="数量"/>
+<e k="animals_horseStable" v="马围场"/>
+<e k="animals_husbandryIsFull" v="围栏容量已达上限！"/>
+<e k="animals_inUse" v="该动物处于使用状态无法移动！"/>
+<e k="animals_invalidAnimalType" v="无法在此卸下这种动物！"/>
+<e k="animals_load" v="确定将 %d 动物装载到车辆上？"/>
+<e k="animals_noHusbandryAvailable" v="您没有围栏可以放置这种动物！"/>
+<e k="animals_noTarget" v="由经销商运送"/>
+<e k="animals_notEnoughMoney" v="金钱不足，无法购买这些动物！"/>
+<e k="animals_notEnoughMoney_buyCoins" v="金钱不足，无法购买这些动物！你想要购买更多钱币吗？"/>
+<e k="animals_openAnimalScreen" v="打开动物对话框"/>
+<e k="animals_sell" v="确定要卖掉 %d 只动物(%s)共计 %s 元？"/>
+<e k="animals_trailerIsFull" v="家畜拖车已满！"/>
+<e k="animals_transportTargetLeftTrigger" v="运输车辆已经无法使用！"/>
+<e k="animals_unload" v="确定将 %d 动物从载具上卸除?"/>
+<e k="button_accept" v="接受"/>
+<e k="button_acceptContract" v="接受合同"/>
+<e k="button_achievements" v="成就"/>
+<e k="button_achievements_ps" v="奖杯"/>
+<e k="button_achievements_xbox" v="成就"/>
+<e k="button_activate" v="启用"/>
+<e k="button_addMods" v="增加模块"/>
+<e k="button_addMods_ps" v="添加可下载内容"/>
+<e k="button_addMods_xbox" v="添加 可下载内容"/>
+<e k="button_adminLogin" v="以管理员身份登录"/>
+<e k="button_apply" v="应用"/>
+<e k="button_back" v="返回"/>
+<e k="button_ban" v="禁止"/>
+<e k="button_block" v="屏蔽"/>
+<e k="button_blockFromServer" v="被服务器屏蔽"/>
+<e k="button_blocklist" v="显示被屏蔽的玩家"/>
+<e k="button_borrow5000" v="借 $CURRENCY_SYMBOL5,000"/>
+<e k="button_borrowItems" v="租借物品"/>
+<e k="button_buildMode" v="建造模式"/>
+<e k="button_buy" v="购买"/>
+<e k="button_cancel" v="取消"/>
+<e k="button_cancelGame" v="终止游戏"/>
+<e k="button_cancelJob" v="取消作业"/>
+<e k="button_career" v="生涯"/>
+<e k="button_change" v="更改"/>
+<e k="button_changeColor" v="更改颜色"/>
+<e k="button_changeLicensePlate" v="更换牌照"/>
+<e k="button_changeName" v="更改名称"/>
+<e k="button_changeUser" v="更改用户"/>
+<e k="button_clean" v="清理"/>
+<e k="button_close" v="关闭"/>
+<e k="button_configurate" v="设置"/>
+<e k="button_confirm" v="确认"/>
+<e k="button_continue" v="继续"/>
+<e k="button_controls" v="控制"/>
+<e k="button_createGame" v="创建游戏"/>
+<e k="button_createJob" v="创建作业"/>
+<e k="button_credits" v="制作人员"/>
+<e k="button_currentSettings" v="当前设置"/>
+<e k="button_deactivate" v="停用"/>
+<e k="button_defaults" v="全部重置"/>
+<e k="button_delete" v="删除"/>
+<e k="button_demolish" v="拆除"/>
+<e k="button_deny" v="拒绝"/>
+<e k="button_denyAlways" v="总是拒绝"/>
+<e k="button_deselect" v="取消选择"/>
+<e k="button_deselectAll" v="取消全选"/>
+<e k="button_detail" v="详情"/>
+<e k="button_dismiss" v="解雇"/>
+<e k="button_dlcStore" v="Microsoft Store"/>
+<e k="button_dlcStore_ps" v="PlayStation™Store"/>
+<e k="button_dlcStore_ps4" v="PlayStation™Store"/>
+<e k="button_dlcStore_ps5" v="PlayStation™Store"/>
+<e k="button_downloadPatch" v="下载更新"/>
+<e k="button_downloadableContent" v="可下载内容"/>
+<e k="button_easy" v="简单"/>
+<e k="button_enhanced" v="加强"/>
+<e k="button_enterPassword" v="输入密码"/>
+<e k="button_enterText" v="输入文本"/>
+<e k="button_enterVehicle" v="进入农机"/>
+<e k="button_equip" v="装备"/>
+<e k="button_fieldJob_complete" v="收集"/>
+<e k="button_game" v="游戏"/>
+<e k="button_garage" v="车库"/>
+<e k="button_getModsDlc" v="下载模块/可下载内容"/>
+<e k="button_gotoJob" v="前往"/>
+<e k="button_graphics" v="图形"/>
+<e k="button_hard" v="困难"/>
+<e k="button_help" v="帮助"/>
+<e k="button_joinGame" v="加入游戏"/>
+<e k="button_kick" v="踢"/>
+<e k="button_lease" v="租赁"/>
+<e k="button_leaseItems" v="租赁物品"/>
+<e k="button_load" v="装载"/>
+<e k="button_misc" v="杂项"/>
+<e k="button_modHub" v="模组"/>
+<e k="button_modHubBuy" v="购买"/>
+<e k="button_modHubDownload" v="下载"/>
+<e k="button_modHubInstall" v="安装"/>
+<e k="button_modHubShowAll" v="显示所有模组"/>
+<e k="button_modHubShowCrossplay" v="仅显示跨平台游玩模组"/>
+<e k="button_modHubShowTop" v="只显示顶尖模组"/>
+<e k="button_modHubUninstall" v="卸载"/>
+<e k="button_modHubUpdate" v="更新"/>
+<e k="button_mods" v="模块"/>
+<e k="button_move" v="移动"/>
+<e k="button_mp_createFarm" v="创建农场"/>
+<e k="button_mp_deleteFarm" v="删除农场"/>
+<e k="button_mp_dimiss" v="解雇农场主"/>
+<e k="button_mp_editFarm" v="编辑农场"/>
+<e k="button_mp_grant" v="授予承包商"/>
+<e k="button_mp_joinFarm" v="加入农场"/>
+<e k="button_mp_leaveFarm" v="离开农场"/>
+<e k="button_mp_promote" v="升任农场主"/>
+<e k="button_mp_removeFromFarm" v="踢出农场"/>
+<e k="button_mp_transferMoney" v="将钱转移到农场"/>
+<e k="button_mp_transferMoney_dialogTitle" v="转移到 %s"/>
+<e k="button_mp_ungrant" v="移除承包商准入"/>
+<e k="button_multiplayer" v="多人游戏"/>
+<e k="button_mute" v="静音"/>
+<e k="button_no" v="否"/>
+<e k="button_normal" v="普通"/>
+<e k="button_officialSettings" v="官方设置"/>
+<e k="button_ok" v="好"/>
+<e k="button_players" v="玩家"/>
+<e k="button_purchaseNow" v="现在购买游戏"/>
+<e k="button_quit" v="退出"/>
+<e k="button_rate" v="评分"/>
+<e k="button_recover" v="恢复"/>
+<e k="button_refresh" v="更新"/>
+<e k="button_rename" v="重命名"/>
+<e k="button_rentAServer" v="租用专用服务器"/>
+<e k="button_repaint" v="重新涂抹"/>
+<e k="button_repair" v="修理"/>
+<e k="button_repay5000" v="还 $CURRENCY_SYMBOL5,000"/>
+<e k="button_report" v="举报"/>
+<e k="button_reset" v="重置"/>
+<e k="button_restart" v="重新开始"/>
+<e k="button_return" v="返回"/>
+<e k="button_ride" v="骑乘"/>
+<e k="button_save" v="保存"/>
+<e k="button_saveControls" v="保存控制"/>
+<e k="button_saveGame" v="保存游戏"/>
+<e k="button_select" v="选择"/>
+<e k="button_selectAll" v="全选"/>
+<e k="button_selectColor" v="选择颜色"/>
+<e k="button_sell" v="出售"/>
+<e k="button_serverSettings" v="服务器设置"/>
+<e k="button_settings" v="选项"/>
+<e k="button_shop_brands" v="按品牌显示"/>
+<e k="button_shop_categories" v="按类别显示"/>
+<e k="button_showActualPrices" v="显示当前价格"/>
+<e k="button_showFluctuations" v="显示价格波动"/>
+<e k="button_showOnMap" v="显示在地图上"/>
+<e k="button_showProfile" v="显示个人资料"/>
+<e k="button_skipTask" v="跳过任务"/>
+<e k="button_sortTable" v="排序"/>
+<e k="button_start" v="开始"/>
+<e k="button_startJob" v="开始作业"/>
+<e k="button_startLandscaping" v="开始整地"/>
+<e k="button_transfer" v="转移"/>
+<e k="button_tutorials" v="教程"/>
+<e k="button_unban" v="解封"/>
+<e k="button_unbanAll" v="全部解封"/>
+<e k="button_unban_remote" v="解禁"/>
+<e k="button_unblock" v="解除屏蔽"/>
+<e k="button_unload" v="卸除"/>
+<e k="button_unmute" v="取消静音"/>
+<e k="button_visitWebsite" v="访问网站"/>
+<e k="button_yes" v="是"/>
+<e k="category_animalTransport" v="运输动物"/>
+<e k="category_animalpens" v="动物围栏"/>
+<e k="category_animals" v="牲畜"/>
+<e k="category_augerWagons" v="钻车"/>
+<e k="category_baleLoaders" v="草捆装载机"/>
+<e k="category_baleWrappers" v="草捆打包机"/>
+<e k="category_balers" v="压捆机"/>
+<e k="category_bales" v="草捆"/>
+<e k="category_baling" v="压捆"/>
+<e k="category_beeHives" v="蜂箱"/>
+<e k="category_beetHarvesting" v="甜菜技术"/>
+<e k="category_belts" v="传送带系统"/>
+<e k="category_bigbagPallets" v="大袋托盘"/>
+<e k="category_bigbags" v="大袋"/>
+<e k="category_cars" v="汽车"/>
+<e k="category_chainsaws" v="电锯"/>
+<e k="category_containers" v="集装箱"/>
+<e k="category_cornHeaders" v="玉米收割机"/>
+<e k="category_cottonHarvesting" v="棉花技术"/>
+<e k="category_cropProtection" v="作物保护"/>
+<e k="category_cultivators" v="中耕机"/>
+<e k="category_cutterTrailers" v="切割刀型拖车"/>
+<e k="category_cutters" v="切割刀"/>
+<e k="category_decoration" v="装饰"/>
+<e k="category_dieselTanks" v="柴油贮存箱"/>
+<e k="category_discHarrows" v="圆盘耙"/>
+<e k="category_dollys" v="台车"/>
+<e k="category_farmhouses" v="农舍"/>
+<e k="category_feeding" v="饲养工艺"/>
+<e k="category_fences" v="栅栏"/>
+<e k="category_fertilisationTechnology" v="肥料技术"/>
+<e k="category_fertilizerSpreaders" v="肥料播撒机"/>
+<e k="category_fillableTanks" v="可装填的贮存箱"/>
+<e k="category_floodLighting" v="泛光灯照明"/>
+<e k="category_forageHarvesters" v="牧草收割机"/>
+<e k="category_forageHarvestersCutters" v="牧草收割机割台"/>
+<e k="category_forklifts" v="铲车"/>
+<e k="category_frontLoaderTools" v="前端装载机工具"/>
+<e k="category_frontLoaders" v="前置装载机"/>
+<e k="category_gardenSheds" v="花卉小屋"/>
+<e k="category_generators" v="发电机"/>
+<e k="category_grapeVehicles" v="葡萄技术"/>
+<e k="category_grasslandCare" v="照顾草地"/>
+<e k="category_harvesters" v="收割机"/>
+<e k="category_leveler" v="轧平机"/>
+<e k="category_loaderWagons" v="装载车"/>
+<e k="category_lowloaders" v="低架装载车"/>
+<e k="category_manureSpreaders" v="粪肥喷洒机"/>
+<e k="category_misc" v="杂项"/>
+<e k="category_mowers" v="割草机"/>
+<e k="category_mulchers" v="表土疏松机"/>
+<e k="category_objectMisc" v="其他"/>
+<e k="category_oliveVehicles" v="橄榄技术"/>
+<e k="category_pallets" v="货盘"/>
+<e k="category_placeableMisc" v="其他"/>
+<e k="category_placeables" v="可放置设施"/>
+<e k="category_planters" v="种植机"/>
+<e k="category_plows" v="犁"/>
+<e k="category_potatoHarvesting" v="土豆技术"/>
+<e k="category_powerHarrows" v="动力耙"/>
+<e k="category_productionPoints" v="生产场地"/>
+<e k="category_recommended" v="推荐"/>
+<e k="category_rollers" v="碾压机"/>
+<e k="category_sales" v="出售"/>
+<e k="category_seedBedCultivators" v="苗床耕耘机"/>
+<e k="category_sellingPoints" v="出售点"/>
+<e k="category_sheds" v="小木屋"/>
+<e k="category_siloExtensions" v="青贮窖扩展"/>
+<e k="category_silocompaction" v="青贮压实"/>
+<e k="category_silos" v="青贮窖"/>
+<e k="category_skidSteerTools" v="滑移装载机工具"/>
+<e k="category_skidSteers" v="滑移式装载车"/>
+<e k="category_slurryTanks" v="泥浆槽"/>
+<e k="category_sowingMachines" v="播种机"/>
+<e k="category_spaders" v="掘土机"/>
+<e k="category_sprayers" v="喷洒机"/>
+<e k="category_stonePickers" v="除石机"/>
+<e k="category_storages" v="仓库"/>
+<e k="category_subsoilers" v="深耕犁"/>
+<e k="category_sugarCaneHarvesting" v="甘蔗技术"/>
+<e k="category_tedders" v="翻晒机"/>
+<e k="category_teleLoaderTools" v="伸缩臂叉车工具"/>
+<e k="category_teleLoaders" v="伸缩臂叉车"/>
+<e k="category_tractors" v="拖拉机"/>
+<e k="category_tractorsL" v="大型拖拉机"/>
+<e k="category_tractorsM" v="中型拖拉机"/>
+<e k="category_tractorsS" v="小型拖拉机"/>
+<e k="category_trailers" v="拖车"/>
+<e k="category_trees" v="树"/>
+<e k="category_trucks" v="拖拉机"/>
+<e k="category_waterTanks" v="水箱"/>
+<e k="category_weeders" v="除草机"/>
+<e k="category_weights" v="料筒（重量）"/>
+<e k="category_wheelLoaderTools" v="轮式装载机工具"/>
+<e k="category_wheelLoaders" v="轮式装载机"/>
+<e k="category_windrowers" v="堆行机"/>
+<e k="category_winterEquipment" v="冬季设备"/>
+<e k="category_wood" v="林业设备"/>
+<e k="category_woodHarvesting" v="林业机器"/>
+<e k="character_accessory_sunglasses" v="太阳镜"/>
+<e k="character_body_name" v="角色 %d"/>
+<e k="character_hair_variant_1" v="发型 1"/>
+<e k="character_hair_variant_2" v="发型 2"/>
+<e k="character_hair_variant_3" v="发型 3"/>
+<e k="character_hair_variant_4" v="发型 4"/>
+<e k="character_jacket_vest" v="背心"/>
+<e k="character_option_accessory" v="配件"/>
+<e k="character_option_beardStyle" v="胡须"/>
+<e k="character_option_body" v="角色"/>
+<e k="character_option_bottom" v="底部"/>
+<e k="character_option_face" v="脸"/>
+<e k="character_option_footwear" v="鞋"/>
+<e k="character_option_glasses" v="眼镜"/>
+<e k="character_option_gloves" v="手套"/>
+<e k="character_option_hairStyle" v="发型"/>
+<e k="character_option_hat" v="帽子"/>
+<e k="character_option_headGear" v="帽子"/>
+<e k="character_option_jacket" v="夹克"/>
+<e k="character_option_mustache" v="小胡子"/>
+<e k="character_option_none" v="无"/>
+<e k="character_option_onepiece" v="单件套"/>
+<e k="character_option_outfits" v="装束"/>
+<e k="character_option_preset" v="预设"/>
+<e k="character_option_shirtColor" v="衬衫颜色"/>
+<e k="character_option_top" v="上衣"/>
+<e k="character_section_branded" v="品牌"/>
+<e k="character_title_wardrobe" v="衣柜"/>
+<e k="collectible_alpine_all_cheeseWedge" v="你已找全奶酪楔子！"/>
+<e k="collectible_alpine_cheeseWedge" v="你找到了一块奶酪楔子！还有%d块未被找到。"/>
+<e k="collectible_fr_all" v="恭喜！你已找全卡带！"/>
+<e k="collectible_fr_cartridge01" v="你找到了《Fresh Fruit Farmers》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge02" v="你找到了《It&apos;s Harp Lifter!》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge03" v="你找到了《Tractor Turbo Challenge》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge04" v="你找到了《Tractor Transport Service》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge05" v="你找到了《Vertical Farming》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge06" v="你找到了《Farm Crisis III》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge07" v="你找到了《Quest for the Emerald Duck》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge08" v="你找到了《Hypercropping》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge09" v="你找到了《Pasture Sovereign》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge10" v="你找到了《Road Race Ratooning》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge11" v="你找到了《Caverns of Underelm》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge12" v="你找到了《Wheat Gobbler》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge13" v="你找到了《Mechanized Agriculture》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge14" v="你找到了《AgriPinball DX》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge15" v="你找到了《Trap Crop》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge16" v="你找到了《Space Cultivator 3D》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge17" v="你找到了《Ultimate Tomato》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge18" v="你找到了《Plowin&apos; Golf》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge19" v="你找到了《Get off My Field!》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_cartridge20" v="你找到了《Pezzt Control》游戏卡带！还剩%d个未被找到！"/>
+<e k="collectible_fr_intro" v="多年前，有家软件公司将他们所有未售出的游戏卡带都埋在了这个地区。试着把它们全找到！"/>
+<e k="collectible_us_all_cow" v="你已找全10头奶牛！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_harvester" v="你已找全10台收割机！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_horse" v="你已找全10匹马！去科迪的玩具店看看吧，也许发生了些变化！"/>
+<e k="collectible_us_all_pig" v="你已找全10头猪！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_plow" v="你已找全10台犁！去科迪的玩具店看看吧，也许发生了些变化！"/>
+<e k="collectible_us_all_seeder" v="你已找全10台播种机！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_sheep" v="你已找全10台绵羊！去科迪的玩具店看看吧，也许发生了些变化！"/>
+<e k="collectible_us_all_tractor" v="你已找全10台拖拉机！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_trailer" v="你已找全10台拖车！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_all_waterTrailer" v="你已找全10台水罐拖车！回谷仓看看地窖吧，也许发生了些变化！"/>
+<e k="collectible_us_cow" v="你找到了一头奶牛！还有%d头奶牛未被找到。"/>
+<e k="collectible_us_harvester" v="你找到了一台收割机！还有%d台收割机未被找到。"/>
+<e k="collectible_us_horse" v="你找到了一匹马！还有%d匹马未被找到。"/>
+<e k="collectible_us_pig" v="你找到了一头猪！还有%d头猪未被找到。"/>
+<e k="collectible_us_plow" v="你找到了一台犁！还有%d台犁未被找到。"/>
+<e k="collectible_us_seeder" v="你找到了一台播种机！还有%d台播种机未被找到。"/>
+<e k="collectible_us_sheep" v="你找到了一只绵羊！还有%d只绵羊未被找到。"/>
+<e k="collectible_us_tractor" v="你找到了一台拖拉机！还有%d台拖拉机未被找到。"/>
+<e k="collectible_us_trailer" v="你找到了一台拖车！还有%d台拖车未被找到。"/>
+<e k="collectible_us_waterTrailer" v="你找到了一台水罐拖车！还有%d台水罐拖车未被找到。"/>
+<e k="configuration_additionalWeight" v="额外配重块"/>
+<e k="configuration_attacherJoint" v="联结器"/>
+<e k="configuration_baseColor" v="主色"/>
+<e k="configuration_buyableBaleAmount" v="数量"/>
+<e k="configuration_capacityX" v="容量 %s"/>
+<e k="configuration_chassisColor" v="底盘颜色"/>
+<e k="configuration_consumer" v="消费者"/>
+<e k="configuration_cover" v="开关盖"/>
+<e k="configuration_coverColor" v="盖子颜色"/>
+<e k="configuration_design" v="设计"/>
+<e k="configuration_designColor" v="设计颜色"/>
+<e k="configuration_dischargeable" v="排放"/>
+<e k="configuration_extension" v="扩展"/>
+<e k="configuration_extensionColor" v="扩展颜色"/>
+<e k="configuration_fillUnit" v="容量"/>
+<e k="configuration_fillVolume" v="装填量"/>
+<e k="configuration_folding" v="折叠机构"/>
+<e k="configuration_frontWeightX" v="前端重量 %s 公斤"/>
+<e k="configuration_frontloaderAttacher" v="前端装载机拖挂器"/>
+<e k="configuration_frontweight" v="前端重量"/>
+<e k="configuration_inputAttacher3Point" v="三点式"/>
+<e k="configuration_inputAttacherFrontLoader" v="前端装载机"/>
+<e k="configuration_inputAttacherJoint" v="联结器類型"/>
+<e k="configuration_inputAttacherSkidSteer" v="滑移式装载机"/>
+<e k="configuration_inputAttacherTeleLoaders" v="伸缩臂叉车"/>
+<e k="configuration_inputAttacherTrailer" v="拖车"/>
+<e k="configuration_inputAttacherWheelLoader" v="斗轮式装载机"/>
+<e k="configuration_ladder" v="梯子"/>
+<e k="configuration_motorSetup" v="引擎设置"/>
+<e k="configuration_pipe" v="管子"/>
+<e k="configuration_powerConsumer" v="耗电机"/>
+<e k="configuration_rimColor" v="边缘颜色"/>
+<e k="configuration_roller" v="碾压机"/>
+<e k="configuration_sideGuards" v="侧导板"/>
+<e k="configuration_silageAdditives" v="青贮饲料添加剂贮存箱"/>
+<e k="configuration_spareWheel" v="备用轮胎"/>
+<e k="configuration_spreaderSystem" v="播撒机系统"/>
+<e k="configuration_tensionBelts" v="张力带"/>
+<e k="configuration_tines" v="耙齿"/>
+<e k="configuration_trackSetup" v="履带设置"/>
+<e k="configuration_trailer" v="卸载装置"/>
+<e k="configuration_trailerAttacherBack" v="+ 后端联结器"/>
+<e k="configuration_treeType" v="树类型"/>
+<e k="configuration_value6mSpreadingUnit" v="6 米撒布装置"/>
+<e k="configuration_valueBaleTrailer" v="草垛设置"/>
+<e k="configuration_valueBig" v="大量"/>
+<e k="configuration_valueCMixShare100mm" v="混控犁铧100毫米"/>
+<e k="configuration_valueCMixShare80mm" v="混控犁铧80毫米"/>
+<e k="configuration_valueChrome" v="铬"/>
+<e k="configuration_valueColor" v="设计"/>
+<e k="configuration_valueCrawler" v="履带车辙"/>
+<e k="configuration_valueCrawlerBroad" v="宽履带"/>
+<e k="configuration_valueDefault" v="标准"/>
+<e k="configuration_valueDesign01" v="设计 1"/>
+<e k="configuration_valueDesign02" v="设计 2"/>
+<e k="configuration_valueDesign03" v="设计 3"/>
+<e k="configuration_valueDesign04" v="设计 4"/>
+<e k="configuration_valueDesign05" v="设计 5"/>
+<e k="configuration_valueDesign06" v="设计 6"/>
+<e k="configuration_valueDesign07" v="设计 7"/>
+<e k="configuration_valueDesign08" v="设计 8"/>
+<e k="configuration_valueDesign09" v="设计 9"/>
+<e k="configuration_valueDuckFootShare320mm" v="鸭掌形犁铧320毫米"/>
+<e k="configuration_valueExtension" v="扩展"/>
+<e k="configuration_valueFingerBodyShares" v="板条犁板"/>
+<e k="configuration_valueForestry" v="林业"/>
+<e k="configuration_valueGT1" v="单 GT 条纹"/>
+<e k="configuration_valueGT2" v="双 GT 条纹"/>
+<e k="configuration_valueHydraulic" v="水力"/>
+<e k="configuration_valueLeftLoading" v="装载 (左)"/>
+<e k="configuration_valueLicensePlateNone" v="无"/>
+<e k="configuration_valueLoadingWagon" v="草垛装载车"/>
+<e k="configuration_valueLongPipe" v="长管子"/>
+<e k="configuration_valueMiddlePipe" v="中管"/>
+<e k="configuration_valueNewHolland" v="新荷兰"/>
+<e k="configuration_valueNo" v="否"/>
+<e k="configuration_valueNone" v="无"/>
+<e k="configuration_valueOlofsforsTracks" v="Olofsfors 履带车辙"/>
+<e k="configuration_valuePipeDefault" v="默认"/>
+<e k="configuration_valuePipeExtraLarge" v="特大"/>
+<e k="configuration_valuePipeLarge" v="大"/>
+<e k="configuration_valuePowerTakeOff" v="动力输出装置"/>
+<e k="configuration_valueRightLoading" v="装载 (右)"/>
+<e k="configuration_valueShortPipe" v="短管"/>
+<e k="configuration_valueSmall" v="小量"/>
+<e k="configuration_valueSowingMachine" v="播种机"/>
+<e k="configuration_valueSpikedRoller" v="带钉滚筒"/>
+<e k="configuration_valueSpikedRollerBroad" v="带钉滚筒 (宽)"/>
+<e k="configuration_valueSpreadingDiscs" v="撒布圆盘"/>
+<e k="configuration_valueStealth" v="隐身"/>
+<e k="configuration_valueSteeringWheel" v="方向盘"/>
+<e k="configuration_valueTracks" v="履带车辙"/>
+<e k="configuration_valueTracksWeights" v="+ 配重块"/>
+<e k="configuration_valueTracksWide" v="宽"/>
+<e k="configuration_valueTracksWideWeights" v="宽 + 配重块"/>
+<e k="configuration_valueTrailer0L" v="平板拖车"/>
+<e k="configuration_valueTripleWheelsAll" v="三轮"/>
+<e k="configuration_valueTwinWheelsAll" v="双轮"/>
+<e k="configuration_valueTwinWheelsAllWeights" v="双轮 + 配重块"/>
+<e k="configuration_valueTwinWheelsBack" v="后置双轮"/>
+<e k="configuration_valueTwinWheelsBackNarrow" v="后窄双轮"/>
+<e k="configuration_valueTwinWheelsFront" v="前置双轮"/>
+<e k="configuration_valueTwinWheelsNarrow" v="窄双轮"/>
+<e k="configuration_valueUniversalShares" v="万用犁板"/>
+<e k="configuration_valueWheelBroad" v="宽胎"/>
+<e k="configuration_valueWheelBroadWeights" v="宽轮胎 + 配重块"/>
+<e k="configuration_valueWheelCommunal" v="公用"/>
+<e k="configuration_valueWheelNarrow" v="窄胎"/>
+<e k="configuration_valueWheelNarrowWeights" v="窄轮胎 + 配重块"/>
+<e k="configuration_valueWheelWeights" v="轮上配重"/>
+<e k="configuration_valueWhite" v="标准"/>
+<e k="configuration_valueWide" v="宽"/>
+<e k="configuration_valueWingShare350mm" v="外缘犁铧350毫米"/>
+<e k="configuration_valueWoodTrailer" v="木材设置"/>
+<e k="configuration_valueWrapperBaleOnEnd" v="末端翻机带草捆"/>
+<e k="configuration_valueYes" v="是"/>
+<e k="configuration_wheelBrand" v="车轮品牌"/>
+<e k="configuration_wheelSetup" v="车轮设置"/>
+<e k="configuration_workArea" v="工作区域"/>
+<e k="configuration_workMode" v="工作模式"/>
+<e k="configuration_workingWidth" v="工作宽度"/>
+<e k="configuration_wrappingAnimation" v="包装设计"/>
+<e k="configuration_wrappingColor" v="箔颜色"/>
+<e k="construction_category_animals" v="牲畜"/>
+<e k="construction_category_buildings" v="建筑"/>
+<e k="construction_category_decoration" v="装饰"/>
+<e k="construction_category_landscaping" v="整地"/>
+<e k="construction_category_production" v="生产"/>
+<e k="construction_item_level" v="等级"/>
+<e k="construction_item_shift" v="升高/降下"/>
+<e k="construction_item_slope" v="倾斜"/>
+<e k="construction_item_soften" v="软化"/>
+<e k="construction_tab_bees" v="蜜蜂"/>
+<e k="construction_tab_boxed" v="装箱"/>
+<e k="construction_tab_chickens" v="鸡"/>
+<e k="construction_tab_containers" v="容器"/>
+<e k="construction_tab_cows" v="奶牛"/>
+<e k="construction_tab_factories" v="工厂"/>
+<e k="construction_tab_farmhouses" v="农舍"/>
+<e k="construction_tab_fences" v="栅栏"/>
+<e k="construction_tab_generators" v="发电机"/>
+<e k="construction_tab_greenhouses" v="温室"/>
+<e k="construction_tab_horses" v="马"/>
+<e k="construction_tab_lights" v="灯"/>
+<e k="construction_tab_orchards" v="果园"/>
+<e k="construction_tab_others" v="其它"/>
+<e k="construction_tab_painting" v="涂抹"/>
+<e k="construction_tab_pens" v="围栏"/>
+<e k="construction_tab_pigs" v="猪"/>
+<e k="construction_tab_plants" v="作物"/>
+<e k="construction_tab_sculpting" v="雕刻"/>
+<e k="construction_tab_sellingPoints" v="出售点"/>
+<e k="construction_tab_sheds" v="小屋"/>
+<e k="construction_tab_sheeps" v="绵羊"/>
+<e k="construction_tab_siloExtensions" v="青贮窖扩展"/>
+<e k="construction_tab_silos" v="青贮窖"/>
+<e k="construction_tab_tools" v="工具"/>
+<e k="construction_tab_trees" v="树"/>
+<e k="controlGroup_crane" v="起重机"/>
+<e k="controlGroup_feeder" v="喂食器"/>
+<e k="controlGroup_pipe" v="管子"/>
+<e k="controlGroup_supportArm" v="支架臂"/>
+<e k="defaultFarmName" v="我的农场"/>
+<e k="defaultSavegameName" v="我的游戏存档"/>
+<e k="dialog_buyBuildingFor" v="购买建筑%s（花费%s）？"/>
+<e k="dialog_dlcsCorruptQuit" v="某个可下载内容已损坏。无法使用，因此必须退出游戏。请重新下载该内容。"/>
+<e k="dialog_getFullVersion" v="在此下载 17 模拟农场完整版"/>
+<e k="dialog_keepDisplayProperties" v="你更改了显示特性，想要保留这些设置吗?"/>
+<e k="dialog_networkIsDisabled" v="网络已经在设置中关闭"/>
+<e k="dialog_networkIsDisconnected" v="网络未连接"/>
+<e k="dialog_networkNoCable" v="网线未插上"/>
+<e k="dialog_networkNoWifi" v="Wi-Fi 已经断开连接"/>
+<e k="dialog_reinsertDlcMedia" v="请重新插入带有可下载内容的存储设备，或者退出游戏。"/>
+<e k="dialog_savegameOverwrite" v="要继续覆盖游戏存档吗?"/>
+<e k="dialog_savegameSelectDevice" v="所选择的存储设备不可用。要选择另外一个存储设备继续保存吗?"/>
+<e k="dialog_shopOnlyWorksInCareer" v="汽车商店仅在生涯模式中提供。"/>
+<e k="dialog_signinWithUserToAcceptInvite" v="请用被邀请的用户 (%s) 进行登录"/>
+<e k="extraContent_aldiHat_description" v="ALDI GAMING 风格的棒球帽"/>
+<e k="extraContent_aldiHat_title" v="ALDI GAMING
+棒球帽"/>
+<e k="extraContent_aldiHoodie_description" v="ALDI GAMING 风格的连帽衫"/>
+<e k="extraContent_aldiHoodie_title" v="ALDI GAMING
+连帽衫"/>
+<e k="extraContent_aldiShirt_description" v="ALDI GAMING 风格的t恤"/>
+<e k="extraContent_aldiShirt_title" v="ALDI GAMING
+t恤"/>
+<e k="extraContent_aldiShorts_description" v="ALDI GAMING 风格的裤子"/>
+<e k="extraContent_aldiShorts_title" v="ALDI GAMING
+裤子"/>
+<e k="extraContent_fendt900BlackBeauty_description" v="Fendt 900 Vario 的黑美人版"/>
+<e k="extraContent_fendt900BlackBeauty_title" v="Fendt
+900 Vario Black Beauty"/>
+<e k="extraContent_giants_description" v="GIANTS 连帽衫"/>
+<e k="extraContent_giants_title" v="GIANTS Software
+连帽衫"/>
+<e k="extraContent_horsch_description" v="HORSCH 农业英雄"/>
+<e k="extraContent_horsch_title" v="HORSCH
+Farming Hero"/>
+<e k="extraContent_mackBlackAnthem_description" v="Mack 卡车的黑色圣歌版"/>
+<e k="extraContent_mackBlackAnthem_title" v="Mack Trucks
+Mack Black Anthem"/>
+<e k="extraContent_porscheJunior_description" v="Porsche Junior 108 老式拖拉机"/>
+<e k="extraContent_porscheJunior_title" v="Porsche Diesel
+Junior 108"/>
+<e k="extraContent_stadiaHoodie_description" v="Stadia 风格的连帽衫"/>
+<e k="extraContent_stadiaHoodie_title" v="Google Stadia
+连帽衫"/>
+<e k="extraContent_zetor25K_description" v="Zetor 25 K 拖拉机"/>
+<e k="extraContent_zetor25K_title" v="Zetor
+25 K"/>
+<e k="fieldInfo_ownedBy" v="拥有者"/>
+<e k="fieldInfo_ownerNobody" v="无"/>
+<e k="fieldInfo_ownerYou" v="您"/>
+<e k="fieldJob_active" v="进行中"/>
+<e k="fieldJob_buyPalletFirst" v="确保购买一托架的%s以完成这份合同"/>
+<e k="fieldJob_contract" v="合同"/>
+<e k="fieldJob_desc_action_baling" v="用于割草和捆草"/>
+<e k="fieldJob_desc_action_cultivating" v="用于耕耘"/>
+<e k="fieldJob_desc_action_fertilizing" v="用于施肥"/>
+<e k="fieldJob_desc_action_harvesting" v="用于收割"/>
+<e k="fieldJob_desc_action_plowing" v="用于犁田"/>
+<e k="fieldJob_desc_action_sowing" v="用于播种"/>
+<e k="fieldJob_desc_action_spraying" v="用于喷洒"/>
+<e k="fieldJob_desc_action_transporting" v="用于运输"/>
+<e k="fieldJob_desc_action_weeding" v="用于除草"/>
+<e k="fieldJob_desc_baling_hay" v="收割田地%d的青草，再用翻晒机将之晒干，并捆扎起来，然后将草垛运到%s。"/>
+<e k="fieldJob_desc_baling_silage" v="收割田地%d的青草，再将青草捆扎起来包成青贮饲料草垛，然后将草垛运到%s。"/>
+<e k="fieldJob_desc_cultivating" v="在田地%d进行耕作，为种植下一波作物做准备。"/>
+<e k="fieldJob_desc_fertilizing" v="使用任何种类的肥料 (液体、固体、水肥或废料) 为田地%d施肥。"/>
+<e k="fieldJob_desc_fillTheUnit" v="请确保使用&apos;%s&apos;将工具填满。"/>
+<e k="fieldJob_desc_harvesting" v="收割&apos;%s&apos;于田地%d后，将产物运至%s"/>
+<e k="fieldJob_desc_offersReward" v="主人给予报酬："/>
+<e k="fieldJob_desc_plowing" v="犁地%d松土以备耕耘下一批作物。"/>
+<e k="fieldJob_desc_sowing" v="在田地%d上播种&apos;%s&apos;。"/>
+<e k="fieldJob_desc_spraying" v="喷洒除草剂为田地%d除草。"/>
+<e k="fieldJob_desc_transporting_generic" v="将物品从%s运到%s。"/>
+<e k="fieldJob_desc_useOwnEquipment" v="使用自己或租赁的设备报酬将减少 %s。"/>
+<e k="fieldJob_desc_weeding" v="使用除草机将田地%d上的小草除掉。"/>
+<e k="fieldJob_endContract" v="确定要取消这份合同并失去全部的报酬吗？"/>
+<e k="fieldJob_failed" v="失败"/>
+<e k="fieldJob_failedField" v="田地%d的合同失败"/>
+<e k="fieldJob_failure" v="合同失败！"/>
+<e k="fieldJob_finished" v="已完成"/>
+<e k="fieldJob_finishedField" v="田地%d的合同完成"/>
+<e k="fieldJob_jobType_baling" v="捆草中"/>
+<e k="fieldJob_jobType_cultivating" v="耕耘"/>
+<e k="fieldJob_jobType_fertilizing" v="施肥中"/>
+<e k="fieldJob_jobType_harvesting" v="收割"/>
+<e k="fieldJob_jobType_plowing" v="犁田"/>
+<e k="fieldJob_jobType_sowing" v="播种"/>
+<e k="fieldJob_jobType_spraying" v="喷洒中"/>
+<e k="fieldJob_jobType_transporting" v="运输中"/>
+<e k="fieldJob_jobType_weeding" v="除草中"/>
+<e k="fieldJob_noJobAvailable" v="目前无可用合同…"/>
+<e k="fieldJob_number" v="田地 %s"/>
+<e k="fieldJob_progress" v="进度"/>
+<e k="fieldJob_progress_harvesting_nextUnloadDesc" v="您需要将%s运送至%s"/>
+<e k="fieldJob_progress_transporting_forField" v="%d%% 已从田地%d运输"/>
+<e k="fieldJob_results" v="结果"/>
+<e k="fieldJob_reward" v="报酬："/>
+<e k="fieldJob_rotateChainsawFirst" v="您需要先转起电锯"/>
+<e k="fieldJob_tally_contract" v="合同报酬"/>
+<e k="fieldJob_tally_reimbursement" v="赔偿"/>
+<e k="fieldJob_tally_stealing" v="丢失作物"/>
+<e k="fieldJob_tally_total" v="总数"/>
+<e k="fieldJob_tally_unused" v="未使用的"/>
+<e k="fieldJob_tally_vehicleReduction" v="租赁费用"/>
+<e k="fieldJob_transportFailed" v="运输失败"/>
+<e k="fieldJob_transportFinished" v="运输完成"/>
+<e k="fieldJob_wrongCrop" v="您为合同种植了错误的作物"/>
+<e k="fillTypeGroup_base" v="基础食物"/>
+<e k="fillTypeGroup_bulk" v="基础食物"/>
+<e k="fillTypeGroup_earth" v="农作物"/>
+<e k="fillTypeGroup_forage" v="全混合日粮"/>
+<e k="fillTypeGroup_grain" v="谷物"/>
+<e k="fillTypeGroup_grass" v="青草"/>
+<e k="fillTypeGroup_hay" v="干草"/>
+<e k="fillTypeGroup_protein" v="蛋白质"/>
+<e k="fillTypeGroup_silage" v="青贮饲料"/>
+<e k="fillType_air" v="空气"/>
+<e k="fillType_barley" v="大麦"/>
+<e k="fillType_boards" v="木板"/>
+<e k="fillType_bread" v="面包"/>
+<e k="fillType_butter" v="黄油"/>
+<e k="fillType_cake" v="蛋糕"/>
+<e k="fillType_canola" v="油菜"/>
+<e k="fillType_canolaOil" v="菜籽油"/>
+<e k="fillType_cereal" v="谷物"/>
+<e k="fillType_chaff" v="糠"/>
+<e k="fillType_cheese" v="奶酪"/>
+<e k="fillType_chicken" v="小鸡"/>
+<e k="fillType_chocolate" v="巧克力"/>
+<e k="fillType_clothes" v="衣服"/>
+<e k="fillType_cotton" v="棉花"/>
+<e k="fillType_cow" v="奶牛"/>
+<e k="fillType_def" v="柴油机尾气处理液"/>
+<e k="fillType_def_short" v="DEF"/>
+<e k="fillType_diesel" v="柴油机"/>
+<e k="fillType_digestate" v="沼渣"/>
+<e k="fillType_dryGrass" v="干草"/>
+<e k="fillType_egg" v="鸡蛋"/>
+<e k="fillType_electricCharge" v="充电"/>
+<e k="fillType_fabric" v="布料"/>
+<e k="fillType_fertilizer" v="肥料"/>
+<e k="fillType_flour" v="面粉"/>
+<e k="fillType_forage" v="全混合日粮"/>
+<e k="fillType_forage_mixing" v="饲料"/>
+<e k="fillType_fuel" v="燃料"/>
+<e k="fillType_furniture" v="家具"/>
+<e k="fillType_grape" v="葡萄"/>
+<e k="fillType_grapeJuice" v="葡萄汁"/>
+<e k="fillType_grass" v="牧草"/>
+<e k="fillType_herbicide" v="除草剂"/>
+<e k="fillType_honey" v="蜂蜜"/>
+<e k="fillType_horse" v="马"/>
+<e k="fillType_lettuce" v="莴苣"/>
+<e k="fillType_lime" v="石灰"/>
+<e k="fillType_liquidFertilizer" v="液体肥"/>
+<e k="fillType_liquidManure" v="泥浆"/>
+<e k="fillType_maize" v="玉米"/>
+<e k="fillType_manure" v="粪肥"/>
+<e k="fillType_methane" v="甲烷"/>
+<e k="fillType_milk" v="牛奶"/>
+<e k="fillType_mineralFeed" v="矿物质饲料"/>
+<e k="fillType_oat" v="燕麦"/>
+<e k="fillType_oil" v="油"/>
+<e k="fillType_oilRadish" v="白萝卜"/>
+<e k="fillType_olive" v="橄榄"/>
+<e k="fillType_oliveOil" v="橄榄油"/>
+<e k="fillType_pig" v="猪只"/>
+<e k="fillType_pigFood" v="猪饲料"/>
+<e k="fillType_pigFoodBase" v="猪饲料 (基础)"/>
+<e k="fillType_pigFoodEarth" v="猪饲料 (作物)"/>
+<e k="fillType_pigFoodGrain" v="猪饲料 (谷物)"/>
+<e k="fillType_pigFoodProtein" v="猪饲料 (蛋白质)"/>
+<e k="fillType_poplar" v="白杨树"/>
+<e k="fillType_potato" v="土豆"/>
+<e k="fillType_raisins" v="葡萄干"/>
+<e k="fillType_roadSalt" v="除冰盐"/>
+<e k="fillType_roundBale" v="圆草垛"/>
+<e k="fillType_roundBaleBarley" v="秸秆圆草垛 (大麦)"/>
+<e k="fillType_roundBaleCotton" v="棉花圆草捆"/>
+<e k="fillType_roundBaleDryGrass" v="甘草圆草垛"/>
+<e k="fillType_roundBaleGrass" v="青草圆草垛"/>
+<e k="fillType_roundBaleSilage" v="青贮饲料圆草垛"/>
+<e k="fillType_roundBaleWheat" v="秸秆圆草垛 (小麦)"/>
+<e k="fillType_roundBaleWood" v="木材圆草捆"/>
+<e k="fillType_seeds" v="种子"/>
+<e k="fillType_sheep" v="绵羊"/>
+<e k="fillType_silage" v="青贮饲料"/>
+<e k="fillType_silageAdditive" v="青贮添加剂"/>
+<e k="fillType_snow" v="雪"/>
+<e k="fillType_sorghum" v="高粱"/>
+<e k="fillType_soybean" v="大豆"/>
+<e k="fillType_squareBale" v="方草垛"/>
+<e k="fillType_squareBaleBarley" v="秸秆方草垛 (大麦)"/>
+<e k="fillType_squareBaleCotton" v="棉花方草捆"/>
+<e k="fillType_squareBaleDryGrass" v="甘草方草垛"/>
+<e k="fillType_squareBaleGrass" v="青草方草垛"/>
+<e k="fillType_squareBaleSilage" v="青贮饲料方草垛"/>
+<e k="fillType_squareBaleWheat" v="秸秆方草垛 (小麦)"/>
+<e k="fillType_squareBaleWood" v="木材方草捆"/>
+<e k="fillType_stone" v="石头"/>
+<e k="fillType_straw" v="秸秆"/>
+<e k="fillType_strawberry" v="草莓"/>
+<e k="fillType_sugar" v="糖"/>
+<e k="fillType_sugarBeet" v="甜菜"/>
+<e k="fillType_sugarBeetCut" v="甜菜块"/>
+<e k="fillType_sugarCane" v="甘蔗"/>
+<e k="fillType_sunflower" v="向日葵"/>
+<e k="fillType_sunflowerOil" v="葵花油"/>
+<e k="fillType_tarp" v="防水布"/>
+<e k="fillType_tomato" v="番茄"/>
+<e k="fillType_treeSaplings" v="树苗"/>
+<e k="fillType_water" v="水"/>
+<e k="fillType_weed" v="杂草"/>
+<e k="fillType_wheat" v="小麦"/>
+<e k="fillType_wood" v="木头"/>
+<e k="fillType_woodChips" v="木屑"/>
+<e k="fillType_wool" v="羊毛"/>
+<e k="fillUnit_unload_nospace" v="没有足够的空间来卸货！"/>
+<e k="finance_animalUpkeep" v="动物维护"/>
+<e k="finance_collectible" v="收藏品"/>
+<e k="finance_constructionCost" v="建筑"/>
+<e k="finance_fieldPurchase" v="总花费"/>
+<e k="finance_fieldSelling" v="收益"/>
+<e k="finance_harvestIncome" v="收成收入"/>
+<e k="finance_incomeBga" v="天然气厂收入"/>
+<e k="finance_loanInterest" v="贷款利息"/>
+<e k="finance_missionIncome" v="合同收入"/>
+<e k="finance_newAnimalsCost" v="新家畜"/>
+<e k="finance_newVehiclesCost" v="新型农机"/>
+<e k="finance_other" v="其他"/>
+<e k="finance_productionCosts" v="生产成本"/>
+<e k="finance_propertyIncome" v="资产收入"/>
+<e k="finance_propertyMaintenance" v="物业维修"/>
+<e k="finance_purchaseFertilizer" v="肥料花费"/>
+<e k="finance_purchaseFuel" v="燃料花费"/>
+<e k="finance_purchaseSaplings" v="育苗花费"/>
+<e k="finance_purchaseSeeds" v="种子花费"/>
+<e k="finance_purchaseWater" v="水费"/>
+<e k="finance_soldAnimals" v="已出售的动物"/>
+<e k="finance_soldBales" v="已出售的草垛"/>
+<e k="finance_soldBuildings" v="已出售的建筑"/>
+<e k="finance_soldMilk" v="已出售的牛奶"/>
+<e k="finance_soldProducts" v="售出的产品"/>
+<e k="finance_soldVehicles" v="已出售的载具"/>
+<e k="finance_soldWood" v="已出售的木头"/>
+<e k="finance_soldWool" v="已出售的羊毛"/>
+<e k="finance_transfer" v="转移"/>
+<e k="finance_vehicleLeasingCost" v="载具租赁花费"/>
+<e k="finance_vehicleRunningCost" v="农机运行成本"/>
+<e k="finance_wagePayment" v="工资支付"/>
+<e k="function_additionalTank" v="装配额外槽可增加工具的容量。"/>
+<e k="function_animalPenChicken" v="一个养鸡的地方。"/>
+<e k="function_animalPenCow" v="一个养奶牛的地方。"/>
+<e k="function_animalPenHorse" v="一个养马的地方。"/>
+<e k="function_animalPenPig" v="一个养猪只的地方。"/>
+<e k="function_animalPenSheep" v="一个养绵羊的地方。"/>
+<e k="function_augerWagon" v="钻车（也叫箱式拖车）配有螺旋输送机。你可以用它储存玉米，然后直接把货卸在拖车上。"/>
+<e k="function_baleStacker" v="草捆收集机让草捆的收集变得非常方便。"/>
+<e k="function_baleTrailer" v="草捆拖车用于运输草捆。"/>
+<e k="function_baleWrapper" v="草垛打包机用铝箔包装草垛，以利草料发酵成青贮饲料。"/>
+<e k="function_baler" v="捆草机将松散的秸秆、青草或干草扎成捆方便运载。"/>
+<e k="function_bales" v="用来喂动物的捆。"/>
+<e k="function_beehive" v="蜂箱生产蜂蜜。它将被放置于一个需单独购买和放置的集中位置。如果你在田地附近放置蜂箱，某些作物的产量也会略有增加。"/>
+<e k="function_beehiveHoneyPalletSpawner" v="蜂箱产生的蜂蜜作为托盘放置的位置。"/>
+<e k="function_beltSystem" v="输送带是将作物装入拖车的另一个方法。"/>
+<e k="function_beltSystemConnection" v="输送带是将作物装入拖车的另一个方法。"/>
+<e k="function_beltSystemStart" v="此输送带会从地面上采取原料并装载到下个输送带。"/>
+<e k="function_bigBagChicken" v="用来喂鸡的新鲜小麦。"/>
+<e k="function_bigBagFertilizer" v="大袋子用来补充您的施肥机。"/>
+<e k="function_bigBagHorseFood" v="用来喂马的新鲜燕麦。"/>
+<e k="function_bigBagLifter" v="此工具可用于运输你的大袋子。"/>
+<e k="function_bigBagLime" v="大袋子用来补充您的石灰播撒机。"/>
+<e k="function_bigBagPigFood" v="喂养猪只的均衡食物丸。"/>
+<e k="function_bigBagRoadSalt" v="当雪不算太多时，除冰盐可以用来清除路上的雪。"/>
+<e k="function_bigBagSeeds" v="大袋子用来补充您的播种机。"/>
+<e k="function_biobaler" v="生物压捆机可用来把白杨树压成捆。"/>
+<e k="function_biobalerFrontTool" v="有了这个工具，就可以推倒白杨树，用生物打捆机带走它。"/>
+<e k="function_biogasStation" v="你可以在这个沼气站给你的甲烷拖拉机补给燃料。"/>
+<e k="function_bunkerSilo" v="青贮窖可以装满粗糠、青草或干草。压实并盖上青贮窖后，内容物会变为青贮饲料。"/>
+<e k="function_car" v="驾驶车辆可以让你很快从 A 地到达 B 地。"/>
+<e k="function_chainsaw" v="使用电锯可以砍伐树木。"/>
+<e k="function_chargingStation" v="在这个充电站，你可以为你的电动拖拉机充电。"/>
+<e k="function_coins" v="购买钱币以获得更丰富的游戏体验。"/>
+<e k="function_combine" v="联合收割机用于收割特定种类的水果。"/>
+<e k="function_combineForage" v="草糧收割机用于收割特定种类的水果。"/>
+<e k="function_combineNeedsCutter" v="联合收割机的正常运行还需要连接一个合适的切割刀。"/>
+<e k="function_combineNeedsForageCutter" v="草糧收割机的正常运行还需要连接一个合适的切割刀。"/>
+<e k="function_comfortSupportWheel" v="用于在道路上运输Kemper切刀的支撑轮。"/>
+<e k="function_cultivator" v="中耕机用于耕田松土，为下一轮的播种做好准备。"/>
+<e k="function_cutter" v="切割刀是装在联合收割机上的。"/>
+<e k="function_cutterForage" v="切割刀是装在草糧收割机上的。"/>
+<e k="function_cutterTrailer" v="切割刀型拖车可以带着切割刀在路上安全地行驶。"/>
+<e k="function_decoLight" v="装饰灯"/>
+<e k="function_decoration" v="装饰物件"/>
+<e k="function_dieselTank" v="柴油贮存箱可以用来给你的拖拉机加油。"/>
+<e k="function_discHarrow" v="圆盘耙用于浅耕田地。"/>
+<e k="function_dogBall" v="用来跟狗玩的。"/>
+<e k="function_dogHouse" v="一间通常建成房子形状的小屋，给狗住的。"/>
+<e k="function_dolly" v="台车就是半挂车和拖拉机之间的连接器。"/>
+<e k="function_farmHouse" v="一座农场上的房子。"/>
+<e k="function_farmSilo" v="青贮窖用于存储作物"/>
+<e k="function_farmSiloAugerFilling" v="青贮窖可用于存储作物。这个青贮窖还需要一个螺旋钻。"/>
+<e k="function_feeder" v="饲料混合车能将青贮饲料、干草、矿物质饲料和秸秆混合成用于喂养奶牛的完全混合饲料。"/>
+<e k="function_feederBale" v="此农机会铲起秸秆捆，并把它们铺在奶牛棚的地面上。"/>
+<e k="function_fertilizer" v="肥料喷洒机可以增加你田地的收成。"/>
+<e k="function_fertilizerTank" v="可以倒进喷洒机的液体肥。"/>
+<e k="function_fillableFertilizerSeedTank" v="这个青贮窖可以装满肥料和种子。"/>
+<e k="function_fillableFertilizerTank" v="这个青贮窖可以装满肥料。"/>
+<e k="function_fillableLiquidFertilizerTank" v="这个青贮窖可以装满液态肥料。"/>
+<e k="function_fillableLiquidTank" v="这个青贮窖可以装满液态肥料、除草剂或水。"/>
+<e k="function_fillablePallet" v="白杨树幼苗。将此幼苗装入植树机。"/>
+<e k="function_fillablePalletSugarCane" v="可将甘蔗放在托架上倒入播种机。"/>
+<e k="function_fillableSeedTank" v="这个青贮窖可以装满种子。"/>
+<e k="function_fillableSilo" v="这个青贮窖可以装满不同产品。"/>
+<e k="function_floodLight" v="有了泛光灯，你就可以在晚上照亮你的农场。"/>
+<e k="function_foliage" v="作物"/>
+<e k="function_forageWagon" v="饲料车用于收集青草，干草或者秸秆。也可以装载糠壳。"/>
+<e k="function_forestryCutter" v="此农机用于伐树。"/>
+<e k="function_forestryMulcher" v="林业表土疏松机可以用来清除树桩和灌木。"/>
+<e k="function_forestryPlanter" v="这台机具用于在地面种植新的树。您可以在商店购买育苗拖架来填满这辆植树机。"/>
+<e k="function_forestryTransport" v="此农机用于运输圆木。"/>
+<e k="function_forestryTreeLimit" v="注意：无法处理过于庞大的树"/>
+<e k="function_forestryWoodCrusher" v="此农机用于将树干劈成木块。"/>
+<e k="function_forklift" v="铲车可用于堆叠和装载各种货物。"/>
+<e k="function_frontloader" v="前端装载机用于堆叠和装载各种货物。 请注意：只有特定的拖拉机才能连接前置装载机。"/>
+<e k="function_frontloaderBaleFork" v="此工具可用于运输草捆。"/>
+<e k="function_frontloaderLogFork" v="此工具可用于运输原木。"/>
+<e k="function_frontloaderManureFork" v="此工具可用于运输粪肥。"/>
+<e k="function_frontloaderPalletFork" v="此工具可用于运输托盘。"/>
+<e k="function_frontloaderRoundBaleFork" v="此工具可用于运输圆形捆。"/>
+<e k="function_frontloaderShovel" v="此工具可用于把货物装载到你的拖车上。"/>
+<e k="function_garage" v="存放载具和工具的车库。"/>
+<e k="function_garageBulk" v="存放散装物料的大厅。"/>
+<e k="function_garageService" v="配有车间的车库，用于存放和修理载具和工具。"/>
+<e k="function_garageSolarPanels" v="每小时有收入的棚，用于停放你的载具和工具。"/>
+<e k="function_grapeOrchard" v="葡萄藤是成排种植的，需要耕耘、施肥和护根才能获得最高产量。
+收割后还需要修剪。"/>
+<e k="function_grasslandCare" v="压草机和除草机可以增加你草地的收成。"/>
+<e k="function_greenHouse" v="生产蔬菜后可自动卖出而获利。"/>
+<e k="function_harvestingPotato" v="这架收割机会将土豆从土里挖出。注意，在使用此农机前需要用除茎叶机除去土豆的茎叶。"/>
+<e k="function_harvestingPotatoWithoutPreparer" v="这台收割机会挖出土里的土豆。"/>
+<e k="function_harvestingSelfPropelledPotato" v="这架自动收割机会一次性收集所有土豆。"/>
+<e k="function_harvestingSelfPropelledSugarbeet" v="这架自动收割机会一次性收集所有甜菜。"/>
+<e k="function_harvestingSugarbeet" v="这架收割机会将甜菜从土里挖出。注意，在使用此农机前需要用除茎叶机除去甜菜的茎叶。"/>
+<e k="function_haulmTopperPotato" v="收获土豆之前，要用这样的除茎叶机将土豆的茎叶去除。"/>
+<e k="function_haulmTopperSugarbeet" v="收获甜菜之前，要用这样的除茎叶机将甜菜的茎叶去除。"/>
+<e k="function_hayStorage" v="储藏干草与秸秆的空间。"/>
+<e k="function_heatingPlant" v="将木屑倒在此销售站可产生热能而获利。"/>
+<e k="function_herbicideTank" v="除草剂可以用在喷洒机中来清除杂草。"/>
+<e k="function_highPressureWasher" v="使用此机器可以清洗农机和工具上的尘土。"/>
+<e k="function_inlineWrapper" v="内联打包机可用于将多个草捆打包成管。"/>
+<e k="function_leveler" v="轧平机用来转移粗糠和青贮饲料，并轧平青贮窖里的堆料。"/>
+<e k="function_liquidFertilizerTank" v="液体肥料罐用来补充您的喷肥机。"/>
+<e k="function_liquidManureTank" v="这些贮存箱可用于存储液态粪肥。"/>
+<e k="function_liquidManureTankExtension" v="增加液态粪肥贮存箱的储藏容量。必须放在你的谷仓或液态粪肥贮存箱的附近。"/>
+<e k="function_livestockTrailer" v="这辆拖车用来运输动物。"/>
+<e k="function_loadingVehicle" v="这台机器可以从地里收集甜菜，并把它们倒进拖车。"/>
+<e k="function_loadingVehicleVariousGoods" v="此机器会收集地上的材料，然后将它们倒在拖车上。"/>
+<e k="function_lowLoader" v="此拖车可运输其它农机。"/>
+<e k="function_manureHeap" v="储存粪肥的青贮窖"/>
+<e k="function_manureSpreader" v="粪肥可以增加你田地的收成。"/>
+<e k="function_mineralFeedPallet" v="可添加用作喂养奶牛的完全混合饲料的一部分。"/>
+<e k="function_mower" v="割草机用于除草。"/>
+<e k="function_mulcher" v="表土疏松机可用于粉碎作物残茬。"/>
+<e k="function_oliveOrchard" v="橄榄丛是成排种植的，需要耕耘、施肥和护根才能获得最高产量。"/>
+<e k="function_palletPacker" v="将此机器装满土豆或甜菜可产生成架的作物方便出售。"/>
+<e k="function_palletTransportTrailer" v="此拖车可用于运输你的托盘。"/>
+<e k="function_placeableChipper" v="放入此机器的木材都会变成木屑，可立即卖到锯木厂。"/>
+<e k="function_planter" v="种植机是一种特殊类型的播种机。它们可用于玉米、向日葵或大豆等作物。"/>
+<e k="function_plow" v="犁可以用来犁田，为下一轮播种做好准备；或者开辟新的田地。"/>
+<e k="function_powerGenerator" v="生产能源后可自动卖出而获利。"/>
+<e k="function_productionPoint" v="拿走货物并将其变成不同的产品。"/>
+<e k="function_reverseDriveControl" v="此机具配备反向驱动控制。"/>
+<e k="function_roller" v="有了碾压机，你就可以提高田地的上层土壤质量。"/>
+<e k="function_saltSpreader" v="当雪不算太多时，散盐机可以用来清除路上的雪。"/>
+<e k="function_saplingPallet" v="这盘树苗用于装填植树机。"/>
+<e k="function_sellingPoint" v="在出售点，你可以出售你收获和生产的货物。"/>
+<e k="function_semiTrailer" v="半挂车可以用一个台车连接到其它部件。"/>
+<e k="function_shallowCultivator" v="浅耕耘机用于浅耕田地或生成苗床田地。"/>
+<e k="function_silageAdditives" v="有了青贮添加剂，你就可以增加你的产量。"/>
+<e k="function_silageCompressor" v="有了青贮饲料压实机，就能更快地压实青贮饲料。"/>
+<e k="function_siloExtension" v="可增加青贮塔的储藏容量。请放在农场青贮塔旁。"/>
+<e k="function_skidsteer" v="滑移式装载机用于堆叠和装卸各种货物。"/>
+<e k="function_slurryContainer" v="现场集装箱用于临时储存泥浆。"/>
+<e k="function_slurrySpreader" v="水肥车可用于为田地施水肥。"/>
+<e k="function_slurrySpreaderTool" v="液态堆肥播撒机可装在合适的堆肥桶上。"/>
+<e k="function_slurrySpreaderWithoutTool" v="水肥车可用于为田地施水肥。此车需要一个额外的撒布机。"/>
+<e k="function_snowPlow" v="扫雪机可用于清除你农场的积雪。"/>
+<e k="function_solidFertilizer" v="肥料可被装入肥料散布机。"/>
+<e k="function_sowingMachine" v="这些机器可用于播种小麦、大麦或油菜等作物。"/>
+<e k="function_sowingMachineDirect" v="另外，此农机为你提供了直接播种的便利（之前不用做必要的中耕或者犁田工作）。"/>
+<e k="function_spader" v="掘土机用于规整田地以备下一次播种。它可被用于替代犁。"/>
+<e k="function_sprayer" v="喷洒机可以增加田地的产量。"/>
+<e k="function_sprayerTank" v="额外的料槽可以增加喷雾器的容量。"/>
+<e k="function_stonePicker" v="除石机可用于从田地里移除石头。"/>
+<e k="function_storageSilo" v="青贮窖用于存储作物"/>
+<e k="function_stumpCutter" v="此农机用于砍伐树桩。"/>
+<e k="function_subsoiler" v="深耕犁用于规整田地以备下一次播种。它可被用于替代犁。"/>
+<e k="function_sugarBeetCutter" v="此工具可以切割甜菜，提供给你的沼气厂。"/>
+<e k="function_sugarCanePlanter" v="此种植机可用于种植甘蔗。"/>
+<e k="function_sugarCaneTrailer" v="甘蔗拖车可将其粮箱抬高，直接将甘蔗倒入更大的拖车内。"/>
+<e k="function_tank" v="料槽用于运输液体。"/>
+<e k="function_tedder" v="翻晒机用于将青草反面，使其快速干燥。"/>
+<e k="function_telehandler" v="伸缩臂叉车用于堆叠和装卸各种货物。"/>
+<e k="function_tipper" v="翻斗车/拖车用于运输收割的谷物。"/>
+<e k="function_tractor" v="拖拉机用于牵引拖车和工具。"/>
+<e k="function_tractorFrontloader" v="此拖拉机也能连接前置装载机。"/>
+<e k="function_trailedLifter" v="没有可用于拖拉机的 3 点连接拖车。"/>
+<e k="function_treeSaw" v="您可以用树锯砍伐树木。"/>
+<e k="function_truck" v="拖拉机可以连接半挂车。"/>
+<e k="function_vineOliveTool" v="这种工具非常适合于葡萄和橄榄的种植。"/>
+<e k="function_vineOliveTractor" v="此拖拉机非常适合于葡萄和橄榄的种植。"/>
+<e k="function_vinePreprunner" v="预修剪机可在收割后使用，让葡萄园为下一年做好准备。"/>
+<e k="function_wardrobe" v="允许你使用你的衣柜。"/>
+<e k="function_waterExtension" v="这个辅助水箱可以帮助你为温室供水。
+必须放在温室的附近。"/>
+<e k="function_waterTower" v="供水站可为您的水槽供应干净的水。"/>
+<e k="function_weatherStation" v="气象站可以改善你农场可获得的天气预报。"/>
+<e k="function_weeder" v="除草机可以将小型成熟作物之间的野草拔除，改善田地的状态。它只能在作物的第一个种植阶段进行使用。"/>
+<e k="function_weight" v="料筒的重量可以让农机四轮贴地，保持平衡。"/>
+<e k="function_wheelLoader" v="轮式装载机的铲车可以用来运输各种货物。"/>
+<e k="function_wheelWeightsRecommended" v="建议在拖拉机上使用轮胎配重块。"/>
+<e k="function_winch" v="你可以用绞盘把木头拉出森林。"/>
+<e k="function_windrower" v="堆行机将草，干草或者秸秆按序堆叠，随后由饲料车或者打捆机将这些干草铲起。"/>
+<e k="function_workshop" v="本车间可让您在地图上任何一个地方建立一个可自行自定义机具的地点，无须再付费雇用技师。"/>
+<e k="groundType_animalMud" v="牲畜泥"/>
+<e k="groundType_asphalt" v="沥青"/>
+<e k="groundType_cobblestones" v="鹅卵石"/>
+<e k="groundType_concrete" v="水泥"/>
+<e k="groundType_dirt" v="泥土"/>
+<e k="groundType_dirtLight" v="浅色泥土"/>
+<e k="groundType_dustyRock" v="灰暗岩石"/>
+<e k="groundType_flagstones" v="石板"/>
+<e k="groundType_forestGround" v="林地"/>
+<e k="groundType_grass" v="青草"/>
+<e k="groundType_grassDry" v="干草"/>
+<e k="groundType_grassMoss" v="苔草"/>
+<e k="groundType_gravel" v="砾石"/>
+<e k="groundType_plates" v="板材"/>
+<e k="groundType_rock" v="岩石"/>
+<e k="groundType_rockGranite" v="花岗岩"/>
+<e k="groundType_sand" v="沙"/>
+<e k="groundType_sandRough" v="粗沙"/>
+<e k="groundType_sandWet" v="湿沙"/>
+<e k="helpLine_animals" v="牲畜"/>
+<e k="helpLine_animals_feedWaste" v="饲料和肥料"/>
+<e k="helpLine_animals_feedWaste_manure" v="在养牛场或养猪场中添加秸秆垫料可以为农场产生粪肥。需要通过建造模式菜单在谷仓旁边放置一个单独的粪肥堆。"/>
+<e k="helpLine_animals_feedWaste_slurry" v="喂饱后的奶牛和猪会生产水肥，可收集于水肥贮存箱或水肥池里。"/>
+<e k="helpLine_animals_feedWaste_tmr" v="你可以给奶牛喂完全混合饲料来优化牛奶生产。
+完全混合饲料是用干草、秸秆、青贮饲料和矿物质饲料在混合车中混合而成的。"/>
+<e k="helpLine_animals_general" v="一般"/>
+<e k="helpLine_animals_general_caretaking" v="你必须照顾好你的牲畜们：喂食、供水，用秸秆吹送机帮它们更换垫料。
+如果你购买了一个牲畜谷仓，它们就会自动获得饮水。
+奶牛、绵羊、猪和鸡足够满意和年长时，就会进行繁殖，为你的群落增添新的牲畜。"/>
+<e k="helpLine_animals_general_general" v="如果你不再想收割，或者那不是当前的主要活动，你也可以照顾牲畜：马、奶牛、绵羊、猪和鸡。
+首先你需要在商店购买牲畜围栏并通过建造模式放置它。
+然后你就可以从当地的牲畜经销商那里购买牲畜了。"/>
+<e k="helpLine_animals_general_transport" v="你可以用家畜拖车亲自把牲畜运回农场。为此，请先确保拖车停在牲畜经销商附近。
+你也可以付费请牲畜经销商帮你把牲畜直接运往农场。"/>
+<e k="helpLine_animals_types" v="类型"/>
+<e k="helpLine_animals_types_bees" v="蜂巢生产蜂蜜，蜂蜜可以进一步加工或直接出售。把你的蜂箱放在田地旁边，就能很快过上满是牛奶和蜂蜜的生活，因为蜜蜂会增加某些田地的产量。蜂蜜将被运送到一个指定的区域，你可以在你的土地上自由放置它。"/>
+<e k="helpLine_animals_types_chickens" v="食物：小麦、大麦、高粱
+产品：鸡蛋
+鸡蛋托盘会出现在鸡舍旁边。
+用铲车把它们放进你的车，带到出售点贩卖，或送进你的生产建筑。"/>
+<e k="helpLine_animals_types_cows" v="食物：青草、干草、青贮饲料和完全混合饲料
+产品：牛奶、粪肥和水肥
+不同品种的奶牛提供不同数量的牛奶，销售价格也有所不同。
+瑞士褐牛和荷兰牛被用于乳制品生产，安格斯牛和利木赞牛的养殖目的则只是出售获利。
+完全混合饲料是奶牛的最佳食物，可以最大化其牛奶生产。"/>
+<e k="helpLine_animals_types_horses" v="食物：干草、燕麦和高粱
+马需要进行训练，然后出售获利。
+购买一匹马时，它会被自动命名。你可以在牲畜菜单中更改其名字。每匹马有各自的健壮值等级。健壮值等级越高，价值越高。通过骑行来提高健壮值等级。"/>
+<e k="helpLine_animals_types_pigs" v="食物：玉米、小麦、大麦、油菜、向日葵、大豆、土豆、高粱和甜菜。
+产品：粪肥和水肥
+好好照顾你的猪，它们就会繁殖。然后你就可以出售它们来获利了。"/>
+<e k="helpLine_animals_types_sheep" v="食物：青草和干草
+产品：羊毛
+如果要出售羊毛，请用托盘叉提运绵羊牧场的托盘，然后将其运到纺纱厂，或是运到你自己的生产点进一步加工。"/>
+<e k="helpLine_basicEconomy" v="基础经济"/>
+<e k="helpLine_basicEconomy_makingMoney" v="赚钱"/>
+<e k="helpLine_basicEconomy_makingMoney_factories" v="销售产品的另一个选择是放置或购买工厂。你可以在这里进一步加工产品，以提高最终产品的销售价格。这个可以在出售点贩卖。参考价格概况来找到出价最高的买家。"/>
+<e k="helpLine_basicEconomy_makingMoney_finances" v="你在财务画面上可以看到当天和前四个月的所有收入和支出。你从银行获得的贷款也会显示在这里。
+如果你急需用钱，可以在银行以 $CURRENCY_SYMBOL5000 为增量贷款。但是每天结算时，你必须支付贷款的额外利息。"/>
+<e k="helpLine_basicEconomy_makingMoney_general" v="要想出售产品，你需要将其装在拖车上，然后运到地图上标记的其中一个出售点。打开价格窗口，就可以查看各个出售点接受的产品及其价格。
+你最好将产品卖给出价最高的出售点。"/>
+<e k="helpLine_basicEconomy_makingMoney_greenhouses" v="温室需要水来生产色拉、番茄和草莓。这些货物可以在不同的出售点贩卖，也可以进一步加工。你可以在温室旁放置一个辅助水箱来增加水容量。"/>
+<e k="helpLine_basicEconomy_makingMoney_missionSystem" v="不属于你的田地归其他农夫所有。他们会照顾自己的田地，但常需要帮忙。在合同菜单中，你可以找到不同的任务。他们可以借给你任何你需要的工具，但使用你自己的工具可以赚取奖励。
+你可以在多人模式下，与其他玩家合作完成这些任务。"/>
+<e k="helpLine_basicEconomy_makingMoney_prices" v="所有可售商品的价格都会根据供求关系不断变化。你可以通过决定出售什么和出售多少来影响价格。
+
+举例来说，如果你连续几次只卖小麦，其需求就会大幅下降，价格也会相应下调。这也意味着你很少卖出的商品，其价格会上涨得更快。"/>
+<e k="helpLine_basicEconomy_makingMoney_sellingPoints" v="可放置的出售点能让你的生产收益最大化。销售你的产品，要么从田地直接销售，要么通过你在出售点的一个工厂进行加工。请参考建造模式菜单，了解哪些产品可以在哪个出售点贩卖。"/>
+<e k="helpLine_basicEconomy_spendingMoney" v="花钱"/>
+<e k="helpLine_basicEconomy_spendingMoney_buyingEquipment" v="你可以从载具商店购买新的载具和工具。请直接通过地图前往商店，或者按绑定键随时打开商店菜单。
+设备会按类别或品牌分类。如果存在载具或工具的推荐组合，可以简单地按下按钮选择它。"/>
+<e k="helpLine_basicEconomy_spendingMoney_customizingEquipment" v="有些载具在购买时可以进行自定义。每辆载具的自定义项目各不相同。
+如果要稍后自定义，请将载具移动到商店前方标示的区域，然后与商店符号互动。注意，并非所有的自定义项目都适用于所有的载具或工具。"/>
+<e k="helpLine_basicEconomy_spendingMoney_equipmentLifespan" v="随着时间的推移，你的载具会发生损坏。
+需要修理的载具会失去速度或引擎动力。
+
+把载具开到商店或你的载具车间中来进行修理。"/>
+<e k="helpLine_basicEconomy_spendingMoney_leasingSystem" v="你也可能会租赁载具和工具，而不是购买它们。
+如果要这样做，你可以前往商店，选择租赁而不是购买。你需要支付起始费用，随后按小时计费。你所支付的费用多寡，取决于你所选的自定义项目。
+注意，载具租赁后将无法进行自定义。"/>
+<e k="helpLine_basicEconomy_spendingMoney_packs" v="你可以在这里找到所有必要的工具和载具，轻松起步。想建立一座土豆农场，但不确定需要哪些工具？看这里就行了。如果你想开始自己的牲畜饲养，这里有你需要的所有工具。你唯一尚缺的是合适的围场或谷仓。"/>
+<e k="helpLine_basicEconomy_spendingMoney_secondHandEquipment" v="要始终关注“二手车销售”。你可以找到各种工具和载具的优惠价格。"/>
+<e k="helpLine_basicEconomy_spendingMoney_sellingEquipment" v="你能在车库区看到目前拥有的所有载具。你的所有资产都列在这里，可以直接从此菜单出售它们。它们目前的价格根据车龄和使用状况而定。
+商店前方有一块标示区域，你可以把载具和工具停在上面来进行出售。通过这种方式出售的商品可以让你多赚 20%，作为你大老远将载具和工具运至商店的补偿。"/>
+<e k="helpLine_farmingBasics" v="务农基础"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting" v="耕耘、播种和收割"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_buyingFields" v="要当一名农夫，你就得购买土地，因为你只能在你拥有的土地上工作。你不能在别人的土地上砍伐树木、开辟新田或建造可放置物件。
+要购买一块新土地，请前往地图概况菜单，切换到土地画面，选择你想要购买的田地。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_crops" v="在《模拟农场 22》中，有 16 种作物：小麦、大麦、油菜、高粱、向日葵、大豆、玉米、燕麦、白萝卜、土豆、甜菜、白杨树、甘蔗、棉花、葡萄和橄榄。
+田地作物的处理有三个必备步骤：耕耘、播种和收割。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_cultivating" v="请先使用犁、耕耘机、圆盘耙、动力耙、深耕犁或掘土机翻土，再开始播种你的作物。
+需要降下工具来翻土。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_directseeder" v="另一种可能是直接播种。这个过程可以帮你省下耕耘的步骤。你可以使用直接播种机器来节省一些时间，但请记住，与预先耕种土地相比，这样做会更快地产生杂草。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_harvesting" v="当作物可以收割时，请使用连接了合适切刀的联合收割机。展开收割机，如有必要，还要展开切刀。打开收割机，收割作物。
+将收成卸进拖车里运输。然后即可运到出售点贩卖，储存到青贮窖里供以后使用，或在合适的生产点进行加工。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_sowing" v="你可以用播种机或种植机播种。先用种子托盘或青贮窖里的种子填满机器。选择你想要播种的作物。降下机器并启动它。如果你开启了季节性增长，请记住作物日历。
+种子托盘可以在商店买到。青贮窖可以通过建造模式菜单放置于农田上。一些播种机可以同时进行耕耘、播种和施肥。请查看商店的工具描述，以深入了解其属性。"/>
+<e k="helpLine_farmingBasics_cultivatingSowingHarvesting_straw" v="收割小麦、大麦或燕麦时，你可以设置收割机来生产秸秆条。
+秸秆条可以用压捆机捆成秸秆草捆。此外也可以用饲料车直接收集秸秆。你可以直接将秸秆卖掉、用它为奶牛铺设垫料，或用作完全混合饲料的原料。"/>
+<e k="helpLine_farmingBasics_improveYield" v="提升产量"/>
+<e k="helpLine_farmingBasics_improveYield_Yield" v="有很多方法可以照顾你的田地以提高产量。散布肥料两次 (每次 +23%)，每三次收割散布一次石灰 (+15%)，使用表土疏松机除去残株 (+5%)。
+要避免产量减少 35%，你必须：去除杂草 (否则 -20%) 并在收割玉米、土豆、甜菜和甘蔗等块根作物后进行犁地 (否则 -15%)。"/>
+<e k="helpLine_farmingBasics_improveYield_fertilizer" v="你可以从商店购买贮存箱或大袋装的液态和固态肥料，也可以直接从青贮窖装载。
+沼渣是将青贮饲料运至沼气厂处理后制成的。你也可以使用来自牲畜的粪肥和水肥。"/>
+<e k="helpLine_farmingBasics_improveYield_limeHerbicide" v="你也可以从商店或预先放置于地图周围的不同青贮窖购买托盘装的石灰和除草剂。此外，还有通过建造模式菜单放置的青贮窖。"/>
+<e k="helpLine_farmingBasics_improveYield_mulcherroller" v="用表土疏松机除去残株可以增加5%的收成。另一组帮助你提高收成的工具是碾压机。压草机会将小石头推回地里，提供一个施肥阶段。田地碾压机还可以移除小石头，进一步增加5%的收成。"/>
+<e k="helpLine_farmingBasics_improveYield_removeweeds" v="有三种方法清除杂草：喷洒除草剂、使用除草机或使用锄头。除草机只能清除最小的杂草，所以你得快点行动。你能用锄头清除小的和较大的杂草，而喷洒机则是连最大的杂草也能清除。但是如果你在杂草完全生长后才开始喷洒除草剂，则还是有可能会留下一些杂草。"/>
+<e k="helpLine_farmingBasics_improveYield_stones" v="耕耘田地时，总会有挖出石头的可能。驾驶着工具和载具越过石头时要小心，因为它们可能会被损坏。较小的石头可以用碾压机清除，较大的石头则需要被收走。用集石机收集你田地里的石头，然后在碎屑机那里卖掉它们。"/>
+<e k="helpLine_farmingBasics_specialCrops" v="特殊作物"/>
+<e k="helpLine_forestry" v="林业"/>
+<e k="helpLine_forestry_saplingToWoodchip" v="从树苗到木屑"/>
+<e k="helpLine_forestry_saplingToWoodchip_carpenter" v="产生的原木可以运到锯木厂出售，或在生产点进行加工。木材价格的高低不仅取决于其长度，同时还要看其挺拔程度。与修长笔直的木材相比，小块弯曲的木材的售价更低。"/>
+<e k="helpLine_forestry_saplingToWoodchip_logging" v="使用电锯伐木需要手动移除小树枝。树木收割机则可以一次性完成。"/>
+<e k="helpLine_forestry_saplingToWoodchip_planting" v="新的树木不会凭空出现，需要使用专门的植树机来进行种植。
+从商店里购买一托盘松树幼苗或白杨树幼苗，把它装进 Damcon PL 75 植树机。松树几乎哪儿都能种，需要花一点时间来长大。白杨树需要种在田地里，并在成熟后用连接了专门切刀的饲料收割机来进行收割。"/>
+<e k="helpLine_forestry_saplingToWoodchip_removingStumps" v="砍伐一棵树后，残存的树桩可以用树桩粉碎机来移除。"/>
+<e k="helpLine_forestry_saplingToWoodchip_woodChips" v="你也可以用碎木机将原木削成木屑，然后运到锯木厂或生物质供热厂。
+你可以借助饲料收割机和特殊切刀，配合拖车来收割白杨树，以获得大量的木屑。"/>
+<e k="helpLine_iconOverview" v="图标概况"/>
+<e k="helpLine_iconOverview_tools" v="图标：工具"/>
+<e k="helpLine_iconOverview_tools_general" v="1) 所需动力：显示正常操作工具所需的引擎动力。
+
+2) 容量：显示工具可以容纳多少产品。
+
+3) 重量：显示工具有多重。"/>
+<e k="helpLine_iconOverview_tools_general1" v="4) 宽度：显示工具的工作宽度。
+
+5) 速度：显示使用工具时的最大速度。
+
+6) 捆：显示工具运输或创建的捆的类型和尺寸。"/>
+<e k="helpLine_iconOverview_tools_general2" v="7) 水果：显示工具可以运输或加工哪些水果。
+
+8) 种子：显示工具可以播种哪些类型的水果。
+
+9) 牲畜：显示工具可以运输的牲畜的类型和数量。"/>
+<e k="helpLine_iconOverview_vehicleOverview" v="图标：载具概况"/>
+<e k="helpLine_iconOverview_vehicleOverview_general" v="1) 车龄：显示你拥有载具/工具的天数
+
+2) 作业时数：显示载具/工具的作业时数 (基于实时计算)
+
+3) 状况：显示工具/载具的整体状况"/>
+<e k="helpLine_iconOverview_vehicleOverview_general1" v="4) 租赁花费：显示租赁需要支付的金钱
+
+5) 售价：显示出售载具/工具时你将获得的金钱"/>
+<e k="helpLine_iconOverview_vehicles" v="图标：载具"/>
+<e k="helpLine_iconOverview_vehicles_general" v="商店和车库里的图标有不同的含义。如果你发现自己分不太清楚，可以查看以下说明：
+
+1) 引擎动力：显示引擎的动力。
+
+2) 换档：显示载具使用哪种变速箱。"/>
+<e k="helpLine_iconOverview_vehicles_general1" v="3) 燃料箱：显示燃料箱的最大容量。
+
+4) 速度：显示载具能达到的最大速度。"/>
+<e k="helpLine_iconOverview_vehicles_general2" v="5) 容量：显示载具贮存箱的容量。
+
+6) 重量：显示载具有多重。"/>
+<e k="helpLine_iconOverview_vehicles_general3" v="7) 宽度：显示载具的工作宽度。
+
+8) 水果：显示载具可以收割哪些水果。"/>
+<e k="helpLine_misc" v="其他"/>
+<e k="helpLine_misc_buildMode" v="建造模式菜单"/>
+<e k="helpLine_misc_buildMode_general" v="你需要一个新棚子，或者想扩大你的畜栏？通过建造模式来打造你的梦幻农场吧。"/>
+<e k="helpLine_misc_buildMode_landscaping" v="如果你想改变风景，也可以在此菜单中找到必要的工具。"/>
+<e k="helpLine_misc_buildMode_production" v="你还可以在这里找到生产建筑和出售点以及装饰物品。"/>
+<e k="helpLine_misc_characterCreation" v="角色创建"/>
+<e k="helpLine_misc_characterCreation_clothes" v="需要一双新靴子，或是一条新裤子？想换一种新发型，或是戴一副墨镜？没问题。"/>
+<e k="helpLine_misc_characterCreation_general" v="在开始新游戏和游玩的途中，你都可以改变角色的外观。"/>
+<e k="helpLine_misc_characterCreation_wardrobe" v="只要前往你的农舍，就能随时改变你的外观。"/>
+<e k="helpLine_misc_map" v="地图"/>
+<e k="helpLine_misc_map_filter" v="你可以设置筛选器来调整显示的载具、工具和兴趣点。
+
+1) 拖拉机、卡车或汽车等载具
+2) 收割机
+3) 翻斗车、罐车和拖车
+4) 耕耘机、犁或摊晒机等工具
+5) 倾倒点和出售点
+6) 合同运输和交货点
+7) 一般建筑和地点"/>
+<e k="helpLine_misc_map_icons" v="此页面上还有一个概况，显示出售点和你的机器。选择一个图标来重置你被卡住的机器，传送到一个感兴趣的地点，或在某个位置放置一个可见标记。"/>
+<e k="helpLine_misc_map_overview" v="你可以在地图概况中查看田地的状态。你可以看到每块田地中的作物类型、生长状况和土壤成分。你可以根据自己的喜好设置此概况的筛选器。"/>
+<e k="helpLine_misc_transport" v="运输"/>
+<e k="helpLine_misc_transport_carryingObjects" v="原木等小物件可用手捡起，然后丢下或投掷。如果你聚焦在可以拾取的对象上，画面中央就会出现抓取手势的图标。"/>
+<e k="helpLine_misc_transport_tensionBelts" v="运送树干和草捆等大型物件时，请将货物绑妥。有些拖车允许你拉紧张力带来安全运送货物。装满货物后，你可以直接用载具控制台拉紧所有的张力带，或站在拖车侧边手动拉紧每一根张力带。绿色边框会亮起以显示可以拉紧张力带的地方。"/>
+<e k="helpLine_misc_transport_train" v="火车像其他载具一样可供使用，但是你需要在其中一个火车站按小时计价租用它。你可以用火车将更多产品运往地图各处进行销售。切记，你不能运输牲畜、葡萄、橄榄、青草、粗糠、青贮饲料、牛奶、甘蔗、石头、粪肥或水肥。"/>
+<e k="helpLine_misc_worker" v="人工智能帮手"/>
+<e k="helpLine_misc_worker_combinedjobs" v="“运送”作业会创建一个将先前装载的产品带到卸货点的简单任务。需要在菜单中选择合适的站点。你也可以将此作业设置为循环，即只要有可能，帮手就会继续运送。
+“装载和运送”将几项任务合而为一。帮手会在选定的装载站将所需产品装进载具。此外你还可以选择产品需要运输到的卸货点。最后，你可以将此设置为“循环”作业，即只要所选产品可用，帮手就会继续执行此任务。"/>
+<e k="helpLine_misc_worker_general" v="有几种不同的作业：“前往”、“装载和运送”、“运送”和“田地工作”。
+特定作业，如“运送”和“装载和运送”，只有当载具连接着拖车或拥有内置贮存箱时方可选择。
+选择载具和作业后，你可以设置目标位置。点击地图来设置帮手应该去的地方，然后你可以调整载具到达目的地后的停放方向。"/>
+<e k="helpLine_misc_worker_overview" v="农场的工作有时会很繁忙。你可以雇佣帮手来协助你完成部分工作。如要这样做，请单击菜单中的方向盘图标，这将打开“有效帮手”画面。
+在“有效帮手”画面，你可以创建不同的作业。 
+如要这样做，首先在地图上选择一个载具图标，然后单击“创建作业”。在右边的菜单中，你可以选择要创建的作业类型。"/>
+<e k="helpLine_misc_worker_simplejobs" v="“前往”作业是最基本的，会将帮手派往地图上的特定位置。
+“田地工作”作业会派帮手去收割或耕种田地。请记住，特定作业需要连接适当的工具。"/>
+<e k="helpLine_misc_worker_start" v="如果某个任务无法执行，你会通过有问题选项旁的感叹号和简短信息获知。等一切都合乎心意后，请点击“开始作业”按钮。 
+你可以在列表视图中查看有效帮手，以及作业和当前活动。"/>
+<e k="helpLine_seasonalFarming" v="季节性农作"/>
+<e k="helpLine_seasonalFarming_cropCalendar" v="作物日历"/>
+<e k="helpLine_seasonalFarming_cropCalendarSnow" v="作物日历和雪"/>
+<e k="helpLine_seasonalFarming_cropCalendar_general" v="季节性作物日历会影响你种植和收割作物的时间范围。"/>
+<e k="helpLine_seasonalFarming_cropCalendar_off" v="没有季节性作物日历，你可以随时种植和收割。尽管如此，每种作物的生长时间仍然保持不变。切记，价格会根据一年中的时间而波动。"/>
+<e k="helpLine_seasonalFarming_cropCalendar_weatherforecast" v="天气预报会影响你的决定。当下雪或下雨时，你无法收割作物，必须等待天气转好。
+请注意右上角的天气预报图标。当显示两个天气图标时，右边的图标会显示 6 小时后的天气状况。"/>
+<e k="helpLine_seasonalFarming_snow" v="雪"/>
+<e k="helpLine_seasonalFarming_snow_equipment" v="小心那些湿滑的道路，最好准备好你的冬季设备。"/>
+<e k="helpLine_seasonalFarming_snow_general" v="你可以开启和关闭雪，它会影响载具的操控。"/>
+<e k="helpLine_specialCrops" v="特殊作物"/>
+<e k="helpLine_specialCrops_catchCrops" v="填闲作物"/>
+<e k="helpLine_specialCrops_catchCrops_general" v="白萝卜是一种特殊的作物，因为你不用收割它。它将被用作肥料，是一种所谓的填闲作物。"/>
+<e k="helpLine_specialCrops_catchCrops_harvest" v="作物长出来以后，你可以用耕耘机把它埋进土里。它是一种绿色粪肥，可以增加你下次收成的产量。"/>
+<e k="helpLine_specialCrops_cotton" v="棉花"/>
+<e k="helpLine_specialCrops_cotton_bale" v="料斗装满后，你必须卸下捆。需要特殊设备来将它拖到出售点，或送到生产点进行进一步加工。"/>
+<e k="helpLine_specialCrops_cotton_general" v="你需要一个种植机来播种棉花。从种子托盘或青贮窖中填充它。"/>
+<e k="helpLine_specialCrops_cotton_harvest" v="如要收割棉花，你必须使用自走式棉花收割机。"/>
+<e k="helpLine_specialCrops_grapesOlives" v="葡萄和橄榄"/>
+<e k="helpLine_specialCrops_grapesOlives_care" v="你需要耕耘、施肥和护根才能获得最高产量。特殊工具可以在商店的葡萄技术类别中找到。"/>
+<e k="helpLine_specialCrops_grapesOlives_general" v="葡萄藤和橄榄从是成排种植的。使用建造模式来放置作物。"/>
+<e k="helpLine_specialCrops_grapesOlives_harvest" v="作物成熟后，使用 New Holland 工具收割橄榄或葡萄，并将其带到生产点或立即出售。记得在收割后用 Provitis MP 1220 修剪葡萄藤。"/>
+<e k="helpLine_specialCrops_grass" v="青草"/>
+<e k="helpLine_specialCrops_grass_baling" v="青草、干草和秸秆也可以被压成捆。首先用堆行机整理好收割痕迹，以便捡拾。被压成方形或圆形的捆后，用装载捆的设备将其收集起来，运输到你的农场或出售点。"/>
+<e k="helpLine_specialCrops_grass_collection" v="要让收集青草、干草和秸秆的工作更简单，建议你使用堆行机将其排列成行。
+可用饲料车收集青草，或用压捆机把青草变成青草捆。收集青草时在饲料车上使用保时青可使产量增加5%。"/>
+<e k="helpLine_specialCrops_grass_general" v="可以使用通常连接到拖拉机上的割草机来割青草。要么把它直接喂给你的牲畜，要么在出售点贩卖，要么通过放入青贮窖或打包成捆来把它发酵成青贮饲料。"/>
+<e k="helpLine_specialCrops_grass_hay" v="割完青草后，用摊晒机翻动割下的青草，把它风干成干草。干草的颜色看上去要比割下来的青草淡。干草可以用来直接喂养你的牲畜，也可以用作完全混合饲料的一部分。如果你没有任何牲畜，也可以在出售点贩卖你的干草。"/>
+<e k="helpLine_specialCrops_maize" v="粗糠和青贮饲料"/>
+<e k="helpLine_specialCrops_maize_chaff" v="粗糠是用带合适切刀的饲料收割机切碎作物或捡拾堆行制成的。可切碎的作物包括玉米、小麦、大麦、青草、向日葵、大豆、燕麦或油菜，即使它们没有完全长成。
+饲料收割机没有谷物贮存箱；因此，一辆拖车需要连接到饲料收割机，或通过另一辆载具行驶在其旁边。"/>
+<e k="helpLine_specialCrops_maize_feed" v="所产生的青贮饲料可以用装有青贮饲料叉或挖铲的前端装载机收集起来，然后扔进混合车、卸进谷仓或直接放进饲料槽。通过打包青草捆形成的青贮饲料捆，可以像发酵青贮饲料一样处理。"/>
+<e k="helpLine_specialCrops_maize_silage" v="要把粗糠或青草制成青贮饲料，你需要把它倒进一个青贮窖里 (在沼气厂中或你自己的一个青贮窖里)，用合适的载具压紧堆物并盖好青贮窖来开始发酵过程。青贮窖必须至少装满 10% 才能关闭盖子。"/>
+<e k="helpLine_specialCrops_maize_silos" v="要想生产青贮饲料，你需要将粗糠或青草运输到沼气厂，或者在自己的青贮窖中发酵。如果你还没有青贮窖，你可以通过建造模式菜单放置不同大小的青贮窖。放置青贮窖时，通过“对齐功能”往先前放置的青贮窖旁放置额外的青贮窖。这种“对齐”仅在青贮窖无内容物时有效。"/>
+<e k="helpLine_specialCrops_rootCrops" v="块根作物"/>
+<e k="helpLine_specialCrops_rootCrops_general" v="种植土豆与甜菜需要特殊的播种机和收割机。
+收割土豆或甜菜最简单且最快速的方法是使用自走式收割机。但这样的机器相当昂贵，在初期可能会超出你的预算。切记，你可以租用而不是购买一辆载具。"/>
+<e k="helpLine_specialCrops_rootCrops_processing" v="另一个比较节省成本的方式，是使用带有许多专用工具的拖拉机。它基本上需要两个操作步骤：当作物完全成熟后，你需要用 Grimme KS 75-4 那样的除茎叶机割下茎叶。
+之后，可以用 Grimme EVO 290 那样的牵引式收割机捡拾作物。"/>
+<e k="helpLine_specialCrops_rootCrops_sugarbeetcutter" v="甜菜切刀是用来切甜菜的。你可以在前端装载机工具下找到该工具。切下来的甜菜可以被带到沼气厂发酵成青贮饲料，或被送到甘蔗厂生产糖。"/>
+<e k="helpLine_specialCrops_sugarcane" v="甘蔗"/>
+<e k="helpLine_specialCrops_sugarcane_general" v="甘蔗和一般的田地和块根作物不一样。需要花更多时间成熟，但是不会枯萎。甘蔗需要特殊的播种设备和收割设备。"/>
+<e k="helpLine_specialCrops_sugarcane_growth" v="甘蔗生长速度相对较慢，但是不会枯萎。收割过的甘蔗过一段时间还会再长出来，并可以再次被收割。"/>
+<e k="helpLine_specialCrops_sugarcane_harvest" v="收割甘蔗需要使用甘蔗收割机。它可除去甘蔗顶端的叶子，将粗甘蔗茎切成小块。跟饲料收割机一样，甘蔗收割机没有贮存箱，需要与翻斗车/拖车在田地里配套使用。"/>
+<e k="helpLine_specialCrops_sugarcane_sowing" v="播种甘蔗需要使用 Gessner 单行双芽苗种植机那样的双芽苗种植机。跟种土豆一样，该机器也可装载上次收割的甘蔗茎。你可以用翻斗车/拖车直接将干蔗茎倒到双芽苗种植机内，或是用伸缩臂叉车或装有挖铲的轮式装载机来倒甘蔗茎。即使没有甘蔗茎，你也可以开始种甘蔗。只要到商店购买一托盘的甘蔗并倒入双芽苗种植机即可。"/>
+<e k="helpLine_specialCrops_sugarcane_tillage" v="甘蔗再度生长时几乎不需要耕地。若你使用“需要定期犁田”模式，则田地需在三次收成后透气以保证产量。使用 KUHN DC 401 那样的深耕犁可达到最好效果，但普通的犁也行。你可以在松土后种植新的甘蔗茎。"/>
+<e k="helpLine_specialCrops_sugarcane_transport" v="收割时通常会使用专用的甘蔗翻斗车/拖车，因为其料斗的高度较高，可将甘蔗茎直接倒入卡车以利快速运送。甘蔗不能贮藏于青贮窖，但可以倒在地面上贮藏。你可以通过建造模式中放置的甘蔗厂来进一步处理它。"/>
+<e k="hintMobile_01" v="如需赚取金钱，你需要出售你的产品（作物、木材、牲畜及其制品）。"/>
+<e k="hintMobile_02" v="当下雨或下冰雹时，你不能收割作物，必须等到天气好转才可以收割。"/>
+<e k="hintMobile_03" v="不知道怎么操作？请查看暂停菜单中的帮助部分。"/>
+<e k="hintMobile_04" v="播种后，你可以通过向田地施肥洒水来增加收成。"/>
+<e k="hintMobile_05" v="如果你的牲畜获得了充足的水、食物和干净的住所，它们很快就会开始繁殖。"/>
+<e k="hintMobile_06" v="猪几乎什么都吃：玉米、小麦、大麦、油菜、向日葵、大豆、土豆和甜菜。"/>
+<e k="hintMobile_07" v="割草机用于收割青草，通常装载在拖拉机上。之后你可以用翻晒机翻动割下的青草，来将其制成干草。"/>
+<e k="hintMobile_08" v="马需要干草、水和燕麦才会心情愉悦。"/>
+<e k="hintMobile_09" v="骑乘马匹即可训练它们。训练会增加马匹的价值。"/>
+<e k="hint_01" v="通过使用草垛打包机，您可以将青草草垛转变成青贮饲料草垛。"/>
+<e k="hint_02" v="想要赚钱的话，您需要出售您的产品（作物、木材、动物以及它们的制品）。"/>
+<e k="hint_03" v="下雨时收割作物会降低你的产量。最好等到天气好转。"/>
+<e k="hint_04" v="如果载具或工具卡住，你可在地图概况画面上将其重置到商店停车场里。"/>
+<e k="hint_05" v="不知道怎么做某件事？请查看游戏内菜单的帮助部分。"/>
+<e k="hint_06" v="改变您的环境！您可以将森林变成田地：砍掉树木、除去树桩，然后用犁头制造一块田地。"/>
+<e k="hint_07" v="请记住，小块的木材不重，您可以徒手搬运。"/>
+<e k="hint_08" v="如果您的前端装载机要搬运一些重物，您可以在拖拉机的后面加上一个重物来平衡它。"/>
+<e k="hint_09" v="播种后，您可以通过向田地施肥洒水来增加收成。"/>
+<e k="hint_10" v="猪几乎什么都吃：玉米、小麦、大麦、油菜、向日葵、大豆、土豆、高粱和甜菜。"/>
+<e k="hint_11" v="如果你的牲畜获得了充足的水、食物和干净的住所，并且年龄足够大，你很快就会看到它们繁殖。"/>
+<e k="hint_12" v="有些载具可以进行额外的自定义，比如加装不同的轮胎、更强悍的引擎、涂装不同的颜色或是添加前端装载机。"/>
+<e k="hint_13" v="在收割土豆与甜菜前，请先去除顶部的茎叶。"/>
+<e k="hint_14" v="您可以用堆肥、水肥或人造肥料（固态和液态）来给田地施肥。"/>
+<e k="hint_15" v="您可以在地图菜单中购买新的土地用来种植作物。如果有必要，您也可以出售您自己的土地。"/>
+<e k="hint_16" v="您不能在别人的土地上工作、割草或砍伐树木。您需要购买这片土地。"/>
+<e k="hint_17" v="你在财务画面上可以看到当月和前四月的所有收入和支出。如果你急需用钱，可以在银行以 $CURRENCY_SYMBOL5000 为增量贷款。"/>
+<e k="hint_18" v="出售木材是一项有利可图的生意，并且对于常规的田地工作而言，也是一项可喜的改变。树木可用电锯或木材收割机砍伐。在出售之前，需要对其去枝，并把它们锯成木料。"/>
+<e k="hint_19" v="在出售木材时，木材的长度以及它们是否容易处理（越直越好）决定了其价值。"/>
+<e k="hint_20" v="用于割草的割草机通常会装在拖拉机上。之后您可以用翻晒机翻动割下的青草，来将其制成干草。"/>
+<e k="hint_21" v="建议您使用堆行机将青草排成排，这样可以让铺草工作更加简单。您可以用装载车收集青草，或者用打包机把青草变成草垛。"/>
+<e k="hint_22" v="马需要青草、水喝燕麦才会快乐。"/>
+<e k="hint_23" v="骑您的马来训练它们。通过训练，它们的价值会增加。"/>
+<e k="hint_24" v="地图上的大多数田地是其他由电脑控制的农夫所拥有。他们会照顾自己的田地，但他们常常需要帮忙并且可以雇佣您作为承包商。查看合同菜单中的任务布告栏。"/>
+<e k="hint_25" v="您也可以用犁头在您拥有的土地上创建新田地。"/>
+<e k="hint_26" v="播种机和种植机需要种子。您可以从商店成袋购买种子。"/>
+<e k="hint_27" v="收割小麦、大麦或燕麦时，您可以用收割机来生产秸秆条。"/>
+<e k="hint_28" v="秸秆条可以用打包机捆成草垛。此外，也可以用装载车收集秸秆。秸秆可以被用作动物的垫料，也可以用来制造全混合日粮（TMR）。"/>
+<e k="hint_29" v="你的奶牛总是会生产牛奶，但你可以通过好好饲养来提升它们的生产能力。最适合奶牛的食物是通过在混合车中混合干草、秸秆、矿物质饲料和青贮饲料制成的完全混合饲料。"/>
+<e k="hint_30" v="新的树木不会凭空出现，它们需要使用特殊的种植机器来进行种植。商店可以为您提供幼苗托盘。"/>
+<e k="hint_31" v="您也可以用碎木机将原木粉碎，把它们制成木屑来卖。"/>
+<e k="hint_32" v="把载具开到商店或您的载具车间中来进行修理。"/>
+<e k="hint_33" v="如果您的载具脏了，可以用高压清洗机来清洗。"/>
+<e k="hint_34" v="要收割棉花，您必须使用自走式棉花收割机。当收割机的贮存槽装满时，您必须卸下大捆的棉花。您需要一个特殊的拖车把它运到出售点上。"/>
+<e k="hotspot_rentTrain" v="租用火车"/>
+<e k="info_attach_not_allowed" v="禁止连接"/>
+<e k="info_baleloaderLoweringTable" v="正在降下升降台，请稍候..."/>
+<e k="info_baleloaderTiltingTable" v="正在放置升降台，请稍候..."/>
+<e k="info_balestackerLoweringTable" v="机架正在升起。请稍候......"/>
+<e k="info_balestackerTiltingTable" v="机架正在下降。请稍候......"/>
+<e k="info_bunkerSiloNotEmpty" v="青贮窖不是空的。所有内容物都将被移除。"/>
+<e k="info_chargeTime" v="充满电还需：%d分%d秒（%d%%）"/>
+<e k="info_compacting" v="压缩"/>
+<e k="info_curtainLeftBack" v="左后方"/>
+<e k="info_curtainLeftFront" v="左前方"/>
+<e k="info_curtainRightBack" v="右后方"/>
+<e k="info_curtainRightFront" v="右前方"/>
+<e k="info_cutting" v="正在砍伐......"/>
+<e k="info_emptyTankToContinueThreshing" v="清空谷箱，继续打谷"/>
+<e k="info_fermenting" v="发酵"/>
+<e k="info_fillLevel" v="填充线"/>
+<e k="info_firstFillTheTool" v="首先你需要填充工具！"/>
+<e k="info_husbandryNotEmpty" v="内有一些牲畜。请先卖掉它们！"/>
+<e k="info_manureFillLevel" v="粪肥填充线"/>
+<e k="info_mixingRatio" v="混合配比"/>
+<e k="info_movePipeOverTrailer" v="将管子移到拖车上"/>
+<e k="info_openCurtain" v="帘“%s”"/>
+<e k="info_partialWorkingWidth" v="部分宽度"/>
+<e k="info_siloExtensionNotEmpty" v="青贮窖扩展没有清空。以下几类谷物也会被出售："/>
+<e k="info_slidingFloor" v="滑动底板"/>
+<e k="info_slidingFloorBackward" v="向后滑动底板"/>
+<e k="info_slidingFloorForward" v="向前滑动底板"/>
+<e k="info_tankNotEmpty" v="贮存箱不是空的。以下货物也会被出售："/>
+<e k="info_tipSideBack" v="返回"/>
+<e k="info_tipSideBackGrainDoor" v="木纹门"/>
+<e k="info_tipSideFront" v="前面"/>
+<e k="info_tipSideLeft" v="左"/>
+<e k="info_tipSideLeftBack" v="左后方"/>
+<e k="info_tipSideMiddle" v="中"/>
+<e k="info_tipSideRight" v="右"/>
+<e k="info_tipSideRightBack" v="右后方"/>
+<e k="info_tipSideUnload" v="卸除"/>
+<e k="info_transmission_automatic" v="自动"/>
+<e k="info_transmission_cvt" v="可变（恒压变压器）"/>
+<e k="info_transmission_manual" v="手动"/>
+<e k="info_transmission_manualWithPowerShiftGroups" v="手动 + 动力换档"/>
+<e k="info_transmission_powerShift" v="动力换挡"/>
+<e k="info_waterFillLevel" v="淡水填充线"/>
+<e k="info_workWidth" v="%.1fm"/>
+<e k="info_workWidthAndUsage" v="%dl/min | %.1fm"/>
+<e k="infohud_activeProductions" v="进行中的产品"/>
+<e k="infohud_age" v="年龄"/>
+<e k="infohud_animal" v="牲畜"/>
+<e k="infohud_bale" v="草捆"/>
+<e k="infohud_beehive_honeyAtPalletLocation" v="在托盘位置获取蜂蜜"/>
+<e k="infohud_beehive_noPalletLocationA" v="没有蜂蜜托盘位置！"/>
+<e k="infohud_beehive_noPalletLocationB" v="放置一个来获取蜂蜜！"/>
+<e k="infohud_damage" v="损害"/>
+<e k="infohud_fillLevel" v="装填等级"/>
+<e k="infohud_fillType" v="装填类型"/>
+<e k="infohud_fitness" v="健壮值"/>
+<e k="infohud_health" v="健康"/>
+<e k="infohud_length" v="长度"/>
+<e k="infohud_mass" v="质量"/>
+<e k="infohud_name" v="名称"/>
+<e k="infohud_noActiveProduction" v="没有进行中的产品"/>
+<e k="infohud_numAnimals" v="数量"/>
+<e k="infohud_pallet" v="托盘"/>
+<e k="infohud_range" v="范围"/>
+<e k="infohud_rentedBy" v="租用者"/>
+<e k="infohud_reproduction" v="繁殖"/>
+<e k="infohud_riding" v="骑乘"/>
+<e k="infohud_siloEmpty" v="青贮窖是空的"/>
+<e k="infohud_storageIsEmpty" v="仓库是空的"/>
+<e k="infohud_type" v="类型"/>
+<e k="infohud_wood" v="木头"/>
+<e k="ingameNotification_bunkerSiloCovered" v="青贮槽已满。"/>
+<e k="ingameNotification_bunkerSiloDoneFermenting" v="青贮槽已发酵完成。"/>
+<e k="ingameNotification_bunkerSiloIsEmpty" v="青贮槽已空。"/>
+<e k="ingameNotification_bunkerSiloOpened" v="青贮槽已开。"/>
+<e k="ingameNotification_crossPlayNewSlotLimit" v="对象栏位限制已改变。新的限制是%d！"/>
+<e k="ingameNotification_crossPlaySlotLimitInactive" v="对象栏位限制已移除。"/>
+<e k="ingameNotification_dogInDogHouse" v="狗回到狗屋了。"/>
+<e k="ingameNotification_horseInStable" v="马“%s”已返回马厩。"/>
+<e k="ingameNotification_horseNotInStable" v="无法将马“%s”放进这个马厩。"/>
+<e k="ingameNotification_noPalletLocationAvailable" v="没有托盘位置可用"/>
+<e k="ingameNotification_palletSpawnerBlocked" v="%s 已无多余空间置放新托架 (%s)！"/>
+<e k="inputCategory_CAMERA" v="镜头"/>
+<e k="inputCategory_CONSTRUCTION" v="建造"/>
+<e k="inputCategory_CRANE" v="吊车"/>
+<e k="inputCategory_GAME" v="游戏"/>
+<e k="inputCategory_OTHER" v="其它"/>
+<e k="inputCategory_PLACEABLE" v="可放置"/>
+<e k="inputCategory_PLAYER_INTERACTIVE" v="玩家 - 互动"/>
+<e k="inputCategory_PLAYER_MOVEMENT" v="玩家 - 移动"/>
+<e k="inputCategory_RADIO" v="电台"/>
+<e k="inputCategory_VEHICLE" v="载具"/>
+<e k="inputCategory_VEHICLE_DRIVING" v="载具 - 驾驶"/>
+<e k="inputCategory_VEHICLE_FRONTLOADER" v="载具 - 前端装载机"/>
+<e k="inputCategory_VEHICLE_GEARBOX" v="载具 - 变速箱"/>
+<e k="inputCategory_VEHICLE_LIGHTS" v="载具 - 车灯"/>
+<e k="inputCategory_VEHICLE_WORK" v="载具 - 工作"/>
+<e k="input_ACTIVATE_HANDTOOL" v="激活手工工具"/>
+<e k="input_ACTIVATE_OBJECT" v="激活物品"/>
+<e k="input_ANIMAL_INTERACT" v="与动物互动"/>
+<e k="input_ANIMAL_PET" v="宠物"/>
+<e k="input_ATTACH" v="连上工具"/>
+<e k="input_AXIS_ACCELERATE_VEHICLE" v="加速"/>
+<e k="input_AXIS_BRAKE_VEHICLE" v="煞车"/>
+<e k="input_AXIS_CLUTCH_VEHICLE" v="离合器"/>
+<e k="input_AXIS_CONSTRUCTION_ACTION_PRIMARY_1" v="第一建造行动"/>
+<e k="input_AXIS_CONSTRUCTION_ACTION_PRIMARY_2" v="第一建造行动"/>
+<e k="input_AXIS_CONSTRUCTION_ACTION_SECONDARY_1" v="第二建造行动"/>
+<e k="input_AXIS_CONSTRUCTION_ACTION_SECONDARY_2" v="第二建造行动"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_ROTATE_1" v="旋转镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_ROTATE_2" v="旋转镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_TILT_1" v="倾斜镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_TILT_2" v="倾斜镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_ZOOM_1" v="缩放镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CAMERA_ZOOM_2" v="缩放镜头"/>
+<e k="input_AXIS_CONSTRUCTION_CURSOR_ROTATE_1" v="旋转物品"/>
+<e k="input_AXIS_CONSTRUCTION_CURSOR_ROTATE_2" v="旋转物品"/>
+<e k="input_AXIS_CRANE_ARM2_1" v="升起起重机悬臂"/>
+<e k="input_AXIS_CRANE_ARM2_2" v="降低起重机悬臂"/>
+<e k="input_AXIS_CRANE_ARM3_1" v="升起起重机悬臂 2"/>
+<e k="input_AXIS_CRANE_ARM3_2" v="降低起重机悬臂 2"/>
+<e k="input_AXIS_CRANE_ARM4_1" v="延长起重机悬臂"/>
+<e k="input_AXIS_CRANE_ARM4_2" v="收回起重机悬臂"/>
+<e k="input_AXIS_CRANE_ARM_1" v="向右旋转起重机"/>
+<e k="input_AXIS_CRANE_ARM_2" v="向左旋转起重机"/>
+<e k="input_AXIS_CRANE_SUPPORT_1" v="起重机支架臂"/>
+<e k="input_AXIS_CRANE_SUPPORT_2" v="起重机支架臂 2"/>
+<e k="input_AXIS_CRANE_TOOL2_1" v="向右旋转起重机工具"/>
+<e k="input_AXIS_CRANE_TOOL2_2" v="向左旋转起重机工具"/>
+<e k="input_AXIS_CRANE_TOOL3_1" v="升起起重机工具轴 3"/>
+<e k="input_AXIS_CRANE_TOOL3_2" v="降低起重机工具轴 3"/>
+<e k="input_AXIS_CRANE_TOOL_1" v="打开起重机工具"/>
+<e k="input_AXIS_CRANE_TOOL_2" v="关闭起重机工具"/>
+<e k="input_AXIS_CRUISE_CONTROL" v="改变巡航控制"/>
+<e k="input_AXIS_CRUISE_CONTROL_1" v="增加巡航控制速度"/>
+<e k="input_AXIS_CRUISE_CONTROL_2" v="减少巡航控制速度"/>
+<e k="input_AXIS_CUTTER_REEL2_1" v="升起割台卷盘"/>
+<e k="input_AXIS_CUTTER_REEL2_2" v="降低割台卷盘"/>
+<e k="input_AXIS_CUTTER_REEL_1" v="延长割台卷盘"/>
+<e k="input_AXIS_CUTTER_REEL_2" v="收回割台卷盘"/>
+<e k="input_AXIS_DOOR_1" v="打开盖子"/>
+<e k="input_AXIS_DOOR_2" v="关闭盖子"/>
+<e k="input_AXIS_DOOR_2_1" v="打开盖子 2"/>
+<e k="input_AXIS_DOOR_2_2" v="关闭盖子 2"/>
+<e k="input_AXIS_DOOR_3_1" v="打开盖子 3"/>
+<e k="input_AXIS_DOOR_3_2" v="关闭盖子 3"/>
+<e k="input_AXIS_DRAWBAR2_1" v="将挂钩往右折"/>
+<e k="input_AXIS_DRAWBAR2_2" v="将挂钩往左折"/>
+<e k="input_AXIS_DRAWBAR_1" v="升起挂钩"/>
+<e k="input_AXIS_DRAWBAR_2" v="降低挂钩"/>
+<e k="input_AXIS_FRONTLOADER_ARM2_1" v="伸展前端装载机前臂"/>
+<e k="input_AXIS_FRONTLOADER_ARM2_2" v="收缩前端装载机前臂"/>
+<e k="input_AXIS_FRONTLOADER_ARM_1" v="升起前端装载机前臂"/>
+<e k="input_AXIS_FRONTLOADER_ARM_2" v="降下前端装载机前臂"/>
+<e k="input_AXIS_FRONTLOADER_TOOL2_1" v="打开前端装载机前端的工具"/>
+<e k="input_AXIS_FRONTLOADER_TOOL2_2" v="关闭前端装载机前端的工具"/>
+<e k="input_AXIS_FRONTLOADER_TOOL3" v="工具轴 3"/>
+<e k="input_AXIS_FRONTLOADER_TOOL3_1" v="升起工具轴 3"/>
+<e k="input_AXIS_FRONTLOADER_TOOL3_2" v="降下工具轴 3"/>
+<e k="input_AXIS_FRONTLOADER_TOOL4" v="工具轴 4"/>
+<e k="input_AXIS_FRONTLOADER_TOOL4_1" v="升起工具轴 4"/>
+<e k="input_AXIS_FRONTLOADER_TOOL4_2" v="降下工具轴 4"/>
+<e k="input_AXIS_FRONTLOADER_TOOL5" v="工具轴 5"/>
+<e k="input_AXIS_FRONTLOADER_TOOL5_1" v="升起工具轴 5"/>
+<e k="input_AXIS_FRONTLOADER_TOOL5_2" v="降下工具轴 5"/>
+<e k="input_AXIS_FRONTLOADER_TOOL_1" v="升起前端装载机前端的工具"/>
+<e k="input_AXIS_FRONTLOADER_TOOL_2" v="降下前端装载机前端的工具"/>
+<e k="input_AXIS_HYDRAULICATTACHER1_1" v="升起液压联结器"/>
+<e k="input_AXIS_HYDRAULICATTACHER1_2" v="降下液压联结器"/>
+<e k="input_AXIS_HYDRAULICATTACHER2_1" v="升起液压联结器 2"/>
+<e k="input_AXIS_HYDRAULICATTACHER2_2" v="降下液压联结器 2"/>
+<e k="input_AXIS_LOOK_LEFTRIGHT_PLAYER_1" v="向右看"/>
+<e k="input_AXIS_LOOK_LEFTRIGHT_PLAYER_2" v="向左看"/>
+<e k="input_AXIS_LOOK_LEFTRIGHT_VEHICLE_1" v="向右看（农机）"/>
+<e k="input_AXIS_LOOK_LEFTRIGHT_VEHICLE_2" v="向左看（农机）"/>
+<e k="input_AXIS_LOOK_UPDOWN_PLAYER_1" v="向下看"/>
+<e k="input_AXIS_LOOK_UPDOWN_PLAYER_2" v="向上看"/>
+<e k="input_AXIS_LOOK_UPDOWN_VEHICLE_1" v="向下看（农机）"/>
+<e k="input_AXIS_LOOK_UPDOWN_VEHICLE_2" v="向上看（农机）"/>
+<e k="input_AXIS_MAP_SCROLL_LEFT_RIGHT_1" v="向左滚动（地图）"/>
+<e k="input_AXIS_MAP_SCROLL_LEFT_RIGHT_2" v="向右滚动（地图）"/>
+<e k="input_AXIS_MAP_SCROLL_UP_DOWN_1" v="向上滚动（地图）"/>
+<e k="input_AXIS_MAP_SCROLL_UP_DOWN_2" v="向下滚动（地图）"/>
+<e k="input_AXIS_MAP_ZOOM_IN" v="放大地图"/>
+<e k="input_AXIS_MAP_ZOOM_OUT" v="缩小地图"/>
+<e k="input_AXIS_MOVE_FORWARD_PLAYER_1" v="向后走"/>
+<e k="input_AXIS_MOVE_FORWARD_PLAYER_2" v="向前走"/>
+<e k="input_AXIS_MOVE_SIDE_PLAYER_1" v="向右走"/>
+<e k="input_AXIS_MOVE_SIDE_PLAYER_2" v="向左走"/>
+<e k="input_AXIS_MOVE_SIDE_VEHICLE_1" v="右转"/>
+<e k="input_AXIS_MOVE_SIDE_VEHICLE_2" v="左转"/>
+<e k="input_AXIS_PIPE2_1" v="向上旋转运输管 2"/>
+<e k="input_AXIS_PIPE2_2" v="向下旋转运输管 2"/>
+<e k="input_AXIS_PIPE_1" v="向上旋转水管"/>
+<e k="input_AXIS_PIPE_2" v="向下旋转水管"/>
+<e k="input_AXIS_PLACEMENT_CHANGE_HEIGHT_1" v="放下可放置物件"/>
+<e k="input_AXIS_PLACEMENT_CHANGE_HEIGHT_2" v="升起可放置物件"/>
+<e k="input_AXIS_PLACEMENT_ROTATE_CAMERA_1" v="向左旋转视角"/>
+<e k="input_AXIS_PLACEMENT_ROTATE_CAMERA_2" v="向右旋转视角"/>
+<e k="input_AXIS_PLACEMENT_ROTATE_OBJECT_1" v="向左旋转可放置物件"/>
+<e k="input_AXIS_PLACEMENT_ROTATE_OBJECT_2" v="向右旋转可放置物件"/>
+<e k="input_AXIS_ROTATE_HANDTOOL_1" v="向右旋转手工工具"/>
+<e k="input_AXIS_ROTATE_HANDTOOL_2" v="向左旋转手工工具"/>
+<e k="input_AXIS_RUN" v="跑"/>
+<e k="input_AXIS_RUN_1" v="跑步"/>
+<e k="input_AXIS_SPRAYER_ARM_1" v="升起喷洒机悬臂"/>
+<e k="input_AXIS_SPRAYER_ARM_2" v="降低喷洒机悬臂"/>
+<e k="input_AXIS_WHEEL_BASE_1" v="提升轴距"/>
+<e k="input_AXIS_WHEEL_BASE_2" v="减少轴距"/>
+<e k="input_BANK" v="转账（多人游戏）"/>
+<e k="input_CAMERA_SWITCH" v="选择视角"/>
+<e k="input_CAMERA_ZOOM_IN" v="放大镜头"/>
+<e k="input_CAMERA_ZOOM_OUT" v="缩小镜头"/>
+<e k="input_CHANGE_DRIVING_DIRECTION" v="改变驾驶方向"/>
+<e k="input_CHAT" v="聊天（多人游戏）"/>
+<e k="input_CONSTRUCTION_ACTION_PRIMARY" v="放下"/>
+<e k="input_CONSTRUCTION_ACTION_SECONDARY" v="第二建造行动"/>
+<e k="input_CONSTRUCTION_ACTION_TERTIARY" v="第三建造行动"/>
+<e k="input_CONSTRUCTION_BRUSH_SHAPE" v="更改光标形状"/>
+<e k="input_CONSTRUCTION_BRUSH_SIZE" v="更改刷子大小"/>
+<e k="input_CONSTRUCTION_CANCEL" v="取消"/>
+<e k="input_CONSTRUCTION_CHANGE_COLOR" v="更改颜色"/>
+<e k="input_CONSTRUCTION_EXIT" v="退出菜单"/>
+<e k="input_CONSTRUCTION_FINISH" v="结束"/>
+<e k="input_CONSTRUCTION_HEIGHT" v="更改高度"/>
+<e k="input_CONSTRUCTION_LEVEL" v="等级"/>
+<e k="input_CONSTRUCTION_PAINT" v="涂抹"/>
+<e k="input_CONSTRUCTION_PLACE" v="放置物品"/>
+<e k="input_CONSTRUCTION_PLACE_POLE" v="放置杆"/>
+<e k="input_CONSTRUCTION_RANDOM_ROTATE" v="随机旋转"/>
+<e k="input_CONSTRUCTION_REMOVE" v="移除"/>
+<e k="input_CONSTRUCTION_SHIFT_DOWN" v="降下"/>
+<e k="input_CONSTRUCTION_SHIFT_UP" v="升高"/>
+<e k="input_CONSTRUCTION_SLOPE" v="倾斜到点"/>
+<e k="input_CONSTRUCTION_SLOPE_START" v="设定倾斜目标点"/>
+<e k="input_CONSTRUCTION_SOFTEN" v="软化"/>
+<e k="input_CRABSTEERING_ALLWHEEL" v="吊车操向（全部）"/>
+<e k="input_CRABSTEERING_CRABLEFT" v="吊车向左操纵"/>
+<e k="input_CRABSTEERING_CRABRIGHT" v="吊车向右操纵"/>
+<e k="input_CROUCH" v="蹲下"/>
+<e k="input_DECREASE_TIMESCALE" v="减少时标"/>
+<e k="input_DETACH" v="卸载"/>
+<e k="input_DIRECTION_CHANGE" v="更改方向"/>
+<e k="input_DIRECTION_CHANGE_NEG" v="选择后退方向"/>
+<e k="input_DIRECTION_CHANGE_POS" v="选择前进方向"/>
+<e k="input_DOUBLED_SPRAY_AMOUNT" v="喷洒机施用量更改"/>
+<e k="input_ENTER" v="进入农机"/>
+<e k="input_FOLD_ALL_IMPLEMENTS" v="收起所有工具"/>
+<e k="input_HONK" v="按喇叭"/>
+<e k="input_IMPLEMENT_EXTRA" v="工具作用 1"/>
+<e k="input_IMPLEMENT_EXTRA2" v="工具作用 2"/>
+<e k="input_IMPLEMENT_EXTRA3" v="工具作用 3"/>
+<e k="input_IMPLEMENT_EXTRA4" v="工具作用 4"/>
+<e k="input_INCREASE_TIMESCALE" v="增加时标"/>
+<e k="input_INGAMEMAP_ACCEPT" v="选择"/>
+<e k="input_INTERACT" v="互动"/>
+<e k="input_JUMP" v="跳"/>
+<e k="input_LOWER_ALL_IMPLEMENTS" v="降低/升起所有工具"/>
+<e k="input_LOWER_IMPLEMENT" v="降下工具"/>
+<e k="input_MENU" v="打开菜单"/>
+<e k="input_MENU_ACCEPT" v="接受菜单项"/>
+<e k="input_MENU_ACTIVATE" v="激活菜单物品"/>
+<e k="input_MENU_AXIS_LEFT_RIGHT" v="菜单向左/向右"/>
+<e k="input_MENU_AXIS_LEFT_RIGHT_1" v="菜单向左"/>
+<e k="input_MENU_AXIS_LEFT_RIGHT_2" v="菜单向右"/>
+<e k="input_MENU_AXIS_UP_DOWN" v="菜单向上/向下"/>
+<e k="input_MENU_AXIS_UP_DOWN_1" v="菜单向上"/>
+<e k="input_MENU_AXIS_UP_DOWN_2" v="菜单向下"/>
+<e k="input_MENU_BACK" v="返回菜单"/>
+<e k="input_MENU_CANCEL" v="取消菜单项"/>
+<e k="input_MENU_DOWN" v="菜单焦点下移"/>
+<e k="input_MENU_LEFT" v="菜单焦点左移"/>
+<e k="input_MENU_PAGE_NEXT" v="菜单下一页"/>
+<e k="input_MENU_PAGE_PREV" v="菜单上一页"/>
+<e k="input_MENU_RIGHT" v="菜单焦点右移"/>
+<e k="input_MENU_UP" v="菜单焦点上移"/>
+<e k="input_NEXT_HANDTOOL" v="下一个手动工具"/>
+<e k="input_PAUSE" v="暂停游戏"/>
+<e k="input_PICKUP_DROP_OBJECT" v="拾取/放下物品"/>
+<e k="input_PREVIOUS_HANDTOOL" v="上一个手动工具"/>
+<e k="input_PUSH_TO_TALK" v="即按即说"/>
+<e k="input_RADIO_NEXT_CHANNEL" v="下一个电台频道"/>
+<e k="input_RADIO_NEXT_ITEM" v="下一首歌"/>
+<e k="input_RADIO_PREVIOUS_CHANNEL" v="上一个电台频道"/>
+<e k="input_RADIO_PREVIOUS_ITEM" v="前一首歌"/>
+<e k="input_RADIO_TOGGLE" v="切换电台"/>
+<e k="input_RESET_HEAD_TRACKING" v="重置头部追踪"/>
+<e k="input_ROTATE_OBJECT_LEFT_RIGHT_1" v="向左旋转物件"/>
+<e k="input_ROTATE_OBJECT_LEFT_RIGHT_2" v="向右旋转物件"/>
+<e k="input_ROTATE_OBJECT_UP_DOWN_1" v="向上旋转物件"/>
+<e k="input_ROTATE_OBJECT_UP_DOWN_2" v="向下旋转物件"/>
+<e k="input_SHIFT_GEAR_DOWN" v="降档"/>
+<e k="input_SHIFT_GEAR_SELECT_1" v="1档"/>
+<e k="input_SHIFT_GEAR_SELECT_2" v="2档"/>
+<e k="input_SHIFT_GEAR_SELECT_3" v="3档"/>
+<e k="input_SHIFT_GEAR_SELECT_4" v="4档"/>
+<e k="input_SHIFT_GEAR_SELECT_5" v="5档"/>
+<e k="input_SHIFT_GEAR_SELECT_6" v="6档"/>
+<e k="input_SHIFT_GEAR_SELECT_7" v="7档"/>
+<e k="input_SHIFT_GEAR_SELECT_8" v="8档"/>
+<e k="input_SHIFT_GEAR_UP" v="升档"/>
+<e k="input_SHIFT_GROUP_DOWN" v="降档组"/>
+<e k="input_SHIFT_GROUP_SELECT_1" v="档组1"/>
+<e k="input_SHIFT_GROUP_SELECT_2" v="档组2"/>
+<e k="input_SHIFT_GROUP_SELECT_3" v="档组3"/>
+<e k="input_SHIFT_GROUP_SELECT_4" v="档组4"/>
+<e k="input_SHIFT_GROUP_UP" v="升档组"/>
+<e k="input_SHOPLIST_DOWN" v="上拉商店列表"/>
+<e k="input_SHOPLIST_END" v="跳到商店列表末尾"/>
+<e k="input_SHOPLIST_HOME" v="跳到商店列表顶部"/>
+<e k="input_SHOPLIST_UP" v="下滑商店列表"/>
+<e k="input_SKIP_MESSAGE_BOX" v="跳过消息框"/>
+<e k="input_SNAP_PLACEABLE" v="对齐网格"/>
+<e k="input_SWITCH_HANDTOOL" v="切换手动工具"/>
+<e k="input_SWITCH_IMPLEMENT" v="选择下个工具"/>
+<e k="input_SWITCH_IMPLEMENT_BACK" v="选择上个工具"/>
+<e k="input_SWITCH_VEHICLE" v="切换至下一农机"/>
+<e k="input_SWITCH_VEHICLE_BACK" v="切换至上一农机"/>
+<e k="input_TAKE_SCREENSHOT" v="保存屏幕截图"/>
+<e k="input_THROW_OBJECT" v="投掷物件"/>
+<e k="input_TOGGLE_ADMIN" v="管理页面（多人游戏）"/>
+<e k="input_TOGGLE_AI" v="切换工人"/>
+<e k="input_TOGGLE_BALE_TYPES" v="更改草捆尺寸"/>
+<e k="input_TOGGLE_BEACON_LIGHTS" v="切换信标灯"/>
+<e k="input_TOGGLE_CHARACTER_CREATION" v="角色创建"/>
+<e k="input_TOGGLE_CHOPPER" v="切换浏览条形秸秆堆"/>
+<e k="input_TOGGLE_CONSTRUCTION" v="建造画面"/>
+<e k="input_TOGGLE_COVER" v="打开/关闭覆盖物"/>
+<e k="input_TOGGLE_CRABSTEERING" v="切换驾驶模式"/>
+<e k="input_TOGGLE_CRABSTEERING_BACK" v="切换转向模式（反向）"/>
+<e k="input_TOGGLE_CRUISE_CONTROL" v="切换巡航控制"/>
+<e k="input_TOGGLE_FINANCES" v="查看财政状况"/>
+<e k="input_TOGGLE_HELP_TEXT" v="切换帮助文本"/>
+<e k="input_TOGGLE_HIGH_BEAM_LIGHT" v="远光灯"/>
+<e k="input_TOGGLE_LIGHTS" v="开关灯"/>
+<e k="input_TOGGLE_LIGHTS_BACK" v="开关灯（反向）"/>
+<e k="input_TOGGLE_LIGHTS_FPS" v="切换闪光灯"/>
+<e k="input_TOGGLE_LIGHT_FRONT" v="前灯"/>
+<e k="input_TOGGLE_MAP" v="地图"/>
+<e k="input_TOGGLE_MAP_SIZE" v="缩放地图"/>
+<e k="input_TOGGLE_MOTOR_STATE" v="启动/关闭引擎"/>
+<e k="input_TOGGLE_PIPE" v="开关水管"/>
+<e k="input_TOGGLE_SEEDS" v="更改种子"/>
+<e k="input_TOGGLE_SEEDS_BACK" v="更改种子（反向）"/>
+<e k="input_TOGGLE_STORE" v="商店"/>
+<e k="input_TOGGLE_TENSION_BELTS" v="拉紧/解开张力带"/>
+<e k="input_TOGGLE_TIPSIDE" v="开关侧翻斗"/>
+<e k="input_TOGGLE_TIPSTATE" v="倾倒"/>
+<e k="input_TOGGLE_TIPSTATE_GROUND" v="倾倒在地面"/>
+<e k="input_TOGGLE_TURNLIGHT_HAZARD" v="应急信号灯"/>
+<e k="input_TOGGLE_TURNLIGHT_LEFT" v="左转向灯"/>
+<e k="input_TOGGLE_TURNLIGHT_RIGHT" v="右转向灯"/>
+<e k="input_TOGGLE_WORKMODE" v="切换工作模式"/>
+<e k="input_TOGGLE_WORK_LIGHT_BACK" v="后面的工作灯"/>
+<e k="input_TOGGLE_WORK_LIGHT_FRONT" v="前面的工作灯"/>
+<e k="input_TURN_ON_ALL_IMPLEMENTS" v="打开/关闭所有工具"/>
+<e k="input_UNLOAD" v="卸货"/>
+<e k="input_VARIABLE_WORK_WIDTH_LEFT_1" v="停用左侧部分宽度"/>
+<e k="input_VARIABLE_WORK_WIDTH_LEFT_2" v="启用左侧部分宽度"/>
+<e k="input_VARIABLE_WORK_WIDTH_RIGHT2" v="更改右侧部分宽度"/>
+<e k="input_VARIABLE_WORK_WIDTH_RIGHT_1" v="停用右侧部分宽度"/>
+<e k="input_VARIABLE_WORK_WIDTH_RIGHT_2" v="启用右侧部分宽度"/>
+<e k="input_VARIABLE_WORK_WIDTH_TOGGLE" v="更改工作宽度"/>
+<e k="input_VEHICLE_ACTION_CONTROL" v="开启/关闭工具"/>
+<e k="input_WORKMODE_LEFT" v="工作模式 (左)"/>
+<e k="input_WORKMODE_MIDDLE" v="工作模式 (中)"/>
+<e k="input_WORKMODE_RIGHT" v="工作模式 (右)"/>
+<e k="keyGlyph_alt" v="Alt"/>
+<e k="keyGlyph_backspace" v="⌫"/>
+<e k="keyGlyph_ctrl" v="Ctrl"/>
+<e k="keyGlyph_down" v="↓"/>
+<e k="keyGlyph_enter" v="⏎"/>
+<e k="keyGlyph_escape" v="Esc"/>
+<e k="keyGlyph_left" v="←"/>
+<e k="keyGlyph_return" v="⏎"/>
+<e k="keyGlyph_right" v="→"/>
+<e k="keyGlyph_shift" v="Shift"/>
+<e k="keyGlyph_space" v="空格键"/>
+<e k="keyGlyph_up" v="↑"/>
+<e k="label_arm" v="机臂"/>
+<e k="label_conveyor" v="输送带"/>
+<e k="label_pipe" v="管子"/>
+<e k="label_support" v="撑"/>
+<e k="manureHeap" v="粪肥堆"/>
+<e k="mapDE_description" v="欢迎来到菲尔伯伦庄园！"/>
+<e k="mapDE_title" v="菲尔伯伦庄园"/>
+<e k="mapFR_description" v="欢迎来到高贝勒龙！"/>
+<e k="mapFR_title" v="Haut-Beyleron"/>
+<e k="mapSA_description" v="欢迎来到紫檀大庄园。"/>
+<e k="mapSA_title" v="紫檀大庄园"/>
+<e k="mapUS_description" v="欢迎来到雷文港庄园 !"/>
+<e k="mapUS_title" v="雷文港庄园"/>
+<e k="map_shop" v="商店"/>
+<e k="message_achievementUnlocked" v="解锁的成就："/>
+<e k="message_achievementUnlocked_ps" v="奖杯已解锁："/>
+<e k="message_achievementUnlocked_xbox" v="解锁的成就："/>
+<e k="message_greatDemandStartText" v="%s 目前准备以相对较高的价格购买 %s，交易还剩 %d 小时。"/>
+<e k="message_greatDemandStartTitle" v="%s 对 %s 的需求巨大。"/>
+<e k="message_newDlcsRestartText" v="请在主菜单重新读取您当前的进度，来使用最近安装的可下载内容。"/>
+<e k="message_newDlcsRestartTitle" v="已安装的可下载内容"/>
+<e k="message_noSpaceForFillType" v="该产品的存储空间不足。"/>
+<e k="message_selectedSiloIsEmpty" v="所选筒仓库存为 0。"/>
+<e k="modHub_abuse" v="ModHub (模组中心) 中所有由用户创建的内容，都属于创建者所有。对于用户创建的内容或它对您游戏造成的任何伤害，我们恕不负责。如果您认为您的用户创建内容或其部分内容在 ModHub 上的发布未经准许，请联系我们。"/>
+<e k="modHub_addedToDownloads" v="模组 &apos;%s&apos; 已经添加进下载列表！"/>
+<e k="modHub_already_unlocked_item" v="项目“%s”已是解锁状态！"/>
+<e k="modHub_authorDisclaimer_ps" v="显示的作者与 PlayStation™Network 的账号不符。"/>
+<e k="modHub_authorDisclaimer_xbox" v="显示的作者与Xbox Live 玩家代号 不对应"/>
+<e k="modHub_best" v="最佳"/>
+<e k="modHub_beta" v="Beta"/>
+<e k="modHub_contest" v="Mod-Contest"/>
+<e k="modHub_conversions" v="转换"/>
+<e k="modHub_dependenciesText" v="需要以下相关模组，模组将会自动下载：
+%s"/>
+<e k="modHub_dependenciesTitle" v="相关模组"/>
+<e k="modHub_dlc" v="可下载内容"/>
+<e k="modHub_dlc_ps" v="可下载内容"/>
+<e k="modHub_dlc_xbox" v="可下载内容"/>
+<e k="modHub_download" v="下载"/>
+<e k="modHub_downloaded" v="已下载"/>
+<e k="modHub_error" v="错误"/>
+<e k="modHub_extraContent" v="额外内容"/>
+<e k="modHub_failed" v="失败"/>
+<e k="modHub_farmBuilding" v="农场建筑物"/>
+<e k="modHub_flag_highEnd" v="顶尖"/>
+<e k="modHub_gameplay" v="游戏性"/>
+<e k="modHub_harvester" v="收割机"/>
+<e k="modHub_installDependenciesFailed" v="以下相关模组无法安装：
+%s"/>
+<e k="modHub_installFailed" v="安装失败。请再试一次！"/>
+<e k="modHub_installNoFreeSpace" v="安装模组所需的磁盘空间不足。
+所需空间：%u KB
+可用空间：%u KB
+请解除安装一些其他的模组来继续。"/>
+<e k="modHub_installSuccessful" v="模组 &apos;%s&apos; 已经成功安装！"/>
+<e k="modHub_installationState" v="安装状态"/>
+<e k="modHub_installed" v="已安装"/>
+<e k="modHub_invalid_key" v="此密钥无对应项目！"/>
+<e k="modHub_invalid_key_format" v="密钥格式无效！"/>
+<e k="modHub_latest" v="最新"/>
+<e k="modHub_loading" v="正在读取 ModHub..."/>
+<e k="modHub_map" v="地图"/>
+<e k="modHub_most_downloaded" v="最多下载"/>
+<e k="modHub_noExtraContent" v="还没有任何东西被解锁。输入额外内容密钥来解锁新项目！"/>
+<e k="modHub_noMods" v="目前没有可用的模组！"/>
+<e k="modHub_object" v="物件"/>
+<e k="modHub_other" v="其它"/>
+<e k="modHub_package" v="封包"/>
+<e k="modHub_pending" v="正在等待处理......"/>
+<e k="modHub_rateFailed" v="无法评分模组。"/>
+<e k="modHub_rateSuccess" v="已成功评分模组！"/>
+<e k="modHub_scripts" v="脚本"/>
+<e k="modHub_search" v="搜索"/>
+<e k="modHub_skins" v="外观"/>
+<e k="modHub_title" v="ModHub"/>
+<e k="modHub_tool" v="农具"/>
+<e k="modHub_tractor" v="拖拉机"/>
+<e k="modHub_trailer" v="拖车"/>
+<e k="modHub_uninstallModFailed" v="无法卸载模组。请再试一次！"/>
+<e k="modHub_uninstallModSuccess" v="模组卸载成功！"/>
+<e k="modHub_uninstallModText" v="您确定要卸载模组 &apos;%s&apos; 吗？"/>
+<e k="modHub_uninstallModTitle" v="卸载模组"/>
+<e k="modHub_unlock" v="解锁项目"/>
+<e k="modHub_unlock_key" v="请输入你的额外内容密钥"/>
+<e k="modHub_unlocked" v="已解锁"/>
+<e k="modHub_unlocked_item" v="已成功解锁项目“%s”！"/>
+<e k="modHub_update" v="更新"/>
+<e k="notification_greatDemand" v="%s发生大量需求"/>
+<e k="notification_nowAvailable" v="现已推出！"/>
+<e k="object_farmhouse" v="农舍"/>
+<e k="player_female" v="女性"/>
+<e k="player_male" v="男性"/>
+<e k="presence_idle" v="正在浏览菜单"/>
+<e k="savegame_state_conflicted" v="冲突"/>
+<e k="savegame_state_not_uploaded" v="未上传"/>
+<e k="savegame_state_uploaded" v="已上传"/>
+<e k="savegame_state_uploading" v="正在上传……"/>
+<e k="setting_DLSS" v="深度学习超采样"/>
+<e k="setting_LODDistance" v="LOD 距离"/>
+<e k="setting_MSAA" v="多重采样抗锯齿"/>
+<e k="setting_PPAA" v="后处理抗锯齿"/>
+<e k="setting_activeSuspensionCamera" v="室内镜头悬浮"/>
+<e k="setting_adaptiveVSync" v="自适应垂直同步"/>
+<e k="setting_advanced" v="高级图形设置"/>
+<e k="setting_anisotropicFiltering" v="各向异性过滤"/>
+<e k="setting_areaUnit" v="区域单位"/>
+<e k="setting_autoSaveInterval" v="自动储存间隔"/>
+<e k="setting_automaticMotorStart" v="自动启动引擎"/>
+<e k="setting_brightness" v="亮度"/>
+<e k="setting_cameraBobbing" v="镜头颠簸"/>
+<e k="setting_cameraCheckCollision" v="镜头碰撞调整"/>
+<e k="setting_cameraSensitivity" v="视角敏感度"/>
+<e k="setting_cameraTilt" v="水平倾斜"/>
+<e k="setting_cloudQuality" v="云质量"/>
+<e k="setting_colorBlindMode" v="色盲模式"/>
+<e k="setting_controllerSettings" v="控制器"/>
+<e k="setting_directionChangeMode" v="更改方向"/>
+<e k="setting_dirt" v="尘土"/>
+<e k="setting_easyArmControl" v="简易机械臂控制"/>
+<e k="setting_economicDifficulty" v="经济难易度"/>
+<e k="setting_fertilizerStates" v="肥料状态"/>
+<e k="setting_fidelityFxSR" v="FSR 超采样"/>
+<e k="setting_fixedSeasonalVisuals" v="固定可视月"/>
+<e k="setting_foliageDrawDistance" v="茎叶绘制距离"/>
+<e k="setting_foliageShadows" v="茎叶阴影"/>
+<e k="setting_forceFeedback" v="力反馈"/>
+<e k="setting_fovy" v="视野"/>
+<e k="setting_fovyDegree" v="%d°"/>
+<e k="setting_fruitDestruction" v="作物破坏"/>
+<e k="setting_fuelUsage" v="燃料使用"/>
+<e k="setting_fuelUsageDefault" v="默认"/>
+<e k="setting_fuelUsageLow" v="低"/>
+<e k="setting_gamepadAxis" v="轴 %d"/>
+<e k="setting_gamepadDeadzone" v="死区"/>
+<e k="setting_gamepadSensitivity" v="灵敏度"/>
+<e k="setting_gearShiftMode" v="换档模式"/>
+<e k="setting_graphics" v="图形"/>
+<e k="setting_gyroscopeSteering" v="陀螺仪转向"/>
+<e k="setting_gyroscopeSteering_switch" v="加速度感应器转向"/>
+<e k="setting_hardwareProfile" v="硬件配置文件"/>
+<e k="setting_hdr" v="HDR Calibration"/>
+<e k="setting_hdrPeakBrightness" v="Peak Brightness"/>
+<e k="setting_headTracking" v="头部追踪"/>
+<e k="setting_helpIconsOnMap" v="游戏内帮助图标"/>
+<e k="setting_helpWindow" v="帮助窗口"/>
+<e k="setting_helperRefill" v="帮手加满"/>
+<e k="setting_helperRefillFertilizer" v="帮手加满：肥料"/>
+<e k="setting_helperRefillFuel" v="帮手加满：燃料"/>
+<e k="setting_helperRefillManure" v="帮手加满：堆肥"/>
+<e k="setting_helperRefillSeed" v="帮手加满：种子"/>
+<e k="setting_helperRefillSlurry" v="帮手加满：水肥"/>
+<e k="setting_high" v="高"/>
+<e k="setting_hints" v="提示"/>
+<e k="setting_hudSpeedGauge" v="速度计显示值"/>
+<e k="setting_iconsOnIngameMap" v="地图图标"/>
+<e k="setting_inputHelpMode" v="输入帮助模式"/>
+<e k="setting_invertYLook" v="反转 Y 轴"/>
+<e k="setting_isTrainTabbable" v="切换到火车"/>
+<e k="setting_language" v="语言"/>
+<e k="setting_lightQuality" v="光照质量"/>
+<e k="setting_limeRequired" v="需要石灰"/>
+<e k="setting_low" v="低"/>
+<e k="setting_maxNumMirrors" v="后视镜"/>
+<e k="setting_maxNumTireTracks" v="最大胎痕数"/>
+<e k="setting_measuringUnit" v="衡量单位"/>
+<e k="setting_medium" v="中"/>
+<e k="setting_moneyUnit" v="钱币单位"/>
+<e k="setting_mouseSettings" v="鼠标"/>
+<e k="setting_multiplayerLanguage" v="对战语言"/>
+<e k="setting_musicVolume" v="音乐音量"/>
+<e k="setting_objectDrawDistance" v="物件绘制距离"/>
+<e k="setting_off" v="关闭"/>
+<e k="setting_plannedDaysPerPeriod" v="每月天数"/>
+<e k="setting_plantGrowthRate" v="植物生长"/>
+<e k="setting_plantGrowthRateState1" v="缓慢"/>
+<e k="setting_plantGrowthRateState2" v="普通"/>
+<e k="setting_plantGrowthRateState3" v="快"/>
+<e k="setting_plantWithering" v="植物枯萎"/>
+<e k="setting_plowingRequired" v="需要定期犁田"/>
+<e k="setting_radio" v="收音机"/>
+<e k="setting_radioAlways" v="永久"/>
+<e k="setting_radioChannel" v="电台频道"/>
+<e k="setting_radioRange" v="收音机范围"/>
+<e k="setting_radioVehicleOnly" v="只限载具"/>
+<e k="setting_realBeaconLights" v="拟真信标灯"/>
+<e k="setting_renderQuality" v="渲染质量"/>
+<e k="setting_resetCamera" v="重置载具视角"/>
+<e k="setting_resetUICamera" v="重置视角"/>
+<e k="setting_resolution" v="屏幕分辨率"/>
+<e k="setting_resolutionDownsampled" v="超取样分辨率"/>
+<e k="setting_resolutionScaling" v="分辨率比例"/>
+<e k="setting_resolutionScaling3d" v="TODO"/>
+<e k="setting_seasonalGrowth" v="季节性增长"/>
+<e k="setting_sfxVolume" v="效果音音量"/>
+<e k="setting_shaderQuality" v="渲染器质量"/>
+<e k="setting_shadingRateQuality" v="遮光率"/>
+<e k="setting_shadowDistanceQuality" v="阴影距离质量"/>
+<e k="setting_shadowMapFiltering" v="阴影贴图过滤"/>
+<e k="setting_shadowMaxNumLights" v="最大阴影光照"/>
+<e k="setting_shadowQuality" v="阴影质量"/>
+<e k="setting_snowEnabled" v="雪"/>
+<e k="setting_ssaoQuality" v="SSAO质量"/>
+<e k="setting_steeringBackSpeed" v="回转速度"/>
+<e k="setting_steeringSensitivity" v="转向灵敏度"/>
+<e k="setting_stonesEnabled" v="田地石头"/>
+<e k="setting_stopAndGoBraking" v="自动起步刹车"/>
+<e k="setting_temperatureUnit" v="温度单位"/>
+<e k="setting_terrainLODDistance" v="地形 LOD 距离"/>
+<e k="setting_terrainQuality" v="地形质量"/>
+<e k="setting_textureFiltering" v="材质过滤"/>
+<e k="setting_textureResolution" v="材质分辨率"/>
+<e k="setting_timeScale" v="时标"/>
+<e k="setting_traffic" v="车辆"/>
+<e k="setting_trailerFillLimit" v="拖车装填限制"/>
+<e k="setting_trailerLoss" v="偶发拖车内容遗失"/>
+<e k="setting_triggerMarker" v="互动区标记"/>
+<e k="setting_uiScale" v="游戏内抬头显示比例"/>
+<e k="setting_useWorldCamera" v="动态载具视角"/>
+<e k="setting_vSync" v="垂直同步"/>
+<e k="setting_vehicleArmSensitivity" v="车臂敏感度"/>
+<e k="setting_veryHigh" v="非常高"/>
+<e k="setting_voiceMode" v="语音输入模式"/>
+<e k="setting_volumeEnvironment" v="环境音量"/>
+<e k="setting_volumeGUI" v="GUI 音量"/>
+<e k="setting_volumeMaster" v="音量"/>
+<e k="setting_volumeMeshTessellation" v="网格化体积"/>
+<e k="setting_volumeMusic" v="音量"/>
+<e k="setting_volumeRadio" v="收音机音量"/>
+<e k="setting_volumeVehicles" v="载具音量"/>
+<e k="setting_volumeVoice" v="语音聊天音量"/>
+<e k="setting_volumeVoiceInput" v="语音录音音量"/>
+<e k="setting_weedsEnabled" v="杂草"/>
+<e k="setting_wheelGamepad" v="游戏手柄/方向盘"/>
+<e k="setting_windowMode" v="窗口模式"/>
+<e k="shopConfig_fuelDefValue" v="%d %s / %d %s %s"/>
+<e k="shopConfig_maxPowerValue" v="%s kW / %s hp"/>
+<e k="shopConfig_neededPowerValue" v="%s kW / %s hp"/>
+<e k="shopItem_animalChicken" v="鸡"/>
+<e k="shopItem_animalChickenDescription" v="鸡为你提供鸡蛋，鸡蛋可以在出售点贩卖，也可以在你的工厂加工。"/>
+<e k="shopItem_animalChickenRooster" v="公鸡"/>
+<e k="shopItem_animalCow" v="奶牛"/>
+<e k="shopItem_animalCowAngus" v="安格斯牛"/>
+<e k="shopItem_animalCowDescription" v="奶牛为你提供牛奶，同时可用于出售获利。"/>
+<e k="shopItem_animalCowDescriptionBreeding" v="此类型主要用于育种饲养。"/>
+<e k="shopItem_animalCowDescriptionMilk" v="此类型主要用于生产乳品。"/>
+<e k="shopItem_animalCowHolstein" v="荷兰牛"/>
+<e k="shopItem_animalCowLimousin" v="利木赞牛"/>
+<e k="shopItem_animalCowSwissBrown" v="瑞士褐牛"/>
+<e k="shopItem_animalHorse" v="马"/>
+<e k="shopItem_animalHorseBay" v="马（棕）"/>
+<e k="shopItem_animalHorseBlack" v="马（黑）"/>
+<e k="shopItem_animalHorseChestnut" v="马（红棕）"/>
+<e k="shopItem_animalHorseDescription" v="马需要被骑才会增值。它们能让你以另一种方式探索地图。"/>
+<e k="shopItem_animalHorseDun" v="马（浅棕）"/>
+<e k="shopItem_animalHorseGray" v="马（灰）"/>
+<e k="shopItem_animalHorsePalomino" v="马（米黄）"/>
+<e k="shopItem_animalHorsePinto" v="马（棕 &amp; 白）"/>
+<e k="shopItem_animalHorseSealBrown" v="马（深棕）"/>
+<e k="shopItem_animalPig" v="猪"/>
+<e k="shopItem_animalPigBerkshire" v="巴克夏猪"/>
+<e k="shopItem_animalPigBlackPied" v="本特海姆黑斑猪"/>
+<e k="shopItem_animalPigDescription" v="猪可用于出售获利。它们能生产有助于作物生长的有机肥料。"/>
+<e k="shopItem_animalPigLandrace" v="德国兰德瑞斯猪"/>
+<e k="shopItem_animalSheep" v="绵羊"/>
+<e k="shopItem_animalSheepBlackWelsh" v="黑威尔士山地绵羊"/>
+<e k="shopItem_animalSheepDescription" v="绵羊为你提供羊毛，羊毛可以直接贩卖，也可以在你的工厂进一步加工。"/>
+<e k="shopItem_animalSheepLandrace" v="本特海姆兰德瑞斯猪"/>
+<e k="shopItem_animalSheepSteinschaf" v="石绵羊"/>
+<e k="shopItem_animalSheepSwissMountain" v="瑞士黑棕山地绵羊"/>
+<e k="shopItem_bakery" v="烘焙坊"/>
+<e k="shopItem_beehive" v="蜂房"/>
+<e k="shopItem_bhp" v="生物质供热厂"/>
+<e k="shopItem_bigBag" v="大袋"/>
+<e k="shopItem_bigBagChickenFood" v="大袋小麦"/>
+<e k="shopItem_bigBagFertilizer" v="大袋固体肥料"/>
+<e k="shopItem_bigBagHorseFood" v="大袋燕麦"/>
+<e k="shopItem_bigBagLime" v="大袋石灰"/>
+<e k="shopItem_bigBagPigFood" v="大袋猪饲料"/>
+<e k="shopItem_bigBagRoadSalt" v="大袋除冰盐"/>
+<e k="shopItem_bigBagSeeds" v="大袋种子"/>
+<e k="shopItem_biogasStation" v="生物甲烷站"/>
+<e k="shopItem_bluebell" v="蓝铃"/>
+<e k="shopItem_bush" v="灌木"/>
+<e k="shopItem_carpenter" v="伐木厂"/>
+<e k="shopItem_cerealFactory" v="谷物工厂"/>
+<e k="shopItem_chargingStation" v="充电站"/>
+<e k="shopItem_comfortSupportWheel" v="舒适支撑轮"/>
+<e k="shopItem_coneFlower" v="金花菊"/>
+<e k="shopItem_dairy" v="乳制品"/>
+<e k="shopItem_daisy" v="雏菊"/>
+<e k="shopItem_daylily" v="黄花菜"/>
+<e k="shopItem_debrisCrusher" v="碎屑机"/>
+<e k="shopItem_dieselTank" v="柴油贮存箱"/>
+<e k="shopItem_dogBall" v="球"/>
+<e k="shopItem_doghouse" v="狗屋"/>
+<e k="shopItem_edelweiss" v="雪绒花"/>
+<e k="shopItem_electricityGernerator01" v="小型太阳能板"/>
+<e k="shopItem_electricityGernerator02" v="大型太阳能板"/>
+<e k="shopItem_electricityGernerator03" v="小型风力转换器"/>
+<e k="shopItem_electricityGernerator04" v="小型风力涡轮机"/>
+<e k="shopItem_electricityGernerator05" v="大型风力涡轮机"/>
+<e k="shopItem_farmBarn" v="农场谷仓"/>
+<e k="shopItem_farmGarage" v="农场车库"/>
+<e k="shopItem_farmHut" v="农场小屋"/>
+<e k="shopItem_farmOldBarn" v="农场旧谷仓"/>
+<e k="shopItem_farmShack" v="农场棚屋"/>
+<e k="shopItem_farmShed" v="农场小木屋"/>
+<e k="shopItem_farmSilo" v="青贮窖"/>
+<e k="shopItem_farmSiloLarge" v="大型谷物青贮窖"/>
+<e k="shopItem_farmSiloSmall" v="谷物青贮窖"/>
+<e k="shopItem_farmStable" v="农场马厩"/>
+<e k="shopItem_farmStorage" v="农场仓库"/>
+<e k="shopItem_farmStorageBarn" v="农场储藏处"/>
+<e k="shopItem_farmTrailer" v="农场拖车"/>
+<e k="shopItem_farmersMarket" v="农贸市场"/>
+<e k="shopItem_fastFoodRestaurant" v="快餐店"/>
+<e k="shopItem_fence" v="栅栏"/>
+<e k="shopItem_fenceCorner" v="转角杆"/>
+<e k="shopItem_fenceGate" v="大门"/>
+<e k="shopItem_fencePole" v="杆"/>
+<e k="shopItem_fertilizerTank" v="肥料槽"/>
+<e k="shopItem_firTree" v="冷杉"/>
+<e k="shopItem_flieglSemitrailer" v="轻型装载机"/>
+<e k="shopItem_flieglTimberRunner" v="木材运输车"/>
+<e k="shopItem_floodLight01" v="单个泛光灯"/>
+<e k="shopItem_floodLight02" v="四重泛光灯"/>
+<e k="shopItem_floodLight03" v="小型泛光灯"/>
+<e k="shopItem_floodLight04" v="中型泛光灯"/>
+<e k="shopItem_floodLight05" v="大型泛光灯"/>
+<e k="shopItem_frontloaderBaleFork" v="草垛"/>
+<e k="shopItem_frontloaderBaleGrab" v="包装草捆堆垛机"/>
+<e k="shopItem_frontloaderHighDumpBucket" v="高卸式铲斗"/>
+<e k="shopItem_frontloaderLogFork" v="圆木叉"/>
+<e k="shopItem_frontloaderManureFork" v="粪叉"/>
+<e k="shopItem_frontloaderManureGrabFork" v="钩叉"/>
+<e k="shopItem_frontloaderPalletFork" v="货盘叉"/>
+<e k="shopItem_frontloaderRoundBaleFork" v="圆草捆叉"/>
+<e k="shopItem_frontloaderShovel" v="通用铲斗"/>
+<e k="shopItem_frontloaderSilageCutter" v="青贮谷物切割刀"/>
+<e k="shopItem_garantFieldContainer" v="现场集装箱"/>
+<e k="shopItem_garantTSA" v="TSA 泥浆运输车"/>
+<e k="shopItem_gardenShed" v="花卉小屋"/>
+<e k="shopItem_gasStation" v="加油站"/>
+<e k="shopItem_grainContainer" v="谷物集装箱"/>
+<e k="shopItem_grainMill" v="谷物磨坊"/>
+<e k="shopItem_grapeProcessing" v="葡萄加工"/>
+<e k="shopItem_grape_vine" v="葡萄藤"/>
+<e k="shopItem_greenhouseLarge" v="大型温室"/>
+<e k="shopItem_greenhouseMedium" v="中型温室"/>
+<e k="shopItem_greenhouseSmall" v="小型温室"/>
+<e k="shopItem_hayLoft" v="甘草棚"/>
+<e k="shopItem_heatingPlant" v="发热站"/>
+<e k="shopItem_hedge" v="树篱"/>
+<e k="shopItem_herbicideTank" v="除草剂罐"/>
+<e k="shopItem_highPressureWasher" v="高压水枪"/>
+<e k="shopItem_kroneCutterTrailer" v="切割刀型拖车"/>
+<e k="shopItem_lantern" v="灯笼"/>
+<e k="shopItem_lightResidential01" v="路灯"/>
+<e k="shopItem_lightResidential02" v="道灯"/>
+<e k="shopItem_lightResidential03" v="单路灯"/>
+<e k="shopItem_lightResidential04" v="双路灯"/>
+<e k="shopItem_lightResidential05" v="街灯"/>
+<e k="shopItem_limeStation" v="石灰站"/>
+<e k="shopItem_liquidFertilizerTank" v="液体肥料罐"/>
+<e k="shopItem_mapAlpine_biogasPlant" v="沼气厂"/>
+<e k="shopItem_mapleTree" v="枫树"/>
+<e k="shopItem_meadow" v="草地"/>
+<e k="shopItem_meridianFertilizerTank" v="不锈钢肥料箱"/>
+<e k="shopItem_mobileFuelTank" v="车载式燃料箱"/>
+<e k="shopItem_oilMill" v="榨油厂"/>
+<e k="shopItem_oliveTree" v="橄榄树"/>
+<e k="shopItem_olive_vine" v="橄榄藤"/>
+<e k="shopItem_palletSaplings" v="树苗托盘"/>
+<e k="shopItem_palletSaplingsPoplar" v="白杨树苗种盘"/>
+<e k="shopItem_palletSaplingsSugarCane" v="甘蔗托盘"/>
+<e k="shopItem_picnicShelter01" v="长方野餐亭"/>
+<e k="shopItem_picnicShelter02" v="圆形野餐亭"/>
+<e k="shopItem_pizzeria" v="披萨店"/>
+<e k="shopItem_railroadCrane" v="铁路起重机"/>
+<e k="shopItem_restaurant" v="餐厅"/>
+<e k="shopItem_sampoRosenlewC6Cutter" v="C6 割台"/>
+<e k="shopItem_sandcastle" v="沙堡"/>
+<e k="shopItem_schaumannPallet" v="矿物质饲料托盘"/>
+<e k="shopItem_sellStation" v="销售站 1"/>
+<e k="shopItem_sellingStation" v="销售站 2"/>
+<e k="shopItem_sellingStationBales" v="销售站 3"/>
+<e k="shopItem_sellingStationTrain" v="销售站 4"/>
+<e k="shopItem_shack01" v="小屋"/>
+<e k="shopItem_shack02" v="高架屋"/>
+<e k="shopItem_shack03" v="小木屋"/>
+<e k="shopItem_shack04" v="公用事业楼"/>
+<e k="shopItem_silageRoller" v="青贮饲料碾压机"/>
+<e k="shopItem_siloExtension" v="青贮窖扩展"/>
+<e k="shopItem_siloExtensionLarge" v="大型青贮窖扩展"/>
+<e k="shopItem_siloExtensionSmall" v="小型青贮窖扩展"/>
+<e k="shopItem_skidSteerBaleFork" v="草垛叉"/>
+<e k="shopItem_skidSteerHighDumpBucket" v="高卸式铲斗"/>
+<e k="shopItem_skidSteerLogFork" v="原木叉"/>
+<e k="shopItem_skidSteerManureFork" v="堆肥叉"/>
+<e k="shopItem_skidSteerPalletFork" v="货叉"/>
+<e k="shopItem_skidSteerShovel" v="万用桶"/>
+<e k="shopItem_skidSteerStumpCutter" v="树桩粉碎机"/>
+<e k="shopItem_solarCollector" v="太阳能板"/>
+<e k="shopItem_spinnery" v="纺纱厂"/>
+<e k="shopItem_storageShelter01" v="大仓库"/>
+<e k="shopItem_storageShelter02" v="小仓库"/>
+<e k="shopItem_sugarMill" v="甘蔗厂"/>
+<e k="shopItem_sugarcaneSemitrailer" v="甘蔗半拖车"/>
+<e k="shopItem_sugarcaneTrailer" v="甘蔗拖车"/>
+<e k="shopItem_supermarket" v="超市"/>
+<e k="shopItem_tailorShop" v="裁缝店"/>
+<e k="shopItem_telehandlerBaleFork" v="草垛叉"/>
+<e k="shopItem_telehandlerBaleGrab" v="草垛包搬运机"/>
+<e k="shopItem_telehandlerFork" v="货叉"/>
+<e k="shopItem_telehandlerHighDumpBucket" v="高卸式铲斗"/>
+<e k="shopItem_telehandlerLogFork" v="圆木叉"/>
+<e k="shopItem_telehandlerManureFork" v="粪叉"/>
+<e k="shopItem_telehandlerShovel" v="铁锹"/>
+<e k="shopItem_transportCompany" v="运输公司"/>
+<e k="shopItem_vehicleShelter" v="停车处"/>
+<e k="shopItem_vehicleShelterLarge" v="大型机具停放处"/>
+<e k="shopItem_vehicleShelterSmall" v="小型机具停放处"/>
+<e k="shopItem_warehouse" v="仓库"/>
+<e k="shopItem_washingStation" v="洗车场"/>
+<e k="shopItem_waterTower" v="供水站"/>
+<e k="shopItem_waterTrailer" v="车载式水箱"/>
+<e k="shopItem_weatherStation" v="气象站"/>
+<e k="shopItem_wheelLoaderFork" v="叉子"/>
+<e k="shopItem_wheelLoaderHighDumpBucket" v="高卸式铲斗"/>
+<e k="shopItem_wheelLoaderLogFork" v="圆木叉"/>
+<e k="shopItem_wheelLoaderShovel" v="铁锹"/>
+<e k="shopItem_wheelLoaderSilageFork" v="青贮饲料叉"/>
+<e k="shopItem_windTurbine" v="风力转换器"/>
+<e k="shopItem_woodSellingStation" v="锯木厂"/>
+<e k="shopItem_woolTrailer" v="LT-6 (羊毛)"/>
+<e k="shopItem_workshop" v="车间"/>
+<e k="shop_age" v="%d个月"/>
+<e k="shop_capacity" v="容量："/>
+<e k="shop_capacityValue" v="%s %s"/>
+<e k="shop_category" v="类型"/>
+<e k="shop_combinations" v="适用于："/>
+<e k="shop_configuration" v="设置"/>
+<e k="shop_configurationPriceBase" v="基础价格"/>
+<e k="shop_configurationPriceOptions" v="选项"/>
+<e k="shop_configurationPriceTotal" v="总价"/>
+<e k="shop_configurationTitle" v="选项与升级"/>
+<e k="shop_configurations" v="配置"/>
+<e k="shop_costsBase" v="基础花费"/>
+<e k="shop_costsPerDay" v="每天"/>
+<e k="shop_costsPerOperatingHour" v="每工时"/>
+<e k="shop_doYouWantToBuy" v="您想要以 %s 的价格购买吗？"/>
+<e k="shop_doYouWantToBuyAnimals" v="你想购买%d只牲畜（%s）并花费%s吗？"/>
+<e k="shop_doYouWantToLease" v="您想要以 %s 的价格租赁吗？"/>
+<e k="shop_doYouWantToMoveAnimalToSpawnPlace" v="你想卸下这只牲畜（%s）吗？"/>
+<e k="shop_doYouWantToMoveAnimalToTrailer" v="你想将这只牲畜（%s）装上拖车吗？"/>
+<e k="shop_doYouWantToMoveAnimalsToFarm" v="你想将%d只牲畜（%s）移到畜栏吗？"/>
+<e k="shop_doYouWantToMoveAnimalsToTrailer" v="你想将%d只牲畜（%s）移到拖车吗？"/>
+<e k="shop_doYouWantToSellAnimals" v="你想出售%d只牲畜（%s）并获得%s吗？"/>
+<e k="shop_electricCapacity" v="%d kWh"/>
+<e k="shop_fee" v="费用"/>
+<e k="shop_fruitTypes" v="水果类型"/>
+<e k="shop_fuelDefValue" v="%d %s / %d %s %s"/>
+<e k="shop_fuelValue" v="%d %s"/>
+<e k="shop_income" v="收入："/>
+<e k="shop_incomeValue" v="%s / 小时"/>
+<e k="shop_initialCosts" v="初始租赁花费"/>
+<e k="shop_leasedItems" v="已租赁项目"/>
+<e k="shop_maintenance" v="维修："/>
+<e k="shop_maintenanceValue" v="%s / 天"/>
+<e k="shop_maxPower" v="最大马力："/>
+<e k="shop_maxPowerValueRange" v="%s - %s hp"/>
+<e k="shop_maxPowerValueSingle" v="%s hp"/>
+<e k="shop_maxSpeed" v="%s %s"/>
+<e k="shop_messageAlreadyOwned" v="你已拥有这项物品。"/>
+<e k="shop_messageAnimalCouldNotBeUnloaded" v="无法卸下牲畜！"/>
+<e k="shop_messageAnimalDoesNotSupportUnloading" v="无法卸下此类牲畜！"/>
+<e k="shop_messageAnimalGlobalLimitReached" v="你的畜栏没有足够的空间！"/>
+<e k="shop_messageAnimalRideableLimitReached" v="有太多的马没在谷仓里面。先把它们带回来！"/>
+<e k="shop_messageAnimalTypeNotSupported" v="不支持此类牲畜！"/>
+<e k="shop_messageAnimalTypeNotSupportedByTrailer" v="拖车不支持此类牲畜！"/>
+<e k="shop_messageBoughtAnimals" v="牲畜已被购买。"/>
+<e k="shop_messageBoughtChainsaw" v="滚动鼠标滑轮或者按住键盘上的 1、2 切换电锯。"/>
+<e k="shop_messageBoughtPlaceable" v="该建筑已被购买。"/>
+<e k="shop_messageBuyFarmlandText" v="花费 %s 购买这块土地？"/>
+<e k="shop_messageBuyFarmlandTitle" v="购买土地"/>
+<e k="shop_messageBuyFieldTitle" v="购买田地"/>
+<e k="shop_messageBuyingAnimals" v="正在购买牲畜……"/>
+<e k="shop_messageBuyingVehicle" v="正在购买所选物品..."/>
+<e k="shop_messageCannotSellAnimal" v="你暂时不能出售该牲畜。"/>
+<e k="shop_messageCannotSellFarmlandWithPlaceables" v="无法出售这块土地，因为土地上仍有可放置物件，请先卖掉这些物件。"/>
+<e k="shop_messageConfigurationChangeFailed" v="无法更改配置！"/>
+<e k="shop_messageConfigurationChanged" v="配置已更改。"/>
+<e k="shop_messageFailedToLoadObject" v="现在不能购买此物品，请稍后再试。"/>
+<e k="shop_messageFailedToLoadVehicle" v="现在不能购买农机/工具，请稍后再试。"/>
+<e k="shop_messageFailedToReturnLastVehicleText" v="无法归还上一载具。"/>
+<e k="shop_messageFailedToReturnVehicle" v="返回失败！请稍后再试。"/>
+<e k="shop_messageFailedToSellLastVehicleText" v="无法出售上一载具。"/>
+<e k="shop_messageFailedToSellObject" v="出售失败！请稍后再试。"/>
+<e k="shop_messageFailedToSellVehicle" v="出售失败！请稍后再试。"/>
+<e k="shop_messageGardenCenterPurchaseReady" v="您可以从商店取得您购得的商品。"/>
+<e k="shop_messageHusbandryDoesNotExist" v="畜栏已不存在！"/>
+<e k="shop_messageInvalidCluster" v="给定的牲畜群不存在！"/>
+<e k="shop_messageIsInUse" v="载具/农具目前正在使用。"/>
+<e k="shop_messageLeasingReady" v="您可以从商店取走租赁的载具。"/>
+<e k="shop_messageLeasingVehicle" v="您选择的对象已经被租赁......"/>
+<e k="shop_messageNoHusbandries" v="你没有任何牲畜谷仓或牧场！先放置一个谷仓，好能购买一些牲畜！"/>
+<e k="shop_messageNoPermissionGeneral" v="你当前没有权限执行此动作。"/>
+<e k="shop_messageNoPermissionToBuyVehicleText" v="您当前没有权限购买或出租载具或工具。"/>
+<e k="shop_messageNoPermissionToReturnVehicleText" v="你当前没有权限归还游戏中的农机或工具。"/>
+<e k="shop_messageNoPermissionToSellVehicleText" v="你当前没有权限出售游戏中的农机或工具。"/>
+<e k="shop_messageNoPermissionToSellVehicleTitle" v="没有权限"/>
+<e k="shop_messageNoPermissionToTradeAnimals" v="你当前没有权限交易牲畜。"/>
+<e k="shop_messageNoSpace" v="空间不足！请先移除已购买的物品。"/>
+<e k="shop_messageNotEnoughAnimals" v="选择的牲畜过多！"/>
+<e k="shop_messageNotEnoughMoneyToBuy" v="你的余额不足！"/>
+<e k="shop_messageNotEnoughMoneyToBuyFarmland" v="金钱不足，无法购买这块土地！"/>
+<e k="shop_messageNotEnoughMoneyToBuy_buyCoins" v="你的余额不足！你想要购买更多钱币吗？"/>
+<e k="shop_messageNotEnoughMoneyToLease" v="您的金钱不足！"/>
+<e k="shop_messageNotEnoughSlotsToBuy" v="货柜已满！要获得空闲的储物空间，首先你必须出售一些农机、工具或者其它可放置的物体。"/>
+<e k="shop_messageNotEnoughSpaceAnimals" v="你的畜栏没有足够的空间！"/>
+<e k="shop_messageNotEnoughSpaceAnimalsArea" v="没有空间来卸下牲畜！"/>
+<e k="shop_messageNotEnoughSpaceAnimalsTrailer" v="你的拖车没有足够的空间！"/>
+<e k="shop_messageObjectInUse" v="无法出售正在被使用的物品。"/>
+<e k="shop_messagePurchaseReady" v="你可以在商店拿走购买的东西。"/>
+<e k="shop_messageReturnVehicleInUse" v="机具/工具正在使用无法归还。"/>
+<e k="shop_messageReturnedVehicle" v="载具/工具已归还。"/>
+<e k="shop_messageReturningVehicle" v="正在归还载具/工具......"/>
+<e k="shop_messageRideableDoesNotExist" v="马已不存在！"/>
+<e k="shop_messageSellFarmlandText" v="以 %s 的价格出售这块土地？"/>
+<e k="shop_messageSellFarmlandTitle" v="出售土地"/>
+<e k="shop_messageSellVehicleInUse" v="机具/工具正在使用无法出售。"/>
+<e k="shop_messageSellingAnimals" v="正在出售牲畜……"/>
+<e k="shop_messageSellingVehicle" v="农机/工具正在出售中..."/>
+<e k="shop_messageSoldAnimals" v="牲畜已被出售。"/>
+<e k="shop_messageSoldObject" v="此物件已售出。"/>
+<e k="shop_messageSoldVehicle" v="农机/工具已出售。"/>
+<e k="shop_messageThanksForBuying" v="感谢您的购买。"/>
+<e k="shop_messageTourItemsCannotBeSold" v="教程浏览期间你不能出售任何农机/工具。请首先完成巡游。"/>
+<e k="shop_messageTrailerDoesNotExist" v="拖车已不存在！"/>
+<e k="shop_moveToFarm" v="移到畜栏"/>
+<e k="shop_moveToSpawnPlace" v="卸下牲畜"/>
+<e k="shop_moveToTrailer" v="移动拖车"/>
+<e k="shop_movedToFarm" v="牲畜已被转到畜栏！"/>
+<e k="shop_movedToSpawnPlace" v="已卸下牲畜！"/>
+<e k="shop_movedToTrailer" v="牲畜已被转到拖车！"/>
+<e k="shop_neededPower" v="马力需求："/>
+<e k="shop_neededPowerValue" v="%s 千瓦 / %s 马力"/>
+<e k="shop_noConfigsAvailable" v="目前没有升级可用！"/>
+<e k="shop_noVehicles" v="没有可用农机！"/>
+<e k="shop_operatingTime" v="%02d.%d 小时"/>
+<e k="shop_ownedItems" v="已拥有项目"/>
+<e k="shop_saleRemaingHours" v="出售截止期限："/>
+<e k="shop_saleRemaingHoursValue" v="%d 小时"/>
+<e k="shop_starterPackAnimals" v="牲畜"/>
+<e k="shop_starterPackChaff" v="粗糠"/>
+<e k="shop_starterPackCotton" v="棉花"/>
+<e k="shop_starterPackForage" v="饲料"/>
+<e k="shop_starterPackGrain" v="谷物"/>
+<e k="shop_starterPackGrape" v="葡萄"/>
+<e k="shop_starterPackGrass" v="青草"/>
+<e k="shop_starterPackHay" v="干草"/>
+<e k="shop_starterPackOlive" v="橄榄"/>
+<e k="shop_starterPackPoplar" v="白杨树"/>
+<e k="shop_starterPackPotatoes" v="土豆"/>
+<e k="shop_starterPackSnow" v="冬天"/>
+<e k="shop_starterPackSugarBeet" v="甜菜"/>
+<e k="shop_starterPackSugarcane" v="甘蔗"/>
+<e k="shop_starterPackTransport" v="运输"/>
+<e k="shop_starterPackWood" v="木头"/>
+<e k="shop_starterPackWoodChips" v="木屑"/>
+<e k="shop_transportationFee" v="如果您不使用自己的动物拖车运输动物，将会产生运输费。"/>
+<e k="shop_usage" v="使用用途："/>
+<e k="shop_workingWidth" v="工作半径："/>
+<e k="shop_workingWidthValue" v="%s 米"/>
+<e k="shop_youLease" v="您租了"/>
+<e k="shop_youOwn" v="你拥有"/>
+<e k="splitType_americanElm" v="美国榆"/>
+<e k="splitType_birch" v="桦树"/>
+<e k="splitType_cypress" v="柏树"/>
+<e k="splitType_maple" v="枫树"/>
+<e k="splitType_pagodaDogwood" v="宝塔山茱萸"/>
+<e k="splitType_pine" v="松树"/>
+<e k="splitType_poplar" v="杨树"/>
+<e k="splitType_shagbarkHickory" v="粗皮山核桃"/>
+<e k="splitType_spruce" v="云杉"/>
+<e k="splitType_stonePine" v="石松"/>
+<e k="splitType_willow" v="柳树"/>
+<e k="stadia_controller_disclaimer" v="No endorsement or affiliation is intended between Stadia and the manufacturers of non-Stadia controllers or consoles. STADIA, the Stadia beacon, Google, and related marks and logos are trademarks of Google LLC. All other trademarks are the property of their respective owners."/>
+<e k="station_alpine_cheesery" v="奶酪厂"/>
+<e k="station_alpine_chocolateFactory" v="巧克力工厂"/>
+<e k="station_alpine_grainSiloRailroad01" v="火车站 1"/>
+<e k="station_alpine_grainSiloRailroad02" v="火车站 2"/>
+<e k="station_alpine_mill" v="磨坊"/>
+<e k="station_alpine_sawmill" v="锯木厂"/>
+<e k="station_alpine_spinnery" v="纺纱厂"/>
+<e k="station_alpine_supermarket" v="超市"/>
+<e k="station_barn" v="谷仓"/>
+<e k="station_farmSilo" v="农场青贮窖"/>
+<e k="station_fr_bakery" v="钱普烘焙坊"/>
+<e k="station_fr_bales" v="草捆贩售"/>
+<e k="station_fr_cheeseDairy" v="月球奶酪乳品厂"/>
+<e k="station_fr_farmShop" v="农夫花园农场商店"/>
+<e k="station_fr_grainElevator" v="GCHB谷物升降机"/>
+<e k="station_fr_grainMill" v="谷物磨坊"/>
+<e k="station_fr_livestockMarket" v="高贝勒龙家畜市场"/>
+<e k="station_fr_railroadSilo01" v="铁路青贮窖南"/>
+<e k="station_fr_railroadSilo02" v="铁路青贮窖北"/>
+<e k="station_fr_sawmill" v="锯木厂"/>
+<e k="station_fr_spinnery" v="科特杜纺纱厂"/>
+<e k="station_fr_trainOtherTown" v="玛丽松"/>
+<e k="station_fr_vehicleShop" v="阿曼德机动载具商店"/>
+<e k="station_us_bales" v="谷仓"/>
+<e k="station_us_biomassHeatingPlant" v="南谷生物质能"/>
+<e k="station_us_grainMill" v="谷物磨坊"/>
+<e k="station_us_grainSiloRailroad01" v="谷物青贮窖西"/>
+<e k="station_us_grainSiloRailroad02" v="谷物青贮窖东"/>
+<e k="station_us_mainGrainSilo" v="南方谷饲"/>
+<e k="station_us_restaurantBowlingCenter" v="红色大理石保龄球餐厅"/>
+<e k="station_us_sawmill" v="锯木厂"/>
+<e k="station_us_shoppingMall" v="杂货集市"/>
+<e k="station_us_spinnery" v="纺纱厂"/>
+<e k="station_us_trainOtherTown" v="金冠谷"/>
+<e k="station_us_trainStation" v="火车站"/>
+<e k="statistic_animalRequirementsFood" v="%d%% %s (%s)"/>
+<e k="statistic_animalRequirementsHorse" v="马需要秸秆来铺设干净的垫料，以及水和食物（包括 50% 的青草和 50% 的燕麦）来保持健康。每天都应该骑它们出去转转来提高健壮值。还需要进行定期的刷洗和清理。马的价值由健壮值、健康和清洁度决定的。"/>
+<e k="statistic_animalRequirementsMain" v="动物需要经常喝水！它们还需要一个干净的饲料区和一些秸秆。混合饲料包含："/>
+<e k="statistic_baleCount" v="制作的草捆"/>
+<e k="statistic_chickenOwned" v="拥有的鸡"/>
+<e k="statistic_cleanliness" v="洁净度"/>
+<e k="statistic_collectibles" v="已收集收藏品"/>
+<e k="statistic_completedFieldJobMissions" v="已完成的田地任务"/>
+<e k="statistic_cowOwned" v="拥有的奶牛"/>
+<e k="statistic_cultivatedHectares" v="耕种亩数"/>
+<e k="statistic_cultivatedTime" v="耕种时间"/>
+<e k="statistic_cutTreeCount" v="已砍下的树木"/>
+<e k="statistic_eggsAvailable" v="鸡舍中的蛋"/>
+<e k="statistic_eggsCarrying" v="运送鸡蛋"/>
+<e k="statistic_feedingTroughForageStorage" v="饲料槽（混合日粮）"/>
+<e k="statistic_feedingTroughGrassStorage" v="饲料槽（草）"/>
+<e k="statistic_feedingTroughMiscStorage" v="饲料槽"/>
+<e k="statistic_feedingTroughSilageStorage" v="饲料槽（青贮饲料）"/>
+<e k="statistic_fertilizedHectares" v="施肥亩数"/>
+<e k="statistic_fertilizedTime" v="施肥时间"/>
+<e k="statistic_fieldJobMissionCount" v="任务完成"/>
+<e k="statistic_fillType" v="水果类型"/>
+<e k="statistic_fuelUsage" v="燃料用途"/>
+<e k="statistic_hectaresSeeded" v="育苗区"/>
+<e k="statistic_hectaresThreshed" v="打谷区"/>
+<e k="statistic_hectaresWorked" v="工作区"/>
+<e k="statistic_liquidManureStorage" v="液体肥料"/>
+<e k="statistic_manureStorage" v="粪肥"/>
+<e k="statistic_milkStorage" v="牛奶箱"/>
+<e k="statistic_numOwned" v="已持有"/>
+<e k="statistic_other" v="其他"/>
+<e k="statistic_pigOwned" v="拥有的猪"/>
+<e k="statistic_plantedTreeCount" v="已种植的树木"/>
+<e k="statistic_playTime" v="游戏所用时间"/>
+<e k="statistic_plowedHectares" v="已耕作公顷"/>
+<e k="statistic_plowedTime" v="耕作时间"/>
+<e k="statistic_productivity" v="生产力"/>
+<e k="statistic_reproduction" v="繁殖"/>
+<e k="statistic_reproductionRate" v="繁殖率"/>
+<e k="statistic_seedUsage" v="种子用途"/>
+<e k="statistic_seedingDuration" v="育苗周期"/>
+<e k="statistic_sheepOwned" v="拥有的绵羊"/>
+<e k="statistic_sownHectares" v="播种亩数"/>
+<e k="statistic_sownTime" v="播种时间"/>
+<e k="statistic_sprayUsage" v="肥料用途"/>
+<e k="statistic_sprayedHectares" v="喷洒公顷数"/>
+<e k="statistic_sprayedTime" v="喷洒时间"/>
+<e k="statistic_storage" v="仓储"/>
+<e k="statistic_storedBales" v="草垛"/>
+<e k="statistic_strawStorage" v="秸秆"/>
+<e k="statistic_threshedHectares" v="收割亩数"/>
+<e k="statistic_threshedTime" v="收割时间"/>
+<e k="statistic_threshingDuration" v="打谷周期"/>
+<e k="statistic_timeTillNextAnimal" v="下一只动物"/>
+<e k="statistic_transportMissionCount" v="已完成的运输任务"/>
+<e k="statistic_traveledDistance" v="驾驶距离"/>
+<e k="statistic_water" v="水"/>
+<e k="statistic_workedHectares" v="工作亩数"/>
+<e k="statistic_workedTime" v="工作时间"/>
+<e k="statistic_workersHired" v="当前雇佣工人数"/>
+<e k="statistic_workingDuration" v="工作周期"/>
+<e k="statistic_yearsPlayed" v="已游玩年数"/>
+<e k="storageSilo" v="储藏筒仓"/>
+<e k="storeItem_alpine_bunkerSiloMedium" v="中型青贮窖 12m x 28m"/>
+<e k="storeItem_americanElm_stage01" v="美国榆（幼）"/>
+<e k="storeItem_americanElm_stage02" v="美国榆（小）"/>
+<e k="storeItem_americanElm_stage03" v="美国榆（中）"/>
+<e k="storeItem_americanElm_stage04" v="美国榆（大）"/>
+<e k="storeItem_animalBarnChickenBig" v="鸡舍"/>
+<e k="storeItem_animalBarnChickenSmall" v="鸡牧场"/>
+<e k="storeItem_animalBarnCowBig" v="牛棚 (大)"/>
+<e k="storeItem_animalBarnCowBigVector" v="配喂食机器人的牛棚"/>
+<e k="storeItem_animalBarnCowMedium" v="牛棚"/>
+<e k="storeItem_animalBarnCowSmall" v="奶牛牧场"/>
+<e k="storeItem_animalBarnHorseBig" v="马棚 (大)"/>
+<e k="storeItem_animalBarnHorseMedium" v="马棚"/>
+<e k="storeItem_animalBarnHorseSmall" v="马牧场"/>
+<e k="storeItem_animalBarnPigBig" v="猪圈 (大)"/>
+<e k="storeItem_animalBarnPigMedium" v="猪圈"/>
+<e k="storeItem_animalBarnPigSmall" v="猪牧场"/>
+<e k="storeItem_animalBarnSheepBig" v="羊圈 (大)"/>
+<e k="storeItem_animalBarnSheepMedium" v="羊圈"/>
+<e k="storeItem_animalBarnSheepSmall" v="绵羊牧场"/>
+<e k="storeItem_bagLifter" v="大袋升降机"/>
+<e k="storeItem_bakeryBoxPallet" v="面包托盘"/>
+<e k="storeItem_beehive01" v="蜂箱 (1个朗氏蜂箱)"/>
+<e k="storeItem_beehive02" v="蜂箱 (4个朗氏蜂箱)"/>
+<e k="storeItem_beehive03" v="蜂箱 (细长)"/>
+<e k="storeItem_beehive04" v="蜂箱 (10个朗氏蜂箱)"/>
+<e k="storeItem_beehive05" v="蜂箱 (33个朗氏蜂箱)"/>
+<e k="storeItem_beehivePalletSpawnLocation" v="蜂房蜂蜜托盘位置"/>
+<e k="storeItem_birch_stage01" v="白桦树树苗"/>
+<e k="storeItem_birch_stage02" v="白桦树（幼）"/>
+<e k="storeItem_birch_stage03" v="白桦树（小）"/>
+<e k="storeItem_birch_stage04" v="白桦树（中）"/>
+<e k="storeItem_birch_stage05" v="白桦树（大）"/>
+<e k="storeItem_boardsStackPallet" v="木板托盘"/>
+<e k="storeItem_bonsilage" v="BONSILAGE青贮添加剂"/>
+<e k="storeItem_bunkerSiloLarge" v="大型青贮窖 12m x 58m"/>
+<e k="storeItem_bunkerSiloMedium" v="中型青贮窖 8m x 39m"/>
+<e k="storeItem_bunkerSiloSmall" v="小型青贮窖 6m x 31m"/>
+<e k="storeItem_butterBoxPallet" v="黄油托盘"/>
+<e k="storeItem_cakePallet" v="蛋糕托盘"/>
+<e k="storeItem_canolaOilPallet" v="菜籽油托盘"/>
+<e k="storeItem_cerealsPallet" v="谷物托盘"/>
+<e k="storeItem_cheesePallet" v="奶酪托盘"/>
+<e k="storeItem_chocolateBoxPallet" v="巧克力托盘"/>
+<e k="storeItem_clothesBoxPallet" v="衣服托盘"/>
+<e k="storeItem_cypress_stage01" v="柏树（幼）"/>
+<e k="storeItem_cypress_stage02" v="柏树（小）"/>
+<e k="storeItem_cypress_stage03" v="柏树（中）"/>
+<e k="storeItem_cypress_stage04" v="柏树（大）"/>
+<e k="storeItem_dieselTank01" v="小型汽油贮存箱"/>
+<e k="storeItem_dieselTank02" v="中型汽油贮存箱"/>
+<e k="storeItem_dieselTank03" v="大型汽油贮存箱"/>
+<e k="storeItem_downyServiceberry_stage01" v="绒毛唐棣（小）"/>
+<e k="storeItem_downyServiceberry_stage02" v="绒毛唐棣（中）"/>
+<e k="storeItem_downyServiceberry_stage03" v="绒毛唐棣（大）"/>
+<e k="storeItem_easyShed01" v="配后壁的棚"/>
+<e k="storeItem_easyShed02" v="无前壁的棚"/>
+<e k="storeItem_easyShed03" v="干草小屋"/>
+<e k="storeItem_eggBoxPallet" v="鸡蛋托盘"/>
+<e k="storeItem_epsoTop" v="EPSO Top液态肥料"/>
+<e k="storeItem_fabricsPallet" v="布料托盘"/>
+<e k="storeItem_fillablePallet" v="可装填的托盘"/>
+<e k="storeItem_flourBoxPallet" v="面粉托盘"/>
+<e k="storeItem_furnitureStackPallet" v="家具托盘"/>
+<e k="storeItem_gardenShed01" v="旧木制花卉小屋"/>
+<e k="storeItem_gardenShed02" v="中型木质花卉小屋"/>
+<e k="storeItem_gardenShed03" v="小型木质花卉小屋"/>
+<e k="storeItem_gardenShed04" v="大型木质花卉小屋"/>
+<e k="storeItem_gardenShed05" v="金属板花卉小屋"/>
+<e k="storeItem_grapeJuicePallet" v="葡萄汁托盘"/>
+<e k="storeItem_grapePallet" v="葡萄托盘"/>
+<e k="storeItem_header" v="切刀"/>
+<e k="storeItem_headerTrailer" v="拖车"/>
+<e k="storeItem_hoermannCargoHangar" v="散料大厅"/>
+<e k="storeItem_hoermannGarageBig" v="大车库"/>
+<e k="storeItem_hoermannGarageBigService" v="配载具车间的大车库"/>
+<e k="storeItem_hoermannGarageContractor" v="承包商车库"/>
+<e k="storeItem_hoermannGarageSmall" v="小车库"/>
+<e k="storeItem_hoermannGarageSolarPanels" v="配太阳能屋顶的棚"/>
+<e k="storeItem_hoermannGarageWood" v="木制大车库"/>
+<e k="storeItem_hoermannGarageWoodRoof" v="木制敞开式车库"/>
+<e k="storeItem_honeyBoxPallet" v="蜂蜜托盘"/>
+<e k="storeItem_kornKali" v="Korn-Kali固态肥料"/>
+<e k="storeItem_lettuceBoxPallet" v="莴苣托盘"/>
+<e k="storeItem_liquidManureTank" v="液态粪肥贮存箱"/>
+<e k="storeItem_liquidManureTankExtensionLarge" v="大型液态粪肥扩展贮存箱"/>
+<e k="storeItem_liquidManureTankExtensionSmall" v="小型液态粪肥扩展贮存箱"/>
+<e k="storeItem_mapUS_farmBarn" v="农场谷仓"/>
+<e k="storeItem_mapUS_farmGarage" v="农场车库"/>
+<e k="storeItem_oak_stage01" v="橡树（小）"/>
+<e k="storeItem_oak_stage02" v="橡树（中）"/>
+<e k="storeItem_oak_stage03" v="橡树（大）"/>
+<e k="storeItem_oliveOilPallet" v="橄榄油托盘"/>
+<e k="storeItem_pagoda_stage01" v="宝塔山茱萸（小）"/>
+<e k="storeItem_pagoda_stage02" v="宝塔山茱萸（中）"/>
+<e k="storeItem_pagoda_stage03" v="宝塔山茱萸（大）"/>
+<e k="storeItem_patentKali" v="Patentkali固态肥料"/>
+<e k="storeItem_pine_stage01" v="松树树苗"/>
+<e k="storeItem_pine_stage02" v="松树（幼）"/>
+<e k="storeItem_pine_stage03" v="松树（小）"/>
+<e k="storeItem_pine_stage04" v="松树（中）"/>
+<e k="storeItem_pine_stage05" v="松树（大）"/>
+<e k="storeItem_pine_stage06" v="松树（老）"/>
+<e k="storeItem_planET_bga1mw" v="沼气厂 1MW"/>
+<e k="storeItem_planET_bga250kw" v="沼气厂 250kW"/>
+<e k="storeItem_planET_bga500kw" v="沼气厂 500kW"/>
+<e k="storeItem_planET_bga99kw" v="沼气厂 99kW"/>
+<e k="storeItem_planET_bgaHall" v="大型车库"/>
+<e k="storeItem_planet_bunkerSiloLarge" v="大型青贮窖 25m x 34m"/>
+<e k="storeItem_poplar_stage01" v="白杨树（小）"/>
+<e k="storeItem_poplar_stage02" v="白杨树（中）"/>
+<e k="storeItem_poplar_stage03" v="白杨树（大）"/>
+<e k="storeItem_raisinBoxPallet" v="葡萄干托盘"/>
+<e k="storeItem_roundBaleDryGrass" v="甘草圆草垛"/>
+<e k="storeItem_roundBaleSilage" v="青贮饲料圆草垛"/>
+<e k="storeItem_roundBaleWheat" v="秸秆圆草垛 (小麦)"/>
+<e k="storeItem_shagbark_stage01" v="粗皮山核桃（小）"/>
+<e k="storeItem_shagbark_stage02" v="粗皮山核桃（中）"/>
+<e k="storeItem_shagbark_stage03" v="粗皮山核桃（大）"/>
+<e k="storeItem_shagbark_stage04" v="粗皮山核桃（老）"/>
+<e k="storeItem_slurryTank" v="缸车"/>
+<e k="storeItem_slurryTankSemi" v="半拖缸车"/>
+<e k="storeItem_spruce_stage01" v="云杉树苗"/>
+<e k="storeItem_spruce_stage02" v="云杉（幼）"/>
+<e k="storeItem_spruce_stage03" v="云杉（小）"/>
+<e k="storeItem_spruce_stage04" v="云杉（中）"/>
+<e k="storeItem_spruce_stage05" v="云杉（大）"/>
+<e k="storeItem_spruce_stage06" v="云杉（老）"/>
+<e k="storeItem_squareBaleDryGrass" v="甘草方草垛"/>
+<e k="storeItem_squareBaleSilage" v="青贮饲料方草垛"/>
+<e k="storeItem_squareBaleWheat" v="秸秆方草垛 (小麦)"/>
+<e k="storeItem_stonePine_stage01" v="石松（小）"/>
+<e k="storeItem_stonePine_stage02" v="石松（中）"/>
+<e k="storeItem_stonePine_stage03" v="石松（大）"/>
+<e k="storeItem_strawberriesBoxPallet" v="草莓托盘"/>
+<e k="storeItem_sugarBoxPallet" v="糖托盘"/>
+<e k="storeItem_sunflowerOilPallet" v="葵花油托盘"/>
+<e k="storeItem_tomatoesBoxPallet" v="番茄托盘"/>
+<e k="storeItem_waterTank01" v="辅助水箱"/>
+<e k="storeItem_waterTank02" v="水箱"/>
+<e k="storeItem_weighingStationAlpine" v="称重站"/>
+<e k="storeItem_weighingStationLarge" v="大型称重站"/>
+<e k="storeItem_weighingStationSmall" v="小型称重站"/>
+<e k="storeItem_willow_stage01" v="柳树（小）"/>
+<e k="storeItem_willow_stage02" v="柳树（大）"/>
+<e k="storeItem_woolPallet" v="羊毛托盘"/>
+<e k="toolTip_LODDistance" v="细节层次越高，渲染高质量模型的距离就越远，从而提高整体视觉质量。降低该值可以提高性能。"/>
+<e k="toolTip_activeSuspensionCamera" v="如果开启，室内镜头会随座椅悬架运动，给人一种更真实的感觉。"/>
+<e k="toolTip_autoHelp" v="在画面左上角显示控制信息框。"/>
+<e k="toolTip_autoSaveInterval" v="设置自动保存功能的时间间隔。"/>
+<e k="toolTip_automaticMotorStart" v="是否在进入/离开载具时自动启动/关闭引擎。"/>
+<e k="toolTip_brightness" v="设置游戏的亮度。"/>
+<e k="toolTip_cameraBobbing" v="启用或停用角色移动时头部的摆动。"/>
+<e k="toolTip_cameraCheckCollision" v="检测到干扰物体时，载具的室外镜头会自动放大。"/>
+<e k="toolTip_cameraSensitivity" v="调整视角转动速度。"/>
+<e k="toolTip_cloudQuality" v="调整云的质量。"/>
+<e k="toolTip_colorBlindMode" v="将地图画面上的作物和田地状态颜色，切换为红/绿色盲用户易于辨识的颜色。"/>
+<e k="toolTip_directionChangeMode" v="定义载具方向的改变是自动切换还是通过按下按钮手动切换。"/>
+<e k="toolTip_dirt" v="您的农具变脏的速度。"/>
+<e k="toolTip_dlss" v="深度学习超级采样。将较低分辨率的图像放大为较高分辨率，以便在较高分辨率的显示器上显示。仅适用于 Nvidia 显卡。"/>
+<e k="toolTip_easyArmControl" v="打开起重机的简化控制。"/>
+<e k="toolTip_economicDifficulty" v="经济难易度会影响买卖价格。而任务的收益也是根据此因素而定。"/>
+<e k="toolTip_fertilizerStates" v="农田达到最大产量所需的施肥时间。"/>
+<e k="toolTip_fidelityFxSR" v="将较低分辨率的图像放大为较高分辨率，以便在较高分辨率的显示器上显示。仅适用于 AMD 显卡。"/>
+<e k="toolTip_fixedSeasonalVisuals" v="设置特定月份是否应始终可见。关闭以获得动态视觉效果。"/>
+<e k="toolTip_foliageDrawDistance" v="调整树叶 (作物、树木) 的渲染距离。降低该值可以提高性能。"/>
+<e k="toolTip_foliageShadows" v="设置茎叶是否投射阴影。"/>
+<e k="toolTip_forceFeedback" v="兼容设备的力反馈强度。"/>
+<e k="toolTip_fovy" v="减少或增加你能看到的最大区域。"/>
+<e k="toolTip_fruitDestruction" v="当您开载具碾过作物时，是否毁坏作物。"/>
+<e k="toolTip_fuelUsage" v="设置您的农具会消耗多少燃料。"/>
+<e k="toolTip_gamepadEnabled" v="启用或停用输入设备。"/>
+<e k="toolTip_gearShiftMode" v="此设置会更改配有手动变速器的载具的换档模式。"/>
+<e k="toolTip_hardwareProfile" v="选择一般图形设置。可在高级图形设置中进一步调整。"/>
+<e k="toolTip_headTracking" v="启用或停用头部或眼睛跟踪装置。"/>
+<e k="toolTip_helpIcons" v="在地图的某些特定位置上显示带有信息的发光图标。"/>
+<e k="toolTip_helperRefillFertilizer" v="帮手是否自动补充他消耗的化肥。会增加帮手的开销。"/>
+<e k="toolTip_helperRefillFuel" v="帮手是否自动补充他消耗的燃料。会增加帮手的开销。"/>
+<e k="toolTip_helperRefillManure" v="帮手是否自动补充他消耗的堆肥。购买会增加帮手的开销。"/>
+<e k="toolTip_helperRefillSeed" v="帮手是否自动补充他播下的种子。会增加帮手的开销。"/>
+<e k="toolTip_helperRefillSlurry" v="帮手是否自动补充他消耗的水肥。购买会增加帮手的开销。"/>
+<e k="toolTip_hudSpeedGauge" v="定义速度计中显示哪个数值。"/>
+<e k="toolTip_inputHelpMode" v="设置要显示的输入控制。"/>
+<e k="toolTip_invertYLook" v="Y 轴反转。"/>
+<e k="toolTip_isTrainTabbable" v="切换载具时可以访问火车。"/>
+<e k="toolTip_language" v="选择游戏的语言。"/>
+<e k="toolTip_lightQuality" v="调整光照的质量。降低该值可以提高性能。"/>
+<e k="toolTip_limeRequired" v="您是否需要定期在田地上撒石灰以保持高产。"/>
+<e k="toolTip_maxNumMirrors" v="设置游戏中显示的镜子数量。降低该值可以提高性能。"/>
+<e k="toolTip_maxNumTireTracks" v="调整显示的轮胎痕迹的数量。降低该值可以提高性能。"/>
+<e k="toolTip_moneyUnit" v="选择游戏中使用的货币。"/>
+<e k="toolTip_mpLanguage" v="选择多人游戏的语言。"/>
+<e k="toolTip_msaa" v="平滑边缘，会影响低端机器的性能。"/>
+<e k="toolTip_objectDrawDistance" v="调整物件的渲染距离。降低该值可以提高性能。降低该值可以提高性能。"/>
+<e k="toolTip_plannedDaysPerPeriod" v="设置每月的天数。更改将在下个季节生效！"/>
+<e k="toolTip_plantGrowthRate" v="作物生长所需要的时间。"/>
+<e k="toolTip_plantWithering" v="如果作物在田地里缺乏照料的时间太久，就会枯萎。"/>
+<e k="toolTip_plowingRequired" v="您是否需要周期性地犁地，来保证高产量。"/>
+<e k="toolTip_ppaa" v="平滑边缘的额外选项。主要适用于雾和灯光。会影响低端机器的性能。"/>
+<e k="toolTip_ppaa_dlaa" v="TODO"/>
+<e k="toolTip_ppaa_taa" v="TODO"/>
+<e k="toolTip_radioIsActive" v="开关收音机。"/>
+<e k="toolTip_radioState" v="设置收音机的播放地点。"/>
+<e k="toolTip_realBeaconLights" v="调整信标光是否在表面反射。"/>
+<e k="toolTip_resetCamera" v="在您离开载具时分别记住其镜头位置。"/>
+<e k="toolTip_resolution" v="选择你的屏幕分辨率。"/>
+<e k="toolTip_resolutionScaling" v="放大或缩小游戏渲染分辨率。"/>
+<e k="toolTip_resolutionScaling3d" v="TODO"/>
+<e k="toolTip_savegameName" v="为该存档输入一个名称。"/>
+<e k="toolTip_seasonalGrowth" v="开启与季节相关的生长日历。仅当作物可以成熟时，方可种植。"/>
+<e k="toolTip_shaderQuality" v="影响地形和物体的细节。降低该值可以提高性能。"/>
+<e k="toolTip_shadingRateQuality" v="使用较低设置时，部分物件会以较低分辨率呈现。降低该值可以在稍微影响视效的情况下提高性能。"/>
+<e k="toolTip_shadowDistanceQuality" v="调整较远距离外的阴影质量。降低该值可以提高性能。"/>
+<e k="toolTip_shadowMapFiltering" v="提高阴影的质量。降低该值可以提高性能。"/>
+<e k="toolTip_shadowMaxNumLights" v="提高阴影的质量。降低该值可以提高性能。"/>
+<e k="toolTip_shadowQuality" v="调整阴影的质量。降低该值可以提高性能。"/>
+<e k="toolTip_showFieldInfo" v="显示田地相关信息。"/>
+<e k="toolTip_showTriggerMarker" v="在互动区四周以黄黑标线标示。"/>
+<e k="toolTip_snowEnabled" v="雪会落到地上，可以被载具移除。"/>
+<e k="toolTip_ssaoQuality" v="调整屏幕空间环境光遮蔽的质量。"/>
+<e k="toolTip_steeringBackSpeed" v="调整速度让车轮回到默认位置。"/>
+<e k="toolTip_steeringSensitivity" v="调整转向速度。"/>
+<e k="toolTip_stonesEnabled" v="犁田时田地中是否出现石头。"/>
+<e k="toolTip_stopAndGoBraking" v="按住刹车按钮不放来进行刹车，并且在停车后自动倒车。"/>
+<e k="toolTip_terrainLODDistance" v="调整地形的渲染距离。降低该值可以提高性能。降低该值可以提高性能。"/>
+<e k="toolTip_terrainQuality" v="调整地形细节和地形材质质量。降低该值可以提高性能。"/>
+<e k="toolTip_textureFiltering" v="提高材质的图像质量。双线性的提升最少，三线性的提升适中，各向异性过滤的提升最显著。降低该值可以提高性能。"/>
+<e k="toolTip_textureResolution" v="调整材质的质量。降低该值可以提高性能。"/>
+<e k="toolTip_timeScale" v="游戏中时间流逝的速度。"/>
+<e k="toolTip_traffic" v="允许在道路上出现 AI 车流。"/>
+<e k="toolTip_trailerFillLimit" v="拖车会不断装填，直至达到最大允许重量。"/>
+<e k="toolTip_uiScale" v="调整用户界面尺寸来适应屏幕大小。"/>
+<e k="toolTip_useAcre" v="设置游戏中的区域单位。"/>
+<e k="toolTip_useFahrenheit" v="设置游戏中的温度单位。"/>
+<e k="toolTip_useMiles" v="设置游戏中使用的度量单位。"/>
+<e k="toolTip_useWorldCamera" v="载具镜头会尽量与环境保持水平。"/>
+<e k="toolTip_vSync" v="垂直同步可以防止撕裂，但可能影响你的帧率，具体取决于你的图形处理器。"/>
+<e k="toolTip_vehicleArmSensitivity" v="调整车臂转速。"/>
+<e k="toolTip_voiceMode" v="此设置更改你的声音何时发送给其他玩家。可在按键绑定设置中进行调整。"/>
+<e k="toolTip_volumeEnvironment" v="调整环境音效的音量。"/>
+<e k="toolTip_volumeGUI" v="调整菜单音量。"/>
+<e k="toolTip_volumeMaster" v="全局音量。会影响到所有类型的声音。"/>
+<e k="toolTip_volumeMeshTessallation" v="调整填充体积和细致物件的显示质量。降低该值可以提高性能。"/>
+<e k="toolTip_volumeMusic" v="选择菜单音乐的音量。"/>
+<e k="toolTip_volumeRadio" v="调整收音机所播放的音乐音量。"/>
+<e k="toolTip_volumeVehicle" v="调整载具引擎和农具的音量。"/>
+<e k="toolTip_volumeVoice" v="调整其他玩家声音的音量。"/>
+<e k="toolTip_volumeVoiceInput" v="调整你的声音的音量。"/>
+<e k="toolTip_weedsEnabled" v="您的田地上是否生长杂草。"/>
+<e k="toolTip_windowMode" v="以全屏或窗口模式玩游戏。"/>
+<e k="tour_text_abort" v="如果想稍后再展开教程，你只需在雷文港庄园开启一个新职业模式，就会再次收到询问。"/>
+<e k="tour_text_end" v="这场旅程到此结束！请留意更多提供特定游戏元素信息的问号，或查看主菜单中的教程了解更深入的信息。希望你在农场度过愉快的时光！祝你好运！"/>
+<e k="tour_text_noTour" v="如果你不熟悉游戏的基本操作，建议你先学习前两个教程或在雷文港庄园进行指导训练。"/>
+<e k="tour_text_noTourA" v="你已经有足够的金钱来开启梦想中的农场生意。
+你的专长会是什么？作物栽培，家畜饲养，林业种植，还是什么都尝试一下？选择权在你！
+
+首先，购买土地，建筑以及必要的工具。
+
+然后，出售商品以扩大农场规模！"/>
+<e k="tour_text_noTourB" v="你的钱不多，只能从一个小型农场开始。
+
+首先，购买土地，建筑以及必要的工具。
+
+然后，出售商品以扩大农场规模！"/>
+<e k="tour_text_part01_attachHeader" v="好！装上前方的收割机切刀。
+
+左上角的说明栏会一直显示当前可用的功能。"/>
+<e k="tour_text_part01_enterCombine" v="这是你初始所拥有的其中一块田地。这里的小麦刚好已经长到了可以收割的阶段。进入联合收割机，开始工作吧！"/>
+<e k="tour_text_part01_finished" v="帮手现在会打理好这项工作，直到他们完工，或是收割机的谷箱装满为止。你现在可以去做其他的事情了。请离开收割机，走到地图上的下一个问号那里去。"/>
+<e k="tour_text_part01_lookAndWalk" v="沿路前往至田地边缘的大黄色收割机，然后触碰旁边的问号图标。
+
+地图位于左下方。闪烁的绿圈会指出问号的位置。"/>
+<e k="tour_text_part01_startHarvesting" v="现在你已经做好了收割的准备！向前开进麦地。你可以手动调整载具的速度，或是使用定速控制来保持匀速。
+
+你驾驶的最大速度由载具和你使用的拖挂工具自动决定。"/>
+<e k="tour_text_part01_startHelperHarvesting" v="目前为止一切都还不错！不过，通常你会有很多事情要做，所以在农场里雇佣帮手是再正常不过的事情了。
+
+如果一项工作可以由帮手来接手，它就会在左上角的面板里显示出来。雇佣一名帮手，来打理剩下的田地。"/>
+<e k="tour_text_part01_turnOnCombine" v="很好！现在展开收割机，开动它，让切刀开始转动。"/>
+<e k="tour_text_part02_enoughCultivating" v="做得很好！现在先到这里。你可以稍后来完成这片田地的工作。或者雇佣另一名帮手来完成。"/>
+<e k="tour_text_part02_enterTractor01" v="收获后的田地必须经过耕耘才能重新播种。这块田地最近刚刚收割过，需要有人来对它进行耕耘。进入拖拉机，把它后头的耕耘机挂在上面。"/>
+<e k="tour_text_part02_finished" v="让我们切换到另外一台拖拉机上面。你可以使用切换功能，在所有的载具中迅速切换。
+
+重复该动作，直到你找到旁边有问号的拖拉机为止。然后走出来触碰它。"/>
+<e k="tour_text_part02_startCultivating" v="现在降下耕耘机，开到田地里，开始耕地。"/>
+<e k="tour_text_part03_enterTractor01" v="田地经过耕耘后，就可以进行播种了。为此，你需要使用一台播种机。回到拖拉机里，把它后头的播种机挂在上面。"/>
+<e k="tour_text_part03_finished" v="很好！你已经掌握了要领。如果你愿意，可以在稍后进行继续，或是雇佣另一名帮手来进行这项工作。切换到下一台旁边有问号的拖拉机那里去。"/>
+<e k="tour_text_part03_startSowing" v="你刚刚拖挂的播种机已经装满了种子。如果种子用完，你就要用种子袋进行补充。你的农场一开始有 2 袋种子。如果用完了，你就要去商店再买。
+
+该播种啦！选择你想要使用的种子，启动并降下播种机，然后开进田地里。"/>
+<e k="tour_text_part04_alignToHarvester" v="把车开在收割机的左侧，直到你的拖车与其并排为止。如果你的位置正确，运输管就会伸出来，让小麦进行自动倾倒。"/>
+<e k="tour_text_part04_doneSelling" v="做得好！作为农夫，出售作物是你的主要盈利手段。
+
+最后一个问号在商店那里，让我们把车开过去。闪烁的绿色圆圈代表它在地图上的所在位置。"/>
+<e k="tour_text_part04_enterTractor01" v="等收割机的谷箱装满 (没有装满也可以)，你就可以将作物装卸到拖车里。进入拖拉机，把拖车连在上面。"/>
+<e k="tour_text_part04_pricesInfo" v="地图上有许多装卸站，你可以把自己的作物在其中的一处进行出售。你可以打开菜单，前往价格画面，来查看当前所有农产品的价格。"/>
+<e k="tour_text_part04_sellWheat" v="移动拖拉机，使拖车位于交易处正上方。当屏幕底部的卸货符号出现时即可开始卸载小麦并出售。"/>
+<e k="tour_text_part04_unloadWheat" v="太好了！小麦已经装到了你的拖车里。等装卸完成后，把牵引着拖车的拖拉机开到地图上所显示的地点，然后触碰那里的问号。"/>
+<e k="tour_text_part05_visitShop" v="你可以在这里出售载具和工具，并购买新的设备。要访问商店，你可以激活商店前面的购买符号，或是在任意一个地方按下下方显示的按钮。"/>
+<e k="tour_text_start" v="欢迎来到 Farming Simulator！想要进入简短的导览教程吗？它会告诉你游戏的基本信息和操作要领。"/>
+<e k="treeType_americanElm" v="美国榆"/>
+<e k="treeType_ash" v="灰烬"/>
+<e k="treeType_beech" v="山毛榉"/>
+<e k="treeType_birch" v="白桦树"/>
+<e k="treeType_cypress" v="柏树"/>
+<e k="treeType_downyServiceberry" v="绒毛唐棣"/>
+<e k="treeType_larch" v="落叶松"/>
+<e k="treeType_locust" v="洋槐"/>
+<e k="treeType_mahogany" v="红木"/>
+<e k="treeType_maple" v="枫树"/>
+<e k="treeType_oak" v="橡树"/>
+<e k="treeType_oliveTree" v="橄榄树"/>
+<e k="treeType_pagodaDogwood" v="宝塔山茱萸"/>
+<e k="treeType_pine" v="松树"/>
+<e k="treeType_poplar" v="白杨树"/>
+<e k="treeType_shagbarkHickory" v="粗皮山核桃"/>
+<e k="treeType_spruce" v="云杉"/>
+<e k="treeType_stonePine" v="石松"/>
+<e k="treeType_willow" v="柳树"/>
+<e k="typeDesc_augerWagon" v="钻车"/>
+<e k="typeDesc_baleLoader" v="草捆装载机"/>
+<e k="typeDesc_baleTrailer" v="草垛拖车"/>
+<e k="typeDesc_baleWrapper" v="草垛打包机"/>
+<e k="typeDesc_baler" v="打捆机"/>
+<e k="typeDesc_belt" v="输送带"/>
+<e k="typeDesc_car" v="汽车"/>
+<e k="typeDesc_combine" v="组合"/>
+<e k="typeDesc_container" v="集装箱"/>
+<e k="typeDesc_cornCutter" v="玉米收割台"/>
+<e k="typeDesc_cultivator" v="中耕机"/>
+<e k="typeDesc_cutter" v="切割刀"/>
+<e k="typeDesc_cutterTrailer" v="切割刀型拖车"/>
+<e k="typeDesc_defoliator" v="去叶剂"/>
+<e k="typeDesc_discHarrow" v="圆盘耙"/>
+<e k="typeDesc_fertilizerSpreader" v="肥料喷洒机"/>
+<e k="typeDesc_forageWagon" v="饲料车"/>
+<e k="typeDesc_forestryMulcher" v="林业表土疏松机"/>
+<e k="typeDesc_forwarder" v="运木车"/>
+<e k="typeDesc_frontloader" v="前端装载机"/>
+<e k="typeDesc_frontloaderTool" v="前端装载机工具"/>
+<e k="typeDesc_greenhouse" v="温室"/>
+<e k="typeDesc_harvester" v="收割机"/>
+<e k="typeDesc_harvestingHeader" v="收割割台"/>
+<e k="typeDesc_haulmTopper" v="切顶器"/>
+<e k="typeDesc_highPressureWasher" v="高压水枪"/>
+<e k="typeDesc_hookLiftTrailer" v="拉臂拖车"/>
+<e k="typeDesc_leveler" v="矫直机"/>
+<e k="typeDesc_livestockTrailer" v="家畜拖车"/>
+<e k="typeDesc_loaderVehicle" v="正在为载具进行装载"/>
+<e k="typeDesc_locomotive" v="机车"/>
+<e k="typeDesc_lowLoader" v="轻型装载机"/>
+<e k="typeDesc_manureBarrel" v="水肥撒布机"/>
+<e k="typeDesc_manureDistributor" v="水肥撒布机"/>
+<e k="typeDesc_manureSpreader" v="粪肥喷洒机"/>
+<e k="typeDesc_merger" v="割晒机"/>
+<e k="typeDesc_mixerWagon" v="混料车"/>
+<e k="typeDesc_mower" v="割草机"/>
+<e k="typeDesc_mulcher" v="表土疏松机"/>
+<e k="typeDesc_pallet" v="托盘"/>
+<e k="typeDesc_pickup" v="秸秆集装车"/>
+<e k="typeDesc_planter" v="播种机"/>
+<e k="typeDesc_plow" v="犁"/>
+<e k="typeDesc_powerHarrow" v="动力耙"/>
+<e k="typeDesc_roller" v="碾压机"/>
+<e k="typeDesc_saltSpreader" v="撒盐机"/>
+<e k="typeDesc_seederTank" v="额外槽"/>
+<e k="typeDesc_silageCompressor" v="青贮饲料压缩机"/>
+<e k="typeDesc_silageRoller" v="青贮饲料包装机"/>
+<e k="typeDesc_skidSteerTool" v="滑移式装载机工具"/>
+<e k="typeDesc_snowPlow" v="雪犁"/>
+<e k="typeDesc_sowingMachine" v="播种机"/>
+<e k="typeDesc_spader" v="掘土机"/>
+<e k="typeDesc_sprayer" v="喷雾器"/>
+<e k="typeDesc_sprayerTank" v="额外水槽"/>
+<e k="typeDesc_stonePicker" v="除石机"/>
+<e k="typeDesc_strawBlower" v="秸秆机"/>
+<e k="typeDesc_stumpCutter" v="伐根削片机"/>
+<e k="typeDesc_sugarBeetCutter" v="甜菜切刀"/>
+<e k="typeDesc_tedder" v="干草翻晒机"/>
+<e k="typeDesc_telehandler" v="伸缩臂叉车"/>
+<e k="typeDesc_telehandlerTool" v="伸缩臂叉车工具"/>
+<e k="typeDesc_timberTrailer" v="木材运输机"/>
+<e k="typeDesc_tipper" v="翻斗车"/>
+<e k="typeDesc_tool" v="工具"/>
+<e k="typeDesc_tractor" v="拖拉机"/>
+<e k="typeDesc_trailer" v="拖车"/>
+<e k="typeDesc_treePlanter" v="植树机"/>
+<e k="typeDesc_treeSaw" v="树锯"/>
+<e k="typeDesc_truck" v="卡车"/>
+<e k="typeDesc_vehicle" v="载具"/>
+<e k="typeDesc_vinePrepruner" v="预修剪机"/>
+<e k="typeDesc_waterTrailer" v="水拖车"/>
+<e k="typeDesc_weeder" v="除草机"/>
+<e k="typeDesc_weight" v="重量"/>
+<e k="typeDesc_wheelLoader" v="轮式装载机"/>
+<e k="typeDesc_wheelLoaderTool" v="轮式装载机工具"/>
+<e k="typeDesc_windrower" v="堆行机"/>
+<e k="typeDesc_woodCrusher" v="碎木机"/>
+<e k="typeDesc_woodHarvester" v="木材收割机"/>
+<e k="ui_accountManagement" v="农场管理"/>
+<e k="ui_achievementStatsValue" v="%d/%d"/>
+<e k="ui_achievementsSynchronizing" v="正在同步成就，请稍候..."/>
+<e k="ui_action" v="动作"/>
+<e k="ui_actionRemapped" v="&apos;%s&apos; 已重新绑定至 %s。"/>
+<e k="ui_activateClientAccounts" v="首先在管理菜单里激活其他玩家的独立账户"/>
+<e k="ui_activateGamepads" v="确定要启用游戏手柄/方向盘？"/>
+<e k="ui_activateGamepadsTitle" v="找到游戏手柄/方向盘"/>
+<e k="ui_activateHeadTracking" v="确定要在游戏中启用头部追踪功能？"/>
+<e k="ui_activateHeadTrackingTitle" v="找到头部追踪装置"/>
+<e k="ui_activeAIJobs" v="活跃工人"/>
+<e k="ui_admin" v="管理员"/>
+<e k="ui_adminLoginGranted" v="成功以管理员身份登录"/>
+<e k="ui_adminLoginNotSupported" v="服务器不支持管理员登录"/>
+<e k="ui_adminScreen" v="管理画面"/>
+<e k="ui_age" v="年龄"/>
+<e k="ui_ai_pickTargetLocation" v="选择目标位置"/>
+<e k="ui_ai_pickTargetRotation" v="选择目标旋转"/>
+<e k="ui_allLanguages" v="所有语言"/>
+<e k="ui_allModsDLCsInstalled" v="您已经安装了所有的模组/可下载内容"/>
+<e k="ui_allowCrossPlay" v="允许跨平台游玩"/>
+<e k="ui_allowOnlyFriends" v="仅限于好友"/>
+<e k="ui_allowsCrossPlay" v="允许跨平台游玩"/>
+<e k="ui_amount" v="数量"/>
+<e k="ui_animal" v="牲畜"/>
+<e k="ui_animalConditions" v="状况"/>
+<e k="ui_animalDealerScreen" v="牲畜经销商"/>
+<e k="ui_animalFood" v="食物"/>
+<e k="ui_animalInformation" v="牲畜信息"/>
+<e k="ui_animal_breedColor" v="品种/颜色"/>
+<e k="ui_anyMap" v="所有地图"/>
+<e k="ui_authenticationFailed" v="Xbox Live 服务器无法认证用户。"/>
+<e k="ui_authenticationFailed_ps" v="PlayStation™Network 服务器无法验证用户。"/>
+<e k="ui_auto" v="自动"/>
+<e k="ui_autoAccept" v="自动接受"/>
+<e k="ui_autoSave" v="自动保存"/>
+<e k="ui_autosave" v="自动保存"/>
+<e k="ui_availableFunds" v="可用资金"/>
+<e k="ui_axis" v="轴"/>
+<e k="ui_axisAlreadyMapped" v="注意：该轴用于多个动作。"/>
+<e k="ui_balance" v="余额"/>
+<e k="ui_banConfirm" v="是否封禁%s？解禁前他们将无法加入本服务器。"/>
+<e k="ui_banTitle" v="封禁玩家"/>
+<e k="ui_bankMaxLoan" v="银行提供给你的贷款的最大数额为 %s。"/>
+<e k="ui_banned" v="您被禁止进入该服务器。"/>
+<e k="ui_bannedUserDate" v="禁止日期"/>
+<e k="ui_bannedUserLastNickname" v="玩家昵称"/>
+<e k="ui_bgaLiquidManureSilo" v="沼渣槽 BGA"/>
+<e k="ui_blackboard" v="任务栏"/>
+<e k="ui_blockPlayerConfirm" v="确定要屏蔽玩家“%s”？你将不会收到其信息，也无法加入其主持的游戏。对方也无法加入你主持的游戏。"/>
+<e k="ui_blockedKeyCombination" v="该组合键被屏蔽，无法使用！"/>
+<e k="ui_blockedPlayers" v="被屏蔽玩家"/>
+<e k="ui_brands" v="品牌"/>
+<e k="ui_button" v="按键"/>
+<e k="ui_buttonAlreadyMapped" v="注意：该按键用于多个动作。"/>
+<e k="ui_button_ps" v="键"/>
+<e k="ui_button_switch" v="按钮"/>
+<e k="ui_button_xbox" v="按钮"/>
+<e k="ui_buttons" v="按键"/>
+<e k="ui_buy" v="购买"/>
+<e k="ui_buyPrices" v="购买"/>
+<e k="ui_buyProductAmount" v="你想购买%d个%s并花费%s吗？"/>
+<e k="ui_camera" v="镜头"/>
+<e k="ui_cannotAffordField" v="你买不起这块地。"/>
+<e k="ui_cannotMapGamepadHere" v="该动作不适用手柄输入。"/>
+<e k="ui_cannotMapKeyHere" v="该动作不适用按键。"/>
+<e k="ui_cannotMapMouseHere" v="鼠标按键不能用于该动作。"/>
+<e k="ui_categories" v="类别"/>
+<e k="ui_changeVehicleFilter" v="更换农机过滤条件"/>
+<e k="ui_characterName" v="角色名称"/>
+<e k="ui_characterSelection" v="创建角色"/>
+<e k="ui_chat" v="聊天"/>
+<e k="ui_chooseColor" v="选择颜色"/>
+<e k="ui_chooseDifferentNickname" v="请选择别的昵称。"/>
+<e k="ui_chooseDifficulty" v="请选择难度等级"/>
+<e k="ui_chooseLicensePlate" v="选择车牌"/>
+<e k="ui_clientPermissions" v="其他玩家的权限"/>
+<e k="ui_cloudSavegame" v="远程游戏存档"/>
+<e k="ui_coins" v="钱币"/>
+<e k="ui_collectibleMessageTitle" v="收藏品"/>
+<e k="ui_colorAnthracite" v="炭黑"/>
+<e k="ui_colorAzul" v="蔚蓝"/>
+<e k="ui_colorBeige" v="米黄"/>
+<e k="ui_colorBlack" v="黑"/>
+<e k="ui_colorBlackJet" v="乌黑"/>
+<e k="ui_colorBlackOnyx" v="缟玛瑙黑"/>
+<e k="ui_colorBlue" v="蓝"/>
+<e k="ui_colorBlueDark" v="深蓝"/>
+<e k="ui_colorBlueLight" v="浅蓝"/>
+<e k="ui_colorBlueNavy" v="藏青"/>
+<e k="ui_colorBrown" v="褐"/>
+<e k="ui_colorChrome" v="铬"/>
+<e k="ui_colorGreen" v="绿"/>
+<e k="ui_colorGreenDark" v="深绿"/>
+<e k="ui_colorGreenLight" v="浅绿"/>
+<e k="ui_colorGreenOlive" v="橄榄绿"/>
+<e k="ui_colorGrey" v="灰"/>
+<e k="ui_colorGreyDark" v="深灰"/>
+<e k="ui_colorGreyLight" v="浅灰"/>
+<e k="ui_colorMetallicX" v="金属%s"/>
+<e k="ui_colorOrange" v="橙"/>
+<e k="ui_colorPink" v="粉红"/>
+<e k="ui_colorPurple" v="紫"/>
+<e k="ui_colorRed" v="红"/>
+<e k="ui_colorRedCrimson" v="绯红"/>
+<e k="ui_colorRedDark" v="深红"/>
+<e k="ui_colorRedLight" v="浅红"/>
+<e k="ui_colorSilver" v="银"/>
+<e k="ui_colorSpecial" v="特殊"/>
+<e k="ui_colorStainlessSteel" v="不锈钢"/>
+<e k="ui_colorWhite" v="白"/>
+<e k="ui_colorYellow" v="黄"/>
+<e k="ui_combinations" v="组合"/>
+<e k="ui_combinationsFor" v="%s的组合"/>
+<e k="ui_condition" v="状态"/>
+<e k="ui_connectingPleaseWait" v="正在连接，请稍候..."/>
+<e k="ui_connectingToMasterServer" v="请稍候，正在连接服务器。"/>
+<e k="ui_connectionFailed" v="无法连接到服务器。"/>
+<e k="ui_connectionLost" v="你已丢失游戏连接。"/>
+<e k="ui_connectionLostBanned" v="主机禁止您进入服务器。"/>
+<e k="ui_connectionLostKeyInUse" v="激活密钥/产品密钥已使用。请稍后再尝试。"/>
+<e k="ui_connectionLostKicked" v="主机已将您从服务器移除。"/>
+<e k="ui_consolePressStart" v="点击A"/>
+<e k="ui_consoleSelectMapView" v="选择地图视图"/>
+<e k="ui_constructionScreen" v="建造"/>
+<e k="ui_constructionSellConfirmation" v="你想出售%s并获得%s吗？"/>
+<e k="ui_construction_areaRestricted" v="区域受限"/>
+<e k="ui_construction_cannotBeBought" v="不能购买"/>
+<e k="ui_construction_cannotBePlacedHere" v="不能放置在这里"/>
+<e k="ui_construction_collidesWithItem" v="与另一个物品抵触"/>
+<e k="ui_construction_collidesWithPlayer" v="与玩家抵触"/>
+<e k="ui_construction_cornerAngleTooLarge" v="转角太大"/>
+<e k="ui_construction_couldNotLoadItem" v="无法载入物品"/>
+<e k="ui_construction_deformationBlocked" v="整平受阻"/>
+<e k="ui_construction_deformationFailed" v="整平失败"/>
+<e k="ui_construction_distanceTooShort" v="距离太短"/>
+<e k="ui_construction_landIsNotOwned" v="不是你的土地"/>
+<e k="ui_construction_loadingItem" v="载入物品中……"/>
+<e k="ui_construction_noBuildPermission" v="你没有建造许可"/>
+<e k="ui_construction_noTargetHeightSet" v="没有设定目标高度"/>
+<e k="ui_construction_notEnoughMoney" v="金钱不足"/>
+<e k="ui_construction_notEnoughSlots" v="栏位不足"/>
+<e k="ui_construction_overlapsWithObject" v="与另一个物件重叠"/>
+<e k="ui_construction_placingItem" v="放置物品中……"/>
+<e k="ui_construction_plantNotSupported" v="此地图不支持该作物"/>
+<e k="ui_construction_spaceAlreadyOccupied" v="空间已被占用"/>
+<e k="ui_construction_spawnAreaRestricted" v="生成区域受限"/>
+<e k="ui_construction_storeAreaRestricted" v="商店区域受限"/>
+<e k="ui_construction_terrainTooSteep" v="地形太陡"/>
+<e k="ui_construction_tooManyTrees" v="树太多了"/>
+<e k="ui_continueGame" v="按 A 以继续"/>
+<e k="ui_continueGame_ps" v="按下 X 键继续"/>
+<e k="ui_continueGame_ps_xo" v="按下 O 键继续"/>
+<e k="ui_continueGame_switch" v="按 A 以继续"/>
+<e k="ui_continueQuestion" v="继续?"/>
+<e k="ui_contractorGrantConfirm" v="是否给予%s访问您农场的权限？"/>
+<e k="ui_contractorStateChangeTitle" v="更改承包商准入"/>
+<e k="ui_contractorUngrantConfirm" v="是否删除%s访问您农场的权限？"/>
+<e k="ui_contracts" v="合同"/>
+<e k="ui_controls" v="操作控制"/>
+<e k="ui_copyrightSymbol" v="©"/>
+<e k="ui_cowLiquidManureSilo" v="奶牛堆肥槽"/>
+<e k="ui_cowManureHeap" v="奶牛堆肥"/>
+<e k="ui_createFields" v="创建新的土地"/>
+<e k="ui_createNewFarm" v="创建新农场"/>
+<e k="ui_creatingGame" v="请等待游戏创建..."/>
+<e k="ui_credits" v="制作人员"/>
+<e k="ui_cropCalendar" v="作物日历"/>
+<e k="ui_cropsAndGrowth" v="作物和生长"/>
+<e k="ui_cruiseControlSpeed" v="%d"/>
+<e k="ui_currently" v="当前"/>
+<e k="ui_day" v="天"/>
+<e k="ui_dayShort1" v="星期一"/>
+<e k="ui_dayShort2" v="星期二"/>
+<e k="ui_dayShort3" v="星期三"/>
+<e k="ui_dayShort4" v="星期四"/>
+<e k="ui_dayShort5" v="星期五"/>
+<e k="ui_dayShort6" v="星期六"/>
+<e k="ui_dayShort7" v="星期天"/>
+<e k="ui_days" v="天"/>
+<e k="ui_dealer" v="商人"/>
+<e k="ui_defaultFarmName" v="我的农场"/>
+<e k="ui_deleteThisMod" v="确定要删除该模块?"/>
+<e k="ui_deletingSavegame" v="正在删除所保存的游戏存档..."/>
+<e k="ui_details" v="详情"/>
+<e k="ui_deviceConfiguration" v="设备"/>
+<e k="ui_difficulty" v="职业模式"/>
+<e k="ui_difficulty1" v="新农民"/>
+<e k="ui_difficulty1_subtitle" v="简单"/>
+<e k="ui_difficulty2" v="农场主"/>
+<e k="ui_difficulty2_subtitle" v="中等"/>
+<e k="ui_difficulty3" v="白手起家"/>
+<e k="ui_difficulty3_subtitle" v="困难"/>
+<e k="ui_difficulty_easy_description" v="您已拥有土地和设备。在雷文港庄园，您将学会如何在 Farming Simulator 里当一名合格的农民。"/>
+<e k="ui_difficulty_hard_description" v="您的起步基金很有限，更糟糕的是，您没有任何土地，也没有任何设备。经济形势非常严峻，但物价很低：游戏元素基本终于现实。"/>
+<e k="ui_difficulty_normal_description" v="起步时，您拥有大量资金，但是没有土地、建筑或设备。您的农场将变成什么样子完全取决于您的决定。"/>
+<e k="ui_directionChangeModeAutomatic" v="自动"/>
+<e k="ui_directionChangeModeManual" v="手动"/>
+<e k="ui_dlcStoreNotConnected" v="要使用该特性，你需要登陆 Xbox Live。"/>
+<e k="ui_dlcStoreNotConnected_ps" v="要使用该功能，您需要登录 PlayStation™Network。"/>
+<e k="ui_dlcsCorruptRedownload" v="某个可下载内容已损坏。无法使用，请重新下载该内容。"/>
+<e k="ui_doYouWantToBlockThisServer" v="确定要屏蔽身为此服务器主机的玩家？你的服务器列表中不会再显示此玩家主持的游戏。"/>
+<e k="ui_doYouWantToBlockThisServer_title" v="屏蔽玩家"/>
+<e k="ui_downloadingServerMods" v="你想从ModHub下载总大小为%0.2f MB的%d个Mod吗？"/>
+<e k="ui_downloadingServerModsTitle" v="从ModHub下载"/>
+<e k="ui_duration" v="游戏所用时间"/>
+<e k="ui_editFarm" v="编辑农场%s"/>
+<e k="ui_endTutorial" v="确定要结束该教程?"/>
+<e k="ui_endWithoutSaving" v="确定不保存就退出游戏吗?"/>
+<e k="ui_ensureAxisToMapInNeutral" v="在打开此对话框之前，要绑定的轴必须处于中间/居中位置。如果不是上述情况，请按 ESC，调整轴并再次开始绑定。"/>
+<e k="ui_enterAdminPassword" v="输入管理员密码："/>
+<e k="ui_enterHorseName" v="为这匹马输入一个新名称："/>
+<e k="ui_enterName" v="输入新名称："/>
+<e k="ui_enterPassword" v="输入密码"/>
+<e k="ui_exclusive_fullscreen" v="独家全屏"/>
+<e k="ui_failedToConnectToGame" v="无法建立到多人游戏的连接。"/>
+<e k="ui_farm" v="农场"/>
+<e k="ui_farmAlreadyHasActiveMission" v="您的农场已拥有一份有效合同！"/>
+<e k="ui_farmBalance" v="农场结余"/>
+<e k="ui_farmColor" v="农场颜色"/>
+<e k="ui_farmDeleteConfirmation" v="您确定要删除这个农场吗？所有载具、工具和土地都会全数出售，且金钱也会丢失。"/>
+<e k="ui_farmDeleteHasPlayers" v="该农场中仍有活跃玩家，无法删除。"/>
+<e k="ui_farmLeaveConfirmation" v="确定要离开%s吗？您将会失去当前所有的权限。"/>
+<e k="ui_farmManager" v="农场主"/>
+<e k="ui_farmName" v="农场名"/>
+<e k="ui_farmNew" v="新的"/>
+<e k="ui_farmedMergedSP" v="此多人游戏的所有农场已合并成一个农场。保存成功后，游戏将永久成为单人游戏。"/>
+<e k="ui_farmlandScreen" v="土地"/>
+<e k="ui_featureDisabled" v="此功能在预览版中不可用。"/>
+<e k="ui_fieldArea" v="区域"/>
+<e k="ui_fieldBuy" v="购买"/>
+<e k="ui_fieldInfo" v="田地信息"/>
+<e k="ui_fieldNo" v="土地编号"/>
+<e k="ui_fieldOwnerOf" v="主人"/>
+<e k="ui_fields" v="田地"/>
+<e k="ui_filters" v="筛选"/>
+<e k="ui_finances" v="财政"/>
+<e k="ui_financesDay1" v="星期一"/>
+<e k="ui_financesDay2" v="星期二"/>
+<e k="ui_financesDay3" v="星期三"/>
+<e k="ui_financesDay4" v="星期四"/>
+<e k="ui_financesDay5" v="星期五"/>
+<e k="ui_financesDay6" v="星期六"/>
+<e k="ui_financesDay7" v="星期天"/>
+<e k="ui_freeSlots" v="免费插槽"/>
+<e k="ui_fullhd_desc" v="Full HD (2K/1080p)"/>
+<e k="ui_gameComputer" v="游戏电脑"/>
+<e k="ui_gameComputerNoCartridges" v="没有可用的游戏盒。"/>
+<e k="ui_gameFull" v="该房间人数已满。"/>
+<e k="ui_gameIsLoadingPleaseWait" v="正在加载"/>
+<e k="ui_gameMode" v="游戏模式"/>
+<e k="ui_gameMode_classic" v="经典"/>
+<e k="ui_gameMode_seasonal" v="季节性"/>
+<e k="ui_gamePaused" v="游戏暂停。"/>
+<e k="ui_gamepad" v="手柄"/>
+<e k="ui_games" v="游戏"/>
+<e k="ui_garageLeased" v="已租赁物品"/>
+<e k="ui_garageOverview" v="机具概观"/>
+<e k="ui_garageOwned" v="已拥有物品"/>
+<e k="ui_gardenCenter" v="花卉中心"/>
+<e k="ui_gearShiftModeAutomatic" v="自动"/>
+<e k="ui_gearShiftModeManual" v="手动"/>
+<e k="ui_gearShiftModeManualClutch" v="带离合器的手动"/>
+<e k="ui_goods" v="货物"/>
+<e k="ui_greatDemandTimeRemaining" v="剩 %d 小时"/>
+<e k="ui_growthMapCultivated" v="已耕耘"/>
+<e k="ui_growthMapCut" v="已收割"/>
+<e k="ui_growthMapFertilized" v="已施肥"/>
+<e k="ui_growthMapGrowing" v="生长中"/>
+<e k="ui_growthMapNeedsLime" v="需石灰"/>
+<e k="ui_growthMapNeedsPlowing" v="需犁田"/>
+<e k="ui_growthMapPlowed" v="已犁田"/>
+<e k="ui_growthMapReadyToHarvest" v="准备收获"/>
+<e k="ui_growthMapReadyToPrepareForHarvest" v="准备收获（去掉顶部）"/>
+<e k="ui_growthMapSeedbed" v="种床"/>
+<e k="ui_growthMapSown" v="已播种"/>
+<e k="ui_growthMapStubbleTillage" v="留茬耕作"/>
+<e k="ui_growthMapWithered" v="枯萎"/>
+<e k="ui_harvestSeason" v="收获季节"/>
+<e k="ui_helpLine" v="帮助"/>
+<e k="ui_helper" v="帮手"/>
+<e k="ui_helpers" v="人工智能工人"/>
+<e k="ui_hireAI" v="雇佣助手"/>
+<e k="ui_horseDailyRiding" v="日常骑行"/>
+<e k="ui_horseFitness" v="健壮值"/>
+<e k="ui_horseHealth" v="健康"/>
+<e k="ui_horseName" v="马的名称"/>
+<e k="ui_hours" v="%02d:%02d 小时"/>
+<e k="ui_hours_none" v="--:-- 小时"/>
+<e k="ui_howDoYouLikeTheGame" v="您还满意本游戏吗？"/>
+<e k="ui_hudSpeedGaugeRPM" v="引擎速度"/>
+<e k="ui_hudSpeedGaugeSpeed" v="载具速度"/>
+<e k="ui_husbandryInformation" v="围栏信息"/>
+<e k="ui_iap_errorCancelled" v="你已取消购买。"/>
+<e k="ui_iap_errorFailed" v="购买失败。"/>
+<e k="ui_iap_errorNetworkUnavailable" v="网络不可用。"/>
+<e k="ui_iap_notAvailable" v="当前无法执行应用内购买。"/>
+<e k="ui_iap_purchaseComplete" v="购买完成！"/>
+<e k="ui_iap_purchaseInProgress" v="另一订单正在处理中。"/>
+<e k="ui_iap_recoverable" v="待处理"/>
+<e k="ui_inGameMenuBriefing" v="简述"/>
+<e k="ui_inGameMenuControls" v="操作控制"/>
+<e k="ui_inGameMenuControlsController" v="手柄控制"/>
+<e k="ui_inGameMenuControlsKeyboard" v="键盘控制"/>
+<e k="ui_inGameMenuModeMultiplayer" v="多人游戏"/>
+<e k="ui_inGameMenuModeSettings" v="设置"/>
+<e k="ui_inGameSleep" v="睡觉"/>
+<e k="ui_inGameSleepRequest" v="玩家“%s”想要休息，接受请求？"/>
+<e k="ui_inGameSleepRequestDenied" v="玩家“%s”拒绝了您的休息请求！"/>
+<e k="ui_inGameSleepSelectDuration" v="选择休息时长："/>
+<e k="ui_inGameSleepTargetTime" v="选择你想睡觉的时间："/>
+<e k="ui_inGameSleepTrigger" v="这是您的家。每晚 8 点后，您都可以回来休息，直到天亮。
+
+在此期间，您的帮手将被重置，且不会进行工作，直到早上才恢复工作。
+
+在您休息的时候，农作物将持续成长；达到最后成长阶段的农作物甚至可能有所损耗。因此，您最好是完成所有工作后再休息。"/>
+<e k="ui_inGameSleepWrongTime" v="现在您还不累。"/>
+<e k="ui_incomeExpenditure" v="收入/支出"/>
+<e k="ui_infoTrainDrive" v="火车现在将驶往%s，并会从地图的另一端返回。"/>
+<e k="ui_information" v="信息"/>
+<e k="ui_ingameMenuAnimals" v="动物"/>
+<e k="ui_ingameMenuContracts" v="合同"/>
+<e k="ui_ingameMenuController" v="控制器绑定"/>
+<e k="ui_ingameMenuFinances" v="财务状况"/>
+<e k="ui_ingameMenuGameSettingsDisplay" v="显示设置"/>
+<e k="ui_ingameMenuGameSettingsGame" v="游戏设置"/>
+<e k="ui_ingameMenuGameSettingsGeneral" v="一般设置"/>
+<e k="ui_ingameMenuGameStats" v="统计资料"/>
+<e k="ui_ingameMenuHelpLine" v="帮助"/>
+<e k="ui_ingameMenuMapFarmlands" v="土地"/>
+<e k="ui_ingameMenuMapMoveCursor" v="移动光标"/>
+<e k="ui_ingameMenuMapOverview" v="地图概览"/>
+<e k="ui_ingameMenuMapPan" v="平移地图"/>
+<e k="ui_ingameMenuMapZoom" v="缩放地图"/>
+<e k="ui_ingameMenuMultiplayerFarmActions" v="农场行为"/>
+<e k="ui_ingameMenuMultiplayerFarms" v="农场"/>
+<e k="ui_ingameMenuMultiplayerLogin" v="多人游戏管理"/>
+<e k="ui_ingameMenuMultiplayerSettings" v="多人游戏设置"/>
+<e k="ui_ingameMenuMultiplayerUsers" v="多人游戏概览"/>
+<e k="ui_ingameMenuPrices" v="价格/1000升"/>
+<e k="ui_ingameMenuProductionChains" v="生产链"/>
+<e k="ui_ingameMenuTutorial" v="教程"/>
+<e k="ui_ingameMenuWeather" v="天气"/>
+<e k="ui_ingameMissionMoney" v="奖励"/>
+<e k="ui_ingameMissionSpecs" v="装备"/>
+<e k="ui_ingameMissionSpecsDemand" v="配有翻斗拖车的拖拉机"/>
+<e k="ui_ingameMissionSpecsFrontloader" v="配有货盘叉的前端装载机"/>
+<e k="ui_ingameMissionSpecsMower" v="配有割草机的拖拉机"/>
+<e k="ui_ingameMissionTimeLimit" v="时间限制"/>
+<e k="ui_ingameNews" v="新闻"/>
+<e k="ui_inputControls" v="输入控制"/>
+<e k="ui_internetConnection" v="网络连接"/>
+<e k="ui_invalidKey" v="你的密钥无效！"/>
+<e k="ui_inviteScreen" v="邀请好友"/>
+<e k="ui_itemDetails" v="物品详情"/>
+<e k="ui_items" v="物品"/>
+<e k="ui_joinMultiplayerGame" v="加入多人游戏"/>
+<e k="ui_key" v="键"/>
+<e k="ui_key1" v="键 1"/>
+<e k="ui_key2" v="键 2"/>
+<e k="ui_keyAlreadyMapped" v="注意：该键用于多个动作。"/>
+<e k="ui_keyboard" v="键盘"/>
+<e k="ui_keys" v="键"/>
+<e k="ui_kickConfirm" v="是否将%s踢出服务器？"/>
+<e k="ui_kickTitle" v="踢掉玩家"/>
+<e k="ui_landscaping" v="整地"/>
+<e k="ui_landscaping_brushSize" v="刷子大小"/>
+<e k="ui_landscaping_brushStrength" v="刷子强度"/>
+<e k="ui_landscaping_cannotModifyHere" v="在此无法修改地形"/>
+<e k="ui_landscaping_doNotOwnLand" v="这块土地不是您的"/>
+<e k="ui_landscaping_groundMaterial" v="地面类型"/>
+<e k="ui_landscaping_notEnoughMoney" v="金钱不足无法做此修改"/>
+<e k="ui_landscaping_objectObstructed" v="有物件阻碍地形修改动作"/>
+<e k="ui_landscaping_paintingMode" v="上漆"/>
+<e k="ui_landscaping_sculptingMode" v="雕刻"/>
+<e k="ui_landscaping_tooSteep" v="无法修改地形（过陡）"/>
+<e k="ui_language" v="语言"/>
+<e k="ui_lease" v="租赁"/>
+<e k="ui_licensePlate" v="牌照"/>
+<e k="ui_licensePlatePlacement" v="安置"/>
+<e k="ui_licensePlatePlacementBackOnly" v="仅后方"/>
+<e k="ui_licensePlatePlacementBoth" v="前和后"/>
+<e k="ui_licensePlatePlacementNone" v="无牌照"/>
+<e k="ui_licensePlateType" v="牌照"/>
+<e k="ui_licensePlateTypeItem" v="类型%d"/>
+<e k="ui_loadDefaultSettings" v="想要载入默认设置吗?"/>
+<e k="ui_loadedDefaultSettings" v="默认设置读取成功！"/>
+<e k="ui_loading" v="正在加载……"/>
+<e k="ui_loadingFruitMap" v="正在载入地图..."/>
+<e k="ui_loadingSavegame" v="正在加载游戏存档……"/>
+<e k="ui_loadingSavegames" v="正在读取所保存的游戏存档..."/>
+<e k="ui_loan" v="贷款"/>
+<e k="ui_localSavegame" v="本地游戏存档"/>
+<e k="ui_manageMissions" v="管理合同"/>
+<e k="ui_map" v="地图"/>
+<e k="ui_mapHotspotFilter_ai" v="工人"/>
+<e k="ui_mapHotspotFilter_animals" v="牲畜"/>
+<e k="ui_mapHotspotFilter_combines" v="联合"/>
+<e k="ui_mapHotspotFilter_contracts" v="合同"/>
+<e k="ui_mapHotspotFilter_loadingStations" v="装载站"/>
+<e k="ui_mapHotspotFilter_others" v="其它"/>
+<e k="ui_mapHotspotFilter_productionPoints" v="生产点"/>
+<e k="ui_mapHotspotFilter_tipStations" v="倾倒站"/>
+<e k="ui_mapHotspotFilter_tools" v="工具"/>
+<e k="ui_mapHotspotFilter_trailers" v="拖车"/>
+<e k="ui_mapHotspotFilter_vehicles" v="载具"/>
+<e k="ui_mapOverviewFruitTypes" v="作物类型%s"/>
+<e k="ui_mapOverviewGrowth" v="生长状况"/>
+<e k="ui_mapOverviewHotspots" v="热点"/>
+<e k="ui_mapOverviewSoil" v="土壤成分"/>
+<e k="ui_mapOverviewSoil2" v="土壤结构"/>
+<e k="ui_mapViewMode1" v="生长状况"/>
+<e k="ui_mapViewMode2" v="水果类型"/>
+<e k="ui_map_crops" v="作物"/>
+<e k="ui_map_growth" v="生长状况"/>
+<e k="ui_map_soil" v="土壤"/>
+<e k="ui_masterServerConnectionLost" v="与服务器的连接丢失。请检查网络连接，重新开始游戏。"/>
+<e k="ui_maxNumPlayers" v="最大玩家数"/>
+<e k="ui_microphoneDetected" v="检测到麦克风"/>
+<e k="ui_microphoneRemoved" v="麦克风已移除"/>
+<e k="ui_missingGoldForMultiplayer_xbox" v="您需要登录 Xbox Live 并拥有一个 Xbox Live 金会员资格。"/>
+<e k="ui_missingPrivilegeMultiplayerSession_xbox" v="抱歉，您不允许加入任何会话。"/>
+<e k="ui_missingUGCdownloadPrivilege" v="您在个人资料设置里屏蔽了用户创建内容。"/>
+<e k="ui_missionFrequency" v="任务频率"/>
+<e k="ui_missionStatusTitle" v="状态"/>
+<e k="ui_missionVehiclesAtShop" v="商店中有租赁机器。必要时请记得将工具填满。"/>
+<e k="ui_mobileWorkshop" v="移动载具车间"/>
+<e k="ui_mobile_buyFieldDialogText" v="你的账户余额为 %s。你要以 %s 的价格买下这片田地吗？"/>
+<e k="ui_mobile_buyFieldDialogText_buyCoins" v="你的账户余额为 %s，但这片田地的售价为 %s。你想要购买更多钱币吗？"/>
+<e k="ui_modAuthor" v="由 %s 制作"/>
+<e k="ui_modAvailable" v="可用"/>
+<e k="ui_modAvailableModHub" v="在ModHub上提供"/>
+<e k="ui_modConflictQuestion" v="无法选择%s，因为已经选择了mod %s。
+你要取消选择它，转而选择这个吗？"/>
+<e k="ui_modDependencyMissing" v="模组“%s”要求“%s”可用并已启用。"/>
+<e k="ui_modDependencyMissing_download" v="模组“%s”要求“%s”可用并已启用。是否要从ModHub下载？"/>
+<e k="ui_modFileHash" v="哈希校验"/>
+<e k="ui_modHubCategories" v="类别"/>
+<e k="ui_modHubDetails" v="详情"/>
+<e k="ui_modHubItems" v="物品"/>
+<e k="ui_modTitleVersion" v="%s (V%s)"/>
+<e k="ui_modUnavailable" v="不可用"/>
+<e k="ui_modVersion" v="版本"/>
+<e k="ui_modsAndDlcs" v="模组和可下载内容"/>
+<e k="ui_modsAndDlcs_stadia" v="可下载内容"/>
+<e k="ui_modsChangedRestartQuestion" v="重新开始?"/>
+<e k="ui_modsChangedText" v="模组已成功下载。请重新启动游戏以安装模组。"/>
+<e k="ui_modsChangedTitle" v="已下载的模组"/>
+<e k="ui_modsDLCs" v="模块/可下载内容"/>
+<e k="ui_modsDLCs_ps" v="可下载内容"/>
+<e k="ui_modsDLCs_xbox" v="可下载内容"/>
+<e k="ui_modsZipOnly" v="多人游戏只支持压缩模组。您必须将模组 &apos;%s&apos; 压缩后才能在多人游戏中使用。"/>
+<e k="ui_money" v="金钱"/>
+<e k="ui_moneyScreen" v="资金管理"/>
+<e k="ui_month" v="月"/>
+<e k="ui_month1" v="一月"/>
+<e k="ui_month10" v="十月"/>
+<e k="ui_month10_short" v="十月"/>
+<e k="ui_month11" v="十一月"/>
+<e k="ui_month11_short" v="十一月"/>
+<e k="ui_month12" v="十二月"/>
+<e k="ui_month12_short" v="十二月"/>
+<e k="ui_month1_short" v="一月"/>
+<e k="ui_month2" v="二月"/>
+<e k="ui_month2_short" v="二月"/>
+<e k="ui_month3" v="三月"/>
+<e k="ui_month3_short" v="三月"/>
+<e k="ui_month4" v="四月"/>
+<e k="ui_month4_short" v="四月"/>
+<e k="ui_month5" v="五月"/>
+<e k="ui_month5_short" v="五月"/>
+<e k="ui_month6" v="六月"/>
+<e k="ui_month6_short" v="六月"/>
+<e k="ui_month7" v="七月"/>
+<e k="ui_month7_short" v="七月"/>
+<e k="ui_month8" v="八月"/>
+<e k="ui_month8_short" v="八月"/>
+<e k="ui_month9" v="九月"/>
+<e k="ui_month9_short" v="九月"/>
+<e k="ui_months" v="月"/>
+<e k="ui_mouse" v="鼠标"/>
+<e k="ui_mouseAlreadyMapped" v="%s&apos; 被映射到 %s。"/>
+<e k="ui_mousewheel" v="鼠标滚轮"/>
+<e k="ui_movePlaceable" v="移动"/>
+<e k="ui_mpPlayers" v="玩家"/>
+<e k="ui_mpPlaytime" v="游戏时间"/>
+<e k="ui_name" v="名称"/>
+<e k="ui_newGame" v="新游戏"/>
+<e k="ui_no" v="否"/>
+<e k="ui_noAnimals" v="你尚未拥有牲畜。"/>
+<e k="ui_noBlockedPlayers" v="没有被屏蔽玩家"/>
+<e k="ui_noFarm" v="无农场"/>
+<e k="ui_noFarmsCreated" v="服务器管理员尚未创建农场。"/>
+<e k="ui_noFluctuationsForThisFillType" v="此产品无波动"/>
+<e k="ui_noFullGames" v="没有完整的游戏"/>
+<e k="ui_noHusbandriesPlaced" v="你尚未拥有围栏。"/>
+<e k="ui_noHusbandriesPlaced_mobile" v="您尚未拥有动物。"/>
+<e k="ui_noItemsAvailable" v="没有可用的物品。"/>
+<e k="ui_noItemsAvailable_onepieceSelected" v="没有可用的物品，因为已装备了单件套。"/>
+<e k="ui_noMissions" v="当前无任务！"/>
+<e k="ui_noModsDLCsAvailable" v="没有安装模组或可下载内容！"/>
+<e k="ui_noModsDLCsAvailable_ps" v="尚未安装可下载内容！"/>
+<e k="ui_noModsDLCsAvailable_xbox" v="没有安装可下载内容！"/>
+<e k="ui_noModsDLCsUsed" v="没有使用模块或者可下载内容！"/>
+<e k="ui_noModsDLCsUsed_ps" v="尚未使用可下载内容！"/>
+<e k="ui_noModsDLCsUsed_xbox" v="没有使用 可下载内容！"/>
+<e k="ui_noPassword" v="没有密码"/>
+<e k="ui_noPendingMissions" v="当前无暂停的任务"/>
+<e k="ui_noProductionPoints" v="你尚未拥有生产场地。"/>
+<e k="ui_noRightsToEditMissions" v="您没有管理合同的权限！"/>
+<e k="ui_noRunningMissions" v="当前无正在执行的任务"/>
+<e k="ui_noSellPointsForThisFillType" v="没有出售点可用。"/>
+<e k="ui_noShopItems" v="此页面上没有物品。"/>
+<e k="ui_nominalValue" v="面值"/>
+<e k="ui_none" v="无"/>
+<e k="ui_notAllModsAvailable" v="所有所需的模块/可下载内容均未安装。"/>
+<e k="ui_notAllModsAvailable_ps" v="您没有所有所需的可下载内容。"/>
+<e k="ui_notAllModsAvailable_xbox" v="您没有所需的全部 可下载内容。"/>
+<e k="ui_notAllModsOnSystem" v="不是所有的Mod都在你的系统上，但是可以从ModHub下载。"/>
+<e k="ui_notEnoughSpaceForNewSavegame" v="硬盘剩余空间不足，无法开始新的游戏存档。存档无法进行。"/>
+<e k="ui_notPossibleInDemo" v="试玩版不能进行此操作。"/>
+<e k="ui_nothingAttached" v="无装载"/>
+<e k="ui_notificationCount" v="%s (%d/%d)"/>
+<e k="ui_numAnimals" v="牲畜"/>
+<e k="ui_numPlayers" v="玩家数"/>
+<e k="ui_objects" v="物件"/>
+<e k="ui_off" v="关闭"/>
+<e k="ui_on" v="开启"/>
+<e k="ui_onlinePresenceName" v="线上名称"/>
+<e k="ui_onlinePresenceName_xbox" v="玩家代号"/>
+<e k="ui_onlyAvailableMods" v="只安装有模块/可下载内容"/>
+<e k="ui_onlyAvailableMods_ps" v="仅限已下载的可下载内容"/>
+<e k="ui_onlyAvailableMods_xbox" v="仅限已下载的 可下载内容"/>
+<e k="ui_onlyForZipFiles" v="仅限压缩文件"/>
+<e k="ui_operatingHours" v="作业时数"/>
+<e k="ui_other" v="其他"/>
+<e k="ui_outdatedGameVersion" v="你的游戏版本过低。请先安装更新。"/>
+<e k="ui_ownMoney" v="独立账户"/>
+<e k="ui_paintCondition" v="涂抹状态"/>
+<e k="ui_password" v="密码"/>
+<e k="ui_paused" v="已暂停"/>
+<e k="ui_pendingMissionTimeLeft" v="还剩 %d 分钟"/>
+<e k="ui_pendingMissionTimeLeftTitle" v="剩余时间"/>
+<e k="ui_pendingMissions" v="暂停的任务"/>
+<e k="ui_permanentBan" v="激活/产品码被封锁。"/>
+<e k="ui_permission_buyVehicles" v="购买载具"/>
+<e k="ui_permission_sellVehicles" v="出售载具"/>
+<e k="ui_permissions" v="权限"/>
+<e k="ui_permissions_buyPlaceable" v="购买可放置设施"/>
+<e k="ui_permissions_createFields" v="创建新田地"/>
+<e k="ui_permissions_hireAssistent" v="雇佣助手"/>
+<e k="ui_permissions_landscaping" v="整地"/>
+<e k="ui_permissions_lostLandscaping" v="您已丢失修改地形的权限。"/>
+<e k="ui_permissions_manageMissions" v="管理合同"/>
+<e k="ui_permissions_resetVehicles" v="重置载具"/>
+<e k="ui_permissions_sellPlaceable" v="出售可放置设施"/>
+<e k="ui_permissions_tradeAnimals" v="交易牲畜"/>
+<e k="ui_persistentMoney" v="活期帐户"/>
+<e k="ui_pigLiquidManureSilo" v="猪堆肥槽"/>
+<e k="ui_pigManureHeap" v="猪肥堆"/>
+<e k="ui_placeables" v="可放置设施"/>
+<e k="ui_plantingSeason" v="种植季节"/>
+<e k="ui_platform" v="平台"/>
+<e k="ui_playerCharacter" v="玩家"/>
+<e k="ui_playerName" v="玩家名称"/>
+<e k="ui_playerWantsToJoinGame" v="想要加入游戏"/>
+<e k="ui_players" v="玩家"/>
+<e k="ui_pleaseReconnectController" v="请重新连接无线控制器"/>
+<e k="ui_pleaseReconnectController_ps" v="请重新连接无线控制器"/>
+<e k="ui_pleaseReconnectController_ps4" v="请重新连接无线控制器"/>
+<e k="ui_pleaseReconnectController_xbox" v="按 A 以继续"/>
+<e k="ui_pointsOfInterest" v="兴趣点"/>
+<e k="ui_port" v="端口"/>
+<e k="ui_pressESCToCancel" v="按 ESC 取消，或按退后键取消当前键绑定。"/>
+<e k="ui_pressGamepadButtonToMap" v="为动作 &apos;%s&apos;触发轴或按键。"/>
+<e k="ui_pressKeyToMap" v="按你想要用作 &apos;%s&apos; 的键。"/>
+<e k="ui_pressMouseButtonToMap" v="按你想要用作 &apos;%s&apos; 的鼠标按键。"/>
+<e k="ui_prices" v="价格"/>
+<e k="ui_production_changeOutputMode" v="更改输出模式"/>
+<e k="ui_production_output_distributing" v="分配中"/>
+<e k="ui_production_output_selling" v="出售中"/>
+<e k="ui_production_output_storing" v="储存中"/>
+<e k="ui_production_status_inactive" v="非活跃"/>
+<e k="ui_production_status_materialsMissing" v="缺少材料"/>
+<e k="ui_production_status_outOfSpace" v="空间不足"/>
+<e k="ui_production_status_running" v="运转中"/>
+<e k="ui_productions_buildingStorage" v="建筑仓库"/>
+<e k="ui_productions_costsPerHour" v="每小时花费"/>
+<e k="ui_productions_costsPerMinute" v="每分钟花费"/>
+<e k="ui_productions_cyclesPerHour" v="每小时周期"/>
+<e k="ui_productions_cyclesPerMinute" v="每分钟周期数"/>
+<e k="ui_productions_incomingMaterials" v="进料"/>
+<e k="ui_productions_outgoingProducts" v="输出产品"/>
+<e k="ui_productions_production" v="生产"/>
+<e k="ui_productions_recipe" v="食谱"/>
+<e k="ui_productions_status" v="状态"/>
+<e k="ui_promoteToFarmManagerConfirm" v="是否将%s升任为农场主？"/>
+<e k="ui_promoteToFarmManagerTitle" v="升任农场主"/>
+<e k="ui_purchase" v="购买"/>
+<e k="ui_pushToTalk" v="即按即说"/>
+<e k="ui_quadhd_desc" v="Quad HD (3K/1440p)"/>
+<e k="ui_questionTrainSellGoods" v="你想让火车在%s出售装载的货物吗？"/>
+<e k="ui_radio" v="电台"/>
+<e k="ui_radioRating" v="未经 PEGI/USK/ESRB 审核的在线串流"/>
+<e k="ui_rating" v="评级"/>
+<e k="ui_realTime" v="实时"/>
+<e k="ui_removeFromFarmConfirm" v="是否将%s踢出农场？"/>
+<e k="ui_removeFromFarmTitle" v="踢出玩家"/>
+<e k="ui_repaintDialog" v="确定要重新涂抹%s吗？"/>
+<e k="ui_repairDialog" v="您确定要用 %s 元修理该载具吗？"/>
+<e k="ui_reportPlayer_confirm" v="选择举报“%s”的原因："/>
+<e k="ui_reportPlayer_reason_behavior" v="行为不当"/>
+<e k="ui_reportPlayer_reason_cheating" v="作弊"/>
+<e k="ui_reportPlayer_reason_name" v="玩家名称不当"/>
+<e k="ui_reportPlayer_reason_text" v="文字聊天不当"/>
+<e k="ui_reportPlayer_reason_voice" v="语音聊天不当"/>
+<e k="ui_reportPlayer_title" v="举报玩家"/>
+<e k="ui_resetVehicles" v="重置载具"/>
+<e k="ui_resolveConflict" v="解决游戏存档冲突"/>
+<e k="ui_returnThis" v="返回"/>
+<e k="ui_runningMissions" v="正在执行的任务"/>
+<e k="ui_saldo" v="结余"/>
+<e k="ui_saveChanges" v="要保存变更吗?"/>
+<e k="ui_saveDate" v="保存日期"/>
+<e k="ui_saveSettings" v="保存设置"/>
+<e k="ui_savegame" v="游戏存档"/>
+<e k="ui_savegameBelongsToAnotherUser" v="这是其他玩家的游戏存档。"/>
+<e k="ui_savegameConflictKeepBoth" v="均保留"/>
+<e k="ui_savegameConflictKeepLocal" v="保留本地游戏存档"/>
+<e k="ui_savegameConflictKeepRemote" v="保留远程游戏存档"/>
+<e k="ui_savegameConflictKeepRemoteYesNo" v="你确定要用云游戏存档覆盖本地游戏存档吗？"/>
+<e k="ui_savegameConflictResolveFailed" v="游戏存档冲突解决失败。"/>
+<e k="ui_savegameConflictResolveKeepBothFailed" v="无法解决游戏存档冲突。您的游戏存档数量已达上限。请选择其他解决办法。"/>
+<e k="ui_savegameCorrupt" v="读取的游戏存档已损坏。继续用新的游戏存档进行覆盖?"/>
+<e k="ui_savegameEmptySlot" v="空栏位"/>
+<e k="ui_savegameHasMissingDlcs" v="该游戏存档所需的可下载内容尚未安装。请下载以下内容："/>
+<e k="ui_savegameHasMissingDlcsOptional" v="该游戏存档需要安装可下载内容。如果选择继续，一些农机将不可用。不过，您可以下载以下内容："/>
+<e k="ui_savegameHasMissingDlcsOptional_ps" v="该游戏存档使用的可下载内容尚未安装。若继续，部分载具将不可用。或是您可以选择下载以下内容："/>
+<e k="ui_savegameHasMissingDlcsOptional_xbox" v="该游戏存档需要安装可下载内容。如果选择继续，一些农机将不可用。不过，你可以下载以下内容："/>
+<e k="ui_savegameHasMissingDlcs_ps" v="该游戏存档所需的可下载内容尚未安装。请下载以下内容："/>
+<e k="ui_savegameHasMissingDlcs_xbox" v="该游戏存档需要安装可下载内容。请下载以下内容："/>
+<e k="ui_savegameInvalidUser" v="其他玩家的游戏存档无法读取。继续用新的游戏存档进行覆盖?"/>
+<e k="ui_savegameIsCorrupted" v="这个存档已经损坏。"/>
+<e k="ui_savegameIsCurrentlyUnused" v="该游戏存档目前未使用。"/>
+<e k="ui_savegameLoadCloudConflict" v="由于云的冲突，加载游戏存档失败。"/>
+<e k="ui_savegameLoadFailed" v="游戏存档读取失败。请稍后再试，或者使用另外的存储设备。"/>
+<e k="ui_savegameName" v="名称"/>
+<e k="ui_savegameNotSaved" v="游戏未保存。"/>
+<e k="ui_savegameSaveDeviceUnavailable" v="所选择的存储设备不可用。游戏没有保存。"/>
+<e k="ui_savegameSaveInProgress" v="正在保存..."/>
+<e k="ui_savegameSaveNoDevice" v="你没有选择存储设备。游戏没有保存。"/>
+<e k="ui_savegameSaveNoSpace" v="该存储设备可用空间不足。要选择另一个存储设备继续保存吗?"/>
+<e k="ui_savegameSlotLimitReached" v="无法启动选定的存档。对象过多。"/>
+<e k="ui_savegames" v="游戏存档"/>
+<e k="ui_savegamesScanFailed" v="无法读取可用的游戏存档。请稍后再试，或者使用另外的存储设备。"/>
+<e k="ui_savegamesScanNoDevice" v="你没有选择存储设备。该游戏模式需要选择存储设备。"/>
+<e k="ui_savegamesScanSelectDevice" v="所使用的存储设备已无法访问。要选择另外一个存储设备吗?"/>
+<e k="ui_savingContent" v="正在保存。请不要关闭电脑。"/>
+<e k="ui_savingContent_ggp" v="正在儲存內容。"/>
+<e k="ui_savingContent_mobile" v="正在保存内容。请勿关闭设备。"/>
+<e k="ui_savingContent_ps4" v="正在保存内容。请不要关闭 PlayStation®4 主机。"/>
+<e k="ui_savingContent_ps5" v="正在保存内容。请不要关闭 PlayStation®5 主机。"/>
+<e k="ui_savingContent_switch" v="正在保存内容。请勿关闭 Nintendo Switch™ 主机。"/>
+<e k="ui_savingContent_xbox" v="正在保存。请不要关闭主机。"/>
+<e k="ui_savingFailedContinueWithoutSaving" v="保存失败。要在未保存的情况下继续吗？"/>
+<e k="ui_savingFinished" v="已成功保存！"/>
+<e k="ui_seasonalPriceFluctuations" v="季节性波动"/>
+<e k="ui_seasons" v="季节"/>
+<e k="ui_selectAMap" v="选择地图"/>
+<e k="ui_selectActionToRemap" v="选择你想重新映射的动作。"/>
+<e k="ui_selectCharacter" v="选择角色"/>
+<e k="ui_sellItem" v="出售"/>
+<e k="ui_sellOrCustomizeVehicleText" v="在这里您可以自定义或修理您的载具。"/>
+<e k="ui_sellOrCustomizeVehicleTitle" v="工作坊"/>
+<e k="ui_sellPrices" v="出售中"/>
+<e k="ui_sellValue" v="价值"/>
+<e k="ui_sellVehicles" v="出售农机"/>
+<e k="ui_sellingPoints" v="出售点"/>
+<e k="ui_serverCannotBeBanned" v="无法屏蔽服务器玩家！"/>
+<e k="ui_serverCannotBeKicked" v="无法踢除服务器玩家！"/>
+<e k="ui_serverDeniedAccess" v="你被拒绝。"/>
+<e k="ui_serverDeniedSlotLimitReached" v="无法加入服务器，因为已达到车库栏位限制！"/>
+<e k="ui_serverMaintenance" v="服务器正在维护中。请稍后再试。"/>
+<e k="ui_serverName" v="房间名称"/>
+<e k="ui_serverNameGame" v="房间"/>
+<e k="ui_serverSettings" v="常规服务器设置"/>
+<e k="ui_serverUserJoin" v="加入服务器..."/>
+<e k="ui_serverUserLeave" v="已经离开服务器..."/>
+<e k="ui_serverWasShutdown" v="服务器已关闭。"/>
+<e k="ui_session" v="游戏"/>
+<e k="ui_settingsAdvanced" v="高级设置"/>
+<e k="ui_settingsConsole" v="控制台设置"/>
+<e k="ui_settingsControls" v="控制"/>
+<e k="ui_settingsControls2" v="控制 2"/>
+<e k="ui_settingsDevice" v="设备设置"/>
+<e k="ui_settingsGeneral" v="一般"/>
+<e k="ui_settingsMods" v="模组/可下载内容"/>
+<e k="ui_shop" v="商店"/>
+<e k="ui_shopCategories" v="商店类别"/>
+<e k="ui_shopItems" v="已租赁物品"/>
+<e k="ui_shop_numOwnedFormat" v="已拥有%d"/>
+<e k="ui_shop_numOwnedLeasedFormat" v="已拥有%d，已租赁%d"/>
+<e k="ui_signinWithUserToAcceptInviteRetry" v="被邀请的用户 (%s) 需要登录才能接受邀请。您是否要重试？"/>
+<e k="ui_siloFillingDescription" v="选择你要从哪个筒仓装货到你的农机"/>
+<e k="ui_siloRefillingDescription" v="选择你想要购买的产品和数量。"/>
+<e k="ui_silos_extern" v="青贮窖（其他）"/>
+<e k="ui_silos_owned" v="青贮窖（拥有的）"/>
+<e k="ui_silos_totalCapacity" v="总容量"/>
+<e k="ui_someSavegamesCorrupt" v="一些游戏存档已损坏。如果继续，将用新的游戏存档覆盖。"/>
+<e k="ui_sound" v="声音"/>
+<e k="ui_splitShapeWarning" v="此玩家的树木上限较低。如果你接受此玩家，一些树木将被移除！"/>
+<e k="ui_stations" v="站"/>
+<e k="ui_statistic" v="统计资料"/>
+<e k="ui_statisticViewAnimals" v="牲畜"/>
+<e k="ui_statisticViewMapViews" v="地图视图"/>
+<e k="ui_statisticViewOverview" v="概览"/>
+<e k="ui_statisticViewPrices" v="仓储-价格"/>
+<e k="ui_statisticViewStatistics" v="统计"/>
+<e k="ui_statisticViewVehicleSelection" v="农机选择"/>
+<e k="ui_statisticView_chicken" v="鸡"/>
+<e k="ui_statisticView_cow" v="奶牛"/>
+<e k="ui_statisticView_horse" v="马"/>
+<e k="ui_statisticView_pig" v="猪"/>
+<e k="ui_statisticView_sheep" v="绵羊"/>
+<e k="ui_statistics" v="统计"/>
+<e k="ui_storageDeviceWithDlcsRemoved" v="装有可下载内容的存储设备已被移除。你将退出游戏。"/>
+<e k="ui_storeOthers" v="其它"/>
+<e k="ui_storePacks" v="包裹"/>
+<e k="ui_strictNatWarning" v="互联网连接速度太慢或使用严格 NAT 网络配置，都会降低多人游戏体验的质量。详细信息请访问 farming-simulator.com/nat。"/>
+<e k="ui_strictNatWarning_ps" v="互联网连接速度太慢或使用 NAT 类型 3 网络配置，都会降低多人游戏体验的质量。详细信息请访问 farming-simulator.com/nat。"/>
+<e k="ui_switchDevice" v="切换设备"/>
+<e k="ui_synchronizingWithOtherPlayers" v="正在和其他玩家同步数据..."/>
+<e k="ui_temporaryBan" v="激活产品码暂时被封锁。请稍后再试。"/>
+<e k="ui_testingPort" v="正在测试所选端口..."/>
+<e k="ui_today" v="今天"/>
+<e k="ui_tools" v="工具"/>
+<e k="ui_total" v="总数"/>
+<e k="ui_totalPrice" v="总价"/>
+<e k="ui_tour" v="导览"/>
+<e k="ui_tradeAnimals" v="交易牲畜"/>
+<e k="ui_treeFir" v="杉树"/>
+<e k="ui_tutorial" v="教程"/>
+<e k="ui_tutorialIsNotSaved" v="确定要重新开始本教程吗？"/>
+<e k="ui_tutorials" v="教程"/>
+<e k="ui_tutorialsStatsValue" v="%d/%d"/>
+<e k="ui_ultrahd_desc" v="Ultra HD (4K/2160p)"/>
+<e k="ui_unbanPlayers" v="解封玩家"/>
+<e k="ui_uninvited" v="你没有被主机邀请。"/>
+<e k="ui_units" v="单位"/>
+<e k="ui_unpause" v="继续"/>
+<e k="ui_updateDownloadFinishedRestartQuestion" v="重新开始？"/>
+<e k="ui_updateDownloadFinishedRestartQuestionSave" v="保存游戏并重启？"/>
+<e k="ui_updateDownloadFinishedText" v="已成功下载更新。请重启游戏安装。"/>
+<e k="ui_updateDownloadFinishedTitle" v="已下载更新"/>
+<e k="ui_useUPnP" v="使用 UPnP"/>
+<e k="ui_usedDiscSpace" v="已使用的硬盘空间"/>
+<e k="ui_usedDiscSpace_ps4" v="已用的主机存储器"/>
+<e k="ui_usedDiscSpace_ps5" v="已使用的主机存储空间"/>
+<e k="ui_usedVehicleSale" v="二手车销售"/>
+<e k="ui_vehicle" v="载具"/>
+<e k="ui_vehicleControl" v="载具控制"/>
+<e k="ui_vehicleResetDone" v="该机具/工具已重置到商店。"/>
+<e k="ui_vehicleResetFailed" v="该机具/工具无法进行重置。商店周边空间不足！"/>
+<e k="ui_vehicles" v="载具"/>
+<e k="ui_voiceActivity" v="语音活动"/>
+<e k="ui_waitForPendingGameSession" v="连接多人游戏中。正在等待服务器数据……"/>
+<e k="ui_waitingForAccept" v="正在等待游戏主机接收……"/>
+<e k="ui_wantToResetVehicleText" v="确定要重置此载具/工具？"/>
+<e k="ui_wardrobeIsLoadingPleaseWait" v="正在加载"/>
+<e k="ui_wardrobeScreen" v="衣柜"/>
+<e k="ui_weatherForecast" v="天气预报"/>
+<e k="ui_windSpeedAndDirection" v="风速和风向"/>
+<e k="ui_windowed" v="开窗的"/>
+<e k="ui_windowed_fullscreen" v="全屏"/>
+<e k="ui_wrongPassword" v="密码错误"/>
+<e k="ui_yes" v="是"/>
+<e k="ui_youWantToDeleteSavegame" v="确定要删除该游戏存档吗?"/>
+<e k="ui_youWantToDeleteSavegameMobile" v="你确定要删除该游戏存档文件吗？你的云数据也将受到影响。"/>
+<e k="ui_youWantToQuitGame" v="你真的要退出吗？"/>
+<e k="ui_youWantToReturnVehicle" v="TODO"/>
+<e k="ui_youWantToSellVehicle" v="确定要出售此载具？"/>
+<e k="unit_acre" v="英亩"/>
+<e k="unit_acreShort" v="英亩"/>
+<e k="unit_bale" v="捆"/>
+<e k="unit_bushels" v="蒲式耳"/>
+<e k="unit_bushelsShort" v="蒲式耳"/>
+<e k="unit_celsius" v="摄氏度"/>
+<e k="unit_celsiusShort" v="°C"/>
+<e k="unit_cm" v="厘米"/>
+<e k="unit_cmShort" v="cm"/>
+<e k="unit_cubic" v="立方米"/>
+<e k="unit_cubicShort" v="m³"/>
+<e k="unit_decimalSymbol" v="."/>
+<e k="unit_digitGroupingSymbol" v=","/>
+<e k="unit_dollar" v="美元"/>
+<e k="unit_dollarShort" v="$"/>
+<e k="unit_euro" v="欧元"/>
+<e k="unit_euroShort" v="€"/>
+<e k="unit_fahrenheit" v="华氏温度"/>
+<e k="unit_fahrenheitShort" v="°F"/>
+<e k="unit_ha" v="公顷"/>
+<e k="unit_haShort" v="公顷"/>
+<e k="unit_kg" v="kg"/>
+<e k="unit_km" v="千米"/>
+<e k="unit_kmShort" v="千米"/>
+<e k="unit_kmh" v="千米/小时"/>
+<e k="unit_kw" v="kWh"/>
+<e k="unit_liter" v="公升"/>
+<e k="unit_literShort" v="升"/>
+<e k="unit_miles" v="英里"/>
+<e k="unit_milesShort" v="mi"/>
+<e k="unit_minutesShort" v="分钟"/>
+<e k="unit_mph" v="英里/小时"/>
+<e k="unit_pieces" v="只"/>
+<e k="unit_pound" v="英镑"/>
+<e k="unit_poundShort" v="£"/>
+<e k="unit_rpmShort" v="转速"/>
+<e k="unit_timeShort" v="hh:mm"/>
+<e k="unit_tonsShort" v="t"/>
+<e k="vehicle_shop" v="载具商店"/>
+<e k="warning_actionNotAllowedHere" v="此动作无法在这执行！"/>
+<e k="warning_actionNotAllowedNow" v="此动作现在无法执行！"/>
+<e k="warning_attachToPower" v="用打开的电机将工具连接到载具上！"/>
+<e k="warning_baleDoNotAllowFillTypeMixing" v="此草捆装载机只接受与填充类型相符的捆！"/>
+<e k="warning_baleLoaderNotFullyLoaded" v="草捆装载机需要满载！"/>
+<e k="warning_baleLoaderOnlyAllowOnceSize" v="此草捆装载机一次只能装一捆。"/>
+<e k="warning_baleNotSupported" v="不支持此类型草捆"/>
+<e k="warning_canNotPlaceFence" v="不能在此放置栅栏。"/>
+<e k="warning_cantUseMissionVehiclesOnOtherLand" v="此载具/工具将留给合同工作！"/>
+<e k="warning_chineseHealthyGamingAdvice" v="Warning shown by Engine loading screen for Chinese language: 健康游戏忠告\n\n抵制不良游戏，拒绝盗版游戏。\n注意自我保护，谨防受骗上当。\n适度游戏益脑，沉迷游戏伤身。\n合理安排时间，享受健康生活。"/>
+<e k="warning_couldNotFastenTensionBelt" v="无法拉紧张力带"/>
+<e k="warning_couldNotToggleChopper" v="当前水果类型不能使用麦秆！"/>
+<e k="warning_detachNotAllowed" v="此状态不允许加装工具！"/>
+<e k="warning_detachNotAllowedPlowTurn" v="在这种状态下，不能分离犁。请转动它。"/>
+<e k="warning_doNotDetachWhileFolding" v="收起时不能分离！"/>
+<e k="warning_dontDriveIntoWater" v="不要开到深水区！"/>
+<e k="warning_fillTypeNotAllowed" v="fillType不可用于 (unloadTrigger)"/>
+<e k="warning_firstFoldUpTheTool" v="首先你要收起工具（%s）！"/>
+<e k="warning_firstSetPipeState" v="请先展开运输管"/>
+<e k="warning_firstUnfoldTheTool" v="首先你要展开工具（%s）！"/>
+<e k="warning_foldingNotWhileAttached" v="工具连接时，不能收起。"/>
+<e k="warning_foldingNotWhileAttachedToAttacherJoint" v="工具连接到这个连接器节点时，不能收起。"/>
+<e k="warning_foldingNotWhileBaleLoaded" v="装载捆时，不能收起。"/>
+<e k="warning_foldingNotWhileFilled" v="工具被填充时，不能收起。"/>
+<e k="warning_foldingNotWhileLowered" v="工具被降下时，不能收起。"/>
+<e k="warning_foldingNotWhilePipeExtended" v="伸展螺旋钻时，不能收起。"/>
+<e k="warning_foldingNotWhilePlowTurned" v="犁转动时，不能收起。"/>
+<e k="warning_foldingNotWhileTensionBeltsFasten" v="张力带拉紧时，不能收起。"/>
+<e k="warning_foldingNotWhileTurnedOn" v="工具启动时，不能收起。"/>
+<e k="warning_foldingNotWhileWrapping" v="捆被打包时，不能收起。"/>
+<e k="warning_foldingTreeMounted" v="先砍树再收起木头收割机！"/>
+<e k="warning_hpwRangeRestriction" v="高压清洗机的软管使你无法继续前进。
+它将在 %.1f m 后停用！"/>
+<e k="warning_inAdvanceFeedingLimitReached" v="饲料槽的最大容量能够满足牲畜%d天的食量。"/>
+<e k="warning_insufficientPowerOutput" v="没有足够的马力可供连接设备使用。"/>
+<e k="warning_liftImplementFirst" v="请先升高工具“%s”！"/>
+<e k="warning_lowerImplementFirst" v="请先降下工具“%s”！"/>
+<e k="warning_manureHeapNotNearBarn" v="粪肥堆需要放在谷仓旁边。"/>
+<e k="warning_motorBatteryEmpty" v="充电载具！"/>
+<e k="warning_motorClutchNoEngaged" v="无法启动引擎。档位已选定，离合器未使用。"/>
+<e k="warning_motorFuelEmpty" v="帮载具加油！"/>
+<e k="warning_motorNotStarted" v="请先启动引擎！"/>
+<e k="warning_noCuttersAttached" v="无附加收割机！"/>
+<e k="warning_noFreeMissionSpace" v="存放合同载具的空间不足。请将设备移走。"/>
+<e k="warning_noFreeSpaceHere" v="这里没有多余的空间！"/>
+<e k="warning_noGearSelected" v="没有选择档位！"/>
+<e k="warning_noMoreFreeCapacity" v="没有更多空间可以容纳 %s"/>
+<e k="warning_notAcceptedHere" v="这里不接受 %s！"/>
+<e k="warning_notAcceptedTool" v="这类工具在此不接受 %s ！"/>
+<e k="warning_numSplitShapesMaxed" v="目前无法砍伐。请先出售一些木材。"/>
+<e k="warning_objectTooHeavy" v="物件太重！"/>
+<e k="warning_onlyOneOfThisItemAllowedPerFarm" v="每个农场只能拥有一个物品！"/>
+<e k="warning_placeable_error_blockedTerrain" v="此地形在此无法变形！"/>
+<e k="warning_placeable_error_cannotBeBought" v="此物件无法购买！"/>
+<e k="warning_placeable_error_cannotBePlacedAtPosition" v="此物件无法放置在此！"/>
+<e k="warning_placeable_error_collisionWithObject" v="此物件与另一物件冲突！"/>
+<e k="warning_placeable_error_collisionWithPlayer" v="此物件与某一玩家冲突！"/>
+<e k="warning_placeable_error_deformationFailed" v="地形变形失败！"/>
+<e k="warning_placeable_error_restrictedArea" v="物件无法放置在此限制区域！"/>
+<e k="warning_placeable_error_spawnPlace" v="物件无法放置在装载区域！"/>
+<e k="warning_placeable_error_storePlace" v="物件无法放置在储藏区域！"/>
+<e k="warning_placeable_error_unkown" v="不能放在这儿！"/>
+<e k="warning_rainReducesYield" v="下雨时收割会降低产量！"/>
+<e k="warning_siloExtensionNotNearGreenhouse" v="此辅助水箱必须放在温室的附近"/>
+<e k="warning_siloExtensionNotNearSilo" v="青贮窖扩展需要放在青贮窖旁边。"/>
+<e k="warning_theSelectedFruitTypeCantBePlantedInThisPeriod" v="此水果不能种植于%s！"/>
+<e k="warning_theSelectedFruitTypeIsNotAvailableOnThisMap" v="选中的水果类型无法在本地图找到！"/>
+<e k="warning_theSelectedFruitTypeIsWrongForTheMission" v="水果类型与合同不相符！"/>
+<e k="warning_tooManyBales" v="草垛太多，请先卖掉一些。"/>
+<e k="warning_tooManyHusbandries" v="动物围栏太多。请先卖掉一些。"/>
+<e k="warning_tooManyPallets" v="托架太多，请先卖掉一些。"/>
+<e k="warning_tooManyPlaceables" v="此类型的物品太多，请先卖掉一些。"/>
+<e k="warning_tooManyTrees" v="树木过多。请先砍伐掉一些。"/>
+<e k="warning_tooManyWorkersActive" v="工作中的帮手过多！"/>
+<e k="warning_toolBrandNotCompatible" v="此品牌的工具不兼容。(仅“%s”兼容)"/>
+<e k="warning_toolIsFull" v="工具已满。请先清空！"/>
+<e k="warning_toolNotCompatible" v="工具不兼容"/>
+<e k="warning_toolTypeNotAllowed" v="toolType不可用于 (unloadTrigger)"/>
+<e k="warning_treeTooThick" v="这棵树太粗了，不适合此农机。"/>
+<e k="warning_treeTooThickAtPosition" v="这个位置的树太粗了。"/>
+<e k="warning_treeTypeNotSupported" v="不支持此树木类型。"/>
+<e k="warning_troughIsFull" v="饲料槽已满"/>
+<e k="warning_youDontHaveAccessToThis" v="您没有访问此内容的权限！"/>
+<e k="warning_youDontHaveAccessToThisLand" v="无法访问这块土地！"/>
+<e k="warning_youDontOwnThisField" v="这块地不属于你！"/>
+<e k="warning_youDontOwnThisItem" v="这个物品不是您的！"/>
+<e k="warning_youDontOwnThisLand" v="这块土地不是您的！"/>
+<e k="z_locaFont" v="TYPESET:.,-õñÕÑìďťňâçğıİîöşüûáéíñóúü¿¡äåéöёъяшертыуиопющэасдфгчйкльжзхцвбнмăâîşșţțąćęłńóśźżåæâéèêøóòôáéíöóőüúűäöüßùûüÿ€àâæçéèêëïîôœäåöĉĝĥĵŝŭéëïóöüåæéøúůýžáčďéěíňóřšť$€£¥₩↵⌫⏎↑ ↓ ← →
+CAPSET:.,-ÌĎŤŇÂÇĞıİÎÖŞÜÛÁÉÍÑÓÚÜ¿¡ÄÅÉÖЁЪЯШЕРТЫУИОПЮЩЭАСДФГЧЙКЛЬЖЗХЦВБНМĂÂÎŞȘŢȚĄĆĘŁŃÓŚŹŻÅÆÂÉÈÊØÓÒÔÁÉÍÖÓŐÜÚŰÄÖÜßÙÛÜŸ€ÀÂÆÇÉÈÊËÏÎÔŒÄÅÖĈĜĤĴŜŬÉËÏÓÖÜÅÆÉØÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ$€£¥₩↵⌫⏎↑ ↓ ← →°"/>
+</elements>
+</l10n>

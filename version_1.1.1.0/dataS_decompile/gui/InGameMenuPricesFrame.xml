@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuPrices">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuPriceHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuPrices"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" id="mainBox">
+
+            <GuiElement type="empty" profile="ingameMenuPriceLeftColumn">
+                <GuiElement type="boxLayout" profile="ingameCalendarHeaderBox" id="tableHeaderBox" size="680px 104px">
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="340px 104px" text="$l10n_ui_goods" />
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="340px 104px" text="$l10n_statistic_storage" textAlignment="right" textOffset="-30px 0px" />
+                </GuiElement>
+
+                <GuiElement type="smoothList" profile="ingameMenuPriceList" id="productList" focusChangeTop="nil" focusChangeBottom="nil" selectedWithoutFocus="true">
+                    <GuiElement type="listItem" profile="ingameMenuPriceListItem">
+                        <GuiElement type="bitmap" name="icon" profile="ingameMenuPriceGoodsIcon" />
+                        <GuiElement type="text" name="title" profile="ingameMenuPriceItemTitle" />
+                        <GuiElement type="text" name="storage" profile="ingameMenuPriceItemStorage" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 652px" position="28px -104px">
+                    <GuiElement type="slider" profile="verticalListSliderBar" size="6px 644px" dataElementId="productList" id="productListSlider" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="ingameMenuPriceRightColumn" id="pricesColumn">
+                <GuiElement type="boxLayout" profile="ingameCalendarHeaderBox" id="tableHeaderBox" size="680px 104px">
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="330px 104px" text="$l10n_ui_stations" />
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="180px 104px"  text="$l10n_ui_buyPrices" />
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="160px 104px"  text="$l10n_ui_sellPrices" textOffset="0 0" />
+                </GuiElement>
+
+                <GuiElement type="smoothList" profile="ingameMenuPriceList" id="priceList" focusChangeTop="nil" focusChangeBottom="nil">
+                    <GuiElement type="listItem" profile="ingameMenuPriceListItem">
+                        <GuiElement type="bitmap" name="hotspot" profile="ingameMenuPriceItemHotspot" />
+                        <GuiElement type="text" name="title" profile="ingameMenuPriceSellpointTitle" />
+                        <GuiElement type="empty" profile="ingameMenuPriceItemTrend">
+                            <GuiElement type="bitmap" profile="ingameMenuPriceArrow" name="priceTrend" />
+                        </GuiElement>
+                        <GuiElement type="text" name="price" profile="ingameMenuPriceItemPrice" />
+                        <GuiElement type="text" name="buyPrice" profile="ingameMenuPriceItemBuyPrice" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="text" profile="ingameMenuPricesNoSellpointsText" text="$l10n_ui_noSellPointsForThisFillType" id="noSellpointsText" />
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 652px" position="28px -104px">
+                    <GuiElement type="slider" profile="verticalListSliderBar" size="6px 644px" dataElementId="priceList" id="priceListSlider" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="ingameMenuPriceRightColumn" id="fluctuationsColumn">
+                <GuiElement type="boxLayout" profile="ingameCalendarHeaderBox" size="680px 104px">
+                    <GuiElement type="text" profile="ingameMenuPriceHeader" size="680px 104px" text="$l10n_ui_seasonalPriceFluctuations" textOffset="0 10px" textAlignment="center" />
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBg" position="0 -104px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBgAlternate" position="0 -169.2px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBg" position="0 -234.4px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBgAlternate" position="0 -299.6px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBg" position="0 -364.8px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBgAlternate" position="0 -430.0px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBg" position="0 -495.2px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBgAlternate" position="0 -560.4px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBg" position="0 -625.6px" />
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBgAlternate" position="0 -690.8px" />
+
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[1]" position="0 -104px" text="A" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[2]" position="56.67px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[3]" position="113.34px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[4]" position="170px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[5]" position="226.68px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[6]" position="283.35px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[7]" position="340.02px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[8]" position="396.69px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[9]" position="453.36px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[10]" position="510.03px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonth" id="fluctuationMonthHeader[11]" position="566.7px -104px" text="B" />
+                <GuiElement type="text" profile="ingameMenuPriceFluctuationMonthLast" id="fluctuationMonthHeader[12]" position="623.37px -104px" text="B" />
+
+                <GuiElement type="text" profile="ingameMenuPricesNoSellpointsText" text="$l10n_ui_noFluctuationsForThisFillType" id="noFluctuationsText" />
+
+                <GuiElement type="boxLayout" profile="ingameMenuPriceFluctuationLayout" id="fluctuationsLayout">
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[1]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[2]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[3]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[4]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[5]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[6]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[7]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[8]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[9]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[10]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[11]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuPriceFluctuationBarBgUp" id="fluctuationBars[12]">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationBarUp" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="ingameMenuPriceFluctuationCurrent" id="fluctuationCurrentPrice" />
+
+            </GuiElement>
+
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

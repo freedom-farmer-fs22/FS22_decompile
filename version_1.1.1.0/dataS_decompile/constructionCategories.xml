@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<constructionCategories defaultIconFilename="dataS/menu/construction/ui_construction_icons.png" refSize="256 256">
+
+    <category name="buildings" title="$l10n_construction_category_buildings" iconUVs="0 0 32px 32px">
+        <tab name="sheds" title="$l10n_construction_tab_sheds" iconUVs="41px 0 32px 32px" />
+        <tab name="silos" title="$l10n_construction_tab_silos" iconUVs="80px 0 32px 32px" />
+        <tab name="siloExtensions" title="$l10n_construction_tab_siloExtensions" iconUVs="200px 0 32px 32px" />
+        <tab name="containers" title="$l10n_construction_tab_containers" iconUVs="120px 0 32px 32px" />
+        <tab name="tools" title="$l10n_construction_tab_tools" iconUVs="160px 0 32px 32px" />
+        <tab name="farmhouses" title="$l10n_construction_tab_farmhouses" iconUVs="41px 120px 32px 32px" />
+    </category>
+
+    <category name="production" title="$l10n_construction_category_production" iconUVs="0 41px 32px 32px">
+        <tab name="factories" title="$l10n_construction_tab_factories" iconUVs="41px 41px 32px 32px" />
+        <tab name="sellingPoints" title="$l10n_construction_tab_sellingPoints" iconUVs="80px 41px 32px 32px" />
+        <tab name="greenhouses" title="$l10n_construction_tab_greenhouses" iconUVs="120px 41px 32px 32px" />
+        <tab name="orchards" title="$l10n_construction_tab_orchards" iconUVs="200px 41px 32px 32px" />
+        <tab name="generators" title="$l10n_construction_tab_generators" iconUVs="160px 41px 32px 32px" />
+    </category>
+
+    <category name="animals" title="$l10n_construction_category_animals" iconUVs="0 80px 32px 32px">
+        <tab name="cows"     title="$l10n_construction_tab_cows" iconUVs="0px 80px 32px 32px" />
+        <tab name="horses"   title="$l10n_construction_tab_horses" iconUVs="120px 80px 32px 32px" />
+        <tab name="pigs"     title="$l10n_construction_tab_pigs" iconUVs="41px 80px 32px 32px" />
+        <tab name="sheeps"   title="$l10n_construction_tab_sheeps" iconUVs="80px 80px 32px 32px" />
+        <tab name="chickens" title="$l10n_construction_tab_chickens" iconUVs="160px 120px 32px 32px" />
+        <tab name="bees"     title="$l10n_construction_tab_bees" iconUVs="160px 80px 32px 32px" />
+        <tab name="others"   title="$l10n_construction_tab_others" iconUVs="200px 80px 32px 32px" />
+    </category>
+
+    <category name="decoration" title="$l10n_construction_category_decoration" iconUVs="0 120px 32px 32px">
+        <tab name="fences" title="$l10n_construction_tab_fences" iconUVs="80px 120px 32px 32px" />
+        <tab name="lights" title="$l10n_construction_tab_lights" iconUVs="120px 120px 32px 32px" />
+        <tab name="uncategorized" title="$l10n_construction_tab_others" iconUVs="41px 120px 32px 32px" />
+    </category>
+
+    <category name="landscaping" title="$l10n_construction_category_landscaping" iconUVs="0 160px 32px 32px">
+        <tab name="sculpting" title="$l10n_construction_tab_sculpting" iconUVs="41px 160px 32px 32px" />
+        <tab name="painting" title="$l10n_construction_tab_painting" iconUVs="80px 160px 32px 32px" />
+        <tab name="trees" title="$l10n_construction_tab_trees" iconUVs="120px 160px 32px 32px" />
+        <tab name="plants" title="$l10n_construction_tab_plants" iconUVs="160px 160px 32px 32px" />
+    </category>
+
+</constructionCategories>
+

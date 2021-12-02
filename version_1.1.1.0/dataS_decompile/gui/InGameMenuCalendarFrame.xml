@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuCalendar">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuCalendarHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_cropCalendar"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" id="container">
+            <!-- Header with season icons -->
+            <GuiElement type="boxLayout" profile="ingameCalendarHeaderBox" id="tableHeaderBox">
+                <GuiElement type="text" profile="ingameCalendarHeader" size="45px 50px" />
+                <GuiElement type="text" profile="ingameCalendarHeader" size="255px 50px" />
+                <GuiElement type="text" profile="ingameCalendarHeader" size="80px 50px"  />
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="1-3" profile="ingameCalendarHeaderPeriod" id="calendarHeader[1]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="4-6" profile="ingameCalendarHeaderPeriod" id="calendarHeader[2]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[3]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[4]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[5]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[6]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[7]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[8]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[9]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[10]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[11]" />
+                </GuiElement>
+                <GuiElement type="text" profile="ingameCalendarHeader" size="85px 50px">
+                    <GuiElement type="text" text="7-9" profile="ingameCalendarHeaderPeriod" id="calendarHeader[12]" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameCalendarHeaderSeason" imageUVs="384px 240px 48px 48px" position="507.5px -16px" />
+            <GuiElement type="bitmap" profile="ingameCalendarHeaderSeason" imageUVs="432px 240px 48px 48px" position="762.5px -16px" />
+            <GuiElement type="bitmap" profile="ingameCalendarHeaderSeason" imageUVs="480px 240px 48px 48px" position="1017.5px -16px" />
+            <GuiElement type="bitmap" profile="ingameCalendarHeaderSeason" imageUVs="336px 240px 48px 48px" position="1272.5px -16px" />
+
+
+            <GuiElement type="smoothList" profile="ingameCalendarList" id="calendar">
+                <GuiElement type="listItem" profile="ingameCalendarFruitRow" handleFocus="false">
+                    <GuiElement type="flowLayout" profile="ingameCalendarFruitRowLayout">
+
+                        <GuiElement type="bitmap" profile="ingameCalendarFruitIconCell" name="fruitIcon" />
+                        <GuiElement type="text" profile="ingameCalendarFruitNameCell" name="fruitName" />
+                        <GuiElement type="text" profile="ingameCalendarGerminationCell" name="germination" />
+
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period1">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period2">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period3">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period4">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period5">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period6">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period7">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period8">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period9">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period10">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="ingameCalendarPeriodCell" name="period11">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="ingameCalendarPeriodCell" name="period12">
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="ingameCalendarPeriodCellHarvest" />
+                        </GuiElement>
+
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="baseReference" size="1020px 652px" anchors="1 1 0 0">
+                <GuiElement type="bitmap" profile="ingameCalendarTodayBar" id="todayBar" />
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 652px" position="28px -104px">
+                <GuiElement type="slider" profile="verticalListSliderBar" size="6px 644px" dataElementId="calendar" id="calendarSlider" focusInit="onOpen" />
+            </GuiElement>
+
+            <GuiElement type="flowLayout" profile="ingameCalendarLegendBox">
+                <GuiElement type="text" profile="ingameCalendarLegendText" text="$l10n_ui_plantingSeason" />
+                <GuiElement type="bitmap" profile="ingameCalendarLegendIcon" id="legendPlantingSeason" />
+                <GuiElement type="text" profile="ingameCalendarLegendText" text="$l10n_ui_harvestSeason" />
+                <GuiElement type="bitmap" profile="ingameCalendarLegendIcon" id="legendHarvestSeason" />
+            </GuiElement>
+
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose">
+    <GuiElement type="textInput" profile="chatTextInput" onEnterPressed="onEnterPressed" onEscPressed="onEscPressed" focusId="1" imeKeyboardType="normal" imeTitle="$l10n_ui_chat" imeDescription="$l10n_ui_chat" imePlaceholder="$l10n_ui_chat" id="textElement" />
+</GUI>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette" />
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="empty" profile="modSelectionLayout">
+            <GuiElement type="bitmap" profile="headerBoxDocked" >
+                <GuiElement type="bitmap" profile="modsIcon"/>
+                <GuiElement type="text" profile="headerText" text="$l10n_ui_modsDLCs" />
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="smoothList" profile="modSelectionList" onDoubleClick="onDoubleClick" id="modList" listDelegate="self" listDataSource="self" startClipperElementName="topClipper" endClipperElementName="bottomClipper">
+                <GuiElement type="listItem" profile="modSelectionListItem">
+                    <GuiElement type="bitmap" profile="modSelectionListItemImage" name="icon" />
+
+                    <GuiElement type="text" profile="modSelectionListItemTitle" name="title" />
+
+                    <GuiElement type="flowLayout" profile="modSelectionListItemBox">
+                        <GuiElement type="text" profile="modSelectionListItemVersionTitle" text="$l10n_ui_modVersion:" />
+                        <GuiElement type="text" profile="modSelectionListItemVersion" name="version" text="1.0.0.0" />
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="modSelectionListItemSelector">
+                        <GuiElement type="bitmap" profile="modSelectionListItemItemTick" name="tick" />
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 684px">
+                <GuiElement type="slider" profile="verticalListSliderBar" size="6px 676px" dataElementId="modList" handleFocus="false" />
+            </GuiElement>
+
+            <GuiElement type="text" profile="serverDetailNoModsDLCs" text="$l10n_ui_noModsDLCsAvailable" id="noModsDLCsElement" />
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen" id="buttonsPC">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_start" onClick="onClickOk" id="buttonStart" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back"  onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonSelect" text="$l10n_button_select" onClick="toggleModAction" id="buttonSelect" />
+        <GuiElement type="button" profile="buttonSelectAll" text="$l10n_button_selectAll" onClick="toggleAllAction" id="buttonSelectAll" />
+        <GuiElement type="button" profile="buttonExtra1" text="$l10n_button_modHubShowCrossplay" onClick="toggleCrossplay" id="buttonToggleCrossplay" />
+    </GuiElement>
+</GUI>

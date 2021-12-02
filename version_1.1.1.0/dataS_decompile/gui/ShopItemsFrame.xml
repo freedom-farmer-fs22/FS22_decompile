@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="shopItems">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuFinancesHeaderIcon" id="itemsHeaderIcon"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" id="itemsHeaderText"/>
+
+            <!-- Current balance display in header -->
+            <GuiElement type="flowLayout" profile="shopMoneyBox">
+                <GuiElement type="bitmap" profile="shopSlotsIcon" id="shopSlotsIcon" margin="0 0 10px 0" />
+                <GuiElement type="text" profile="shopMoney" text="0 / 0" id="shopSlotsText" margin="0 0 40px 0" />
+
+                <GuiElement type="text" profile="shopBalance" text="$l10n_ui_balance:" id="currentBalanceLabel" />
+                <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="currentBalanceText" />
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Navigation header -->
+        <GuiElement type="breadcrumbs" profile="shopItemsNavLayout" id="breadcrumbs">
+            <GuiElement type="textBackdrop" profile="shopItemsNavItemTextBackdrop">
+                <GuiElement type="text" profile="shopItemsNavItemText" />
+            </GuiElement>
+            <GuiElement type="bitmap" profile="shopItemsNavFilledArrow" />
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="shopItemsTooltipLayout">
+            <GuiElement type="text" profile="shopItemsTooltipText" id="shopListAttributeInfo" text="Dummy" />
+            <GuiElement type="bitmap" profile="shopItemsTooltipIcon" id="shopListAttributeInfoIcon" />
+        </GuiElement>
+
+        <!-- Items list -->
+        <GuiElement type="smoothList" profile="shopItemsList" onClick="onOpenItem" onDoubleClick="onOpenItem" id="itemsList">
+            <GuiElement type="listItem" profile="shopItemsListItem">
+                <GuiElement type="bitmap" profile="shopItemsListItemImage" position="0 0" name="icon"/>
+                <GuiElement type="bitmap" profile="shopItemsListItemBrandImage" position="0px -330px" name="brandIcon"/>
+
+                <GuiElement type="text" profile="shopItemsListItemLabelText" position="0px 80px" name="title"/>
+                <GuiElement type="text" profile="shopItemsListItemValueText" position="0px 45px" name="value"/>
+                <GuiElement type="text" profile="shopItemsListItemModDlcText" position="0px 15px" name="modDlc" />
+
+                <GuiElement type="bitmap" profile="listItemSelector"/>
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Item information box -->
+        <GuiElement type="empty" profile="shopItemsDetailBox" id="detailBox">
+                <GuiElement type="bitmap" profile="shopListAttributeFruitIcon" id="fruitIconTemplate" visible="false" />
+
+                <GuiElement type="text" profile="shopItemDetailName" id="itemDetailName" />
+                <GuiElement type="text" profile="shopItemDetailOwned" id="itemDetailOwned" />
+
+                <GuiElement type="bitmap" profile="shopItemDetailsSeparator" id="detailSeparator" />
+
+                <GuiElement type="flowLayout" profile="shopItemsDetailAttributesRow" id="attributesLayout">
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[1]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[1]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[1]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[2]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[2]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[2]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[3]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[3]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[3]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[4]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[4]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[4]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[5]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[5]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[5]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[6]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[6]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[6]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[7]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[7]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[7]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[8]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[8]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[8]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[9]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[9]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[9]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[10]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[10]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[10]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[11]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[11]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[11]"/>
+
+                    <GuiElement type="bitmap" profile="shopListAttributeIcon" id="attrIcon[12]"/>
+                    <GuiElement type="text" profile="shopListAttributeText" text="Dummy" id="attrValue[12]"/>
+                    <GuiElement type="flowLayout" profile="shopListAttributeIconsLayout" id="attrIconsLayout[12]"/>
+                </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="threePartBitmap" profile="horizontalListSliderRightDocked" size="1400px 12px">
+            <GuiElement type="slider" profile="horizontalListSliderBar" dataElementId="itemsList" size="1392px 6px" />
+        </GuiElement>
+
+        <GuiElement type="text" profile="ingameMenuNoContentText" text="$l10n_ui_noShopItems" id="noItemsText" />
+    </GuiElement>
+</GUI>

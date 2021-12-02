@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuProduction">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuWeatherHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuProductionChains"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox">
+            <GuiElement type="empty" profile="ingameMenuProductionListBox" id="productionListBox">
+                <GuiElement type="smoothList" profile="ingameMenuProductionList" id="productionList" focusInit="onOpen" listSectionHeader="section" focusId="production" focusChangeBottom="nil" focusChangeTop="nil" focusChangeRight="storage">
+                    <GuiElement type="listItem" profile="ingameMenuProductionPointListItem">
+                        <GuiElement type="bitmap" profile="ingameMenuPriceGoodsIcon" name="icon" />
+                        <GuiElement type="text" profile="ingameMenuProductionProductionTitle" name="name" />
+
+                        <GuiElement type="bitmap" profile="ingameMenuProductionProductionActivity" name="activity" />
+                    </GuiElement>
+
+                    <GuiElement type="listItem" profile="ingameMenuAnimalsListSectionHeader" name="section">
+                        <GuiElement type="text" profile="ingameMenuAnimalsListSectionHeaderText" name="title" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="productionList" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuProductionDetailsBox" id="detailsBox">
+                <GuiElement type="text" profile="ingameMenuProductionColumnTitle" text="$l10n_ui_productions_production" />
+
+                <GuiElement type="text" profile="ingameMenuProductionDetailKey" text="$l10n_ui_productions_status" position="15px -80px" />
+                <GuiElement type="text" profile="ingameMenuProductionDetailValue" id="detailProductionStatus" position="-15px -80px" />
+
+                <GuiElement type="text" profile="ingameMenuProductionDetailKey" text="$l10n_ui_productions_cyclesPerHour" position="15px -110px"  />
+                <GuiElement type="text" profile="ingameMenuProductionDetailValue" id="detailCyclesPerHour" position="-15px -110px" />
+
+                <GuiElement type="text" profile="ingameMenuProductionDetailKey" text="$l10n_ui_productions_costsPerHour" position="15px -140px"  />
+                <GuiElement type="text" profile="ingameMenuProductionDetailValue" id="detailCostsPerHour" position="-15px -140px" format="currency" />
+
+                <GuiElement type="text" profile="ingameMenuProductionDetailKey" text="$l10n_ui_productions_recipe" position="15px -210px" textSize="20px" textBold="true" />
+
+                <GuiElement type="bitmap" profile="ingameMenuProductionDetailRecipeIcon" id="recipeFillIcon" />
+                <GuiElement type="text" profile="ingameMenuProductionDetailRecipeText" id="recipeText" />
+                <GuiElement type="bitmap" profile="ingameMenuProductionDetailRecipePlus" id="recipePlus" />
+
+                <GuiElement type="flowLayout" profile="ingameMenuProductionDetailRecipeLayoutInput" id="detailRecipeInputLayout" />
+                <GuiElement type="bitmap" profile="ingameMenuProductionDetailRecipeArrow" />
+                <GuiElement type="flowLayout" profile="ingameMenuProductionDetailRecipeLayoutOutput" id="detailRecipeOutputLayout" />
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuProductionStorageBox" id="storageListBox" >
+                <GuiElement type="text" profile="ingameMenuProductionColumnTitle" text="$l10n_ui_productions_buildingStorage" />
+
+                <GuiElement type="smoothList" profile="ingameMenuProductionStorageList" id="storageList" listSectionHeader="section" focusId="storage" focusChangeLeft="production" focusChangeBottom="nil" focusChangeTop="nil">
+                    <GuiElement type="listItem" profile="ingameMenuProductionStorageListItem" name="inputCell">
+                        <GuiElement type="bitmap" name="icon" profile="ingameMenuPriceGoodsIcon" />
+                        <GuiElement type="text" profile="ingameMenuProductionStorageTitle" name="fillType" />
+
+                        <GuiElement type="text" profile="ingameMenuProductionStorageLevel" name="fillLevel" />
+                        <GuiElement type="threePartBitmap" profile="ingameMenuProductionStorageBarBackground">
+                            <GuiElement type="threePartBitmap" profile="ingameMenuProductionStorageBar" name="bar"/>
+                        </GuiElement>
+                    </GuiElement>
+
+                    <GuiElement type="listItem" profile="ingameMenuProductionStorageListOutputItem" name="outputCell">
+                        <GuiElement type="bitmap" name="icon" profile="ingameMenuPriceGoodsIcon" anchors="0 0 1 1" position="5.5px -8px" />
+                        <GuiElement type="text" profile="ingameMenuProductionStorageTitle" name="fillType" />
+
+                        <GuiElement type="text" profile="ingameMenuProductionStorageLevel" name="fillLevel" />
+                        <GuiElement type="threePartBitmap" profile="ingameMenuProductionStorageBarBackground">
+                            <GuiElement type="threePartBitmap" profile="ingameMenuProductionStorageBar" name="bar"/>
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="ingameMenuProductionStorageMode" name="outputMode" />
+                    </GuiElement>
+
+                    <GuiElement type="listItem" profile="ingameMenuAnimalsListSectionHeader" name="section">
+                        <GuiElement type="text" profile="ingameMenuAnimalsListSectionHeaderText" name="title" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 686px" anchors="1 1 0 0">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="storageList" handleFocus="false" size="6px 674px" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuProductionEmptyBox" id="noPointsBox">
+                <GuiElement type="text" profile="ingameMenuProductionEmptyText" text="$l10n_ui_noProductionPoints" />
+            </GuiElement>
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

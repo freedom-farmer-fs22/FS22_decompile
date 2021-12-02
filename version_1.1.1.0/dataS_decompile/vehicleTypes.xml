@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicleTypes>
+    <type name="base" className="Vehicle" filename="dataS/scripts/vehicles/Vehicle.lua" >
+        <specialization name="vehicleSettings" />
+        <specialization name="aiVehicle" />
+        <specialization name="baseMaterial" />
+        <specialization name="tipOccluder" />
+        <specialization name="foliageBending" />
+        <specialization name="washable" />
+        <specialization name="wearable" />
+        <specialization name="licensePlates" />
+        <specialization name="dynamicallyLoadedParts" />
+        <specialization name="animatedVehicle" />
+        <specialization name="dashboard" />
+        <specialization name="cylindered" />
+        <specialization name="mountable" />
+        <specialization name="tensionBeltObject" />
+        <specialization name="aiVehicleObstacle" />
+    </type>
+    <type name="baseDrivable" parent="base">
+        <specialization name="ikChains" />
+        <specialization name="wheels" />
+        <specialization name="crawlers" />
+        <specialization name="headlandAnimation" />
+        <specialization name="slopeCompensation" />
+        <specialization name="speedRotatingParts" />
+        <specialization name="enterable" />
+        <specialization name="fillUnit" />
+        <specialization name="motorized" />
+        <specialization name="drivable" />
+        <specialization name="aiFieldWorker" />
+        <specialization name="aiJobVehicle" />
+        <specialization name="aiDrivable" />
+        <specialization name="aiImplement" />
+        <specialization name="articulatedAxis" />
+        <specialization name="crabSteering" />
+        <specialization name="lights" />
+        <specialization name="attacherJoints" />
+        <specialization name="powerTakeOffs" />
+        <specialization name="suspensions" />
+        <specialization name="connectionHoses" />
+        <specialization name="ropes" />
+        <specialization name="windBending" />
+        <specialization name="honk" />
+        <specialization name="wipers" />
+        <specialization name="frontloaderAttacher" />
+        <specialization name="bunkerSiloCompacter" />
+    </type>
+    <type name="baseAttachable" parent="base">
+        <specialization name="wheels" />
+        <specialization name="crawlers" />
+        <specialization name="slopeCompensation" />
+        <specialization name="speedRotatingParts" />
+        <specialization name="attachable" />
+        <specialization name="lights" />
+        <specialization name="powerTakeOffs" />
+        <specialization name="powerConsumer" />
+        <specialization name="suspensions" />
+        <specialization name="aiImplement" />
+        <specialization name="connectionHoses" />
+        <specialization name="ropes" />
+        <specialization name="windBending" />
+        <specialization name="attacherJoints" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+    </type>
+    <type name="baseFillable" parent="baseAttachable">
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="cover" />
+    </type>
+    <type name="baseTipper" parent="baseFillable">
+        <specialization name="dischargeable" />
+        <specialization name="aiLoadable" />
+        <specialization name="aiDischargeable" />
+        <specialization name="trailer" />
+        <specialization name="tensionBelts" />
+    </type>
+    <type name="baseGroundTool" parent="baseAttachable">
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="jigglingParts" />
+        <specialization name="randomlyMovingParts" />
+        <specialization name="variableWorkWidth" />
+    </type>
+    <type name="baseGroundToolFillable" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="cover" />
+        <specialization name="aiLoadable" />
+    </type>
+
+    <!-- CARS -->
+    <type name="car" parent="baseDrivable">
+        <specialization name="tensionBelts" />
+        <specialization name="foldable" />
+    </type>
+    <type name="carFillable" parent="baseDrivable">
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="trailer" />
+        <specialization name="tensionBelts" />
+        <specialization name="foldable" />
+    </type>
+
+<!-- TRACTORS -->
+    <type name="tractor" parent="baseDrivable" />
+    <type name="tractorReverseDriving" parent="baseDrivable">
+        <specialization name="reverseDriving" />
+    </type>
+    <type name="woodTruck" parent="baseDrivable">
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="tensionBelts" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="selfPropelledLeveler" parent="baseDrivable">
+        <specialization name="leveler" />
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="foldable" />
+    </type>
+
+<!-- TELEHANDLER -->
+    <type name="teleHandler" parent="baseDrivable">
+        <specialization name="dynamicMountAttacher" />
+    </type>
+
+<!-- IMPLEMENTS -->
+    <type name="implement" parent="baseAttachable" />
+    <type name="implementDynamicMountAttacher" parent="baseAttachable">
+        <specialization name="dynamicMountAttacher" />
+    </type>
+    <type name="fillableImplement" parent="baseAttachable">
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="cover" />
+        <specialization name="dischargeable" />
+    </type>
+
+<!-- ATTACHABLE FRONTLOADERS -->
+    <type name="attachableFrontloader" parent="baseAttachable" />
+
+<!-- FRONTLOADER TOOLS -->
+    <type name="frontloaderTool" parent="baseAttachable" />
+    <type name="shovel" parent="baseFillable">
+        <specialization name="dischargeable" />
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="shovel" />
+    </type>
+    <type name="shovelLeveler" parent="shovel">
+        <specialization name="leveler" />
+    </type>
+
+    <type name="turnOnShovel" parent="shovel">
+        <specialization name="turnOnVehicle" />
+    </type>
+
+    <type name="baleGrab" parent="frontloaderTool">
+        <specialization name="baleGrab" />
+    </type>
+
+    <type name="dynamicMountAttacherShovel" parent="shovel">
+        <specialization name="dynamicMountAttacher" />
+    </type>
+    <type name="dynamicMountAttacherShovelLeveler" parent="dynamicMountAttacherShovel">
+        <specialization name="leveler" />
+    </type>
+
+<!-- PLOWS -->
+    <type name="plow" parent="baseGroundTool">
+        <specialization name="plow" />
+    </type>
+    <type name="plowPacker" parent="plow">
+        <specialization name="cultivator" />
+        <specialization name="plowPacker" />
+    </type>
+
+<!-- CULTIVATORS -->
+    <type name="cultivator" parent="baseGroundTool">
+        <specialization name="cultivator" />
+        <specialization name="ridgeMarker" />
+    </type>
+    <type name="turnOnCultivator" parent="cultivator">
+        <specialization name="turnOnVehicle" />
+    </type>
+    <type name="fertilizingCultivator" parent="baseGroundToolFillable">
+        <specialization name="cultivator" />
+        <specialization name="ridgeMarker" />
+        <specialization name="sprayer" />
+        <specialization name="fertilizingCultivator" />
+    </type>
+    <type name="fertilizingCultivatorRoller" parent="fertilizingCultivator">
+        <specialization name="roller" />
+    </type>
+
+<!-- MULCHERS -->
+    <type name="mulcher" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="mulcher" />
+    </type>
+    <type name="mulcherRoll" parent="baseGroundTool">
+        <specialization name="mulcher" />
+    </type>
+
+<!-- VINE TOOLS -->
+    <type name="vinePrepruner" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="vineDetector" />
+        <specialization name="vinePrepruner" />
+    </type>
+
+<!-- SOWINGMACHINES -->
+    <type name="sowingMachine" parent="baseGroundToolFillable">
+        <specialization name="ridgeMarker" />
+        <specialization name="sowingMachine" />
+    </type>
+    <type name="fertilizingSowingMachine" parent="sowingMachine">
+        <specialization name="sprayer" />
+        <specialization name="fertilizingSowingMachine" />
+    </type>
+    <type name="cultivatingSowingMachine" parent="sowingMachine">
+        <specialization name="cultivator" />
+    </type>
+
+<!-- SPRAYER -->
+    <type name="sprayer" parent="baseGroundToolFillable">
+        <specialization name="dischargeable" />
+        <specialization name="groundAdjustedNodes" />
+        <specialization name="sprayer" />
+        <specialization name="workMode" />
+    </type>
+    <type name="selfPropelledSprayer" parent="baseDrivable">
+        <specialization name="dischargeable" />
+        <specialization name="powerConsumer" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="fillVolume" />
+        <specialization name="cover" />
+        <specialization name="groundAdjustedNodes" />
+        <specialization name="variableWorkWidth" />
+        <specialization name="sprayer" />
+    </type>
+
+<!-- SPRAYERS -->
+    <type name="manureBarrel" parent="sprayer">
+        <specialization name="manureBarrel" />
+        <specialization name="fillTriggerVehicle" />
+    </type>
+    <type name="selfPropelledManureBarrel" parent="selfPropelledSprayer">
+        <specialization name="manureBarrel" />
+        <specialization name="fillTriggerVehicle" />
+    </type>
+
+<!-- MANURE SPREADER -->
+    <type name="manureSpreader" parent="sprayer" />
+
+<!-- SPREADER -->
+    <type name="spreader" parent="sprayer" />
+    <type name="saltSpreader" parent="baseGroundToolFillable">
+        <specialization name="saltSpreader" />
+    </type>
+
+<!-- COMBINES -->
+    <type name="combineDrivable" parent="baseDrivable">
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="powerConsumer" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="combine" />
+        <specialization name="pipe" />
+    </type>
+    <type name="combineCutterFruitPreparer" parent="combineDrivable">
+        <specialization name="cutter" />
+        <specialization name="fruitPreparer" />
+    </type>
+    <type name="attachableCombine" parent="baseFillable">
+        <specialization name="ikChains" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="dischargeable" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="combine" />
+        <specialization name="cutter" />
+        <specialization name="pipe" />
+        <specialization name="bunkerSiloCompacter" />
+    </type>
+
+    <type name="attachableCombineExtended" parent="baseFillable">
+        <specialization name="ikChains" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="dischargeable" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="combine" />
+        <specialization name="pipe" />
+    </type>
+
+    <type name="attachableCombineCutterFruitPreparer" parent="attachableCombine">
+        <specialization name="fruitPreparer" />
+    </type>
+
+    <type name="cottonHarvester" parent="baseDrivable">
+        <specialization name="fillVolume" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="powerConsumer" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="combine" />
+        <specialization name="cutter" />
+        <specialization name="baler" />
+        <specialization name="dynamicMountAttacher" />
+    </type>
+    <type name="balerDrivable" parent="baseDrivable">
+        <specialization name="turnOnVehicle" />
+        <specialization name="powerConsumer" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="pickup" />
+        <specialization name="baler" />
+    </type>
+
+    <type name="vineHarvester" parent="baseDrivable">
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="powerConsumer" />
+        <specialization name="groundReference" />
+        <specialization name="workParticles" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="workArea" />
+        <specialization name="combine" />
+        <specialization name="vineDetector" />
+        <specialization name="vineCutter" />
+        <specialization name="trailer" />
+    </type>
+
+<!-- CUTTERS -->
+    <type name="cutter" parent="baseAttachable">
+        <specialization name="turnOnVehicle" />
+        <specialization name="supportVehicle" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="cutter" />
+    </type>
+
+    <type name="cutterFruitPreparer" parent="cutter">
+        <specialization name="fruitPreparer" />
+        <specialization name="randomlyMovingParts" />
+    </type>
+
+<!-- TRAILERS -->
+    <type name="trailer" parent="baseTipper" />
+    <type name="augerWagon" parent="baseTipper" >
+        <specialization name="pipe" />
+    </type>
+    <type name="tippingAugerWagon" parent="baseTipper" >
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="shovel" />
+    </type>
+
+    <type name="dolly" parent="baseAttachable" />
+
+    <type name="fuelTrailer" parent="baseFillable">
+        <specialization name="fillTriggerVehicle" />
+        <specialization name="dischargeable" />
+    </type>
+
+    <type name="manureTrailer" parent="baseFillable">
+        <specialization name="dischargeable" />
+        <specialization name="aiLoadable" />
+        <specialization name="aiDischargeable" />
+        <specialization name="fillTriggerVehicle" />
+    </type>
+
+    <type name="hookLiftTrailer" parent="baseAttachable">
+        <specialization name="hookLiftTrailer" />
+    </type>
+
+    <type name="hookLiftContainerTrailer" parent="baseTipper">
+        <specialization name="hookLiftContainer" />
+    </type>
+
+    <type name="forageWagon" parent="baseTipper">
+        <specialization name="turnOnVehicle" />
+        <specialization name="pickup" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="testAreas" />
+        <specialization name="workParticles" />
+        <specialization name="forageWagon" />
+    </type>
+
+    <type name="mowerForageWagon" parent="forageWagon">
+        <specialization name="mower" />
+        <specialization name="workMode" />
+    </type>
+
+    <type name="baler" parent="baseGroundToolFillable">
+        <specialization name="pickup" />
+        <specialization name="baler" />
+    </type>
+
+    <type name="balerWrapper" parent="baseGroundToolFillable">
+        <specialization name="pickup" />
+        <specialization name="baler" />
+        <specialization name="baleWrapper" />
+    </type>
+
+    <type name="baleWrapper" parent="baseAttachable">
+        <specialization name="baleWrapper" />
+    </type>
+
+    <type name="cuttingBaler" parent="baseGroundToolFillable">
+        <specialization name="combine" />
+        <specialization name="cutter" />
+        <specialization name="baler" />
+    </type>
+
+    <type name="inlineWrapper" parent="baseAttachable">
+        <specialization name="fillUnit" />
+        <specialization name="enterable" />
+        <specialization name="motorized" />
+        <specialization name="drivable" />
+        <specialization name="inlineWrapper" />
+    </type>
+
+    <type name="baleLoader" parent="baseFillable">
+        <specialization name="dynamicMountAttacher" />
+        <specialization name="baleLoader" />
+    </type>
+
+    <type name="mixerWagon" parent="baseTipper" >
+        <specialization name="turnOnVehicle" />
+        <specialization name="mixerWagon" />
+    </type>
+
+    <type name="drivableMixerWagon" parent="baseDrivable">
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="trailer" />
+        <specialization name="mixerWagon" />
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="shovel" />
+    </type>
+
+    <type name="strawBlower" parent="baseTipper">
+        <specialization name="strawBlower" />
+        <specialization name="dynamicMountAttacher" />
+    </type>
+
+    <type name="livestockTrailer" parent="baseAttachable">
+        <specialization name="cover" />
+        <specialization name="livestockTrailer" />
+    </type>
+
+    <type name="transportTrailer" parent="baseAttachable">
+        <specialization name="ikChains" />
+        <specialization name="tensionBelts" />
+    </type>
+
+    <type name="forwarderTrailer" parent="transportTrailer" >
+        <specialization name="enterable" />
+        <specialization name="logGrab" />
+    </type>
+
+    <type name="craneTrailer" parent="baseAttachable" >
+        <specialization name="tensionBelts" />
+        <specialization name="logGrab" />
+    </type>
+
+<!-- RECEIVINGHOPPER -->
+    <type name="receivingHopper" parent="baseFillable">
+        <specialization name="enterable" />
+        <specialization name="dischargeable" />
+        <specialization name="receivingHopper" />
+    </type>
+
+<!-- CONVEYORBELTS-->
+    <type name="conveyorBelt" parent="baseFillable">
+        <specialization name="ikChains" />
+        <specialization name="enterable" />
+        <specialization name="motorized" />
+        <specialization name="drivable" />
+        <specialization name="dischargeable" />
+        <specialization name="conveyorBelt" />
+        <specialization name="aiJobVehicle" />
+        <specialization name="aiFieldWorker" />
+        <specialization name="aiConveyorBelt" />
+    </type>
+    <type name="pickupConveyorBelt" parent="baseFillable">
+        <specialization name="ikChains" />
+        <specialization name="enterable" />
+        <specialization name="motorized" />
+        <specialization name="drivable" />
+        <specialization name="dischargeable" />
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="shovel" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="conveyorBelt" />
+        <specialization name="aiJobVehicle" />
+        <specialization name="aiFieldWorker" />
+        <specialization name="aiConveyorBelt" />
+    </type>
+    <type name="loaderVehicle" parent="baseDrivable">
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="shovel" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="conveyorBelt" />
+    </type>
+
+<!-- MOWERS -->
+    <type name="mower" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="mower" />
+        <specialization name="workMode" />
+    </type>
+    <type name="selfPropelledMower" parent="baseDrivable">
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="mower" />
+        <specialization name="powerConsumer" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="workMode" />
+    </type>
+    <type name="handToolMower" parent="selfPropelledMower">
+        <specialization name="pushHandTool" />
+    </type>
+
+<!-- TEDDERS -->
+    <type name="tedder" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="tedder" />
+    </type>
+
+<!-- STONE PICKER -->
+    <type name="stonePicker" parent="baseGroundTool">
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="trailer" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="stonePicker" />
+    </type>
+
+<!-- WINDROWERS -->
+    <type name="windrower" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="windrower" />
+        <specialization name="workMode" />
+    </type>
+    <type name="windrowerUnpowered" parent="baseGroundTool">
+        <specialization name="windrower" />
+    </type>
+
+<!-- FRUITPREPARERS -->
+    <type name="fruitPreparer" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="fruitPreparer" />
+    </type>
+
+<!-- LEVELERS -->
+    <type name="leveler" parent="baseFillable">
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="attacherJointControl" />
+        <specialization name="leveler" />
+    </type>
+    <type name="silageRoller" parent="baseAttachable">
+        <specialization name="bunkerSiloInteractor" />
+        <specialization name="bunkerSiloCompacter" />
+    </type>
+    <type name="silageCompressor" parent="silageRoller">
+        <specialization name="turnOnVehicle" />
+    </type>
+
+<!-- ROLLERS -->
+    <type name="roller" parent="baseGroundTool">
+        <specialization name="roller" />
+    </type>
+    <type name="seedingRoller" parent="baseGroundToolFillable">
+        <specialization name="sowingMachine" />
+        <specialization name="roller" />
+    </type>
+
+<!-- LOWLOADER -->
+    <type name="semiTrailerFront" parent="baseAttachable">
+        <specialization name="tensionBelts" />
+        <specialization name="dynamicMountAttacher" />
+        <specialization name="semiTrailerFront" />
+    </type>
+    <type name="dynamicMountAttacherTrailer" parent="baseAttachable">
+        <specialization name="fillUnit" />
+        <specialization name="dynamicMountAttacher" />
+        <specialization name="tensionBelts" />
+    </type>
+    <type name="dynamicMountAttacherFork" parent="baseAttachable">
+        <specialization name="dynamicMountAttacher" />
+        <specialization name="attacherJointControl" />
+    </type>
+
+<!-- WOOD -->
+    <type name="forwarder" parent="baseDrivable">
+        <specialization name="powerConsumer" />
+        <specialization name="foldable" />
+        <specialization name="tensionBelts" />
+        <specialization name="reverseDriving" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="woodHarvester" parent="baseDrivable">
+        <specialization name="powerConsumer" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="reverseDriving" />
+        <specialization name="woodHarvester" />
+        <specialization name="foldable" />
+    </type>
+    <type name="woodCrusherTrailer" parent="baseFillable">
+        <specialization name="dischargeable" />
+        <specialization name="pipe" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="woodCrusher" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="woodCrusherTrailerStorage" parent="baseFillable">
+        <specialization name="dischargeable" />
+        <specialization name="trailer" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="woodCrusher" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="woodCrusherTrailerDrivable" parent="baseDrivable">
+        <specialization name="attachable" />
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="groundReference" />
+        <specialization name="pipe" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="woodCrusher" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="woodCrusherDrivable" parent="baseDrivable">
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="groundReference" />
+        <specialization name="pipe" />
+        <specialization name="foldable" />
+        <specialization name="cylinderedFoldable" />
+        <specialization name="turnOnVehicle" />
+        <specialization name="woodCrusher" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="stumpCutter" parent="baseAttachable">
+        <specialization name="turnOnVehicle" />
+        <specialization name="stumpCutter" />
+    </type>
+
+    <type name="stumpCutterCultivatorPlow" parent="baseAttachable">
+        <specialization name="turnOnVehicle" />
+        <specialization name="groundReference" />
+        <specialization name="workArea" />
+        <specialization name="workParticles" />
+        <specialization name="testAreas" />
+        <specialization name="stumpCutter" />
+        <specialization name="plow" />
+        <specialization name="cultivator" />
+        <specialization name="attacherJointControl" />
+    </type>
+
+    <type name="treeSaw" parent="baseAttachable">
+        <specialization name="turnOnVehicle" />
+        <specialization name="treeSaw" />
+    </type>
+    <type name="treeSaw_attacherJointControl" parent="treeSaw">
+        <specialization name="attacherJointControl" />
+        <specialization name="logGrab" />
+    </type>
+    <type name="treePlanter" parent="baseGroundTool">
+        <specialization name="turnOnVehicle" />
+        <specialization name="fillUnit" />
+        <specialization name="treePlanter" />
+    </type>
+    <type name="logGrab" parent="baseAttachable">
+        <specialization name="logGrab" />
+    </type>
+    <type name="logGrab_attacherJointControl" parent="baseAttachable">
+        <specialization name="attacherJointControl" />
+        <specialization name="logGrab" />
+    </type>
+
+<!-- WEEDERS -->
+    <type name="weederSowingmachine" parent="baseGroundToolFillable">
+        <specialization name="ridgeMarker" />
+        <specialization name="sowingMachine" />
+        <specialization name="weeder" />
+    </type>
+    <type name="weeder" parent="baseGroundTool">
+        <specialization name="weeder" />
+    </type>
+    <type name="weederFertilizingSowingmachine" parent="fertilizingSowingMachine">
+        <specialization name="weeder" />
+    </type>
+    <type name="weederFertilizing" parent="sprayer">
+        <specialization name="weeder" />
+    </type>
+
+<!-- WATER TRAILERS -->
+    <type name="waterTrailer" parent="baseTipper">
+        <specialization name="waterTrailer" />
+        <specialization name="fillTriggerVehicle" />
+    </type>
+
+<!-- PALLETS -->
+    <type name="pallet" className="Vehicle" filename="dataS/scripts/vehicles/Vehicle.lua">
+        <specialization name="baseMaterial" />
+        <specialization name="tipOccluder" />
+        <specialization name="foliageBending" />
+        <specialization name="dynamicallyLoadedParts" />
+        <specialization name="mountable" />
+        <specialization name="dashboard" />
+        <specialization name="animatedVehicle" />
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="fillTriggerVehicle" />
+        <specialization name="dischargeable" />
+        <specialization name="tensionBeltObject" />
+    </type>
+    <type name="treeSaplingPallet" parent="pallet">
+        <specialization name="treeSaplingPallet" />
+    </type>
+
+    <type name="bigBag" parent="pallet">
+        <specialization name="attachable" />
+        <specialization name="bigBag" />
+    </type>
+
+    <type name="multipleItemPurchase" className="Vehicle" filename="dataS/scripts/vehicles/Vehicle.lua" >
+        <specialization name="fillUnit" />
+        <specialization name="multipleItemPurchase" />
+    </type>
+
+<!-- HORSES -->
+    <type name="horse" className="Vehicle" filename="dataS/scripts/vehicles/Vehicle.lua" >
+        <specialization name="foliageBending" />
+        <specialization name="mountable" />
+        <specialization name="enterable" />
+        <specialization name="cctdrivable" />
+        <specialization name="suspensions" />
+        <specialization name="rideable" />
+    </type>
+
+<!-- TRAINS -->
+    <type name="locomotive" className="RailroadVehicle" filename="dataS/scripts/vehicles/RailroadVehicle.lua">
+        <specialization name="vehicleSettings" />
+        <specialization name="baseMaterial" />
+        <specialization name="wheels" />
+        <specialization name="splineVehicle" />
+        <specialization name="dynamicallyLoadedParts" />
+        <specialization name="ikChains" />
+        <specialization name="speedRotatingParts" />
+        <specialization name="animatedVehicle" />
+        <specialization name="dashboard" />
+        <specialization name="enterable" />
+        <specialization name="fillUnit" />
+        <specialization name="motorized" />
+        <specialization name="drivable" />
+        <specialization name="locomotive" />
+        <specialization name="lights" />
+        <specialization name="attacherJoints" />
+        <specialization name="cylindered" />
+        <specialization name="connectionHoses" />
+        <specialization name="honk" />
+        <specialization name="wipers" />
+    </type>
+    <type name="trainTrailer" className="RailroadVehicle" filename="dataS/scripts/vehicles/RailroadVehicle.lua">
+        <specialization name="baseMaterial" />
+        <specialization name="wheels" />
+        <specialization name="splineVehicle" />
+        <specialization name="speedRotatingParts" />
+        <specialization name="animatedVehicle" />
+        <specialization name="dashboard" />
+        <specialization name="attacherJoints" />
+        <specialization name="attachable" />
+        <specialization name="fillUnit" />
+        <specialization name="fillVolume" />
+        <specialization name="dischargeable" />
+        <specialization name="trailer" />
+        <specialization name="cover" />
+    </type>
+    <type name="trainTimberTrailer" className="RailroadVehicle" filename="dataS/scripts/vehicles/RailroadVehicle.lua">
+        <specialization name="baseMaterial" />
+        <specialization name="wheels" />
+        <specialization name="splineVehicle" />
+        <specialization name="speedRotatingParts" />
+        <specialization name="animatedVehicle" />
+        <specialization name="attacherJoints" />
+        <specialization name="attachable" />
+        <specialization name="tensionBelts" />
+    </type>
+</vehicleTypes>

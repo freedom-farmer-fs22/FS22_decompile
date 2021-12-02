@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="uiFullInGameBackground"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="empty" profile="ingameMenuCenterBox">
+
+            <GuiElement type="empty" profile="animalDealerListBoxLeft">
+                <GuiElement type="text" profile="animalHeaderText" id="headerSource" text="$l10n_animals_dealer"/>
+
+                <GuiElement type="smoothList" profile="animalDealerList" onDoubleClick="onSourceListDoubleClick" id="listSource" focusChangeRight="targetList" focusId="sourceList" focusChangeBottom="nil" focusChangeTop="nil" listDelegate="self" listDataSource="self">
+                    <GuiElement type="listItem" profile="animalListItem">
+                        <GuiElement type="empty" profile="animalListItemHighlight" name="highlight"/>
+                        <GuiElement type="bitmap" profile="animalListItemIcon" name="icon"/>
+                        <GuiElement type="text" profile="animalListItemName" text="Type" name="name" />
+                        <GuiElement type="text" profile="animalListItemPrice" text="500€" name="price" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="listSource" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="animalDealerListBoxCenterInfo">
+                <GuiElement type="flowLayout" profile="animalDealerMoneyBox">
+                    <GuiElement type="text" profile="shopBalance" text="$l10n_ui_balance:" />
+                    <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="balanceElement" />
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="animalIcon" id="infoIcon"/>
+                <GuiElement type="text" profile="animalDealerIconTitle" text="Holstein" id="infoName" />
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="20px -280px"  id="infoTitle[1]" text="$l10n_ui_age:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="160px -280px" id="infoValue[1]" text="15 Monate" />
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="20px -300px"  id="infoTitle[2]" text="$l10n_ui_horseHealth:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="160px -300px" id="infoValue[2]" text="75 %" />
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="20px -320px"  id="infoTitle[3]" text="$l10n_statistic_productivity:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="160px -320px" id="infoValue[3]" text="30 %" />
+
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="270px -280px" id="infoTitle[4]" text="$l10n_ui_age:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="410px -280px" id="infoValue[4]" text="15 Monate"/>
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="270px -300px" id="infoTitle[5]" text="$l10n_statistic_productivity:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="410px -300px" id="infoValue[5]" text="75 %"/>
+                <GuiElement type="text" profile="animalDealerInfoTitle" position="270px -320px" id="infoTitle[6]" text="$l10n_ui_horseHealth:"/>
+                <GuiElement type="text" profile="animalDealerInfoValue" position="410px -320px" id="infoValue[6]" text="30 %"/>
+
+                <GuiElement type="text" profile="animalDealerInfoText" position="20px -360px" id="infoDescription"/>
+            </GuiElement>
+
+
+            <GuiElement type="bitmap" profile="animalDealerListBoxCenterMoney">
+                <GuiElement type="multiTextOption" profile="multiTextOptionAnimalDealerNumAnimals" onClick="onClickNumAnimals" id="numAnimalsElement" >
+                    <GuiElement type="button" profile="multiTextOptionAnimalDealerNumAnimalsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionAnimalDealerNumAnimalsRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="bitmap" profile="multiTextOptionAnimalDealerNumAnimalsBg" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="animalDealerInfoBox" id="infoBox">
+                    <GuiElement type="text"  profile="animalDealerMoneyTitle" position="0 190px" text="$l10n_ui_prices:" />
+                    <GuiElement type="text"  profile="animalDealerMoneyValue" position="0 190px" text="0" id="infoPrice"/>
+                    <GuiElement type="text"  profile="animalDealerMoneyTitle" position="0 160px" text="$l10n_shop_fee:" />
+                    <GuiElement type="text"  profile="animalDealerMoneyValue" position="0 160px" text="0" id="infoFee"/>
+
+                    <GuiElement type="empty" profile="singleLineSeparator"    position="0 150px" size="510px 1dp" />
+                    <GuiElement type="empty" profile="singleLineSeparator"    position="0 148px" size="510px 1dp" />
+
+                    <GuiElement type="text"  profile="animalDealerMoneyTitle" position="0 120px" text="$l10n_ui_total:" />
+                    <GuiElement type="text"  profile="animalDealerMoneyValue" position="0 120px" text="0" id="infoTotal"/>
+
+                    <GuiElement type="empty" profile="singleLineSeparator" position="0 82px" size="510px 1dp" />
+
+                    <GuiElement type="bitmap" profile="animalDealerInfoIcon" />
+                    <GuiElement type="text"  profile="animalDealerInfo" text="$l10n_shop_transportationFee" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="animalDealerListBoxRight">
+                <GuiElement type="text" profile="animalHeaderText" id="headerTarget" text="$l10n_animals_dealer"/>
+
+                <GuiElement type="smoothList" profile="animalDealerList" onDoubleClick="onTargetListDoubleClick" id="listTarget" focusId="targetList" focusChangeLeft="sourceList" focusChangeBottom="nil" focusChangeTop="nil" listDelegate="self" listDataSource="self">
+                    <GuiElement type="listItem" profile="animalListItem">
+                        <GuiElement type="bitmap" profile="animalListItemHighlight" name="highlight"/>
+                        <GuiElement type="bitmap" profile="animalListItemIcon" name="icon"/>
+                        <GuiElement type="text" profile="animalListItemName" text="Name" name="name" />
+                        <GuiElement type="text" profile="animalListItemPrice" text="500€" name="price" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="listTarget" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_select" onClick="onClickSelect" id="buttonSelect"/>
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_confirm" onClick="onClickApply" id="buttonApply"/>
+    </GuiElement>
+</GUI>

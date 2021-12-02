@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="infoDialogBg" id="mainBox">
+        <GuiElement type="animation" profile="dialogLoading" />
+
+        <GuiElement type="text" profile="dialogText" text="$l10n_ui_connectingToMasterServer" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC" >
+            <GuiElement type="button" profile="buttonCancel" text="$l10n_button_cancel" onClick="onClickCancel" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

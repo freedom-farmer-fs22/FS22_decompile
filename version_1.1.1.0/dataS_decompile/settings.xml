@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<settings buildName="b14227" developmentLevel="release" isDemo="false" buildTypeParam="" revision="54525">
+  <languages>
+    <language code="en" short="en" suffix="_en"/>
+    <language code="de" short="de" suffix="_de"/>
+    <language code="jp" short="jp" suffix="_jp"/>
+    <language code="pl" short="pl" suffix="_pl"/>
+    <language code="cz" short="cz" suffix="_cz"/>
+    <language code="fr" short="fr" suffix="_fr"/>
+    <language code="es" short="es" suffix="_es"/>
+    <language code="ru" short="ru" suffix="_ru"/>
+    <language code="it" short="it" suffix="_it"/>
+    <language code="pt" short="pt" suffix="_pt"/>
+    <language code="hu" short="hu" suffix="_hu"/>
+    <language code="nl" short="nl" suffix="_nl"/>
+    <language code="cs" short="cs" suffix="_cs"/>
+    <language code="ct" short="ct" suffix="_ct"/>
+    <language code="br" short="br" suffix="_br"/>
+    <language code="tr" short="tr" suffix="_tr"/>
+    <language code="ro" short="ro" suffix="_ro"/>
+    <language code="kr" short="kr" suffix="_kr"/>
+    <language code="da" short="da" suffix="_da"/>
+    <language code="fi" short="fi" suffix="_fi"/>
+    <language code="no" short="no" suffix="_no"/>
+    <language code="sv" short="sv" suffix="_sv"/>
+    <language code="fc" short="fc" suffix="_fc"/>
+  </languages>
+</settings>

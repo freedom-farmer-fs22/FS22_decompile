@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicleSchemaOverlays filename="$dataS/menu/schemas/vehicleSchemas.dds" imageSize="256 256">
+    <overlay name="VEHICLE"                 uvs="0px 14px 64px 50px"     size="26px 20px"/>
+    <overlay name="HARVESTER"               uvs="128px 14px 64px 50px"   size="26px 20px"/>
+
+    <overlay name="TRUCK"                   uvs="192px 78px 64px 50px"   size="26px 20px"/>
+    <overlay name="CAR"                     uvs="128px 78px 64px 50px"   size="26px 20px"/>
+    <overlay name="LOADER"                  uvs="0px 142px 64px 50px"    size="26px 20px"/>
+
+    <overlay name="IMPLEMENT"               uvs="0px 96px 32px 32px"     size="13px 13px"/>
+    <overlay name="COMBINE_HEADER"          uvs="192px 32px 32px 32px"   size="13px 13px"/>
+    <overlay name="FRONTLOADER"             uvs="64px 96px 32px 32px"    size="13px 13px"/>
+</vehicleSchemaOverlays>

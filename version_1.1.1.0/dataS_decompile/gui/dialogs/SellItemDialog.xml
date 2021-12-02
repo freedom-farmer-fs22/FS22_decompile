@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="sellDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_sellItem" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="sellDialogImage" id="dialogImageElement" />
+        <GuiElement type="text" profile="sellDialogName" id="dialogItemNameElement" />
+
+        <!-- <GuiElement type="text" profile="sellDialogText" text="$l10n_ui_sellValue:" /> -->
+        <GuiElement type="text" profile="sellDialogPrice" id="dialogItemPriceElement" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_yes" onClick="onYes" id="yesButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_no" onClick="onNo" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

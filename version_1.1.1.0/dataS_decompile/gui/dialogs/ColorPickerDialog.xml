@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="colorDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_chooseColor" />
+        </GuiElement>
+
+        <GuiElement type="colorPickButton" profile="shopColorButton" visible="false" onClick="onClickColorButton" onFocus="onFocusColorButton" onLeave="onLeaveColorButton" onHighlight="onFocusColorButton" onHighlightRemove="onLeaveColorButton" id="buttonTemplate" />
+
+        <GuiElement type="boxLayout" profile="emptyPanel" anchors="0.5 0.5 0.5 0.5" alignmentY="top" fitFlowToElements="true" flowDirection="horizontal" handleFocus="false" size="417px 52px" id="colorButtonLayout" position="0 15px"  />
+
+        <GuiElement type="text" profile="colorDialogColorName" id="colorName" />
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_select" onClick="onClickOk" id="okButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="backButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

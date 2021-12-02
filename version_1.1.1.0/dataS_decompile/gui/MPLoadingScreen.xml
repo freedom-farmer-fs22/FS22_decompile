@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="bgBlack" />
+    <GuiElement type="picture" profile="mapPreview" id="mapSelectionPreview" />
+    <GuiElement type="bitmap" profile="bgVignette" />
+
+    <GuiElement type="bitmap" profile="mpLoadingBackground">
+        <GuiElement type="animation" profile="mpLoadingAnimation" id="mpLoadingAnimation"/>
+        <GuiElement type="bitmap" profile="mpLoadingAnimationDone" id="mpLoadingAnimationDone" />
+
+        <!-- move to LOADING text -->
+        <GuiElement type="text" profile="mpLoadingBarPercentage" id="loadingBarPercentage" text="10%" />
+
+
+        <GuiElement type="text" profile="loadingStatus" id="loadingStatusText" text="$l10n_ui_gameIsLoadingPleaseWait" />
+
+        <GuiElement type="text" profile="mpLoadingMapTitle" id="mapNameText" text="Map-Name" />
+
+        <!-- hint -->
+        <GuiElement type="text" profile="mpLoadingHint" id="gameplayHintText" text="" />
+
+        <!-- Hint index -->
+        <GuiElement type="indexState" profile="mpLoadingSelectionStateBox" id="tipStateBox" stateElementTemplateId="tipTemplate">
+            <GuiElement type="bitmap" profile="mpLoadingSelectionState" id="tipTemplate"/>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="mpLoadingBarBg">
+        <GuiElement type="bitmap" profile="mpLoadingBar" id="loadingBar" />
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_start" id="buttonOkPC" onClick="onClickOk" />
+        <GuiElement type="button" profile="buttonCancel" text="$l10n_button_cancel" id="buttonDeletePC" onClick="onClickCancel" visible="false"/>
+    </GuiElement>
+</GUI>

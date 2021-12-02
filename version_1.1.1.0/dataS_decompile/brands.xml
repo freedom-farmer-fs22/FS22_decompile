@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<brands>
+    <brand name="AEBI"                      title="AEBI"                        image="$data/store/brands/brand_aebi.png"                       imageOffset="0.105" />
+    <brand name="AGCO"                      title="AGCO"                        image="$data/store/brands/brand_agco.png"                       imageOffset="0.048" />
+    <brand name="AGRISEM"                   title="AGRISEM"                     image="$data/store/brands/brand_agrisem.png"                    imageOffset="0.023" />
+    <brand name="AGROMASZ"                  title="AGROMASZ"                    image="$data/store/brands/brand_agromasz.png"                   imageOffset="0.050" />
+    <brand name="ALBUTT"                    title="Albutt"                      image="$data/store/brands/brand_albutt.png"                     imageOffset="0.097" />
+    <brand name="ALDI"                      title="ALDI GAMING"                 image="$data/store/brands/brand_aldi.png"                       imageOffset="0.068" />
+    <brand name="ALPEGO"                    title="ALPEGO"                      image="$data/store/brands/brand_alpego.png"                     imageOffset="0.183" />
+    <brand name="AMAZONE"                   title="AMAZONE"                     image="$data/store/brands/brand_amazone.png"                    imageOffset="0.007" />
+    <brand name="AMITYTECH"                 title="AMITYTECH"                   image="$data/store/brands/brand_amityTechnology.png"            imageOffset="0.117" />
+    <brand name="ANDERSONGROUP"             title="Anderson Group"              image="$data/store/brands/brand_andersonGroup.png"              imageOffset="0.085" />
+    <brand name="ANNABURGER"                title="ANNABURGER"                  image="$data/store/brands/brand_annaburger.png"                 imageOffset="0.039" />
+    <brand name="APV"                       title="APV"                         image="$data/store/brands/brand_apv.png"                        imageOffset="0.058" />
+    <brand name="ARCUSIN"                   title="Arcusin"                     image="$data/store/brands/brand_arcusin.png"                    imageOffset="0.015" />
+    <brand name="ARMATRAC"                  title="Armatrac"                    image="$data/store/brands/brand_armatrac.png"                   imageOffset="0.056" />
+    <brand name="BEDNAR"                    title="Bednar"                      image="$data/store/brands/brand_bednar.png"                     imageOffset="0.128" />
+    <brand name="BERGMANN"                  title="BERGMANN"                    image="$data/store/brands/brand_bergmann.png"                   imageOffset="0.021" />
+    <brand name="BERTHOUD"                  title="Berthoud"                    image="$data/store/brands/brand_berthoud.png"                   imageOffset="0.107" />
+    <brand name="BKT"                       title="BKT"                         image="$data/store/brands/brand_bkt.png"                        imageOffset="0.128" />
+    <brand name="BOECKMANN"                 title="BÖCKMANN"                    image="$data/store/brands/brand_boeckmann.png"                  imageOffset="0.126" />
+    <brand name="BOMECH"                    title="Bomech"                      image="$data/store/brands/brand_bomech.png"                     imageOffset="0.107" />
+    <brand name="BOURGAULT"                 title="BOURGAULT"                   image="$data/store/brands/brand_bourgault.png"                  imageOffset="0.128" />
+    <brand name="BRANTNER"                  title="Brantner"                    image="$data/store/brands/brand_brantner.png"                   imageOffset="0.019" />
+    <brand name="BREDAL"                    title="BREDAL"                      image="$data/store/brands/brand_bredal.png"                     imageOffset="0.105" />
+    <brand name="BREMER"                    title="Bremer"                      image="$data/store/brands/brand_bremer.png"                     imageOffset="0.039" />
+    <brand name="BRIRI"                     title="Briri"                       image="$data/store/brands/brand_briri.png"                      imageOffset="0.093" />
+    <brand name="BUEHRER"                   title="Bührer"                      image="$data/store/brands/brand_buehrer.png"                    imageOffset="0.019" />
+    <brand name="CAPELLO"                   title="Capello"                     image="$data/store/brands/brand_capello.png"                    imageOffset="0.021" />
+    <brand name="CASEIH"                    title="Case IH"                     image="$data/store/brands/brand_caseIH.png"                     imageOffset="0.058" />
+    <brand name="CHALLENGER"                title="Challenger"                  image="$data/store/brands/brand_challenger.png"                 imageOffset="0.046" />
+    <brand name="CLAAS"                     title="CLAAS"                       image="$data/store/brands/brand_claas.png"                      imageOffset="0.074" />
+    <brand name="CONTINENTAL"               title="Continental"                 image="$data/store/brands/brand_continental.png"                imageOffset="0.082" />
+    <brand name="CONVEYALL"                 title="Convey-All"                  image="$data/store/brands/brand_conveyAll.png"                  imageOffset="0.000" />
+    <brand name="CORTEVA"                   title="Corteva"                     image="$data/store/brands/brand_corteva.png"                    imageOffset="0.230" />
+    <brand name="DALBO"                     title="Dalbo"                       image="$data/store/brands/brand_dalbo.png"                      imageOffset="0.072" />
+    <brand name="DAMCON"                    title="Damcon"                      image="$data/store/brands/brand_damcon.png"                     imageOffset="0.017" />
+    <brand name="DEGELMAN"                  title="Degelman"                    image="$data/store/brands/brand_degelman.png"                   imageOffset="0.097" />
+    <brand name="DEMCO"                     title="Demco"                       image="$data/store/brands/brand_demco.png"                      imageOffset="0.076" />
+    <brand name="DEUTZFAHR"                 title="DEUTZ-FAHR"                  image="$data/store/brands/brand_deutzFahr.png"                  imageOffset="0.011" />
+    <brand name="DFM"                       title="DFM"                         image="$data/store/brands/brand_dfm.png"                        imageOffset="0.144" />
+    <brand name="DUEVELSDORF"               title="Düvelsdorf"                  image="$data/store/brands/brand_duevelsdorf.png"                imageOffset="0.039" />
+    <brand name="EASYSHEDS"                 title="EasySheds"                   image="$data/store/brands/brand_easySheds.png"                  imageOffset="0.144" />
+    <brand name="EINBOECK"                  title="Einböck"                     image="$data/store/brands/brand_einboeck.png"                   imageOffset="0.015" />
+    <brand name="ELHO"                      title="ELHO"                        image="$data/store/brands/brand_elho.png"                       imageOffset="0.125" />
+    <brand name="ELMERSMFG"                 title="Elmer's Manufacturing"       image="$data/store/brands/brand_elmersMfg.png"                  imageOffset="0.054" />
+    <brand name="ENGELBERTSTRAUSS"          title="Engelbert Strauss"           image="$data/store/brands/brand_engelbertStrauss.png"           imageOffset="0.328" />
+    <brand name="ELTEN"                     title="Elten"                       image="$data/store/brands/brand_elten.png"                      imageOffset="0.095" />
+    <brand name="FARESIN"                   title="FARESIN"                     image="$data/store/brands/brand_faresin.png"                    imageOffset="0.023" />
+    <brand name="FARMAX"                    title="Farmax"                      image="$data/store/brands/brand_farmax.png"                     imageOffset="0.035" />
+    <brand name="FARMET"                    title="Farmet"                      image="$data/store/brands/brand_farmet.png"                     imageOffset="0.089" />
+    <brand name="FARMTECH"                  title="Farmtech"                    image="$data/store/brands/brand_farmtech.png"                   imageOffset="0.035" />
+    <brand name="FENDT"                     title="Fendt"                       image="$data/store/brands/brand_fendt.png"                      imageOffset="0.042" />
+    <brand name="FIAT"                      title="Fiat"                        image="$data/store/brands/brand_fiat.png"                       imageOffset="0.126" />
+    <brand name="FLEXICOIL"                 title="Flexi-Coil"                  image="$data/store/brands/brand_flexicoil.png"                  imageOffset="0.050" />
+    <brand name="FLIEGL"                    title="Fliegl"                      image="$data/store/brands/brand_fliegl.png"                     imageOffset="0.023" />
+    <brand name="FMZ"                       title="FMŻ"                         image="$data/store/brands/brand_fmz.png"                        imageOffset="0.210" />
+    <brand name="FORTSCHRITT"               title="Fortschritt"                 image="$data/store/brands/brand_fortschritt.png"                imageOffset="0.195" />
+    <brand name="FORTUNA"                   title="Fortuna"                     image="$data/store/brands/brand_fortuna.png"                    imageOffset="0.101" />
+    <brand name="FSI"                       title="FSI"                         image="$data/store/brands/brand_fsi.png"                        imageOffset="0.144" />
+    <brand name="FUHRMANN"                  title="Fuhrmann"                    image="$data/store/brands/brand_fuhrmann.png"                   imageOffset="0.041" />
+    <brand name="GESSNER"                   title="Gessner Industries"          image="$data/store/brands/brand_gessner.png"                    imageOffset="0.041" />
+    <brand name="GIANTS"                    title="Giants Software"             image="$data/store/brands/brand_giants.png"                     imageOffset="0.074" />
+    <brand name="GOLDHOFER"                 title="Goldhofer"                   image="$data/store/brands/brand_goldhofer.png"                  imageOffset="0.031" />
+    <brand name="GORENC"                    title="Gorenc"                      image="$data/store/brands/brand_gorenc.png"                     imageOffset="0.050" />
+    <brand name="GREATPLAINS"               title="Great Plains"                image="$data/store/brands/brand_greatPlains.png"                imageOffset="0.023" />
+    <brand name="GREGOIREBESSON"            title="Grégoire-Besson"             image="$data/store/brands/brand_gregoireBesson.png"             imageOffset="0.253" />
+    <brand name="GRIMME"                    title="Grimme"                      image="$data/store/brands/brand_grimme.png"                     imageOffset="0.011" />
+    <brand name="GROHA"                     title="GROHA"                       image="$data/store/brands/brand_groha.png"                      imageOffset="0.154" />                   
+    <brand name="HARDI"                     title="Hardi"                       image="$data/store/brands/brand_hardi.png"                      imageOffset="0.179" />
+    <brand name="HATZENBICHLER"             title="Hatzenbichler"               image="$data/store/brands/brand_hatzenbichler.png"              imageOffset="0.017" />
+    <brand name="HAUER"                     title="Hauer"                       image="$data/store/brands/brand_hauer.png"                      imageOffset="0.093" />
+    <brand name="HAWE"                      title="Hawe"                        image="$data/store/brands/brand_hawe.png"                       imageOffset="0.175" />
+    <brand name="HEIZOMAT"                  title="Heizomat"                    image="$data/store/brands/brand_heizomat.png"                   imageOffset="0.007" />
+    <brand name="HOLARAS"                   title="Holaras"                     image="$data/store/brands/brand_holaras.png"                    imageOffset="0.042" />
+    <brand name="HOLMER"                    title="HOLMER"                      image="$data/store/brands/brand_holmer.png"                     imageOffset="0.015" />
+    <brand name="HORSCH"                    title="HORSCH"                      image="$data/store/brands/brand_horsch.png"                     imageOffset="0.039" />
+    <brand name="HUSQVARNA"                 title="Husqvarna"                   image="$data/store/brands/brand_husqvarna.png"                  imageOffset="0.011" />
+    <brand name="IMPEX"                     title="IMPEX"                       image="$data/store/brands/brand_impex.png"                      imageOffset="0.134" />
+    <brand name="ISEKI"                     title="Iseki"                       image="$data/store/brands/brand_iseki.png"                      imageOffset="0.070" />
+    <brand name="JCB"                       title="JCB"                         image="$data/store/brands/brand_jcb.png"                        imageOffset="0.142" />
+    <brand name="JENZ"                      title="JENZ"                        image="$data/store/brands/brand_jenz.png"                       imageOffset="0.017" />
+    <brand name="JOHNDEERE"                 title="John Deere"                  image="$data/store/brands/brand_johnDeere.png"                  imageOffset="0.191" />
+    <brand name="JONSERED"                  title="Jonsered"                    image="$data/store/brands/brand_jonsered.png"                   imageOffset="0.035" />
+    <brand name="JOSKIN"                    title="JOSKIN"                      image="$data/store/brands/brand_joskin.png"                     imageOffset="0.007" />
+    <brand name="JUNGHEINRICH"              title="Jungheinrich"                image="$data/store/brands/brand_jungheinrich.png"               imageOffset="0.046" />
+    <brand name="KAERCHER"                  title="Kärcher"                     image="$data/store/brands/brand_kaercher.png"                   imageOffset="0.011" />
+    <brand name="KAWECO"                    title="Kaweco"                      image="$data/store/brands/brand_kaweco.png"                     imageOffset="0.078" />
+    <brand name="KESLA"                     title="Kesla"                       image="$data/store/brands/brand_kesla.png"                      imageOffset="0.019" />
+    <brand name="KEMPER"                    title="KEMPER"                      image="$data/store/brands/brand_kemper.png"                     imageOffset="0.058" />
+    <brand name="KINGSTON"                  title="Kingston Trailers"           image="$data/store/brands/brand_kingston.png"                   imageOffset="0.078" />
+    <brand name="KINZE"                     title="KINZE"                       image="$data/store/brands/brand_kinze.png"                      imageOffset="0.095" />
+    <brand name="KLINE"                     title="K-Line"                      image="$data/store/brands/brand_kline.png"                      imageOffset="0.033" />
+    <brand name="KNOCHE"                    title="Knoche"                      image="$data/store/brands/brand_knoche.png"                     imageOffset="0.054" />
+    <brand name="KOCKERLING"                title="Köckerling"                  image="$data/store/brands/brand_koeckerling.png"                imageOffset="0.019" />
+    <brand name="KOMATSU"                   title="Komatsu"                     image="$data/store/brands/brand_komatsu.png"                    imageOffset="0.076" />
+    <brand name="KONGSKILDE"                title="Kongskilde"                  image="$data/store/brands/brand_kongskilde.png"                 imageOffset="0.033" />
+    <brand name="KOTTE"                     title="Kotte"                       image="$data/store/brands/brand_kotte.png"                      imageOffset="0.054" />
+    <brand name="KRAMER"                    title="Kramer"                      image="$data/store/brands/brand_kramer.png"                     imageOffset="0.023" />
+    <brand name="KRAMPE"                    title="Krampe"                      image="$data/store/brands/brand_krampe.png"                     imageOffset="0.050" />
+    <brand name="KROEGER"                   title="Kröger"                      image="$data/store/brands/brand_kroeger.png"                    imageOffset="0.017" />
+    <brand name="KRONE"                     title="KRONE"                       image="$data/store/brands/brand_krone.png"                      imageOffset="0.007" />
+    <brand name="KRONETRAILER"              title="KRONE Trailer"               image="$data/store/brands/brand_kroneTrailer.png"               imageOffset="0.007" />
+    <brand name="KSAG"                      title="K+S"                         image="$data/store/brands/brand_ksAG.png"                       imageOffset="0.156" />
+    <brand name="KUHN"                      title="KUHN"                        image="$data/store/brands/brand_kuhn.png"                       imageOffset="0.068" />
+    <brand name="KVERNELAND"                title="Kverneland"                  image="$data/store/brands/brand_kverneland.png"                 imageOffset="0.021" />
+    <brand name="LACOTEC"                   title="Lacotec"                     image="$data/store/brands/brand_lacotec.png"                    imageOffset="0.049" />
+    <brand name="LANDINI"                   title="Landini"                     image="$data/store/brands/brand_landini.png"                    imageOffset="0.072" />
+    <brand name="LELY"                      title="Lely"                        image="$data/store/brands/brand_lely.png"                       imageOffset="0.174" />
+    <brand name="LEMKEN"                    title="LEMKEN"                      image="$data/store/brands/brand_lemken.png"                     imageOffset="0.010" />
+    <brand name="LINDNER"                   title="Lindner"                     image="$data/store/brands/brand_lindner.png"                    imageOffset="0.111" />
+    <brand name="LIZARD"                    title="Lizard"                      image="$data/store/brands/brand_lizard.png"                     imageOffset="0.020" />
+    <brand name="NONE"                      title="None"                        image="$data/store/brands/brand_none.png"                       imageOffset="0.000" />
+    <brand name="LODEKING"                  title="LODE KING"                   image="$data/store/brands/brand_lodeking.png"                   imageOffset="0.053" />
+    <brand name="MACK"                      title="Mack Trucks"                 image="$data/store/brands/brand_mack.png"                       imageOffset="0.191" />
+    <brand name="MAGSI"                     title="MAGSI"                       image="$data/store/brands/brand_magsi.png"                      imageOffset="0.039" />
+    <brand name="MAHINDRA"                  title="Mahindra"                    image="$data/store/brands/brand_mahindra.png"                   imageOffset="0.064" />
+    <brand name="MAN"                       title="MAN"                         image="$data/store/brands/brand_man.png"                        imageOffset="0.156" />
+    <brand name="MANITOU"                   title="Manitou"                     image="$data/store/brands/brand_manitou.png"                    imageOffset="0.012" />
+    <brand name="MASSEYFERGUSON"            title="Massey Ferguson"             image="$data/store/brands/brand_masseyFerguson.png"             imageOffset="0.152" />
+    <brand name="MCCORMACK"                 title="McCormack"                   image="$data/store/brands/brand_mcCormack.png"                  imageOffset="0.033" />
+    <brand name="MCCORMICK"                 title="McCormick"                   image="$data/store/brands/brand_mcCormick.png"                  imageOffset="0.035" />
+    <brand name="MCCULLOCH"                 title="McCulloch"                   image="$data/store/brands/brand_mcculloch.png"                  imageOffset="0.053" />
+    <brand name="MERIDIAN"                  title="MERIDIAN"                    image="$data/store/brands/brand_meridian.png"                   imageOffset="0.084" />
+    <brand name="MICHELIN"                  title="Michelin"                    image="$data/store/brands/brand_michelin.png"                   imageOffset="0.104" />
+    <brand name="MICHIELETTO"               title="Michieletto"                 image="$data/store/brands/brand_michieletto.png"                imageOffset="0.012" />
+    <brand name="MITAS"                     title="Mitas"                       image="$data/store/brands/brand_mitas.png"                      imageOffset="0.105" />
+    <brand name="NARDI"                     title="Nardi"                       image="$data/store/brands/brand_nardi.png"                      imageOffset="0.049" />
+    <brand name="NEUERO"                    title="Neuero"                      image="$data/store/brands/brand_neuero.png"                     imageOffset="0.303" />
+    <brand name="NEWHOLLAND"                title="New Holland"                 image="$data/store/brands/brand_newholland.png"                 imageOffset="0.006" />
+    <brand name="NOKIAN"                    title="Nokian"                      image="$data/store/brands/brand_nokian.png"                     imageOffset="0.133" />
+    <brand name="NORDSTEN"                  title="Nordsten"                    image="$data/store/brands/brand_nordsten.png"                   imageOffset="0.053" />
+    <brand name="OLOFSFORS"                 title="Olofsfors"                   image="$data/store/brands/brand_olofsfors.png"                  imageOffset="0.104" />
+    <brand name="PALADIN"                   title="Paladin"                     image="$data/store/brands/brand_paladin.png"                    imageOffset="0.025" />
+    <brand name="PESSLINSTRUMENTS"          title="Pessl Instruments"           image="$data/store/brands/brand_pesslInstruments.png"           imageOffset="0.109" />
+    <brand name="PIONEER"                   title="Pioneer"                     image="$data/store/brands/brand_pioneer.png"                    imageOffset="0.211" />
+    <brand name="PLANET"                    title="PlanET"                      image="$data/store/brands/brand_planet.png"                     imageOffset="0.135" />
+    <brand name="POETTINGER"                title="PÖTTINGER"                   image="$data/store/brands/brand_poettinger.png"                 imageOffset="0.027" />
+    <brand name="PONSSE"                    title="PONSSE"                      image="$data/store/brands/brand_ponsse.png"                     imageOffset="0.016" />
+    <brand name="PORSCHEDIESEL"             title="Porsche Diesel"               image="$data/store/brands/brand_porscheDiesel.png"             imageOffset="0.031" />
+    <brand name="PRINOTH"                   title="Prinoth"                     image="$data/store/brands/brand_prinoth.png"                    imageOffset="0.020" />
+    <brand name="PROVITA"                   title="Provita Supplements"         image="$data/store/brands/brand_provita.png"                    imageOffset="0.061" />
+    <brand name="PROVITIS"                  title="Provitis"                    image="$data/store/brands/brand_provitis.png"                   imageOffset="0.061" />
+    <brand name="QUICKE"                    title="Quicke"                      image="$data/store/brands/brand_quicke.png"                     imageOffset="0.051" />
+    <brand name="RABE"                      title="RABE"                        image="$data/store/brands/brand_rabe.png"                       imageOffset="0.092" />
+    <brand name="RANDON"                    title="RANDON"                      image="$data/store/brands/brand_randon.png"                     imageOffset="0.092" />
+    <brand name="RAU"                       title="Rau"                         image="$data/store/brands/brand_rau.png"                        imageOffset="0.197" />
+    <brand name="RIGITRAC"                  title="Rigitrac"                    image="$data/store/brands/brand_rigitrac.png"                   imageOffset="0.035" />
+    <brand name="ROPA"                      title="Ropa"                        image="$data/store/brands/brand_ropa.png"                       imageOffset="0.113" />
+    <brand name="ROSTSELMASH"               title="Rostselmash"                 image="$data/store/brands/brand_rostselmash.png"                imageOffset="0.008" />
+    <brand name="ROTTNE"                    title="Rottne"                      image="$data/store/brands/brand_rottne.png"                     imageOffset="0.041" />
+    <brand name="RUDOLFHOERMANN"            title="Rudolf Hörmann"              image="$data/store/brands/brand_rudolfHoermann.png"             imageOffset="0.068" />
+    <brand name="RUDOLPH"                   title="Rudolph"                     image="$data/store/brands/brand_rudolph.png"                    imageOffset="0.064" />
+    <brand name="SALFORD"                   title="Salford"                     image="$data/store/brands/brand_salford.png"                    imageOffset="0.027" />
+    <brand name="SAMASZ"                    title="Samasz"                      image="$data/store/brands/brand_samasz.png"                     imageOffset="0.070" />
+    <brand name="SAMPOROSENLEW"             title="Sampo Rosenlew"              image="$data/store/brands/brand_samporosenlew.png"              imageOffset="0.090" />
+    <brand name="SAMSONAGRO"                title="Samson Agro"                 image="$data/store/brands/brand_samsonAgro.png"                 imageOffset="0.070" />
+    <brand name="SCHAEFFER"                 title="Schäffer"                    image="$data/store/brands/brand_schaeffer.png"                  imageOffset="0.047" />
+    <brand name="SCHAUMANN"                 title="Schaumann"                   image="$data/store/brands/brand_schaumann.png"                  imageOffset="0.154" />
+    <brand name="SCHOUTEN"                  title="Schouten"                    image="$data/store/brands/brand_schouten.png"                   imageOffset="0.020" />
+    <brand name="SCHUITEMAKER"              title="Schuitemaker"                image="$data/store/brands/brand_schuitemaker.png"               imageOffset="0.066" />
+    <brand name="SEPPKNUSEL"                title="Sepp Knüsel"                 image="$data/store/brands/brand_seppKnuesel.png"                imageOffset="0.020" />
+    <brand name="SILOKING"                  title="SILOKING"                    image="$data/store/brands/brand_siloking.png"                   imageOffset="0.027" />
+    <brand name="SIP"                       title="SIP"                         image="$data/store/brands/brand_sip.png"                        imageOffset="0.172" />
+    <brand name="STADIA"                    title="Stadia"                      image="$data/store/brands/brand_stadia.png"                     imageOffset="0.215" />
+    <brand name="STARA"                     title="Stara"                       image="$data/store/brands/brand_stara.png"                      imageOffset="0.145" />
+    <brand name="STARKINDUSTRIES"           title="Stark Industries"            image="$data/store/brands/brand_starkIndustries.png"            imageOffset="0.016" />
+    <brand name="STEPA"                     title="STEPA"                       image="$data/store/brands/brand_stepa.png"                      imageOffset="0.027" />
+    <brand name="STEYR"                     title="STEYR"                       image="$data/store/brands/brand_steyr.png"                      imageOffset="0.018" />
+    <brand name="STIHL"                     title="STIHL"                       image="$data/store/brands/brand_stihl.png"                      imageOffset="0.105" />
+    <brand name="STOLL"                     title="STOLL"                       image="$data/store/brands/brand_stoll.png"                      imageOffset="0.016" />
+    <brand name="STRAUTMANN"                title="Strautmann"                  image="$data/store/brands/brand_strautmann.png"                 imageOffset="0.037" />
+    <brand name="SUER"                      title="Suer"                        image="$data/store/brands/brand_suer.png"                       imageOffset="0.121" />
+    <brand name="TAJFUN"                    title="Tajfun"                      image="$data/store/brands/brand_tajfun.png"                     imageOffset="0.076" />
+    <brand name="TATRA"                     title="TATRA"                       image="$data/store/brands/brand_tatra.png"                      imageOffset="0.289" />
+    <brand name="TENWINKEL"                 title="Tenwinkel"                   image="$data/store/brands/brand_tenwinkel.png"                  imageOffset="0.031" />
+    <brand name="THUERINGERAGRAR"           title="Thüringer Agrartechnik"      image="$data/store/brands/brand_thueringerAgrar.png"            imageOffset="0.031" />
+    <brand name="THUNDERCREEK"              title="Thunder Creek Equipment"     image="$data/store/brands/brand_thunderCreek.png"               imageOffset="0.117" />
+    <brand name="TMCCANCELA"                title="TMC Cancela"                 image="$data/store/brands/brand_tmcCancela.png"                 imageOffset="0.020" />
+    <brand name="TREFFLER"                  title="Treffler"                    image="$data/store/brands/brand_treffler.png"                   imageOffset="0.068" />
+    <brand name="TRELLEBORG"                title="Trelleborg"                  image="$data/store/brands/brand_trelleborg.png"                 imageOffset="0.039" />
+    <brand name="TT"                        title="TT"                          image="$data/store/brands/brand_tt.png"                         imageOffset="0.227" />
+    <brand name="UNIA"                      title="Unia"                        image="$data/store/brands/brand_unia.png"                       imageOffset="0.059" />
+    <brand name="UNVERFERTH"                title="Unverferth"                  image="$data/store/brands/brand_unverferth.png"                 imageOffset="0.049" />
+    <brand name="VAEDERSTAD"                title="Väderstad"                   image="$data/store/brands/brand_vaederstad.png"                 imageOffset="0.027" />
+    <brand name="VALTRA"                    title="Valtra"                      image="$data/store/brands/brand_valtra.png"                     imageOffset="0.045" />
+    <brand name="VEENHUIS"                  title="Veenhuis"                    image="$data/store/brands/brand_veenhuis.png"                   imageOffset="0.008" />
+    <brand name="VERMEER"                   title="Vermeer"                     image="$data/store/brands/brand_vermeer.png"                    imageOffset="0.262" />
+    <brand name="VERSATILE"                 title="Versatile"                   image="$data/store/brands/brand_versatile.png"                  imageOffset="0.170" />
+    <brand name="VICON"                     title="Vicon"                       image="$data/store/brands/brand_vicon.png"                      imageOffset="0.152" />
+    <brand name="VREDESTEIN"                title="Vredestein"                  image="$data/store/brands/brand_vredestein.png"                 imageOffset="0.039" />
+    <brand name="WALKABOUT"                 title="Walkabout"                   image="$data/store/brands/brand_walkabout.png"                  imageOffset="0.221" />
+    <brand name="WARZEE"                    title="Warzee"                      image="$data/store/brands/brand_warzee.png"                     imageOffset="0.248" />
+    <brand name="WEBERMT"                   title="WeberMT"                     image="$data/store/brands/brand_weberMT.png"                    imageOffset="0.035" />
+    <brand name="WELGER"                    title="Welger"                      image="$data/store/brands/brand_welger.png"                     imageOffset="0.057" />
+    <brand name="WILSON"                    title="Wilson Trailer"              image="$data/store/brands/brand_wilson.png"                     imageOffset="0.109" />
+    <brand name="ZETOR"                     title="Zetor"                       image="$data/store/brands/brand_zetor.png"                      imageOffset="0.020" />
+    <brand name="ZIEGLER"                   title="Ziegler"                     image="$data/store/brands/brand_ziegler.png"                    imageOffset="0.086" />
+    <brand name="ZUNHAMMER"                 title="Zunhammer"                   image="$data/store/brands/brand_zunhammer.png"                  imageOffset="0.051" />
+</brands>

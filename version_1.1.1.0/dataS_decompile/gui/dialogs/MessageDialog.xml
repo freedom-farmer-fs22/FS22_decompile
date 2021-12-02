@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="dialogBg" id="dialogElement">
+        <GuiElement type="animation" profile="dialogLoading"   id="iconLoadingElement" />
+
+        <GuiElement type="bitmap" profile="dialogCircle" id="dialogCircle">
+            <GuiElement type="bitmap"    profile="dialogQuestion"  id="iconQuestionElement"/>
+            <GuiElement type="bitmap"    profile="dialogWarning"   id="iconWarningElement"/>
+            <GuiElement type="bitmap"    profile="dialogKey"       id="iconKeyElement"/>
+            <GuiElement type="bitmap"    profile="dialogInfo"      id="iconInfoElement"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="dialogText" text="Dummy text" id="dialogTextElement" />
+    </GuiElement>
+</GUI>

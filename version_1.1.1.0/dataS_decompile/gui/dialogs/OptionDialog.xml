@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="infoDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="" id="dialogTitleElement"/>
+        </GuiElement>
+
+        <GuiElement type="text" profile="siloDialogText" id="dialogTextElement" />
+
+        <GuiElement type="multiTextOption" profile="multiTextOption" id="optionElement" focusInit="onOpen" handleFocus="true" size="500px 80px" anchors="0.5 0.5 0.5 0.5">
+            <GuiElement type="button" profile="multiTextOptionLeft" size="48px 80px" />
+            <GuiElement type="button" profile="multiTextOptionRight" size="48px 80px" />
+            <GuiElement type="text"   profile="multiTextOptionText" size="400px 80px" textMaxNumLines="3" textMaxWidth="480px" />
+            <GuiElement type="bitmap" profile="multiTextOptionBg" size="402px 80px" />
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC" >
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_ok" onClick="onClickOk" id="yesButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="noButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<playerClothing>
+    <accessories>
+        <accessory filename="dataS/character/humans/player/accessories/glasses01.i3d" name="$l10n_character_accessory_sunglasses"/>
+    </accessories>
+    <hats>
+        <hat filename="dataS/character/humans/player/accessories/hat_fs.i3d" name="Farming Simulator"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_ls.i3d" name="Landwirtschafts Simulator"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_agco.i3d" name="AGCO"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_agrisem.i3d" name="AGRISEM"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_agromasz.i3d" name="AGROMASZ"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_amazone.i3d" name="AMAZONE"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_annaburger.i3d" name="ANNABURGER"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_arcusin.i3d" name="Arcusin"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_armatrac.i3d" name="Armatrac"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_bednar.i3d" name="Bednar"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_bergmann.i3d" name="BERGMANN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_boeckmann.i3d" name="BÖCKMANN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_bredal.i3d" name="BREDAL"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_capello.i3d" name="Capello"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_caseIH.i3d" name="Case IH"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_challenger.i3d" name="Challenger"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_damcon.i3d" name="Damcon"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_deutzfahr.i3d" name="DEUTZ-FAHR"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_dfm.i3d" name="DFM"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_duevelsdorf.i3d" name="Düvelsdorf"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_easySheds.i3d" name="EasySheds"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_einboeck.i3d" name="Einböck"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_elmersMfg.i3d" name="Elmer&apos;s Manufacturing"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_farmtech.i3d" name="Farmtech"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fendt.i3d" name="Fendt"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fiat.i3d" name="Fiat"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_flexicoil.i3d" name="Flexi-Coil"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fliegl.i3d" name="Fliegl"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fmz.i3d" name="FMŻ"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fortschritt.i3d" name="Fortschritt"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_fsi.i3d" name="FSI"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_gessner.i3d" name="Gessner Industries"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_goldhofer.i3d" name="Goldhofer"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_greatPlains.i3d" name="Great Plains"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_gregoireBesson.i3d" name="Grégoire-Besson"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_grimme.i3d" name="Grimme"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_hardi.i3d" name="Hardi"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_heizomat.i3d" name="Heizomat"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_hatzenbichler.i3d" name="Hatzenbichler"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_holmer.i3d" name="HOLMER"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_holaras.i3d" name="Holaras"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_horsch.i3d" name="HORSCH"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_husqvarna.i3d" name="Husqvarna"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_jcb.i3d" name="JCB"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_jenz.i3d" name="JENZ"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_johnDeere.i3d" name="John Deere"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_jonsered.i3d" name="Jonsered"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_joskin.i3d" name="JOSKIN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kaercher.i3d" name="Kärcher"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kemper.i3d" name="KEMPER"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kinze.i3d" name="KINZE"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_komatsu.i3d" name="Komatsu Forest"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kotte.i3d" name="Kotte"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kramer.i3d" name="Kramer"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_krampe.i3d" name="Krampe"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kroeger.i3d" name="Kröger"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_krone.i3d" name="KRONE"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kuhn.i3d" name="KUHN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_kverneland.i3d" name="Kverneland"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_lely.i3d" name="Lely"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_lemken.i3d" name="LEMKEN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_lodeking.i3d" name="LODE KING"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_lindner.i3d" name="Lindner"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_lizard.i3d" name="Lizard"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_man.i3d" name="MAN"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_magsi.i3d" name="MAGSI"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_mahindra.i3d" name="Mahindra"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_manitou.i3d" name="Manitou"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_masseyFerguson.i3d" name="Massey Ferguson"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_mcculloch.i3d" name="McCulloch"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_michelin.i3d" name="Michelin"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_michieletto.i3d" name="Michieletto"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_newholland.i3d" name="New Holland"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_nokian.i3d" name="Nokian"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_poettinger.i3d" name="PÖTTINGER"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_ponsse.i3d" name="PONSSE"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_rabe.i3d" name="RABE"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_randon.i3d" name="RANDON"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_rau.i3d" name="Rau"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_ropa.i3d" name="Ropa"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_rostselmash.i3d" name="Rostselmash"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_salford.i3d" name="Salford"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_samporosenlew.i3d" name="Sampo Rosenlew"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_samsonAgro.i3d" name="Samson Agro"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_schuitemaker.i3d" name="Schuitemaker"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_siloking.i3d" name="SILOKING"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_stara.i3d" name="Stara"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_stepa.i3d" name="STEPA"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_steyr.i3d" name="STEYR"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_stihl.i3d" name="STIHL"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_stoll.i3d" name="STOLL"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_strautmann.i3d" name="Strautmann"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_suer.i3d" name="Suer"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_tatra.i3d" name="TATRA"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_thueringerAgrar.i3d" name="Thüringer Agrartechnik"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_thunderCreek.i3d" name="Thunder Creek Equipment"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_treffler.i3d" name="Treffler"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_trelleborg.i3d" name="Trelleborg"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_doblett.i3d" name="TT"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_unverferth.i3d" name="Unverferth"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_vaederstad.i3d" name="Väderstad"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_valtra.i3d" name="Valtra"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_veenhuis.i3d" name="Veenhuis"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_vicon.i3d" name="Vicon"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_wilson.i3d" name="Wilson Trailer"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_warzee.i3d" name="Warzee"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_ziegler.i3d" name="Ziegler"/>
+        <hat filename="dataS/character/humans/player/accessories/hat_zunhammer.i3d" name="Zunhammer"/>
+    </hats>
+</playerClothing>

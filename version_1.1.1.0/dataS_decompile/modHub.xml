@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modHub>
+    <categories>
+        <!-- TABS -->
+        <category name="default"         isHidden="true"    title="$l10n_modHub_default"                    imageFilename="dataS/menu/modHub/modCategory_default.png" />
+        <category name="dlc"             isTab="true"       title="$l10n_modHub_dlc"                        imageFilename="dataS/menu/modHub/modCategory_DLC.png" />
+        <category name="download"        isTab="true"       title="$l10n_modHub_download"                   imageFilename="dataS/menu/modHub/modCategory_downloads.png" />
+        <category name="update"          isTab="true"       title="$l10n_modHub_update"                     imageFilename="dataS/menu/modHub/modCategory_updates.png" />
+        <category name="installed"       isTab="true"       title="$l10n_modHub_installed"                  imageFilename="dataS/menu/modHub/modCategory_installed.png" />
+        <category name="latest"          isTab="true"       title="$l10n_modHub_latest"                     imageFilename="dataS/menu/modHub/modCategory_latest.png" />
+        <category name="best"            isTab="true"       title="$l10n_modHub_best"                       imageFilename="dataS/menu/modHub/modCategory_best.png" />
+        <category name="most_downloaded" isTab="true"       title="$l10n_modHub_most_downloaded"            imageFilename="dataS/menu/modHub/modCategory_mostDownloaded.png" />
+        <category name="contest"         isTab="true"       title="$l10n_modHub_contest"                    imageFilename="dataS/menu/modHub/modCategory_contest.png" />
+        <category name="recommended"     isTab="true"       title="$l10n_category_recommended"              imageFilename="dataS/menu/modHub/modCategory_default.png" />
+        
+        <!-- SPECIAL -->
+        <category id="6" name="map"                         title="$l10n_modHub_map"                        imageFilename="dataS/menu/modCategory_maps.png" />
+        
+        <!-- VEHICLES -->
+        <category id="11" name="tractorsS"                  title="$l10n_category_tractorsS"                imageFilename="data/vehicles/masseyFerguson/series5S/store_series5S.png" />
+        <category id="12" name="tractorsM"                  title="$l10n_category_tractorsM"                imageFilename="data/vehicles/claas/axion800/store_axion800.png" />
+        <category id="13" name="tractorsL"                  title="$l10n_category_tractorsL"                imageFilename="data/vehicles/caseIH/magnumT4B/store_magnumT4B.png" />
+        <category id="14" name="trucks"                     title="$l10n_category_trucks"                   imageFilename="data/vehicles/mack/superliner1979/store_superliner1979.png" />
+        <category id="15" name="harvesters"                 title="$l10n_category_harvesters"               imageFilename="data/vehicles/johnDeere/x9_1100/store_x9_1100.png" />
+        <category id="16" name="forageHarvesters"           title="$l10n_category_forageHarvesters"         imageFilename="data/vehicles/fendt/katana650/store_katana650.png" />
+        <category id="17" name="potatoHarvesting"           title="$l10n_category_potatoHarvesting"         imageFilename="data/vehicles/grimme/ventor4150/store_ventor4150.png" />
+        <category id="18" name="beetHarvesting"             title="$l10n_category_beetHarvesting"           imageFilename="data/vehicles/ropa/panther2/store_panther2.png" />
+        <category id="19" name="sugarcaneHarvesting"        title="$l10n_category_sugarCaneHarvesting"      imageFilename="data/vehicles/caseIH/a8800MR/store_a8800MR.png" />
+        <category id="20" name="cottonHarvesting"           title="$l10n_category_cottonHarvesting"         imageFilename="data/vehicles/johnDeere/cp690/store_cp690.png" />
+        <category id="21" name="grapeVehicles"              title="$l10n_category_grapeVehicles"            imageFilename="data/vehicles/newHolland/braud9070L/store_braud9070L.png" />
+        <category id="22" name="oliveVehicles"              title="$l10n_category_oliveVehicles"            imageFilename="data/vehicles/newHolland/braud9090X/store_braud9090X.png" />
+        <category id="23" name="frontLoaders"               title="$l10n_category_frontLoaders"             imageFilename="data/vehicles/schaeffer/loader2630/store_loader2630.png" />
+        <category id="24" name="wheelLoaders"               title="$l10n_category_wheelLoaders"             imageFilename="data/vehicles/claas/torion1511/store_torion1511.png" />
+        <category id="25" name="teleLoaders"                title="$l10n_category_teleLoaders"              imageFilename="data/vehicles/manitou/mlt737/store_mlt737.png" />
+        <category id="26" name="skidSteers"                 title="$l10n_category_skidSteers"               imageFilename="data/vehicles/newHolland/l218/store_l218.png" />
+        <category id="27" name="forklifts"                  title="$l10n_category_forklifts"                imageFilename="data/vehicles/jungheinrich/efgS50S/store_efgS50S.png" />
+        <category id="28" name="cars"                       title="$l10n_category_cars"                     imageFilename="data/vehicles/lizard/pickup2017/store_pickup2017.png" />
+        
+        <!-- TOOLS -->
+        <category id="29" name="trailers"                   title="$l10n_category_trailers"                 imageFilename="data/vehicles/fliegl/asw271/store_asw271.png" />
+        <category id="30" name="augerWagons"                title="$l10n_category_augerWagons"              imageFilename="data/vehicles/bergmann/gtw330/store_gtw330.png" />
+        <category id="31" name="stonePickers"               title="$l10n_category_stonePickers"             imageFilename="data/vehicles/elho/scorpio550/store_scorpio550.png" />
+        <category id="32" name="mulchers"                   title="$l10n_category_mulchers"                 imageFilename="data/vehicles/tmcCancela/tms2_300d/store_tms2_300d.png" />
+        <category id="33" name="plows"                      title="$l10n_category_plows"                    imageFilename="data/vehicles/kverneland/ecomat/store_ecomat.png" />
+        <category id="34" name="cultivators"                title="$l10n_category_cultivators"              imageFilename="data/vehicles/amazone/cenio4000/store_cenio4000.png" />
+        <category id="35" name="discHarrows"                title="$l10n_category_discHarrows"              imageFilename="data/vehicles/poettinger/terradisc10001T/store_terradisc10001T.png" />
+        <category id="36" name="powerHarrows"               title="$l10n_category_powerHarrows"             imageFilename="data/vehicles/kuhn/hr4040/store_hr4040.png" />
+        <category id="37" name="subsoilers"                 title="$l10n_category_subsoilers"               imageFilename="data/vehicles/kuhn/dc401/store_dc401.png" />
+        <category id="38" name="spaders"                    title="$l10n_category_spaders"                  imageFilename="data/vehicles/farmax/krg/store_krg.png" />
+        <category id="39" name="sowingMachines"             title="$l10n_category_sowingMachines"           imageFilename="data/vehicles/amazone/centaya3000Super/store_centaya3000SuperBundle.png" />
+        <category id="40" name="planters"                   title="$l10n_category_planters"                 imageFilename="data/vehicles/kuhn/maxima3TIL/store_maxima3TIL.png" />
+        <category id="41" name="rollers"                    title="$l10n_category_rollers"                  imageFilename="data/vehicles/dalbo/powerRoll1230/store_powerRoll1230.png" />
+        <category id="42" name="sprayers"                   title="$l10n_category_sprayers"                 imageFilename="data/vehicles/hardi/mega1200L/store_mega1200L.png" />
+        <category id="43" name="fertilizerSpreaders"        title="$l10n_category_fertilizerSpreaders"      imageFilename="data/vehicles/amazone/zgts10001/store_zgts10001.png" />
+        <category id="44" name="manureSpreaders"            title="$l10n_category_manureSpreaders"          imageFilename="data/vehicles/brantner/ta12050/store_ta12050.png" />
+        <category id="45" name="slurryTanks"                title="$l10n_category_slurryTanks"              imageFilename="data/vehicles/veenhuis/premiumIntegral30000/store_premiumIntegral30000.png" />
+        <category id="46" name="weeders"                    title="$l10n_category_weeders"                  imageFilename="data/vehicles/treffler/ts1520/store_ts1520.png" />
+        <category id="47" name="grasslandCare"              title="$l10n_category_grasslandCare"            imageFilename="data/vehicles/apv/gk300m/store_gk300m.png" />
+        <category id="48" name="mowers"                     title="$l10n_category_mowers"                   imageFilename="data/vehicles/poettinger/novacat301/store_novacat301.png" />
+        <category id="49" name="tedders"                    title="$l10n_category_tedders"                  imageFilename="data/vehicles/vicon/fanex904/store_fanex904.png" />
+        <category id="50" name="windrowers"                 title="$l10n_category_windrowers"               imageFilename="data/vehicles/kuhn/ga4731/store_ga4731.png" />
+        <category id="51" name="loaderWagons"               title="$l10n_category_loaderWagons"             imageFilename="data/vehicles/poettinger/faro4010D/store_faro4010D.png" />
+        <category id="52" name="balers"                     title="$l10n_category_balers"                   imageFilename="data/vehicles/newHolland/bigBaler1290HD/store_bigBaler1290HD.png" />
+        <category id="53" name="baleLoaders"                title="$l10n_category_baleLoaders"              imageFilename="data/vehicles/arcusin/fsx6372/store_fsx6372.png" />
+        <category id="54" name="baleWrappers"               title="$l10n_category_baleWrappers"             imageFilename="data/vehicles/kverneland/wrapper7850C/store_wrapper7850C.png" />
+        <category id="55" name="wood"                       title="$l10n_category_wood"                     imageFilename="data/vehicles/kesla/nd122/store_nd122.png" />
+        <category id="56" name="animals"                    title="$l10n_category_animals"                  imageFilename="data/vehicles/faresin/pf224/store_pf224.png" />
+        <category id="57" name="animalTransport"            title="$l10n_category_animalTransport"          imageFilename="data/vehicles/boeckmann/bigMasterWesternWCF/store_bigMasterWesternWCF.png" />
+        <category id="58" name="leveler"                    title="$l10n_category_leveler"                  imageFilename="data/vehicles/duevelsdorf/mss3000/store_mss3000.png" />
+        <category id="59" name="silocompaction"             title="$l10n_category_silocompaction"           imageFilename="data/vehicles/weberMT/dsc180/store_dsc180.png" />
+        <category id="60" name="dollys"                     title="$l10n_category_dollys"                   imageFilename="data/vehicles/krampe/dolly10L/store_dolly10L.png" />
+        <category id="61" name="lowloaders"                 title="$l10n_category_lowloaders"               imageFilename="data/vehicles/fliegl/dts59/store_dts59.png" />
+        <category id="62" name="cutterTrailers"             title="$l10n_category_cutterTrailers"           imageFilename="data/vehicles/deutzFahr/header4090Trailer/store_header4090Trailer.png" />
+        <category id="63" name="weights"                    title="$l10n_category_weights"                  imageFilename="data/vehicles/fendt/weight3300/store_weight3300.png" />
+        <category id="64" name="belts"                      title="$l10n_category_belts"                    imageFilename="data/vehicles/meridian/tl1239/store_tl1239.png" />
+        <category id="65" name="winterEquipment"            title="$l10n_category_winterEquipment"          imageFilename="data/vehicles/samasz/olimp330/store_olimp330.png" />
+        <category id="66" name="misc"                       title="$l10n_category_misc"                     imageFilename="data/vehicles/thunderCreek/fst990/store_fst990.png" />
+        
+        <!-- OBJECTS -->
+        <category id="67" name="bigbagPallets"              title="$l10n_category_bigbagPallets"            imageFilename="data/objects/bigBagPallet/fertilizer/store_bigBagPallet_fertilizer.png" />
+        <category id="68" name="bigbags"                    title="$l10n_category_bigbags"                  imageFilename="data/objects/bigBag/fertilizer/store_bigBag_fertilizer.png" />
+        <category id="69" name="pallets"                    title="$l10n_category_pallets"                  imageFilename="data/objects/pallets/liquidTank/store_fertilizerTank.png" />
+        
+        <!-- PLACEABLES -->
+        <!-- BUILDINGS -->
+        <category id="70" name="sheds"                      title="$l10n_construction_tab_sheds"            imageFilename="data/placeables/rudolfHormann/garageWoodRoof/store_garageWoodRoof.png" />
+        <category id="71" name="silos"                      title="$l10n_construction_tab_silos"            imageFilename="data/placeables/neuero/nl1622_6000/store_nl1622_6000.png" />
+        <category id="72" name="containers"                 title="$l10n_construction_tab_containers"       imageFilename="data/placeables/meridian/fuelTank25000L/store_fuelTank25000L.png" />
+        <category id="73" name="farmhouses"                 title="$l10n_construction_tab_farmhouses"       imageFilename="data/placeables/mapAlpine/farmBuildings/farmHouse/store_farmHouse.png" />
+        
+        <!-- PRODUCTION -->
+        <category id="74" name="factories"                  title="$l10n_construction_tab_factories"        imageFilename="data/placeables/lizard/productionPoints/oilPlant/store_oilPlant.png" />
+        <category id="75" name="sellingPoints"              title="$l10n_construction_tab_sellingPoints"    imageFilename="data/placeables/lizard/sellingPoints/farmersMarket/store_farmersMarket.png" />
+        <category id="76" name="greenhouses"                title="$l10n_construction_tab_greenhouses"      imageFilename="data/placeables/lizard/greenhouses/greenhouseSmall/store_greenhouseSmall.png" />
+        <category id="77" name="generators"                 title="$l10n_construction_tab_generators"       imageFilename="data/placeables/lizard/electricityGenerators/level03/store_electricityGenerator03.png" />
+        
+        <!-- ANIMALS -->
+        <category id="78" name="animalpens"                 title="$l10n_category_animalpens"               imageFilename="data/placeables/rudolfHormann/chickenBarnBig/store_chickenBarnBig.png" />
+        
+        <!-- DECORATION -->
+        <category id="79" name="decoration"                 title="$l10n_category_decoration"               imageFilename="data/placeables/lizard/fencesResidential/level05/store_fencesResidentialLevel05.png" />
+        
+        <!-- NON-SHOP -->
+        <category id="7" name="package"                     title="$l10n_modHub_package"                    imageFilename="dataS/menu/modCategory_package.png" />
+        <category id="10" name="gameplay"                   title="$l10n_modHub_gameplay"                   imageFilename="dataS/menu/modCategory_gameplay.png" />
+        
+    </categories>
+</modHub>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuWeather">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuWeatherHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuWeather"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" id="container">
+            <GuiElement type="empty" profile="ingameMenuWeatherTodayBox">
+                <GuiElement type="bitmap" profile="ingameMenuWeatherTodayIcon" id="nowWeatherIcon" />
+                <GuiElement type="text" profile="ingameMenuWeatherTodayMonth" id="nowWeatherMonth" />
+                <GuiElement type="text" profile="ingameMenuWeatherTodayNow" text="$l10n_ui_currently:" />
+                <GuiElement type="text" profile="ingameMenuWeatherTodayTemperature" id="nowTemperature" />
+                <GuiElement type="text" profile="ingameMenuWeatherTodayTemperatureUnit" id="nowTemperatureUnit" text="*C" />
+
+                <GuiElement type="flowLayout" profile="ingameMenuWeatherTodayWindSpeedBox">
+                    <GuiElement type="text" profile="ingameMenuWeatherTodayWindSpeedTitle" text="$l10n_ui_windSpeedAndDirection:" />
+
+                    <GuiElement type="empty" profile="ingameMenuWeatherWindIndicatorBox" position="0 0" anchors="0 0 1 1">
+                        <GuiElement type="bitmap" profile="ingameMenuWeatherWindIndicatorIcon" id="nowWindDirection" />
+                        <GuiElement type="text" profile="ingameMenuWeatherWindIndicatorText" id="nowWindSpeed" text="1" />
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuWeatherVerticalSeparator" />
+
+            <GuiElement type="empty" profile="ingameMenuWeatherHourlyBox">
+                <GuiElement type="smoothList" profile="ingameMenuWeatherHourlyList" id="forecastHourlyList" focusInit="onOpen">
+                    <GuiElement type="listItem" profile="ingameMenuWeatherHourlyListItem">
+                        <GuiElement type="text" profile="ingameMenuWeatherListItemTitle" name="time" />
+                        <GuiElement type="bitmap" profile="ingameMenuWeatherListItemIcon" name="icon" />
+                        <GuiElement type="text" profile="ingameMenuWeatherListItemTemperature" name="temperature" />
+
+                        <GuiElement type="empty" profile="ingameMenuWeatherWindIndicatorBox">
+                            <GuiElement type="bitmap" profile="ingameMenuWeatherWindIndicatorIcon" name="windDirection" />
+                            <GuiElement type="text" profile="ingameMenuWeatherWindIndicatorText" text="1" name="windSpeed" />
+                        </GuiElement>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="160px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="286px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="412px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="538px 0" />
+
+                <GuiElement type="threePartBitmap" profile="horizontalListSliderRightDocked" size="630px 12px" anchors="0.5 0.5 0.5 0.5" position="0 -150px">
+                    <GuiElement type="slider" profile="horizontalListSliderBar" size="622px 6px" handleFocus="true" id="forecastHourlySlider" dataElementId="forecastHourlyList" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="ingameMenuWeatherHorizontalSeparator" />
+
+            <GuiElement type="empty" profile="ingameMenuWeatherDailyBox">
+                <GuiElement type="smoothList" profile="ingameMenuWeatherDailyList" id="forecastDailyList">
+                    <GuiElement type="listItem" profile="ingameMenuWeatherDailyListItem">
+                        <GuiElement type="text" profile="ingameMenuWeatherListItemTitle" name="day" />
+                        <GuiElement type="bitmap" profile="ingameMenuWeatherListItemIcon" name="icon" />
+                        <GuiElement type="text" profile="ingameMenuWeatherListItemTemperature" name="highTemperature" />
+                        <GuiElement type="text" profile="ingameMenuWeatherListItemTemperatureLow" name="lowTemperature" />
+
+                        <GuiElement type="empty" profile="ingameMenuWeatherWindIndicatorBox">
+                            <GuiElement type="bitmap" profile="ingameMenuWeatherWindIndicatorIcon" name="windDirection" />
+                            <GuiElement type="text" profile="ingameMenuWeatherWindIndicatorText" text="1" name="windSpeed" />
+                        </GuiElement>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="199px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="399px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="599px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="799px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="999px 0" />
+                <GuiElement type="bitmap" profile="ingameMenuWeatherListItemSeparator" position="1199px 0" />
+            </GuiElement>
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

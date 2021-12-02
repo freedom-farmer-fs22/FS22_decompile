@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette" />
+    <GuiElement type="bitmap" profile="bgGlow" position="0.33 0" />
+
+    <GuiElement type="bitmap" profile="headerBoxDockedOnScreen" >
+        <GuiElement type="bitmap" profile="creditsIcon"/>
+        <GuiElement type="text" profile="headerText" text="$l10n_ui_credits" />
+    </GuiElement>
+
+
+    <GuiElement type="empty" profile="creditsBoxLeft">
+        <GuiElement type="bitmap" profile="creditsLogo" id="logo" />
+    </GuiElement>
+    <GuiElement type="bitmap" profile="creditsBoxRight">
+        <GuiElement type="empty" profile="creditsScrollBox" id="creditsVisibilityBox">
+            <GuiElement type="boxLayout" profile="creditsScrollLayout" id="creditsPlaceholder">
+                <GuiElement type="text"   profile="creditsTitle"      id="creditsTitleElement" />
+                <GuiElement type="text"   profile="creditsText"       id="creditsTextElement" />
+                <GuiElement type="text"   profile="creditsDisclaimer" id="creditsDisclaimerElement" />
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+    </GuiElement>
+
+</GUI>

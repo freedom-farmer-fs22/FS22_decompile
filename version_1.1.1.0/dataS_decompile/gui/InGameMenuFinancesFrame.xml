@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuFinances">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuFinancesHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuFinances"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" id="mainBox">
+
+            <!-- Finances table header -->
+            <GuiElement type="boxLayout" profile="ingameMenuTableHeaderBox" id="tableHeaderBox">
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeaderType" text="$l10n_ui_incomeExpenditure" targetTableId="financesTable" columnName="type"/>
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeader" targetTableId="financesTable" columnName="day1" id="pastDayHeader[4]"/>
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeader" targetTableId="financesTable" columnName="day2" id="pastDayHeader[3]"/>
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeader" targetTableId="financesTable" columnName="day3" id="pastDayHeader[2]"/>
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeader" targetTableId="financesTable" columnName="day4" id="pastDayHeader[1]"/>
+                <GuiElement type="tableHeader" profile="ingameMenuFinancesTableHeader" targetTableId="financesTable" columnName="day5" id="pastDayHeader[0]" text="$l10n_ui_today"/>
+            </GuiElement>
+
+            <!-- Finances table -->
+            <GuiElement type="table" profile="ingameMenuFinancesTable" position="0px -104px" rowTemplateName="financesRowTemplate" updateChildrenOverlayState="false"
+                    columnNames="type day1 day2 day3 day4 day5" id="financesTable" periodicUpdate="true" updateInterval="5" onUpdate="updateFinances"
+                    handleFocus="false">
+                <GuiElement type="listItem" profile="ingameMenuFinancesRow" name="financesRowTemplate">
+                    <GuiElement type="bitmap" profile="ingameMenuFinancesRowBackground">
+                        <GuiElement type="text" profile="ingameMenuFinancesRowTypeCell" name="type" onCreate="onDataBindType" />
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="420px 0px" name="day1" onCreate="onDataBindDay" onCreateArgs="5" />
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="616px 0px" name="day2" onCreate="onDataBindDay" onCreateArgs="4"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="812px 0px" name="day3" onCreate="onDataBindDay" onCreateArgs="3"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1008px 0px" name="day4" onCreate="onDataBindDay" onCreateArgs="2"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1204px 0px" name="day5" onCreate="onDataBindDay" onCreateArgs="1"/>
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 530px" position="28px -104px">
+                <GuiElement type="slider" profile="verticalListSliderBar" size="6px 522px" dataElementId="financesTable" id="tableSlider" handleFocus="true" focusInit="onOpen"/>
+            </GuiElement>
+
+            <!-- Separate balance footer of table (does not scroll) -->
+            <GuiElement type="boxLayout" profile="ingameMenuFinancesFooter" id="balanceFooter" handleFocus="false">
+                <!-- Total expenditures / incomes of days -->
+                <GuiElement type="bitmap" profile="ingameMenuFinancesRow" margin="0px 0px 0px 0px" size="1400px 40px">
+                    <GuiElement type="bitmap" profile="ingameMenuFinancesRowBackgroundAlternate" size="1400px 40px">
+                        <GuiElement type="text" profile="ingameMenuFinancesRowTypeCellFooter" name="type" text="$l10n_ui_total" textUpperCase="true"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="420px 0px" id="totalText[5]"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="616px 0px" id="totalText[4]"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="812px 0px" id="totalText[3]"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1008px 0px" id="totalText[2]"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1204px 0px" id="totalText[1]"/>
+                    </GuiElement>
+                </GuiElement>
+                <!-- Balance -->
+                <GuiElement type="bitmap" profile="ingameMenuFinancesRow" size="1400px 40px">
+                    <GuiElement type="bitmap" profile="ingameMenuFinancesRowBackground" size="1400px 40px">
+                        <GuiElement type="text" profile="ingameMenuFinancesRowTypeCellFooter" name="type" text="$l10n_ui_balance" textUpperCase="true"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1204px 0px" id="balanceText"/>
+                    </GuiElement>
+                </GuiElement>
+                <!-- Loan -->
+                <GuiElement type="bitmap" profile="ingameMenuFinancesRow" size="1400px 40px">
+                    <GuiElement type="bitmap" profile="ingameMenuFinancesRowBackgroundAlternate" size="1400px 40px">
+                        <GuiElement type="text" profile="ingameMenuFinancesRowTypeCellFooter" name="type" text="$l10n_ui_loan" textUpperCase="true"/>
+                        <GuiElement type="text" profile="ingameMenuFinancesRowCell" position="1204px 0px" id="loanText"/>
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+</GUI>

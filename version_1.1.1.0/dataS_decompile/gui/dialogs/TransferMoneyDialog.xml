@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="transferMoneyDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_button_transfer" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="empty" size="352px 300px" profile="emptyPanel">
+            <GuiElement type="text" profile="transferMoneyDialogAmountConsole" id="consoleAmountText" />
+
+            <!-- <GuiElement type="textInput" profile="transferMoneyDialogAmount" id="amountText" /> -->
+        </GuiElement>
+
+        <GuiElement type="boxLayout" profile="transferMoneyDialogOptionBox">
+            <GuiElement type="empty" profile="multiTextOptionTransferMoney" onCreate="onCreateScroller" onCreateArgs="100">
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyLeft" text="-" onClick="onClickLeft" focusId="100_left" focusChangeTop="100000_left" focusChangeBottom="1000_left" />
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyRight" text="+" onClick="onClickRight" focusId="100_right" focusChangeTop="100000_right" focusChangeBottom="1000_right" focusInit="onOpen" />
+                <GuiElement type="text"   profile="multiTextOptionText" text="100" />
+                <GuiElement type="bitmap" profile="multiTextOptionBg" />
+            </GuiElement>
+
+            <GuiElement type="empty" profile="multiTextOptionTransferMoney" onCreate="onCreateScroller" onCreateArgs="1000">
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyLeft" text="-" onClick="onClickLeft" focusId="1000_left" focusChangeTop="100_left" focusChangeBottom="10000_left" />
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyRight" text="+" onClick="onClickRight" focusId="1000_right" focusChangeTop="100_right" focusChangeBottom="10000_right" />
+                <GuiElement type="text"   profile="multiTextOptionText" text="1000" />
+                <GuiElement type="bitmap" profile="multiTextOptionBg" />
+            </GuiElement>
+
+            <GuiElement type="empty" profile="multiTextOptionTransferMoney" onCreate="onCreateScroller" onCreateArgs="10000">
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyLeft" text="-" onClick="onClickLeft" focusId="10000_left" focusChangeTop="1000_left" focusChangeBottom="100000_left" />
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyRight" text="+" onClick="onClickRight" focusId="10000_right" focusChangeTop="1000_right" focusChangeBottom="100000_right" />
+                <GuiElement type="text"   profile="multiTextOptionText" text="10000"/>
+                <GuiElement type="bitmap" profile="multiTextOptionBg" />
+            </GuiElement>
+
+            <GuiElement type="empty" profile="multiTextOptionTransferMoney" onCreate="onCreateScroller" onCreateArgs="100000">
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyLeft" text="-" onClick="onClickLeft" focusId="100000_left" focusChangeTop="10000_left" focusChangeBottom="100_left" />
+                <GuiElement type="button" profile="multiTextOptionTransferMoneyRight" text="+" onClick="onClickRight" focusId="100000_right" focusChangeTop="10000_right" focusChangeBottom="100_right" />
+                <GuiElement type="text"   profile="multiTextOptionText" text="100000" />
+                <GuiElement type="bitmap" profile="multiTextOptionBg" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+            <GuiElement type="button" profile="buttonActivate" text="$l10n_button_transfer" onClick="onClickActivate" id="transferButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

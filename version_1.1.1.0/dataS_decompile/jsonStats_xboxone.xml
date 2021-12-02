@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<objects>
+	<object name="GStraveledDistanceHeroStatEvent">
+		{ 
+			"GStraveledDistanceHeroStatEvent" : 
+			{
+				"Dimensions": { "UserId":%0, "PlayerSessionId":%1 },
+				"Measurements": { "GStraveledDistance":%2 }
+			}			
+		}
+	</object>
+	<object name="GSmoneyEarnedHeroStatEvent">
+		{ 
+			"GSmoneyEarnedHeroStatEvent" : 
+			{
+				"Dimensions": { "UserId":%0, "PlayerSessionId":%1 },
+				"Measurements": { "GSmoneyEarned":%2 }
+			}			
+		}
+	</object>
+	<object name="GShectaresThreshedHeroStatEvent">
+		{ 
+			"GShectaresThreshedHeroStatEvent" : 
+			{
+				"Dimensions": { "UserId":%0, "PlayerSessionId":%1 },
+				"Measurements": { "GShectaresThreshed":%2 }
+			}			
+		}
+	</object>	
+	<object name="GScompletedMissionsHeroStatEvent">
+		{ 
+			"GScompletedMissionsHeroStatEvent" : 
+			{
+				"Dimensions": { "UserId":%0, "PlayerSessionId":%1 },
+				"Measurements": { "GScompletedMissions":%2 }
+			}			
+		}
+	</object>
+</objects>

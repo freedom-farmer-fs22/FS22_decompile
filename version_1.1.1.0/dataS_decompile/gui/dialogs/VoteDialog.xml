@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="voteDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_button_rate" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="boxLayout" profile="voteDialogLayout" onLeave="onLayoutLeave" handleFocus="true">
+            <GuiElement type="button" profile="voteDialogStarButtonZero" id="stars[0]" focusChangeLeft="lastStar" />
+
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[1]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" focusChangeLeft="" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[2]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[3]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[4]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[5]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" focusChangeRight="" focusId="lastStar" />
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_rate" onClick="onClickOk" id="okButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

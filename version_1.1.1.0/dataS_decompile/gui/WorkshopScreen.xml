@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="uiFullInGameBackground"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="empty" profile="ingameMenuCenterBox" size="1080px 583px">
+            <GuiElement type="bitmap" profile="dialogHeaderDocked">
+                <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_sellItem" id="headerText" />
+            </GuiElement>
+
+            <GuiElement type="flowLayout" profile="animalDealerMoneyBox">
+                <GuiElement type="text" profile="shopBalance" text="$l10n_ui_balance:" />
+                <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="balanceElement" />
+            </GuiElement>
+
+            <GuiElement type="empty" profile="workshopListBoxLeft">
+                <!-- <GuiElement type="text" profile="animalHeaderText" id="headerSource" text="$l10n_animals_dealer"/> -->
+
+                <GuiElement type="smoothList" profile="workshopList" id="list" listDelegate="self" listDataSource="self" focusInit="onOpen">
+                    <GuiElement type="listItem" profile="workshopListItem">
+                        <GuiElement type="bitmap" profile="workshopItemIcon" name="icon"/>
+                        <GuiElement type="text" profile="workshopItemName"  name="name" />
+                        <GuiElement type="text" profile="workshopItemBrand" name="brand" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 583px">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="list" handleFocus="false" size="6px 575px" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="workshopDetailsBox" id="detailBox">
+                <GuiElement type="bitmap" profile="workshopVehicleImage" id="vehicleImage" />
+                <GuiElement type="text" profile="workshopVehicleName" id="vehicleName" />
+
+                <GuiElement type="flowLayout" profile="workshopDetailsLayout">
+                    <GuiElement type="empty" profile="workshopDetailRow">
+                        <GuiElement type="text" profile="workshopDetailRowLabel" text="$l10n_ui_sellValue" />
+                        <GuiElement type="text" profile="workshopDetailRowValue" id="priceText"/>
+                    </GuiElement>
+
+                    <GuiElement type="empty" profile="workshopDetailRow">
+                        <GuiElement type="text" profile="workshopDetailRowLabel" text="$l10n_ui_age" />
+                        <GuiElement type="text" profile="workshopDetailRowValue" id="ageText"/>
+                    </GuiElement>
+
+                    <GuiElement type="empty" profile="workshopDetailRow">
+                        <GuiElement type="text" profile="workshopDetailRowLabel" text="$l10n_ui_operatingHours" />
+                        <GuiElement type="text" profile="workshopDetailRowValue" id="operatingHoursText"/>
+                    </GuiElement>
+
+                    <GuiElement type="empty" profile="workshopDetailRowWithBar">
+                        <GuiElement type="empty" profile="ingameMenuAnimalsRequirementsRowTextPanel">
+                            <GuiElement type="text" profile="workshopDetailRowLabel" text="$l10n_ui_condition" />
+                            <GuiElement type="text" profile="workshopDetailRowValue" id="fitnessValueText"/>
+                        </GuiElement>
+                        <GuiElement type="threePartBitmap" profile="ingameMenuAnimalsSmallStatusBarBackground">
+                            <GuiElement type="threePartBitmap" profile="workshopStatusBar" id="conditionBar"/>
+                        </GuiElement>
+                    </GuiElement>
+
+                    <GuiElement type="empty" profile="workshopDetailRowWithBar">
+                        <GuiElement type="empty" profile="ingameMenuAnimalsRequirementsRowTextPanel">
+                            <GuiElement type="text" profile="workshopDetailRowLabel" text="$l10n_ui_paintCondition" />
+                            <GuiElement type="text" profile="workshopDetailRowValue" id="fitnessValueText"/>
+                        </GuiElement>
+                        <GuiElement type="threePartBitmap" profile="ingameMenuAnimalsSmallStatusBarBackground">
+                            <GuiElement type="threePartBitmap" profile="workshopStatusBar" id="paintConditionBar"/>
+                        </GuiElement>
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="workshopDetailsBox" id="dialogInfo">
+                <GuiElement type="text" profile="directSellDialogInfo" text="$l10n_ui_sellOrCustomizeVehicleText" />
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonSell" text="$l10n_button_sell" onClick="onClickSell" id="sellButton" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_configurate" onClick="onClickConfigure" id="configButton" />
+        <GuiElement type="button" profile="buttonRepair" text="$l10n_button_repair" onClick="onClickRepair" id="repairButton" />
+        <GuiElement type="button" profile="buttonRepaint" text="$l10n_button_repaint" onClick="onClickRepaint" id="repaintButton" />
+    </GuiElement>
+</GUI>

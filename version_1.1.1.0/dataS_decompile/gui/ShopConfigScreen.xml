@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="shopConfigGlow" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+
+    <GuiElement type="empty" profile="shopConfigContainerLeft">
+        <GuiElement type="bitmap" profile="shopConfigBrandIcon" id="shopConfigBrandIcon" />
+        <GuiElement type="text"   profile="shopConfigItemName" id="shopConfigItemName" />
+
+        <!-- Cost summary -->
+        <GuiElement type="empty" profile="shopConfigSummaryContainer">
+            <!-- Top column: vehicle attributes -->
+            <GuiElement type="text" profile="shopConfigSummaryTitle" text="$l10n_ui_information" position="0 260px" />
+            <GuiElement type="flowLayout" profile="shopConfigAttributesLayout" id="attributesLayout" position="0 170px">
+                <GuiElement type="empty" profile="shopConfigAttributesItem" id="attributeItem">
+                    <GuiElement type="bitmap" profile="shopConfigAttributesIcon" name="icon" />
+                    <GuiElement type="text" profile="shopConfigAttributesValue" name="text" />
+                </GuiElement>
+                <!-- <GuiElement type="bitmap" profile="shopConfigAttributesSeparator" id="attributeSeparator" /> -->
+            </GuiElement>
+
+            <!-- Bottom column: purchase -->
+            <GuiElement type="empty" profile="shopConfigSummaryBox" size="325px 144px">
+                <GuiElement type="text" profile="shopConfigSummaryTitle" text="$l10n_ui_purchase" />
+
+                <GuiElement type="text"   profile="shopConfigPriceTitle"      position="0 88px"  text="$l10n_shop_configurationPriceBase:" />
+                <GuiElement type="text"   profile="shopConfigPriceValue"      position="0 88px"  id="basePriceText"/>
+
+                <GuiElement type="text"   profile="shopConfigPriceTitle"      position="0 63px"  text="$l10n_shop_configurationPriceOptions:" />
+                <GuiElement type="text"   profile="shopConfigPriceValue"      position="0 63px"  id="upgradesPriceText" />
+
+                <GuiElement type="bitmap" profile="shipConfigPriceTotalBox">
+                    <GuiElement type="text"   profile="shopConfigPriceTitleTotal" text="$l10n_shop_configurationPriceTotal:" />
+                    <GuiElement type="text"   profile="shopConfigPriceValueTotal" id="totalPriceText" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="empty" profile="shopConfigContainer" id="shopConfigContent">
+        <!-- Vehicle display panel, top right -->
+        <GuiElement type="empty" profile="emptyPanel" size="660px 560px" anchors="0.5 0.5 0.5 0.5" position="0 100px">
+            <GuiElement type="animation" profile="mpLoadingAnimation" id="loadingAnimation" anchors="0.5 0.5 0.5 0.5" position="0 0" visible="false" />
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="empty" profile="shopConfigContainerRight">
+        <!-- current balance, top right docked -->
+        <GuiElement type="flowLayout" profile="shopConfigMoneyBox">
+            <GuiElement type="text" profile="shopBalance" text="$l10n_ui_balance:" />
+            <GuiElement type="text" profile="shopMoney" position="0px 0px" id="shopMoney" />
+        </GuiElement>
+
+        <!-- List of configurations -->
+        <GuiElement type="text" profile="shopConfigConfigurationsTitle" text="$l10n_shop_configurations" id="configurationsTitle" />
+
+        <GuiElement type="empty" profile="shopConfigConfigurationLayout" id="configurationsBox">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="scrollingLayout" profile="shopConfigConfigurationLayout" id="configurationLayout" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+
+                <GuiElement type="empty" profile="shopConfigConfigurationItem" id="configurationItemTemplate">
+                    <GuiElement type="multiTextOption" profile="shopMultiTextOption" name="option" onFocus="onFocusConfigurationOption" onLeave="onLeaveConfigurationOption" visible="false" namedComponents="true">
+                        <GuiElement type="button" profile="shopMultiTextOptionLeft" name="left" />
+                        <GuiElement type="button" profile="shopMultiTextOptionRight" name="right" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionBg" />
+                        <GuiElement type="text"   profile="multiTextOptionText" text="OPT TEXT" name="text" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientTop" name="gradient" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientBottom" name="gradient" />
+                    </GuiElement>
+
+                    <GuiElement type="button" profile="shopConfigColorButton" onClick="onClickSelectColor" name="color" onFocus="onFocusConfigurationOption" onLeave="onLeaveConfigurationOption" visible="false">
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientTop" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientBottom" />
+
+                        <GuiElement type="bitmap" profile="shopConfigColorButtonPicked" name="colorImage" />
+                        <GuiElement type="bitmap" profile="shopConfigColorButtonPickedMetallic" name="colorImageMetallic" />
+                    </GuiElement>
+
+                    <GuiElement type="button" profile="shopConfigConfigurationButton" name="button" onFocus="onFocusConfigurationOption" onLeave="onLeaveConfigurationOption" visible="false">
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientTop" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientBottom" />
+
+                        <GuiElement type="render" profile="baseReference" anchors="0.5 0.5 0.5 0.5" size="200px 40px" filename="dataS/menu/licensePlate/creationBox.i3d" cameraNode="0|1" superSamplingFactor="2" name="plate" onRenderLoad="onRenderLoad" />
+                    </GuiElement>
+
+                    <GuiElement type="text" text="Option Title" profile="shopMultiTextOptionTitle" name="title" />
+                    <GuiElement type="text" text="Option Price" profile="shopMultiTextOptionPrice" name="price" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="shopConfigConfigurationItemLarge" id="configurationItemTemplateLarge">
+                    <GuiElement type="multiTextOption" profile="shopMultiTextOptionLarge" name="option" onFocus="onFocusConfigurationOption" onLeave="onLeaveConfigurationOption" visible="false" namedComponents="true">
+                        <GuiElement type="button" profile="shopMultiTextOptionLargeLeft" name="left" />
+                        <GuiElement type="button" profile="shopMultiTextOptionLargeRight" name="right" />
+
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionLargeBg" />
+
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionLargeIcon" name="icon" />
+                        <GuiElement type="text"   profile="multiTextOptionText" text="" name="text" />
+
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientTop" />
+                        <GuiElement type="bitmap" profile="shopMultiTextOptionGradientBottom" />
+                    </GuiElement>
+
+                    <GuiElement type="text" text="Option Title" profile="shopMultiTextOptionTitle" name="title" />
+                    <GuiElement type="text" text="Option Price" profile="shopMultiTextOptionPrice" name="price" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <!-- slider for config list -->
+        <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 670px" position="28px -86px">
+            <GuiElement type="slider" profile="verticalListSliderBar" size="6px 662px" dataElementId="configurationLayout" id="configSlider" onChanged="onSliderChanged" />
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="ingameMenuMapButtonsBackground" />
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen" id="buttonsPanel">
+        <GuiElement type="button" profile="buttonBuy" text="$l10n_ui_purchase" onClick="onClickBuy" id="buyButton" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_lease" onClick="onClickLease" id="leaseButton" />
+        <GuiElement type="button" profile="buttonCancel" text="$l10n_button_change" onClick="onClickConfigAction" id="configButton" visible="false" />
+
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="zoomGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" text="$l10n_action_cameraZoom" />
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="lookGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" text="$l10n_action_rotateCamera" />
+    </GuiElement>
+</GUI>

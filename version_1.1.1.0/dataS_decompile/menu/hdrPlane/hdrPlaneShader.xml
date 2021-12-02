@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="5">
+    <Parameters>
+    </Parameters>
+    <Textures>
+    </Textures>
+    <LodLevel startDistance="0" subsequentPassForceMode="ignore">
+        <CodeInjections>
+            <CodeInjection position="FINAL_POS_FS">
+<![CDATA[
+#if defined(LIGHTING)
+if (abs(In.vs.defaultTexCoords.x-0.5) > 0.25 || abs(In.vs.defaultTexCoords.y-0.5) > 0.25) {
+        oColor.xyz = 0;
+    } else {
+        if (abs(In.vs.defaultTexCoords.x) < 0.5) {
+            if (abs(In.vs.defaultTexCoords.y) > 0.5) {
+                if (abs(In.vs.defaultTexCoords.x-0.38) > 0.08 || abs(In.vs.defaultTexCoords.y-0.62) > 0.08) {
+                    oColor.xyz = 2;
+                } else {
+                    oColor.xyz = 1;
+                }
+            } else {
+                if (abs(In.vs.defaultTexCoords.x-0.38) > 0.08 || abs(In.vs.defaultTexCoords.y-0.38) > 0.08) {
+                    oColor.xyz = 2;
+                } else {
+                    oColor.xyz = 1;
+                }
+            }
+        } else {
+            if (abs(In.vs.defaultTexCoords.y) > 0.5) {
+                if (abs(In.vs.defaultTexCoords.x-0.62) > 0.08 || abs(In.vs.defaultTexCoords.y-0.62) > 0.08) {
+                    oColor.xyz = 2;
+                } else {
+                    oColor.xyz = 1;
+                }
+            } else {
+                if (abs(In.vs.defaultTexCoords.x-0.62) > 0.08 || abs(In.vs.defaultTexCoords.y-0.38) > 0.08) {
+                    oColor.xyz = 2;
+                } else {
+                    oColor.xyz = 1;
+                }
+            }
+        }
+    }
+    oColor.w = 1.0;
+#endif
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

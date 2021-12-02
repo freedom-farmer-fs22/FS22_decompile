@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuMultiplayerUsers">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <!-- <GuiElement type="bitmap" profile="ingameMenuMPUsersIcon"/> -->
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_accountManagement"/>
+
+            <!-- Current balance display in header -->
+            <GuiElement type="flowLayout" profile="shopMoneyBox">
+                <GuiElement type="text" profile="shopBalance" text="$l10n_ui_balance:" id="currentBalanceLabel" />
+                <GuiElement type="text" profile="shopMoney" text="0" position="0px 0px" id="currentBalanceText" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuCenterBox" id="container">
+            <GuiElement type="empty" profile="ingameMenuMPUsersListBox">
+                <GuiElement type="smoothList" profile="ingameMenuMPUsersList" id="userList" focusInit="onOpen" focusChangeBottom="nil" focusChangeTop="nil">
+                    <GuiElement type="listItem" profile="ingameMenuMPUsersListItem" name="user">
+                        <GuiElement type="platformIcon" profile="ingameMenuMPUsersListItemPlatform" name="platform" />
+                        <GuiElement type="text" profile="ingameMenuMPUsersListItemText" text="Nickname" name="playerName"/>
+
+                        <GuiElement type="flowLayout" profile="ingameMenuMPUsersListItemAttributeBox">
+                            <GuiElement type="bitmap" profile="ingameMenuMPUsersListItemNoMicrophone" name="noMicrophone" />
+                            <GuiElement type="bitmap" profile="ingameMenuMPUsersListItemMuted" name="muted" />
+                            <GuiElement type="bitmap" profile="ingameMenuMPUsersListItemFarmManager" name="farmManager" />
+                            <GuiElement type="bitmap" profile="ingameMenuMPUsersListItemAdmin" name="admin" />
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="listItem" profile="ingameMenuMPUsersListFarm" name="farm">
+                        <GuiElement type="bitmap" profile="ingameMenuMPUsersListFarmDot" name="dot"/>
+                        <GuiElement type="text" profile="ingameMenuMPUsersListFarmName" text="My Farm" name="title"/>
+                        <GuiElement type="text" profile="ingameMenuMPUsersListFarmBalance" text="Info" name="farmBalance"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="userList" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="ingameMenuMPUsersContentBox">
+                <GuiElement type="boxLayout" id="actionsBox" profile="ingameMenuMPActionsBox">
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_mp_transferMoney" onClick="onClickTransferButton" id="transferButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_mp_removeFromFarm" onClick="onClickRemoveFromFarm" id="removeButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_mp_promote" onClick="onClickPromote" id="promoteButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_mp_grant" onClick="onClickContractor" id="contractorButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_kick" onClick="onButtonKick" id="kickButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_block" onClick="onButtonBlock" id="blockButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_blockFromServer" onClick="onButtonBlockFromServer" id="blockFromServerButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_report" onClick="onButtonReport" id="reportButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_mute" onClick="onButtonMute" id="muteButton"/>
+                    <GuiElement type="button" profile="ingameMenuMPActionsListActionButton" text="$l10n_button_showProfile" onClick="onButtonShowProfile" id="showProfileButton"/>
+                </GuiElement>
+
+                <GuiElement type="boxLayout" id="permissionsBox" profile="ingameMenuMPPermissionsBox">
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[1]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permission_buyVehicles" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox"  onClick="onClickPermission" id="buyVehiclePermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[2]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permission_sellVehicles" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox"  onClick="onClickPermission" id="sellVehiclePermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[3]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_resetVehicles" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox"  onClick="onClickPermission" id="resetVehiclePermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[4]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_buyPlaceable" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox"  onClick="onClickPermission" id="buyPlaceablePermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[5]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_sellPlaceable" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox"  onClick="onClickPermission" id="sellPlaceablePermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[6]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_hireAssistent" />
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox" onClick="onClickPermission" id="hireAssistantPermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[7]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_manageMissions"/>
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox" onClick="onClickPermission" id="manageMissionsPermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[8]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_tradeAnimals"/>
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox" onClick="onClickPermission" id="tradeAnimalsPermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[9]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_createFields"/>
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox" onClick="onClickPermission" id="createFieldsPermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                    <GuiElement type="empty" profile="ingameMenuMPActionsListItem" id="permissionRow[10]">
+                        <GuiElement type="button" profile="ingameMenuMPActionsListPermission" text="$l10n_ui_permissions_landscaping"/>
+                        <GuiElement type="toggleButton" profile="ingameMenuMPActionsListPermissionCheckbox" onClick="onClickPermission" id="landscapingPermissionCheckbox">
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxTick"/>
+                            <GuiElement type="button" profile="ingameMenuMPActionsListPermissionCheckboxUntick"/>
+                        </GuiElement>
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+</GUI>

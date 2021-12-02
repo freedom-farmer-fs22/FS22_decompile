@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onCreate="onCreate" onOpen="onOpen" onClose="onClose">
+    <GuiElement type="dynamicFadedBitmap" id="backgroundImage" profile="backgroundImage" />
+
+    <GuiElement type="bitmap" id="backgroundBlurImage" profile="mainScreenSidebar">
+        <GuiElement type="dynamicFadedBitmap" id="glassEdgeOverlay" profile="mainScreenBackgroundBlur" />
+        <GuiElement type="bitmap" profile="bgGlow" size="1500px 1080px" position="0 -180px" anchors="1 1 0.5 0.5" />
+
+        <GuiElement type="bitmap" id="logo" profile="mainScreenLogo" />
+
+        <!-- Main Button Container -->
+        <GuiElement id="buttonBox" type="boxLayout" profile="mainScreenButtonBox">
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_career" onClick="onCareerClick" id="careerButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_multiplayer" onClick="onMultiplayerClick" id="multiplayerButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_tutorials" onClick="onTutorialsClick" id="tutorialsButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_downloadableContent" onClick="onDownloadModsClick" id="downloadModsButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_achievements" onClick="onAchievementsClick" id="achievementsButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_dlcStore" onClick="onStoreClick" id="storeButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_settings" onClick="onSettingsClick" id="settingsButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_credits" onClick="onCreditsClick" id="creditsButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_changeUser" onClick="onChangeUserClick" id="changeUserButton" onHighlight="onHighlight" visible="false" />
+            <GuiElement type="button" profile="mainMenuButton" text="$l10n_button_quit" onClick="onQuitClick" id="quitButton" onHighlight="onHighlight" visible="false" />
+        </GuiElement>
+    </GuiElement>
+
+    <!-- Notifications Container -->
+
+    <GuiElement type="empty" profile="notificationLayout" id="notificationElement">
+        <GuiElement type="bitmap" profile="notificationHeader">
+            <GuiElement type="flowLayout" profile="notificationIndexLayout">
+                <GuiElement type="button" profile="notificationLeft" onClick="onClickPreviousNotification" id="notificationButtonLeft"/>
+
+                <GuiElement type="indexState" profile="notificationIndexState" stateElementTemplateId="stateIconTemplate" id="indexState">
+                    <GuiElement type="bitmap" profile="notificationSelectionState" id="stateIconTemplate"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="notificationRight" onClick="onClickNextNotification" id="notificationButtonRight" focusId="notificationButtonRight" focusChangeRight="notificationButtonRight"/>
+            </GuiElement>
+
+            <GuiElement type="text" profile="notificationHeaderTitle" text="UPDATE" />
+            <GuiElement type="bitmap" profile="notificationHeaderIcon" />
+        </GuiElement>
+
+        <GuiElement type="bitmap" id="notificationImage" profile="notificationImage" />
+
+        <GuiElement type="bitmap" profile="notificationBg">
+            <GuiElement type="text" id="notificationTitle" profile="notificationTitle" text="Title" />
+            <GuiElement type="text" id="notificationDate" profile="notificationDate" text="Date" />
+
+            <GuiElement type="text" id="notificationMessage" profile="notificationText" text="Description" />
+
+            <GuiElement type="button" profile="notificationOpen" text="" onClick="onClickOpenNotification" id="notificationButtonOpen"/>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="text" profile="versionText" onCreate="onCreateGameVersion"/>
+    <GuiElement type="text" profile="gamerTagText" id="gamerTagElement" />
+</GUI>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<specializations>
+    <specialization name="ai"                     className="PlaceableAI"                     filename="dataS/scripts/placeables/specializations/PlaceableAI.lua" />
+    <specialization name="beehive"                className="PlaceableBeehive"                filename="dataS/scripts/placeables/specializations/PlaceableBeehive.lua" />
+    <specialization name="beehivePalletSpawner"   className="PlaceableBeehivePalletSpawner"   filename="dataS/scripts/placeables/specializations/PlaceableBeehivePalletSpawner.lua" />
+    <specialization name="clearAreas"             className="PlaceableClearAreas"             filename="dataS/scripts/placeables/specializations/PlaceableClearAreas.lua" />
+    <specialization name="foliageAreas"           className="PlaceableFoliageAreas"           filename="dataS/scripts/placeables/specializations/PlaceableFoliageAreas.lua" />
+    <specialization name="incomePerHour"          className="PlaceableIncomePerHour"          filename="dataS/scripts/placeables/specializations/PlaceableIncomePerHour.lua" />
+    <specialization name="indoorAreas"            className="PlaceableIndoorAreas"            filename="dataS/scripts/placeables/specializations/PlaceableIndoorAreas.lua" />
+    <specialization name="leveling"               className="PlaceableLeveling"               filename="dataS/scripts/placeables/specializations/PlaceableLeveling.lua" />
+    <specialization name="animatedObjects"        className="PlaceableAnimatedObjects"        filename="dataS/scripts/placeables/specializations/PlaceableAnimatedObjects.lua" />
+    <specialization name="dynamicallyLoadedParts" className="PlaceableDynamicallyLoadedParts" filename="dataS/scripts/placeables/specializations/PlaceableDynamicallyLoadedParts.lua" />
+    <specialization name="deletedNodes"           className="PlaceableDeletedNodes"           filename="dataS/scripts/placeables/specializations/PlaceableDeletedNodes.lua" />
+    <specialization name="hotspots"               className="PlaceableHotspots"               filename="dataS/scripts/placeables/specializations/PlaceableHotspots.lua" />
+    <specialization name="lights"                 className="PlaceableLights"                 filename="dataS/scripts/placeables/specializations/PlaceableLights.lua" />
+    <specialization name="placement"              className="PlaceablePlacement"              filename="dataS/scripts/placeables/specializations/PlaceablePlacement.lua" />
+    <specialization name="solarPanels"            className="PlaceableSolarPanels"            filename="dataS/scripts/placeables/specializations/PlaceableSolarPanels.lua" />
+    <specialization name="greenhouse"             className="PlaceableGreenhouse"             filename="dataS/scripts/placeables/specializations/PlaceableGreenhouse.lua" />
+    <specialization name="tipOcclusionAreas"      className="PlaceableTipOcclusionAreas"      filename="dataS/scripts/placeables/specializations/PlaceableTipOcclusionAreas.lua" />
+    <specialization name="triggerMarkers"         className="PlaceableTriggerMarkers"         filename="dataS/scripts/placeables/specializations/PlaceableTriggerMarkers.lua" />
+    <specialization name="sellingStation"         className="PlaceableSellingStation"         filename="dataS/scripts/placeables/specializations/PlaceableSellingStation.lua" />
+    <specialization name="silo"                   className="PlaceableSilo"                   filename="dataS/scripts/placeables/specializations/PlaceableSilo.lua" />
+    <specialization name="siloExtension"          className="PlaceableSiloExtension"          filename="dataS/scripts/placeables/specializations/PlaceableSiloExtension.lua" />
+    <specialization name="highPressureWasher"     className="PlaceableHighPressureWasher"     filename="dataS/scripts/placeables/specializations/PlaceableHighPressureWasher.lua" />
+    <specialization name="workshop"               className="PlaceableWorkshop"               filename="dataS/scripts/placeables/specializations/PlaceableWorkshop.lua" />
+    <specialization name="doghouse"               className="PlaceableDoghouse"               filename="dataS/scripts/placeables/specializations/PlaceableDoghouse.lua" />
+    <specialization name="manureHeap"             className="PlaceableManureHeap"             filename="dataS/scripts/placeables/specializations/PlaceableManureHeap.lua" />
+    <specialization name="bunkerSilo"             className="PlaceableBunkerSilo"             filename="dataS/scripts/placeables/specializations/PlaceableBunkerSilo.lua" />
+    <specialization name="productionPoint"        className="PlaceableProductionPoint"        filename="dataS/scripts/placeables/specializations/PlaceableProductionPoint.lua" />
+    <specialization name="farmhouse"              className="PlaceableFarmhouse"              filename="dataS/scripts/placeables/specializations/PlaceableFarmhouse.lua" />
+    <specialization name="wardrobe"               className="PlaceableWardrobe"               filename="dataS/scripts/placeables/specializations/PlaceableWardrobe.lua" />
+    <specialization name="buyingStation"          className="PlaceableBuyingStation"          filename="dataS/scripts/placeables/specializations/PlaceableBuyingStation.lua" />
+    <specialization name="chargingStation"        className="PlaceableChargingStation"        filename="dataS/scripts/placeables/specializations/PlaceableChargingStation.lua" />
+    <specialization name="windTurbine"            className="PlaceableWindTurbine"            filename="dataS/scripts/placeables/specializations/PlaceableWindTurbine.lua" />
+    <specialization name="weatherStation"         className="PlaceableWeatherStation"         filename="dataS/scripts/placeables/specializations/PlaceableWeatherStation.lua" />
+    <specialization name="vine"                   className="PlaceableVine"                   filename="dataS/scripts/placeables/specializations/PlaceableVine.lua" />
+    <specialization name="fence"                  className="PlaceableFence"                  filename="dataS/scripts/placeables/specializations/PlaceableFence.lua" />
+    <specialization name="trainSystem"            className="PlaceableTrainSystem"            filename="dataS/scripts/placeables/specializations/PlaceableTrainSystem.lua" />
+    <specialization name="infoTrigger"            className="PlaceableInfoTrigger"            filename="dataS/scripts/placeables/specializations/PlaceableInfoTrigger.lua" />
+    <specialization name="colorable"              className="PlaceableColorable"              filename="dataS/scripts/placeables/specializations/PlaceableColorable.lua" />
+    <specialization name="weighingStation"        className="PlaceableWeighingStation"        filename="dataS/scripts/placeables/specializations/PlaceableWeighingStation.lua" />
+    <specialization name="cartridgePlayer"        className="PlaceableCartridgePlayer"        filename="dataS/scripts/placeables/specializations/PlaceableCartridgePlayer.lua" />
+
+
+    <specialization name="husbandry"              className="PlaceableHusbandry"              filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandry.lua" />
+    <specialization name="husbandryAnimals"       className="PlaceableHusbandryAnimals"       filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryAnimals.lua" />
+    <specialization name="husbandryMilk"          className="PlaceableHusbandryMilk"          filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryMilk.lua" />
+    <specialization name="husbandryStraw"         className="PlaceableHusbandryStraw"         filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryStraw.lua" />
+    <specialization name="husbandryWater"         className="PlaceableHusbandryWater"         filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryWater.lua" />
+    <specialization name="husbandryLiquidManure"  className="PlaceableHusbandryLiquidManure"  filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryLiquidManure.lua" />
+    <specialization name="husbandryFeedingRobot"  className="PlaceableHusbandryFeedingRobot"  filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryFeedingRobot.lua" />
+    <specialization name="husbandryFood"          className="PlaceableHusbandryFood"          filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryFood.lua" />
+    <specialization name="husbandryPallets"       className="PlaceableHusbandryPallets"       filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryPallets.lua" />
+    <specialization name="husbandryFence"         className="PlaceableHusbandryFence"         filename="dataS/scripts/animals/husbandry/placeables/PlaceableHusbandryFence.lua" />
+</specializations>

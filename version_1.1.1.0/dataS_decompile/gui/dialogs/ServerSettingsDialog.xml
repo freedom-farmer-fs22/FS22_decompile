@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="serverSettingsDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_serverSettings" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="boxLayout" profile="serverSettingsBoxLayout" id="boxLayout">
+            <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" id="serverNameElement" maxCharacters="30" needExternalClick="true" onFocus="onFocus" onLeave="onLeave" onEnterPressed="onEnterPressed" imeKeyboardType="normal" imeTitle="$l10n_ui_serverName" imeDescription="$l10n_ui_serverName" imePlaceholder="$l10n_ui_serverName" focusInit="onOpen" />
+                <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_serverName"/>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" id="passwordElement" isPassword="true" maxCharacters="16" needExternalClick="true" onEnter="onEnter" onFocus="onFocus" onLeave="onLeave" onEscPressed="onEscPressed" onEnterPressed="onEnterPressed" imeKeyboardType="password" imeTitle="$l10n_ui_password" imeDescription="$l10n_ui_password" imePlaceholder="$l10n_ui_password" />
+                <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_password"/>
+            </GuiElement>
+
+            <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onCreate="onCreateNumPlayer">
+                <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_maxNumPlayers"/>
+                <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+            </GuiElement>
+
+            <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="autoAcceptElement">
+                <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_autoAccept"/>
+                <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+            </GuiElement>
+
+            <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="allowOnlyFriendsElement">
+                <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_allowOnlyFriends"/>
+                <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_save" onClick="onClickOk" id="saveButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+            <GuiElement type="button" profile="buttonActivate" text="$l10n_button_change" onClick="onClickActivate" id="changeButton" visible="false" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

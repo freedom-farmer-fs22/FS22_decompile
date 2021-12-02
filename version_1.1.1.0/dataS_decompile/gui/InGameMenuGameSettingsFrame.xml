@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuGameSettingsGame">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel">
+            <GuiElement type="bitmap" profile="ingameMenuGameSettingsHeaderIcon" />
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" text="$l10n_ui_ingameMenuGameSettingsGame"/>
+        </GuiElement>
+
+        <!-- Layouted settings box -->
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" id="settingsContainer">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="scrollingLayout" profile="ingameMenuSettingsLayout" id="boxLayout" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+                <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                    <GuiElement type="button" profile="ingameMenuSettingsPauseButton" text="$l10n_input_PAUSE" id="buttonPauseGame" onClick="onClickPauseGame"/>
+                    <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_input_PAUSE"/>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                    <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" id="textSavegameName" onEnterPressed="onEnterPressedSavegameName" imeDescription="$l10n_ui_savegameName" imePlaceholder="$l10n_ui_savegameName" imeTitle="$l10n_ui_savegameName" imeKeyboardType="normal" />
+                    <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_savegameName"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_savegameName" />
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickAutoSaveInterval" id="multiAutoSaveInterval">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_autoSaveInterval"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_autoSaveInterval" />
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickTimeScale" id="multiTimeScale">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_timeScale"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_timeScale" />
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickEconomicDifficulty" id="economicDifficulty">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_economicDifficulty"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_economicDifficulty" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickTraffic" id="checkTraffic">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_traffic"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_traffic" />
+                </GuiElement>
+
+                <GuiElement type="text" profile="settingsMenuSubtitle" text="$l10n_ui_seasons" />
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickGrowthMode" id="multiGrowthMode">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_seasonalGrowth"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_seasonalGrowth" />
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickPlannedDaysPerPeriod" id="multiPlannedDaysPerPeriod">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_plannedDaysPerPeriod"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_plannedDaysPerPeriod" />
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickFixedSeasonalVisuals" id="multiFixedSeasonalVisuals">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_fixedSeasonalVisuals"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_fixedSeasonalVisuals" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickSnowEnabled" id="checkSnowEnabled">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_snowEnabled"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_snowEnabled" />
+                </GuiElement>
+
+                <GuiElement type="text" profile="settingsMenuSubtitle" text="$l10n_ui_cropsAndGrowth" />
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickFruitDestruction" id="checkFruitDestruction">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_fruitDestruction"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_fruitDestruction" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickPlowingRequired" id="checkPlowingRequired">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_plowingRequired"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_plowingRequired" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickStonesEnabled" id="checkStonesEnabled">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_stonesEnabled"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_stonesEnabled" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickLimeRequired" id="checkLimeRequired">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_limeRequired"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_limeRequired" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickWeedsEnabled" id="checkWeedsEnabled">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_weedsEnabled"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_weedsEnabled" />
+                </GuiElement>
+
+                <GuiElement type="text" profile="settingsMenuSubtitle" text="$l10n_ui_vehicleControl" />
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickDirt" id="checkDirt">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_dirt"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_dirt" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickAutomaticMotorStart" id="checkAutoMotorStart">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_automaticMotorStart"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_automaticMotorStart" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickStopAndGoBraking" id="checkStopAndGoBraking">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_stopAndGoBraking"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_stopAndGoBraking" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickTrailerFillLimit" id="checkTrailerFillLimit">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_trailerFillLimit"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_trailerFillLimit" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickFuelUsage" id="checkFuelUsage">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_fuelUsage"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_fuelUsage" />
+                </GuiElement>
+
+                <GuiElement type="text" profile="settingsMenuSubtitle" text="$l10n_ui_helpers" />
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickHelperRefillFuel" id="checkHelperRefillFuel">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_helperRefillFuel"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_helperRefillFuel" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickHelperRefillSeed" id="checkHelperRefillSeed">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_helperRefillSeed"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_helperRefillSeed" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickHelperRefillFertilizer" id="checkHelperRefillFertilizer">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_helperRefillFertilizer"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_helperRefillFertilizer" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickHelperRefillSlurry" id="checkHelperRefillSlurry">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_helperRefillSlurry"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_helperRefillSlurry" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickHelperRefillManure" id="checkHelperRefillManure">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_helperRefillManure"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" text="$l10n_toolTip_helperRefillManure" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+            <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="boxLayout" handleFocus="false" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

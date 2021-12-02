@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="dialogBg" id="dialogElement" size="735px 428px">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_blockedPlayers" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="empty" profile="unBanDialogListBox" position="0px 0px">
+            <!-- Banned User List Header -->
+            <GuiElement type="bitmap" profile="unBanDialogHeaderBox">
+                <GuiElement type="text" profile="unBandDialogHeaderText" position="16px 0px" text="$l10n_ui_bannedUserLastNickname"/>
+            </GuiElement>
+
+            <!-- Banned User List -->
+            <GuiElement type="smoothList" profile="unBanDialogList" id="banList" position="0 -104px">
+                <GuiElement type="listItem" profile="unBanDialogListItem">
+                    <GuiElement type="text" profile="unBanDialogListText" position="16px 0px" name="name"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="text" profile="unBanDialogEmptyText" id="noBansText" text="$l10n_ui_noBlockedPlayers" />
+            <GuiElement type="text" profile="unBanDialogEmptyText" id="loadingText" text="$l10n_ui_gameIsLoadingPleaseWait" />
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 320px" anchors="1 1 0 0">
+                <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="banList" handleFocus="false" size="6px 312px" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonLayout">
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="backButton" />
+            <GuiElement type="button" profile="buttonCancel" text="$l10n_button_unblock" onClick="onClickUnblock" id="unblockButton" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

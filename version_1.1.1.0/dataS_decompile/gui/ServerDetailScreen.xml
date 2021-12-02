@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="empty" profile="uiElementContainerFullScreen">
+        <GuiElement type="empty" profile="uiElementCenter">
+            <GuiElement type="empty" profile="headerBoxDocked" >
+                <GuiElement type="bitmap" profile="multiplayerIcon"/>
+                <GuiElement type="text" profile="headerText" text="$l10n_ui_joinMultiplayerGame" id="headerText" />
+            </GuiElement>
+
+            <GuiElement type="text" profile="serverDetailInfoText" id="notAllModsOnSystemLabel" text="$l10n_ui_notAllModsOnSystem" />
+
+            <GuiElement type="empty" profile="serverDetailDetailsBox">
+                <GuiElement type="empty" profile="serverDetailMapPreviewClipper">
+                    <GuiElement type="bitmap" profile="serverDetailMapPreview" id="mapIconElement" />
+                </GuiElement>
+
+                <GuiElement type="boxLayout" profile="serverDetailDetailsLayout">
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_serverName" />
+                    <GuiElement type="text" profile="serverDetailInfoValueGameName" id="serverNameElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_map" />
+                    <GuiElement type="text" profile="serverDetailInfoValue" id="mapElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_platform" />
+                    <GuiElement type="platformIcon" profile="serverDetailInfoPlatformIcon" id="platformElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_allowsCrossPlay" />
+                    <GuiElement type="text" profile="serverDetailInfoValue" id="crossPlayElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_setting_language" />
+                    <GuiElement type="text" profile="serverDetailInfoValue" id="languageElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_password" />
+                    <GuiElement type="text" profile="serverDetailInfoValue" id="passwordElement" />
+
+                    <GuiElement type="text" profile="serverDetailInfoKey" text="$l10n_ui_mpPlayers" />
+                    <GuiElement type="text" profile="serverDetailInfoValue" id="numPlayersElement" />
+                </GuiElement>
+            </GuiElement>
+
+            <!-- <GuiElement type="bitmap" profile="serverDetailDataBg"> -->
+                <GuiElement type="bitmap" profile="serverDetailWarningOk" id="warningElement" visible="false" >
+                    <GuiElement type="text" profile="serverDetailWarningTextOk" id="warningTextElement" text="$l10n_ui_allModsDLCsInstalled" />
+                </GuiElement>
+            <!-- </GuiElement> -->
+
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" anchors="1 1 1 1" size="818px 2dp" positon="0 2dp" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper"  anchors="1 1 0 0"  size="818px 2dp" position="0 -2dp" />
+
+            <GuiElement type="smoothList" profile="serverDetailList" onDoubleClick="onDoubleClick" id="modList" focusInit="onOpen" startClipperElementName="topClipper" endClipperElementName="bottomClipper">
+                <GuiElement type="listItem" profile="serverDetailListItem">
+                    <GuiElement type="bitmap" profile="serverDetailModIcon" name="icon" />
+                    <GuiElement type="text" profile="serverDetailModTitle" name="title" />
+
+                    <GuiElement type="flowLayout" profile="serverDetailModVersionBox">
+                        <GuiElement type="text" profile="serverDetailModVersionTitle" text="$l10n_ui_modVersion:" />
+                        <GuiElement type="text" profile="serverDetailModVersion" name="version" />
+                    </GuiElement>
+
+                    <GuiElement type="text" profile="serverDetailModHashUnavailable" name="hash" />
+                    <GuiElement type="text" profile="serverDetailModAuthorUnavailable" name="author" />
+
+                    <GuiElement type="text" profile="serverDetailModAvailability" name="availability" />
+
+                    <!-- <GuiElement type="bitmap" profile="listItemSelector"/> -->
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="text" profile="serverDetailNoModsDLCs" text="$l10n_ui_noModsDLCsUsed" id="noModsDLCsElement" />
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 698px">
+                <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="modList" handleFocus="false" size="6px 690px"/>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_start" onClick="onClickOk"  id="startElement" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonDownloadMods" text="$l10n_button_getModsDlc" onClick="onClickDownload" id="getModsButton" />
+        <GuiElement type="button" profile="buttonCancel" text="$l10n_button_block" onClick="onClickBlockOrShowInfo" id="blockOrShowButton"/>
+    </GuiElement>
+</GUI>

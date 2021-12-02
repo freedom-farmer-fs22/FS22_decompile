@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="modHubLoading">
+    <GuiElement type="empty" profile="modHubFrame">
+        <GuiElement type="text" screenAlign="middleCenter" positionOrigin="middleCenter" id="loadingElement" text="$l10n_modHub_loading"/>
+    </GuiElement>
+</GUI>

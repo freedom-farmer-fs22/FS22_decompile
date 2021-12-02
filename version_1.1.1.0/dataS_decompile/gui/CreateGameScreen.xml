@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="bitmap" profile="uiElementCenter" size="1258px 698px">
+
+            <GuiElement type="bitmap" profile="headerBoxDocked" >
+                <GuiElement type="bitmap" profile="multiplayerIcon"/>
+                <GuiElement type="text" profile="headerText" text="$l10n_ui_inGameMenuModeMultiplayer" />
+            </GuiElement>
+
+            <GuiElement type="boxLayout" profile="createGameScreenLayout" id="settingsBox">
+                <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                    <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" id="serverNameElement" maxCharacters="30" needExternalClick="true" onFocus="onFocus" onLeave="onLeave" onEnterPressed="onEnterPressed" imeKeyboardType="normal" imeTitle="$l10n_ui_serverName" imeDescription="$l10n_ui_serverName" imePlaceholder="$l10n_ui_serverName" focusInit="onOpen" />
+                    <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_serverName"/>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                    <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" isPassword="true" id="passwordElement" maxCharacters="16" needExternalClick="true" onEnter="onEnter" onFocus="onFocus" onLeave="onLeave" onEscPressed="onEscPressed" onEnterPressed="onEnterPressed" imeKeyboardType="password" imeTitle="$l10n_ui_password" imeDescription="$l10n_ui_password" imePlaceholder="$l10n_ui_password" />
+                    <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_password"/>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="ingameMenuGameSettingsTextInputWrapper">
+                    <GuiElement type="textInput" profile="ingameMenuGameSettingsTextInput" id="portElement" onEnter="onEnter" needExternalClick="true" onFocus="onFocus" onLeave="onLeave" onIsUnicodeAllowed="onIsUnicodeAllowed" maxCharacters="5" onEscPressed="onEscPressed" onEnterPressed="onEnterPressed" imeKeyboardType="numeric" imeTitle="$l10n_ui_port" imeDescription="$l10n_ui_port" imePlaceholder="$l10n_ui_port" />
+                    <GuiElement type="text" profile="multiTextOptionSettingsTitle" text="$l10n_ui_port"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickAllowCrossPlay" id="allowCrossPlayElement">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_allowCrossPlay"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickBandwidth" onCreate="onCreateBandwidth">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_internetConnection"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickUseUpnp" id="useUpnpElement">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_useUPnP"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickNumPlayer" onCreate="onCreateNumPlayer">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_maxNumPlayers"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickAutoAccept" id="autoAcceptElement">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_autoAccept"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" onClick="onClickMultiplayerLanguage" onCreate="onCreateMultiplayerLanguage">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_setting_multiplayerLanguage"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" onClick="onClickAllowOnlyFriends" id="allowOnlyFriendsElement">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" text="$l10n_ui_allowOnlyFriends"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                </GuiElement>
+            </GuiElement>
+
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen" id="buttonBox">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_start" onClick="onClickOk" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_change" onClick="onClickActivate" id="changeButton" visible="false" />
+    </GuiElement>
+</GUI>

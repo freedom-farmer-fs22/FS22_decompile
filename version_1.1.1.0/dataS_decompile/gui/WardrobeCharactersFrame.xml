@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="wardrobeCharacters">
+    <GuiElement type="empty" profile="wardrobeFrame">
+
+        <GuiElement type="text" profile="multiplayerOnlinePresenceNameText" id="nicknameElement" text="NAME: LALALALA" />
+
+        <GuiElement type="text" profile="wardrobeFrameTitle" id="title" />
+
+        <GuiElement type="empty" profile="wardrobeListFrame" position="0 -25px" size="590px 790px" >
+            <GuiElement type="smoothList" profile="wardrobeCharacterList" id="itemList" onClick="onClickSelect" onDoubleClick="onClickSelect" focusInit="onOpen">
+                <GuiElement type="listItem" profile="wardrobeCharacterListItem">
+                    <GuiElement type="bitmap" profile="wardrobeCharacterIcon" name="icon" />
+
+                    <GuiElement type="bitmap" profile="wardrobeItemSelection" name="selected">
+                        <GuiElement type="bitmap" profile="wardrobeItemSelectionTick" />
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

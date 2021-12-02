@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<categories>
+    <!-- element order maps directly to shop category order -->
+    <!-- VEHICLES -->
+    <category type="VEHICLE" name="tractorsS"              title="$l10n_category_tractorsS"               image="$data/vehicles/masseyFerguson/series5S/store_series5S.png" />
+    <category type="VEHICLE" name="tractorsM"              title="$l10n_category_tractorsM"               image="$data/vehicles/claas/axion800/store_axion800.png" />
+    <category type="VEHICLE" name="tractorsL"              title="$l10n_category_tractorsL"               image="$data/vehicles/caseIH/magnumT4B/store_magnumT4B.png" />
+    <category type="VEHICLE" name="trucks"                 title="$l10n_category_trucks"                  image="$data/vehicles/mack/superliner1979/store_superliner1979.png" />
+    <category type="VEHICLE" name="harvesters"             title="$l10n_category_harvesters"              image="$data/vehicles/johnDeere/x9_1100/store_x9_1100.png" />
+    <category type="VEHICLE" name="forageHarvesters"       title="$l10n_category_forageHarvesters"        image="$data/vehicles/fendt/katana650/store_katana650.png" />
+    <category type="VEHICLE" name="potatoVehicles"         title="$l10n_category_potatoHarvesting"        image="$data/vehicles/grimme/ventor4150/store_ventor4150.png" />
+    <category type="VEHICLE" name="beetVehicles"           title="$l10n_category_beetHarvesting"          image="$data/vehicles/ropa/panther2/store_panther2.png" />
+    <category type="VEHICLE" name="sugarcaneVehicles"      title="$l10n_category_sugarCaneHarvesting"     image="$data/vehicles/caseIH/a8800MR/store_a8800MR.png" />
+    <category type="VEHICLE" name="cottonVehicles"         title="$l10n_category_cottonHarvesting"        image="$data/vehicles/johnDeere/cp690/store_cp690.png" />
+    <category type="VEHICLE" name="grapeVehicles"          title="$l10n_category_grapeVehicles"           image="$data/vehicles/newHolland/braud9070L/store_braud9070L.png" />
+    <category type="VEHICLE" name="oliveVehicles"          title="$l10n_category_oliveVehicles"           image="$data/vehicles/newHolland/braud9090X/store_braud9090X.png" />
+    <category type="VEHICLE" name="woodHarvesting"         title="$l10n_category_woodHarvesting"          image="$data/vehicles/ponsse/cobra/store_cobra.png" />
+    <category type="VEHICLE" name="animalsVehicles"        title="$l10n_category_animals"                 image="$data/vehicles/siloking/sf4Premium/store_sf4Premium.png" />
+    <category type="VEHICLE" name="sprayerVehicles"        title="$l10n_category_cropProtection"          image="$data/vehicles/berthoud/bruin4200/store_bruin4200.png" />
+    <category type="VEHICLE" name="mowerVehicles"          title="$l10n_category_mowers"                  image="$data/vehicles/krone/bigM450/store_bigM450.png" />
+    <category type="VEHICLE" name="frontLoaderVehicles"    title="$l10n_category_frontLoaders"            image="$data/vehicles/schaeffer/loader2630/store_loader2630.png" />
+    <category type="VEHICLE" name="wheelLoaderVehicles"    title="$l10n_category_wheelLoaders"            image="$data/vehicles/claas/torion1511/store_torion1511.png" />
+    <category type="VEHICLE" name="teleLoaderVehicles"     title="$l10n_category_teleLoaders"             image="$data/vehicles/manitou/mlt737/store_mlt737.png" />
+    <category type="VEHICLE" name="skidSteerVehicles"      title="$l10n_category_skidSteers"              image="$data/vehicles/newHolland/l218/store_l218.png" />
+    <category type="VEHICLE" name="forklifts"              title="$l10n_category_forklifts"               image="$data/vehicles/jungheinrich/efgS50S/store_efgS50S.png" />
+    <category type="VEHICLE" name="cars"                   title="$l10n_category_cars"                    image="$data/vehicles/lizard/pickup2017/store_pickup2017.png" />
+    <category type="VEHICLE" name="miscVehicles"           title="$l10n_category_misc"                    image="$data/vehicles/prinoth/leitwolf/store_leitwolf.png" />
+
+    <!-- TOOLS -->
+    <category type="TOOL" name="trailers"                  title="$l10n_category_trailers"                image="$data/vehicles/fliegl/asw271/store_asw271.png" />
+    <category type="TOOL" name="augerWagons"               title="$l10n_category_augerWagons"             image="$data/vehicles/bergmann/gtw330/store_gtw330.png" />
+
+    <category type="TOOL" name="cutters"                   title="$l10n_category_cutters"                 image="$data/vehicles/claas/convioFlex1080/store_convioFlex1080.png" />
+    <category type="TOOL" name="cornHeaders"               title="$l10n_category_cornHeaders"             image="$data/vehicles/capello/diamant8/store_diamant8.png" />
+    <category type="TOOL" name="forageHarvesterCutters"    title="$l10n_category_forageHarvestersCutters" image="$data/vehicles/kemper/plus390/store_plus390_johnDeere.png" />
+    <category type="TOOL" name="potatoHarvesting"          title="$l10n_category_potatoHarvesting"        image="$data/vehicles/grimme/evo290/store_evo290.png" />
+    <category type="TOOL" name="beetHarvesting"            title="$l10n_category_beetHarvesting"          image="$data/vehicles/grimme/rootster604/store_rootster604.png" />
+    <category type="TOOL" name="sugarcaneHarvesting"       title="$l10n_category_sugarCaneHarvesting"     image="$data/vehicles/gessner/twoRow/store_twoRow.png" />
+    <category type="TOOL" name="cottonHarvesting"          title="$l10n_category_cottonHarvesting"        image="$data/vehicles/lizard/module4/store_module4.png" />
+    <category type="TOOL" name="grapeTools"                title="$l10n_category_grapeVehicles"           image="$data/vehicles/provitis/mp122Ocea/store_mp122Ocea.png" />
+    <category type="TOOL" name="stonePickers"              title="$l10n_category_stonePickers"            image="$data/vehicles/elho/scorpio550/store_scorpio550.png" />
+    <category type="TOOL" name="mulchers"                  title="$l10n_category_mulchers"                image="$data/vehicles/tmcCancela/tms2_300d/store_tms2_300d.png" />
+    <category type="TOOL" name="plows"                     title="$l10n_category_plows"                   image="$data/vehicles/kverneland/ecomat/store_ecomat.png" />
+    <category type="TOOL" name="cultivators"               title="$l10n_category_cultivators"             image="$data/vehicles/amazone/cenio4000/store_cenio4000.png" />
+    <category type="TOOL" name="discHarrows"               title="$l10n_category_discHarrows"             image="$data/vehicles/poettinger/terradisc10001T/store_terradisc10001T.png" />
+    <category type="TOOL" name="powerHarrows"              title="$l10n_category_powerHarrows"            image="$data/vehicles/kuhn/hr4040/store_hr4040.png" />
+    <category type="TOOL" name="subsoilers"                title="$l10n_category_subsoilers"              image="$data/vehicles/kuhn/dc401/store_dc401.png" />
+    <category type="TOOL" name="spaders"                   title="$l10n_category_spaders"                 image="$data/vehicles/farmax/krg/store_krg.png" />
+    <category type="TOOL" name="seeders"                   title="$l10n_category_sowingMachines"          image="$data/vehicles/amazone/centaya3000Super/store_centaya3000SuperBundle.png" />
+    <category type="TOOL" name="planters"                  title="$l10n_category_planters"                image="$data/vehicles/kuhn/maxima3TIL/store_maxima3TIL.png" />
+    <category type="TOOL" name="rollers"                   title="$l10n_category_rollers"                 image="$data/vehicles/dalbo/powerRoll1230/store_powerRoll1230.png" />
+    <category type="TOOL" name="sprayers"                  title="$l10n_category_sprayers"                image="$data/vehicles/hardi/mega1200L/store_mega1200L.png" />
+    <category type="TOOL" name="fertilizerSpreaders"       title="$l10n_category_fertilizerSpreaders"     image="$data/vehicles/amazone/zgts10001/store_zgts10001.png" />
+    <category type="TOOL" name="manureSpreaders"           title="$l10n_category_manureSpreaders"         image="$data/vehicles/brantner/ta12050/store_ta12050.png" />
+    <category type="TOOL" name="slurryTanks"               title="$l10n_category_slurryTanks"             image="$data/vehicles/veenhuis/premiumIntegral30000/store_premiumIntegral30000.png" />
+    <category type="TOOL" name="weeders"                   title="$l10n_category_weeders"                 image="$data/vehicles/treffler/ts1520/store_ts1520.png" />
+    <category type="TOOL" name="grasslandCare"             title="$l10n_category_grasslandCare"           image="$data/vehicles/apv/gk300m/store_gk300m.png" />
+    <category type="TOOL" name="mowers"                    title="$l10n_category_mowers"                  image="$data/vehicles/poettinger/novacat301/store_novacat301.png" />
+    <category type="TOOL" name="tedders"                   title="$l10n_category_tedders"                 image="$data/vehicles/vicon/fanex904/store_fanex904.png" />
+    <category type="TOOL" name="windrowers"                title="$l10n_category_windrowers"              image="$data/vehicles/kuhn/ga4731/store_ga4731.png" />
+    <category type="TOOL" name="loaderWagons"              title="$l10n_category_loaderWagons"            image="$data/vehicles/poettinger/faro4010D/store_faro4010D.png" />
+    <category type="TOOL" name="balers"                    title="$l10n_category_balers"                  image="$data/vehicles/newHolland/bigBaler1290HD/store_bigBaler1290HD.png" />
+    <category type="TOOL" name="baleLoaders"               title="$l10n_category_baleLoaders"             image="$data/vehicles/arcusin/fsx6372/store_fsx6372.png" />
+    <category type="TOOL" name="baleWrappers"              title="$l10n_category_baleWrappers"            image="$data/vehicles/kverneland/wrapper7850C/store_wrapper7850C.png" />
+    <category type="TOOL" name="chainsaws"                 title="$l10n_category_chainsaws"               image="$data/firstPerson/chainsaws/stihl/store_chainsawStihl.png" />
+    <category type="TOOL" name="wood"                      title="$l10n_category_wood"                    image="$data/vehicles/kesla/nd122/store_nd122.png" />
+    <category type="TOOL" name="animals"                   title="$l10n_category_animals"                 image="$data/vehicles/faresin/pf224/store_pf224.png" />
+    <category type="TOOL" name="animalTransport"           title="$l10n_category_animalTransport"         image="$data/vehicles/boeckmann/bigMasterWesternWCF/store_bigMasterWesternWCF.png" />
+    <category type="TOOL" name="leveler"                   title="$l10n_category_leveler"                 image="$data/vehicles/duevelsdorf/mss3000/store_mss3000.png" />
+    <category type="TOOL" name="silocompaction"            title="$l10n_category_silocompaction"          image="$data/vehicles/weberMT/dsc180/store_dsc180.png" />
+    <category type="TOOL" name="frontLoaders"              title="$l10n_category_frontLoaders"            image="$data/vehicles/quicke/q6M/store_q6M.png" />
+    <category type="TOOL" name="frontLoaderTools"          title="$l10n_category_frontLoaderTools"        image="$data/vehicles/albutt/frontloaderShovel/store_albuttFrontloaderShovel.png" />
+    <category type="TOOL" name="wheelLoaderTools"          title="$l10n_category_wheelLoaderTools"        image="$data/vehicles/albutt/wheelLoaderSilageFork/store_wheelLoaderSilageFork.png" />
+    <category type="TOOL" name="teleLoaderTools"           title="$l10n_category_teleLoaderTools"         image="$data/vehicles/magsi/telehandlerShovel/store_magsiTelehandlerShovel.png" />
+    <category type="TOOL" name="skidSteerTools"            title="$l10n_category_skidSteerTools"          image="$data/vehicles/paladin/palletFork/store_palletFork.png" />
+    <category type="TOOL" name="dollys"                    title="$l10n_category_dollys"                  image="$data/vehicles/krampe/dolly10L/store_dolly10L.png" />
+    <category type="TOOL" name="lowloaders"                title="$l10n_category_lowloaders"              image="$data/vehicles/fliegl/dts59/store_dts59.png" />
+    <category type="TOOL" name="cutterTrailers"            title="$l10n_category_cutterTrailers"          image="$data/vehicles/deutzFahr/header4090Trailer/store_header4090Trailer.png" />
+    <category type="TOOL" name="weights"                   title="$l10n_category_weights"                 image="$data/vehicles/fendt/weight3300/store_weight3300.png" />
+    <category type="TOOL" name="belts"                     title="$l10n_category_belts"                   image="$data/vehicles/meridian/tl1239/store_tl1239.png" />
+    <category type="TOOL" name="winterEquipment"           title="$l10n_category_winterEquipment"         image="$data/vehicles/samasz/olimp330/store_olimp330.png" />
+    <category type="TOOL" name="misc"                      title="$l10n_category_misc"                    image="$data/vehicles/thunderCreek/fst990/store_fst990.png" />
+
+    <!-- OBJECTS -->
+    <category type="OBJECT" name="bigbagPallets"           title="$l10n_category_bigbagPallets"           image="$data/objects/bigBagPallet/fertilizer/store_bigBagPallet_fertilizer.png" />
+    <category type="OBJECT" name="bigbags"                 title="$l10n_category_bigbags"                 image="$data/objects/bigBag/fertilizer/store_bigBag_fertilizer.png" />
+    <category type="OBJECT" name="pallets"                 title="$l10n_category_pallets"                 image="$data/objects/pallets/liquidTank/store_fertilizerTank.png" />
+    <category type="OBJECT" name="bales"                   title="$l10n_category_bales"                   image="$data/objects/buyableBales/store_buyableBales_straw.png" />
+    <category type="OBJECT" name="objectAnimal"            title="$l10n_category_animals"                 image="$data/objects/dogBall/store_dogBall.png" />
+    <category type="OBJECT" name="objectMisc"              title="$l10n_category_objectMisc"              image="$data/store/categories/category_objectMisc.png" />
+
+    <!-- PLACEABLES -->
+    <category type="PLACEABLE" name="animalpens"           title="$l10n_category_animalpens"              image="$data/placeables/rudolfHormann/cowBarnMedium/store_cowBarnMedium.png" />
+
+    <category type="PLACEABLE" name="fences"               title="$l10n_category_fences"                  image="$data/placeables/lizard/fencesFarm/level01/store_fencesFarmGateLevel01.png" />
+    <category type="PLACEABLE" name="trees"                title="$l10n_category_trees"                   image="$data/maps/trees/birch/birch_stage05.png" />
+
+    <category type="PLACEABLE" name="storages"             title="$l10n_category_storages"                image="$data/placeables/hayLoft/store_hayLoft.png" />
+    <category type="PLACEABLE" name="containers"           title="$l10n_category_containers"              image="$data/store/categories/category_containers" />
+    <category type="PLACEABLE" name="dieselTanks"          title="$l10n_category_dieselTanks"             image="$data/placeables/dieselTanks/level03/store_dieselTanksLevel03.png" />
+    <category type="PLACEABLE" name="waterTanks"           title="$l10n_category_waterTanks"              image="$data/placeables/waterTanks/level01/store_waterTankLevel01.png" />
+    <category type="PLACEABLE" name="fillableTanks"        title="$l10n_category_fillableTanks"           image="$data/placeables/meridian/fertilizerBins1620/store_fertilizerBins1620.png" />
+
+    <category type="PLACEABLE" name="silos"                title="$l10n_category_silos"                   image="$data/placeables/neuero/nl1622_2000/store_nl1622_2000.png" />
+    <category type="PLACEABLE" name="siloExtensions"       title="$l10n_category_siloExtensions"          image="$data/placeables/meridian/flatBottomBin3612/store_flatBottomBin3612.png" />
+
+    <category type="PLACEABLE" name="sheds"                title="$l10n_category_sheds"                   image="$data/placeables/rudolfHormann/garageSolarPanels/store_garageSolarPanels.png" />
+    <category type="PLACEABLE" name="gardenSheds"          title="$l10n_category_gardenSheds"             image="$data/placeables/gardenSheds/level04/store_gardenShed04.png" />
+    <category type="PLACEABLE" name="farmhouses"           title="$l10n_category_farmhouses"              image="$data/placeables/mapUS/farmBuildings/store_farmHouse.png" />
+
+    <category type="PLACEABLE" name="beeHives"             title="$l10n_category_beeHives"                image="$data/placeables/beeHives/level04/store_beeHivesLevel04.png" />
+    <category type="PLACEABLE" name="generators"           title="$l10n_category_generators"              image="$data/placeables/electricityGenerators/level02/store_electricityGenerator02.png" />
+    <category type="PLACEABLE" name="floodLighting"        title="$l10n_category_floodLighting"           image="$data/placeables/floodLighting/level02/store_floodLight02.png" />
+    <category type="PLACEABLE" name="decoration"           title="$l10n_category_decoration"              image="$data/store/store_empty.png" />
+    <category type="PLACEABLE" name="productionPoints"     title="$l10n_category_productionPoints"        image="$data/placeables/productionChains/shared/oilPlant/store_oilPlant.png" />
+    <category type="PLACEABLE" name="sellingPoints"        title="$l10n_category_sellingPoints"           image="$data/placeables/productionChains/eu/warehouse/store_warehouse.png" />
+    <category type="PLACEABLE" name="placeableMisc"        title="$l10n_category_placeableMisc"           image="$data/placeables/highPressureWasher/kaercher/store_kaercherHDS918-4M.png" />
+
+    <!-- SALE -->
+    <category type="VEHICLE" name="sales"                  title="$l10n_category_sales"                   image="$data/store/categories/category_sales.png" />
+</categories>

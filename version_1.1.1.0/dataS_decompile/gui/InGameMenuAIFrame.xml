@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="ingameMenuAI">
+    <GuiElement type="ingameMap" id="ingameMap" profile="ingameMapOverview" cursorId="mapCursor" onClickMap="onClickMap" onDrawPostIngameMap="onDrawPostIngameMap" onDrawPostIngameMapHotspots="onDrawPostIngameMapHotspots" onClickHotspot="onClickHotspot" />
+    <GuiElement type="bitmap" profile="ingameMapCursor" id="mapCursor" visible="false" />
+
+    <!-- Area with no overlapping UI elements -->
+    <GuiElement type="empty" profile="ingameMenuMapSafeArea" id="safeArea" />
+
+    <!-- gradient background -->
+    <GuiElement type="bitmap" profile="ingameMenuMapFilterBackground">
+        <GuiElement type="empty" profile="ingameMenuAIGroup" id="jobOverview">
+            <GuiElement type="text" profile="ingameMenuAICreateTitle" text="$l10n_ui_activeAIJobs" />
+
+            <GuiElement type="smoothList" profile="ingameMenuAIWorkerList" id="activeWorkerList" onSelectionChanged="onListSelectionChanged" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="ingameMenuAIWorkerListItem">
+                    <GuiElement type="bitmap" profile="ingameMenuAIWorkerListItemIcon" />
+                    <GuiElement type="text" profile="ingameMenuAIWorkerListItemHelper" name="helper"/>
+                    <GuiElement type="text" profile="ingameMenuAIWorkerListItemTitle" name="title"/>
+                    <GuiElement type="text" profile="ingameMenuAIWorkerListItemText" name="text"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="text" profile="ingameMenuAILimitReached" text="$l10n_ai_warningLimitReached" id="limitReachedWarning"/>
+
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuAIGroup" id="jobMenu" visible="false">
+            <GuiElement type="text" profile="ingameMenuAICreateTitle" text="$l10n_button_createJob" />
+
+            <GuiElement type="multiTextOption" profile="ingameMenuJobTypeOption" id="jobTypeElement" onClick="onJobTypeChanged">
+                <GuiElement type="button" profile="multiTextOptionLeft" />
+                <GuiElement type="button" profile="multiTextOptionRight" />
+                <GuiElement type="text"   profile="multiTextOptionText" />
+                <GuiElement type="bitmap" profile="multiTextOptionBg" />
+            </GuiElement>
+
+            <GuiElement type="boxLayout" profile="ingameMenuAICreateLayout" id="jobMenuLayout">
+
+                <!-- MTO -->
+                <GuiElement type="optionToggle" profile="ingameMenuAIParameterOption" id="createMultiOptionTemplate" onClick="onClickMultiTextOptionParameter">
+                    <GuiElement type="button" profile="multiTextOptionLeft" />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterInvalid" name="invalid" />
+                </GuiElement>
+
+                <!-- VEHICLE -->
+                <GuiElement type="bitmap" profile="ingameMenuAIParameterText" id="createTextTemplate">
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterVehicleIcon" />
+                    <GuiElement type="text" profile="ingameMenuAIParameterTextTitle" name="title" text="My JD" />
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterInvalid" name="invalid" />
+                </GuiElement>
+
+                <!-- Group title -->
+                <GuiElement type="text" profile="ingameMenuAIParameterGroupTitle" id="createTitleTemplate" text="Group title" />
+
+                <!-- Position -->
+                <GuiElement type="button" profile="ingameMenuAIParameterPosition" id="createPositionTemplate" text="&lt;400, 300&gt;" onClick="onClickPositionParameter">
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterPositionIcon" />
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterInvalid" name="invalid" />
+                </GuiElement>
+
+                <!-- Position + Rotation -->
+                <GuiElement type="button" profile="ingameMenuAIParameterPosition" id="createPositionRotationTemplate" text="172a" onClick="onClickPositionRotationParameter">
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterPositionIcon" />
+                    <GuiElement type="bitmap" profile="ingameMenuAIParameterInvalid" name="invalid" />
+                </GuiElement>
+
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="text" profile="ingameMenuAIActionText" id="actionMessage" />
+    <GuiElement type="text" profile="ingameMenuAIErrorText" id="errorMessage" />
+    <GuiElement type="text" profile="ingameMenuAIStatusText" id="statusMessage" />
+
+    <!-- Hotspot context display box -->
+    <GuiElement type="bitmap" profile="ingameMenuMapContextBoxFrameBottom" visible="false" handleFocus="false" id="contextBox">
+        <GuiElement type="bitmap" profile="ingameMenuMapContextCorner" name="corner"/>
+        <GuiElement type="bitmap" profile="ingameMenuMapContextImage" name="image"/>
+        <GuiElement type="text" profile="ingameMenuMapContextText" name="text"/>
+        <GuiElement type="text" profile="ingameMenuMapContextFarm" name="farm"/>
+    </GuiElement>
+
+    <!-- gradient background -->
+    <GuiElement type="bitmap" profile="ingameMenuMapButtonsBackground" />
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" text="$l10n_button_back" id="buttonBack" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_cancel" onClick="onClickBack" id="buttonCancel" />
+
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="mapMoveGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" id="mapMoveGlyphText" />
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="mapZoomGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" id="mapZoomGlyphText" />
+
+        <GuiElement type="button" profile="buttonSelectMap" text="$l10n_button_select" id="buttonSelectIngame" />
+
+        <GuiElement type="button" profile="buttonCancel" text="$l10n_button_gotoJob" onClick="onStartGoToJob" id="buttonGotoJob" />
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_createJob" onClick="onCreateJob" id="buttonCreateJob" />
+
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_startJob" onClick="onStartCancelJob" id="buttonStartJob" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_cancelJob" onClick="onStartCancelJob" id="buttonCancelJob" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_skipTask" onClick="onSkipJobTask" id="buttonSkipTask" />
+    </GuiElement>
+</GUI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onCreate="onCreate" onOpen="onOpen" onClose="onClose">
+     <GuiElement type="dynamicFadedBitmap" id="backgroundImage" profile="backgroundImage" />
+
+
+    <GuiElement type="bitmap" id="backgroundBlurImage" profile="mainScreenSidebar">
+        <GuiElement type="dynamicFadedBitmap" id="glassEdgeOverlay" profile="mainScreenBackgroundBlur" />
+        <GuiElement type="bitmap" profile="bgGlow" size="1500px 1080px" position="0 -180px" anchors="1 1 0.5 0.5" />
+
+        <GuiElement type="bitmap" id="logo" profile="mainScreenLogo" />
+
+        <GuiElement type="text" profile="signInText" text="$l10n_ui_consolePressStart" id="startText" />
+    </GuiElement>
+
+
+</GUI>

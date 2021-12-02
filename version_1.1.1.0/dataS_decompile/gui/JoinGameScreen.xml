@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen" id="mainBox">
+        <GuiElement type="bitmap" profile="uiElementCenter">
+            <GuiElement type="bitmap" profile="joinGameScreenBoxLeft">
+                <GuiElement type="bitmap" profile="headerBoxDocked" >
+                    <GuiElement type="bitmap" profile="multiplayerIcon"/>
+                    <GuiElement type="text" profile="headerText" text="$l10n_ui_joinMultiplayerGame" />
+                </GuiElement>
+
+                <GuiElement type="flowLayout" profile="achievementStatsBox">
+                    <GuiElement type="text" profile="achievementTotalValue" id="numServersText" size="300px 50px" textAlignment="right" />
+                </GuiElement>
+
+                <GuiElement type="boxLayout" profile="joinGameScreenListHeader" focusId="focus_header">
+                    <GuiElement type="tableHeader" profile="joinGameScreenListHeaderButton" text="$l10n_ui_serverName" allowSortingAsc="true" allowSortingDesc="true" onClick="onClickHeader" onFocus="onFocusHeader" onLeave="onLeaveHeader" size="440px 70px" textAlignment="left" textOffset="135px 0" textFocusedOffset="135px 0" columnName="name" focusId="leftHeaderButton" focusChangeLeft="focus_name_input">
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortAscending" name="iconAscending"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortDescending" name="iconDescending"/>
+                    </GuiElement>
+                    <GuiElement type="tableHeader" profile="joinGameScreenListHeaderButton" text="$l10n_ui_map" allowSortingAsc="true" allowSortingDesc="true" onClick="onClickHeader" onFocus="onFocusHeader" onLeave="onLeaveHeader" size="290px 70px" columnName="mapName">
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortAscending" name="iconAscending"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortDescending" name="iconDescending"/>
+                    </GuiElement>
+                    <GuiElement type="tableHeader" profile="joinGameScreenListHeaderButton" text="$l10n_ui_players" allowSortingAsc="true" allowSortingDesc="true" onClick="onClickHeader" onFocus="onFocusHeader" onLeave="onLeaveHeader" size="128px 70px" columnName="fullness">
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortAscending" name="iconAscending"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortDescending" name="iconDescending"/>
+                    </GuiElement>
+                    <GuiElement type="tableHeader" profile="joinGameScreenListHeaderButton" text="" allowSortingAsc="true" allowSortingDesc="true" onClick="onClickHeader" onFocus="onFocusHeader" onLeave="onLeaveHeader" size="80px 70px" columnName="language" focusId="rightHeaderButton">
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortAscending" name="iconAscending"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenListHeaderSortDescending" name="iconDescending"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="smoothList" profile="joinGameScreenList" id="serverList" focusChangeBottom="nil" focusChangeTop="nil" listDataSource="self" listDelegate="self" onDoubleClick="onDoubleClick" focusChangeLeft="leftHeaderButton" focusChangeRight="focus_name_input">
+                    <GuiElement type="listItem" profile="joinGameScreenListItem" name="rowTemplate" autoSelectChildren="false">
+
+                        <GuiElement type="bitmap" profile="iconModsMissing" name="iconModsMissing" />
+
+                        <GuiElement type="bitmap" profile="iconServerPassword" name="iconServerPassword" />
+                        <GuiElement type="bitmap" profile="iconServerInternet" name="iconServerInternet" />
+                        <GuiElement type="bitmap" profile="iconServerLan" name="iconServerLan" />
+                        <GuiElement type="bitmap" profile="iconFriends" name="iconFriends" />
+                        <GuiElement type="platformIcon" profile="joinGameScreenIconPlatform" name="iconPlatform" />
+
+                        <GuiElement type="text"   profile="joinGameScreenNameText" name="gameName" />
+                        <GuiElement type="text"   profile="joinGameScreenMapText" name="mapName" />
+                        <GuiElement type="text"   profile="joinGameScreenPlayersText" name="players" />
+
+                        <GuiElement type="bitmap" profile="iconSlotsFullBg" name="iconSlotsFull">
+                            <GuiElement type="bitmap" profile="iconSlotsFull" />
+                        </GuiElement>
+                        <GuiElement type="bitmap" profile="iconSlotsAvailBg" name="iconSlotsAvailable">
+                            <GuiElement type="bitmap" profile="iconSlotsAvail" />
+                        </GuiElement>
+
+                        <GuiElement type="text"   profile="joinGameScreenLangText" name="language" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" size="12px 698px">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="serverList" handleFocus="false" size="6px 690px"/>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="joinGameScreenBoxRight">
+                <GuiElement type="text" text="$l10n_ui_filters" profile="joinGameScreenFiltersTitle" />
+
+                <GuiElement type="boxLayout" profile="joinGameScreenFilters" id="settingsBox">
+
+                    <GuiElement type="empty" profile="joinGameScreenFilterServername" focusFallthrough="true">
+                        <GuiElement type="textInput" profile="joinGameScreenNameFilter" id="serverNameElement" onTextChanged="onServerNameChanged" focusId="focus_name_input" imeKeyboardType="normal" imeTitle="$l10n_ui_serverName" imeDescription="$l10n_ui_serverName" imePlaceholder="$l10n_ui_serverName" onFocus="onFocusGameName" onLeave="onLeaveGameName"  focusChangeLeft="rightHeaderButton" focusChangeRight="leftHeaderButton" />
+                        <GuiElement type="text" profile="multiTextOptionTitle" text="$l10n_ui_serverName"/>
+                    </GuiElement>
+
+                    <GuiElement type="multiTextOption" profile="joinGameScreenFilterOption" onClick="onClickMap" id="mapSelectionElement">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_map" textMaxWidth="280px" />
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="multiTextOption" profile="joinGameScreenFilterOption" onClick="onClickLanguage" onCreate="onCreateLanguage" id="languageElement">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_setting_language" textMaxWidth="280px" />
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="multiTextOption" profile="joinGameScreenFilterOption" onClick="onClickMaxNumPlayers" id="maxNumPlayersElement" onCreate="onCreateMaxNumPlayers">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_maxNumPlayers" textMaxWidth="280px" />
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="checkedOption" profile="joinGameScreenFilterOption" onClick="onClickPassword" id="passwordElement">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_noPassword" textMaxWidth="280px" />
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="checkedOption" profile="joinGameScreenFilterOption" onClick="onClickCapacity" id="capacityElement">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_noFullGames" textMaxWidth="280px" />
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="checkedOption" profile="joinGameScreenFilterOption" onClick="onClickModsDlcs" id="modDlcElement">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_onlyAvailableMods" textMaxWidth="280px"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+
+                    <GuiElement type="checkedOption" profile="joinGameScreenFilterOption" onClick="onClickAllowCrossPlay" id="allowCrossPlayElement" focusChangeBottom="focus_name_input">
+                        <GuiElement type="button" profile="multiTextOptionLeft" />
+                        <GuiElement type="button" profile="multiTextOptionRight"/>
+                        <GuiElement type="text"   profile="multiTextOptionText" textMaxWidth="180px" />
+                        <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_ui_allowCrossPlay" textMaxWidth="280px"/>
+                        <GuiElement type="bitmap" profile="joinGameScreenFilterOptionBg" />
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen" id="buttonBox">
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_start" onClick="onClickOk" id="startButtonElement" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonServerDetails" text="$l10n_button_detail" onClick="onClickActivate" id="detailButtonElement" />
+        <GuiElement type="button" profile="buttonSortTable" text="$l10n_button_sortTable" onClick="onClickSort" id="sortButton" />
+    </GuiElement>
+
+</GUI>

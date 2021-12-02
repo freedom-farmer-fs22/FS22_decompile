@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<constructionBrushTypes>
+    <constructionBrushType name="select"        className="ConstructionBrushSelect"     filename="dataS/scripts/construction/ConstructionBrushSelect.lua" />
+    <constructionBrushType name="destruct"      className="ConstructionBrushDestruct"   filename="dataS/scripts/construction/ConstructionBrushDestruct.lua" />
+    <constructionBrushType name="placeable"     className="ConstructionBrushPlaceable"  filename="dataS/scripts/construction/ConstructionBrushPlaceable.lua" />
+    <constructionBrushType name="fence"         className="ConstructionBrushFence"      filename="dataS/scripts/construction/ConstructionBrushFence.lua" />
+    <constructionBrushType name="sculpt"        className="ConstructionBrushSculpt"     filename="dataS/scripts/construction/ConstructionBrushSculpt.lua" />
+    <constructionBrushType name="paint"         className="ConstructionBrushPaint"      filename="dataS/scripts/construction/ConstructionBrushPaint.lua" />
+    <constructionBrushType name="tree"          className="ConstructionBrushTree"       filename="dataS/scripts/construction/ConstructionBrushTree.lua" />
+    <constructionBrushType name="foliage"       className="ConstructionBrushFoliage"    filename="dataS/scripts/construction/ConstructionBrushFoliage.lua" />
+</constructionBrushTypes>

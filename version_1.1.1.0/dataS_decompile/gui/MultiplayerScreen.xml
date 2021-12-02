@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="dynamicFadedBitmap" profile="uiFullBlurBG"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreen">
+        <GuiElement type="empty" profile="multiplayerScreenContainer">
+            <GuiElement type="bitmap" profile="headerBoxDocked">
+                <GuiElement type="text" profile="headerText" text="$l10n_ui_inGameMenuModeMultiplayer" textOffset="0 0" />
+            </GuiElement>
+
+            <GuiElement type="smoothList" profile="multiplayerScreenList" id="list" onDoubleClick="onContinue" listDelegate="self" listDataSource="self">
+                <GuiElement type="listItem" profile="multiplayerButton">
+                    <GuiElement type="bitmap" profile="multiplayerButtonIcon" name="icon" />
+                    <GuiElement type="text" profile="multiplayerButtonText" name="title" />
+
+                    <GuiElement type="bitmap" profile="listItemSelector"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="text" profile="multiplayerOnlinePresenceNameText" id="onlinePresenceNameElement" />
+
+    <GuiElement type="bitmap" profile="natWarningBg" id="natWarning">
+        <GuiElement type="text" profile="natWarning" text="$l10n_ui_strictNatWarning"/>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen" >
+        <GuiElement type="button" profile="buttonOK" text="$l10n_button_continue" onClick="onContinue" />
+        <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        <GuiElement type="button" profile="buttonActivate" text="$l10n_button_changeName" onClick="onClickChangeName" id="changeNameButton" />
+        <GuiElement type="button" profile="buttonCancel" text="$l10n_button_blocklist" onClick="onClickOpenBlocklist" />
+    </GuiElement>
+</GUI>
+
+

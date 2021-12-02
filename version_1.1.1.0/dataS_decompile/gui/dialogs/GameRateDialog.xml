@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+
+    <GuiElement type="bitmap" profile="gameRateDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="$l10n_ui_rating" id="headerText" />
+        </GuiElement>
+
+        <GuiElement type="text" profile="dialogTitle" text="$l10n_ui_howDoYouLikeTheGame" />
+
+        <GuiElement type="boxLayout" profile="voteDialogLayout" onLeave="onLayoutLeave" handleFocus="true" position="0 -200px">
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[1]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" focusChangeLeft="" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[2]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[3]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[4]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" />
+            <GuiElement type="button" profile="voteDialogStarButton" id="stars[5]" onHighlight="onStarHighlight" onHighlightRemove="onStarHighlightRemove" onFocus="onStarFocus" onClick="onStarClick" focusChangeRight="" />
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog">
+            <GuiElement type="button" profile="buttonOK" text="$l10n_button_continue" onClick="onClickOk" id="okButton" />
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" />
+        </GuiElement>
+    </GuiElement>
+</GUI>
